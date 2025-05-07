@@ -1,0 +1,42 @@
+"use client";
+import React, { useState } from "react";
+import { Box } from "@mui/material";
+import Icon from "../Icon/Icon";
+import LanguageToggle from "../LanguageToggle/LanguageToggle";
+
+function Header({ onClick }) {
+  return (
+    <Box
+      sx={{
+        padding: "16px",
+        backdropFilter: "blur(5px)",
+        backgroundColor: "#0d223794",
+      }}
+    >
+      <Box
+        sx={{
+          display: "flex",
+          justifyContent: "space-between",
+          alignItems: "center",
+        }}
+      >
+        <Icon
+          onClick={onClick}
+          code="&#xe5d2;"
+          aria_label="menu"
+          sx={{
+            fontSize: 24,
+            color: "#fff",
+            cursor: "pointer",
+            transition: "all 0.2s linear",
+          }}
+        />
+        <Box>
+          <LanguageToggle isBottom={false} />
+        </Box>
+      </Box>
+    </Box>
+  );
+}
+
+export default Header;

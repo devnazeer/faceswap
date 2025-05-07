@@ -1,0 +1,169 @@
+import { Box, Container, Grid, Link, Typography } from "@mui/material";
+import Image from "next/image";
+import React from "react";
+import TwitterIcon from "@mui/icons-material/Twitter";
+import { FacebookOutlined, Instagram } from "@mui/icons-material";
+import LanguageToggle from "../LanguageToggle/LanguageToggle";
+
+function Footer() {
+  return (
+    <>
+      <>
+        <Box
+          component="section"
+          sx={{
+            background: "linear-gradient(to right, #111827, #000000)",
+            color: "#9CA3AF",
+            py: "32px",
+          }}
+        >
+          <Container maxWidth="lg">
+            <Grid container spacing={{ xs: "24px", md: "32px" }}>
+              <Grid size={{ xs: 6, sm: 3, md: 3 }}>
+                <Link href="/">
+                  <Image
+                    src={"/logo.png"}
+                    width={40}
+                    height={40}
+                    style={{
+                      objectFit: "contain",
+                      maxWidth: "100%",
+                      height: "auto",
+                      aspectRatio: "1 / 1",
+                      marginBottom: "8px",
+                    }}
+                    alt="logo"
+                  />
+                </Link>
+                <Typography
+                  variant="p"
+                  component="p"
+                  fontSize={"14px"}
+                  mb={"8px"}
+                >
+                  Pixelmorph
+                </Typography>
+                <Typography
+                  variant="p"
+                  component="p"
+                  sx={{ color: "#6b7280", fontSize: "14px", mb: "0px" }}
+                >
+                  Pixelmorph. All rights reserved.
+                </Typography>
+              </Grid>
+              <Grid size={{ xs: 6, sm: 3, md: 3 }}>
+                <Typography variant="h5" component="h5" mb={"8px"}>
+                  Tools
+                </Typography>
+                <Box
+                  sx={{ display: "flex", flexDirection: "column", gap: "4px" }}
+                >
+                  <Typography
+                    variant="a"
+                    component="a"
+                    className="footerLists"
+                    href="/"
+                  >
+                    Faceswap
+                  </Typography>
+                  <Typography
+                    variant="a"
+                    component="a"
+                    className="footerLists"
+                    href="/multi-faceswap"
+                  >
+                    Multi-Faceswap
+                  </Typography>
+                </Box>
+              </Grid>
+              <Grid size={{ xs: 6, sm: 3, md: 3 }}>
+                <Typography variant="h5" component="h5" mb={"8px"}>
+                  Sitemap
+                </Typography>
+                <Box
+                  sx={{ display: "flex", flexDirection: "column", gap: "4px" }}
+                >
+                  <Typography
+                    variant="a"
+                    component="a"
+                    className="footerLists"
+                    href="/about"
+                  >
+                    About Us
+                  </Typography>
+                  <Typography
+                    variant="a"
+                    component="a"
+                    className="footerLists"
+                    href="/terms"
+                  >
+                    Terms of Service
+                  </Typography>
+                  <Typography
+                    variant="a"
+                    component="a"
+                    className="footerLists"
+                    href="/privacy"
+                  >
+                    Privacy Policy
+                  </Typography>
+                  <Typography
+                    variant="a"
+                    component="a"
+                    className="footerLists"
+                    href="/blog"
+                  >
+                    Blog
+                  </Typography>
+                </Box>
+              </Grid>
+              <Grid size={{ xs: 6, sm: 3, md: 3 }}>
+                <Typography variant="h5" component="h5" mb={"8px"}>
+                  Follow Us
+                </Typography>
+                <Box
+                  sx={{ display: "flex", gap: "10px", marginBottom: "16px" }}
+                >
+                  <Typography
+                    variant="a"
+                    component="a"
+                    className="footerLists"
+                    href="#"
+                  >
+                    <TwitterIcon />
+                  </Typography>
+                  <Typography
+                    variant="a"
+                    component="a"
+                    className="footerLists"
+                    href="#"
+                  >
+                    <FacebookOutlined />
+                  </Typography>
+                  <Typography
+                    variant="a"
+                    component="a"
+                    className="footerLists"
+                    href="#"
+                  >
+                    <Instagram />
+                  </Typography>
+                </Box>
+                <Typography
+                  variant="p"
+                  component="p"
+                  sx={{ color: "#fff", fontSize: "14px", mb: "4px" }}
+                >
+                  Change Language
+                </Typography>
+                <LanguageToggle isBottom={true} />
+              </Grid>
+            </Grid>
+          </Container>
+        </Box>
+      </>
+    </>
+  );
+}
+
+export default Footer;
