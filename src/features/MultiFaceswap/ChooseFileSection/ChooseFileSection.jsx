@@ -18,7 +18,9 @@ function ChooseFileSection() {
         sx={{
           backgroundImage: "linear-gradient(to right, #1f2937, #111827, #000)",
           py: "64px",
-          border: "1px solid #e5e7eb",
+          borderWidth: "1px 0",
+          borderColor: "rgb(94, 106, 128)",
+          borderStyle: "solid",
         }}
       >
         <Container maxWidth="md">

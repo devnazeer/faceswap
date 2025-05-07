@@ -12,7 +12,7 @@ import FaqSection from "./FaqSection/FaqSection";
 function HomePage() {
   return (
     <>
-      <Box sx={{ background: "#fff" }}>
+      <Box sx={{ background: "#0891b2" }}>
         <HeroSection />
         <ChooseFileSection />
         <UniqueSection />

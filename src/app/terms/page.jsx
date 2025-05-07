@@ -100,22 +100,20 @@ const Terms = () => {
 
   return (
     <>
-      <Box sx={{ py: "8px" }}>
-        <Box sx={{ py: "8px" }}>
-          <Box sx={{ pt: "24px", background: "#000" }}>
-            <Container maxWidth="md">
-              <Typography variant="h2" component={"h2"} mb={"24px"}>
-                {TermItems.title}
-              </Typography>
-              <Box pb={"32px"}>
-                {TermItems?.content?.map((block, index) => (
-                  <React.Fragment key={index}>
-                    {renderContent(block)}
-                  </React.Fragment>
-                ))}
-              </Box>
-            </Container>
-          </Box>
+      <Box sx={{ py: { xs: "4px", md: "8px" } }}>
+        <Box sx={{ pt: "24px", background: "#000" }}>
+          <Container maxWidth="md">
+            <Typography variant="h2" component={"h2"} mb={"24px"}>
+              {TermItems.title}
+            </Typography>
+            <Box pb={"32px"}>
+              {TermItems?.content?.map((block, index) => (
+                <React.Fragment key={index}>
+                  {renderContent(block)}
+                </React.Fragment>
+              ))}
+            </Box>
+          </Container>
         </Box>
       </Box>
     </>

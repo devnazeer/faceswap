@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const Blog = () => {
   return (
-    <Box sx={{ py: "8px" }}>
+    <Box sx={{ py: { xs: "4px", md: "8px" } }}>
       <Box
         sx={{
           background: "#111827",
