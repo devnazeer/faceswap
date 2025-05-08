@@ -26,16 +26,22 @@ export const WhyItems = [
 export const HowUSeItems = [
   {
     id: uuidv4(),
+    code: "\uefeb",
+    label: "camera_switch",
     title: "Step 1. Upload a group photo",
     para: `Simply upload a group photo with multiple faces, and make sure your image is clear and of high quality.`,
   },
   {
     id: uuidv4(),
+    code: "\ue8a7",
+    label: "upload",
     title: "Step 2. Upload photos with target faces",
     para: `When faces are recognized, upload additional facial pictures to change certain faces.`,
   },
   {
     id: uuidv4(),
+    code: "\ue7ef",
+    label: "group",
     title: "Process the multiple face swap",
     para: `Click ' Multi Swap Face Now'. Download and share it with your friends!`,
   },
@@ -44,11 +50,15 @@ export const HowUSeItems = [
 export const EditingItemFS = [
   {
     id: uuidv4(),
+    src: "/home/img1.webp",
+    href: "/",
     title: "AI Face Swap",
     para: `AI Face Swap lets you easily swap faces in any photo. With a few clicks, create fun or creative images and experience endless possibilities with face transformations.`,
   },
   {
     id: uuidv4(),
+    src: "/multiface/1.png",
+    href: "/multi-face",
     title: "Multiple Face Swap AI",
     para: `Multiple Face Swap AI lets you swap multiple faces in a single image with ease. Perfect for group photos, it creates fun, shareable results in just a few clicks.`,
   },

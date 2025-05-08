@@ -166,7 +166,7 @@ const Sidebar = ({ children }) => {
             <Header onClick={toggleHandler} />
           </Box>
         </Box>
-        <Box sx={{ width: "100%", height: "68.75px", background: "#000" }} />
+        <Box sx={{ width: "100%", height: "66px", background: "#000" }} />
         <Box sx={{ boxSizing: "border-box" }}>
           <Box>{children}</Box>
         </Box>

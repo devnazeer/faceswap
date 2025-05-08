@@ -89,7 +89,12 @@ function CustomAccordion({ FaqsData = [] }) {
                     aria-controls="panel2-content"
                     id="panel2-header"
                   >
-                    <Typography variant="h5" component={"h5"} m={0}>
+                    <Typography
+                      variant="p"
+                      component={"p"}
+                      sx={{ fontSize: "18px", color: "#fff" }}
+                      m={0}
+                    >
                       {item.question}
                     </Typography>
                   </AccordionSummary>

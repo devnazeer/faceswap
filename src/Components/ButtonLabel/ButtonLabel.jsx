@@ -37,7 +37,12 @@ function ButtonLabel({
             <Icon
               code={code}
               label={label}
-              sx={{ mr: "8px", fontSize: "18px !important", color: "#fff" }}
+              sx={{
+                mr: "10px",
+                fontSize: "18px !important",
+                fontWeight: "600 !important",
+                color: "#fff",
+              }}
             />
           )}
           <span>{btnText}</span>

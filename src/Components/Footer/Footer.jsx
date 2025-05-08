@@ -1,3 +1,4 @@
+"use client";
 import { Box, Container, Grid, Link, Typography } from "@mui/material";
 import Image from "next/image";
 import React from "react";
@@ -52,7 +53,7 @@ function Footer() {
                 </Typography>
               </Grid>
               <Grid size={{ xs: 6, sm: 3, md: 3 }}>
-                <Typography variant="h5" component="h5" mb={"8px"}>
+                <Typography variant="h3" component="h3" mb={"8px"}>
                   Tools
                 </Typography>
                 <Box
@@ -77,7 +78,7 @@ function Footer() {
                 </Box>
               </Grid>
               <Grid size={{ xs: 6, sm: 3, md: 3 }}>
-                <Typography variant="h5" component="h5" mb={"8px"}>
+                <Typography variant="h3" component="h3" mb={"8px"}>
                   Sitemap
                 </Typography>
                 <Box
@@ -118,7 +119,7 @@ function Footer() {
                 </Box>
               </Grid>
               <Grid size={{ xs: 6, sm: 3, md: 3 }}>
-                <Typography variant="h5" component="h5" mb={"8px"}>
+                <Typography variant="h3" component="h3" mb={"8px"}>
                   Follow Us
                 </Typography>
                 <Box

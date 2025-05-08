@@ -14,7 +14,7 @@ function HomePage() {
     <>
       <Box sx={{ background: "#0891b2" }}>
         <HeroSection />
-        <ChooseFileSection />
+        {/* <ChooseFileSection /> */}
         <UniqueSection />
         <SwiperSection />
         <UploadImageSection />

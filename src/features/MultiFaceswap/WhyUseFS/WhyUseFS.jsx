@@ -14,12 +14,12 @@ function WhyUseFS() {
         }}
       >
         <Container maxWidth="lg">
-          <Typography variant="h2" component="h2">
+          <Typography variant="h2" component="h2" textAlign={"center"}>
             Why Use Multiple Face Swap?
           </Typography>
           <Grid container spacing={"24px"}>
             {WhyItems.map((item, id) => (
-              <Grid key={id} size={{ xs: 12, sm: 6, md: 3 }}>
+              <Grid key={id} size={{ xs: 12, sm: 6, md: 4, lg: 3 }}>
                 <UniqueCards
                   title={item.title}
                   para={item.para}

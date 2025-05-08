@@ -5,7 +5,7 @@ import Icon from "../Icon/Icon";
 import Image from "next/image";
 import ButtonLabel from "../ButtonLabel/ButtonLabel";
 
-export default function ChooseFile({ para, btnText }) {
+export default function ChooseFile({ para, code, label }) {
   const fileInputRef = useRef(null);
   const [preview, setPreview] = useState(null);
 
@@ -27,13 +27,17 @@ export default function ChooseFile({ para, btnText }) {
     <>
       <Box
         sx={{
-          width: "100%",
-          height: preview ? "310px" : "100%",
-          border: "3px dashed #1f2937",
-          padding: "24px",
-          background: "#000",
+          width: "146px",
+          maxWidth: "100%",
+          height: preview ? "146px" : "146px",
+          border: preview ? "none" : "3px dashed #0891b2",
+          p: preview ? "0" : "24px",
+          background: "#1a1a1a",
           boxSizing: "border-box",
           cursor: "pointer",
+          borderRadius: "15px",
+          overflow: "hidden",
+          // py: "32px",
         }}
         onClick={handleClick}
       >
@@ -52,8 +56,8 @@ export default function ChooseFile({ para, btnText }) {
               height={256}
               style={{
                 maxWidth: "100%",
-                width: "800px",
-                height: "256px",
+                width: "100%",
+                height: "100%",
                 maxHeight: "300px",
                 objectFit: "contain",
                 objectPosition: "center",
@@ -70,26 +74,27 @@ export default function ChooseFile({ para, btnText }) {
               alignItems: "center",
               justifyContent: "center",
               height: "100%",
+              width: "100%",
             }}
           >
             <Icon
-              code="&#xf09b;"
-              label="upload"
+              code={code}
+              label={label}
               sx={{
-                color: "#4b5563",
-                fontSize: "48px !important",
-                mb: "12px",
+                color: "#fff9",
+                fontSize: "24px !important",
+                mb: "8px",
               }}
             />
             <Typography
               variant="p"
               component="p"
               textAlign="center"
-              sx={{ color: "#6b7280", mb: 1 }}
+              sx={{ color: "#fff9", mb: 1, fontSize: "14px" }}
             >
               {para}
             </Typography>
-            <ButtonLabel btnText={btnText} sx={{ background: "#1f2937" }} />
+            {/* <ButtonLabel btnText={btnText} sx={{ background: "#1f2937" }} /> */}
           </Box>
         )}
         <input

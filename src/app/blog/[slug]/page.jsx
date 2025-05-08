@@ -89,7 +89,7 @@ const BlogDetail = () => {
   };
 
   return (
-    <Box sx={{ py: { xs: "4px", md: "8px" } }}>
+    <Box>
       <Box sx={{ py: "32px" }}>
         <Container maxWidth="lg">
           {blog.image && (

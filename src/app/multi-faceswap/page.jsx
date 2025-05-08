@@ -5,7 +5,7 @@ import React from "react";
 function MultiFaceswap() {
   return (
     <>
-      <Box sx={{ py: { xs: "4px", md: "8px" } }}>
+      <Box>
         <MultiFaceswapPage />
       </Box>
     </>

@@ -15,8 +15,11 @@ function SwiperSection() {
       }}
     >
       <Container maxWidth="lg">
+        <Typography variant="h2" component="h2" align="center">
+          Best Use of Multi Face Swapper
+        </Typography>
         <Grid container spacing={4}>
-          <Grid size={{ xs: 12, md: 6 }}>
+          <Grid size={{ xs: 12, sm: 6 }}>
             <Box
               sx={{
                 position: "sticky !important",
@@ -24,74 +27,30 @@ function SwiperSection() {
                 padding: "5px",
                 display: "flex",
                 flexDirection: "column",
-                alignItems: { xs: "center", md: "flex-start" },
+                alignItems: { xs: "center", md: "center" },
               }}
             >
-              <Typography
-                variant="h5"
-                component="h5"
-                sx={{
-                  textAlign: { xs: "center", md: "left" },
-                }}
-              >
-                Best Use of Multi Face Swapper
-              </Typography>
-              <Typography
-                variant="p"
-                component="p"
-                sx={{
-                  textAlign: { xs: "center", md: "left" },
-                }}
-              >
-                Need to showcase product details? Use AirBrush's AI image
-                enhancer to effortlessly upscale images for edits or prints.
-              </Typography>
-
-              <Box
-                sx={{
-                  width: "100%",
-                  display: "flex",
-                  flexDirection: "column",
-                  alignItems: { xs: "center", md: "flex-start" },
-                  gap: 2,
-                  mt: 2,
-                }}
-              >
-                <ButtonLabel
-                  btnText="Upload Image"
-                  sx={{
-                    background: "#0891b2 !important",
-                    border: "1px solid transparent !important",
-                    borderRadius: "30px !important",
-                    padding: "10px 40px !important",
-                    width: { xs: "100%", sm: "210px" },
-                    "&:hover": {
-                      background: "transparent !important",
-                      border: "1px solid #0891b2 !important",
-                    },
-                  }}
+              {SwiperFS.slice(0, 1).map((item, id) => (
+                <Card
+                  key={id}
+                  src={item.src}
+                  title={item.title}
+                  description={item.description}
                 />
-                <ButtonLabel
-                  btnText="Download App"
-                  sx={{
-                    border: "1px solid #0891b2 !important",
-                    background: "transparent !important",
-                    borderRadius: "30px !important",
-                    padding: "10px 40px !important",
-                    width: { xs: "100%", sm: "210px" },
-                    "&:hover": {
-                      background: "#0891b2 !important",
-                      border: "1px solid transparent !important",
-                    },
-                  }}
-                />
-              </Box>
+              ))}
             </Box>
           </Grid>
 
-          <Grid size={{ xs: 12, md: 6 }}>
-            <Box sx={{ display: "flex", flexDirection: "column", gap: "24px" }}>
-              {SwiperFS.map((item, id) => (
+          <Grid size={{ xs: 12, sm: 6 }}>
+            <Box
+              sx={{
+                display: "flex",
+                flexDirection: "column",
+                gap: "24px",
+                // justifyContent: "center",
+              }}
+            >
+              {SwiperFS.slice(1, 3).map((item, id) => (
                 <Card
                   key={id}
                   src={item.src}

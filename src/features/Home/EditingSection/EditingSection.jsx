@@ -1,4 +1,5 @@
 "use client";
+import Card from "@/Components/Card/Card";
 import UniqueCards from "@/Components/UniqueCards/UniqueCards";
 import { EditingItem } from "@/Constants/UniqueData";
 import { Box, Container, Grid, Typography } from "@mui/material";
@@ -16,16 +17,18 @@ function EditingSection() {
         }}
       >
         <Container maxWidth="lg">
-          <Typography variant="h2" component="h2">
+          <Typography variant="h2" component="h2" textAlign={"center"}>
             All Online Photo & Video Editing Tools
           </Typography>
           <Grid container spacing={"24px"}>
             {EditingItem.map((item, id) => (
               <Grid key={id} size={{ xs: 12, sm: 6 }}>
-                <UniqueCards
+                <Card
+                  src={item?.src}
                   title={item.title}
-                  para={item.para}
-                  isCard={false}
+                  description={item.para}
+                  isBtn={true}
+                  href={item.href}
                 />
               </Grid>
             ))}

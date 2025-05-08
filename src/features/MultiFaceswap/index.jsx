@@ -14,7 +14,7 @@ function MultiFaceswapPage() {
     <>
       <Box sx={{ background: "#fff" }}>
         <HeroSection />
-        <ChooseFileSection />
+        {/* <ChooseFileSection /> */}
         <WhyUseFS />
         <SwiperSection />
         <HowUseFS />

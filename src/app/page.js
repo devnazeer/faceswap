@@ -6,7 +6,7 @@ import HomePage from "@/features/Home";
 
 export default function Home() {
   return (
-    <Box sx={{ py: { xs: "4px", md: "8px" } }}>
+    <Box>
       <HomePage />
     </Box>
   );

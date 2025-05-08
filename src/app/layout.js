@@ -7,6 +7,7 @@ import { Roboto } from "next/font/google";
 import Sidebar from "@/Components/Sidebar/Sidebar";
 import Loading from "./Loading/Loading";
 import { Suspense } from "react";
+// import "../i18n";
 
 const roboto = Roboto({
   weight: ["300", "400", "500", "700"],

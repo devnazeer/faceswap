@@ -23,7 +23,7 @@ const theme = createTheme({
     palette: {
       primary: {
         main: "#1f2937",
-        dark: "#0D2237",
+        dark: "#0891b2", // button color
       },
       secondary: {
         main: "#2E77AE",
@@ -66,15 +66,14 @@ const theme = createTheme({
     },
     h3: {
       //   fontFamily: nunito.style.fontFamily,
-      fontSize: 24,
+      fontSize: 20,
       fontWeight: 600,
       color: "#fff",
-
       lineHeight: "normal",
       marginBottom: 24,
       textTransform: "capitalize",
       "@media (max-width:799px)": {
-        fontSize: 22,
+        fontSize: 18,
       },
     },
     h4: {
@@ -92,7 +91,7 @@ const theme = createTheme({
     h5: {
       //   fontFamily: nunito.style.fontFamily,
       fontSize: 20,
-      fontWeight: 400,
+      fontWeight: 600,
       color: "#fff",
 
       lineHeight: "normal",

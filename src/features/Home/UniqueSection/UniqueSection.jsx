@@ -14,12 +14,12 @@ function UniqueSection() {
         }}
       >
         <Container maxWidth="lg">
-          <Typography variant="h2" component="h2">
+          <Typography variant="h2" component="h2" textAlign={"center"}>
             What Makes AI Face Swapper Unique?
           </Typography>
           <Grid container spacing={"24px"}>
             {uniqueItem.map((item, id) => (
-              <Grid key={id} size={{ xs: 12, sm: 6, md: 3 }}>
+              <Grid key={id} size={{ xs: 12, sm: 6, md: 4, lg: 3 }}>
                 <UniqueCards
                   title={item.title}
                   para={item.para}

@@ -2,6 +2,7 @@
 import { Box, ClickAwayListener } from "@mui/material";
 import React, { useState } from "react";
 import Icon from "../Icon/Icon";
+import { i18n } from "next-i18next";
 
 const LANGUAGES = [
   { code: "EN", id: 1 },
@@ -17,8 +18,8 @@ function CustomLanguageToggle({ isBottom }) {
   const [open, setOpen] = useState(false);
 
   const handleToggle = () => setOpen((prev) => !prev);
-  const handleSelect = (lang) => {
-    setSelectedLang(lang);
+  const handleSelect = (lng) => {
+    setSelectedLang(lng);
     setOpen(false);
   };
 
@@ -37,6 +38,7 @@ function CustomLanguageToggle({ isBottom }) {
         {/* Toggle Button */}
         <Box
           onClick={handleToggle}
+          // onClick={() => i18n.changeLanguage(lng)}
           sx={{
             px: "12px",
             py: "5px",
@@ -78,10 +80,12 @@ function CustomLanguageToggle({ isBottom }) {
               border: "1px solid rgb(66, 66, 87)",
             }}
           >
-            {LANGUAGES.map((lang) => (
+            {LANGUAGES.map((lng) => (
               <Box
-                key={lang.id}
-                onClick={() => handleSelect(lang)}
+                key={lng.id}
+                // onClick={() => handleSelect(lang)}
+                onClick={() => i18n.changeLanguage(lng)}
+                dis
                 sx={{
                   px: 1.5,
                   py: 0.5,
@@ -95,7 +99,7 @@ function CustomLanguageToggle({ isBottom }) {
                   },
                 }}
               >
-                {lang.code}
+                {lng.code}
               </Box>
             ))}
           </Box>

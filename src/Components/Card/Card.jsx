@@ -1,29 +1,34 @@
 import { Box, Typography } from "@mui/material";
 import Image from "next/image";
 import React from "react";
+import ButtonLabel from "../ButtonLabel/ButtonLabel";
 
-const Card = ({ title, description, src }) => {
+const Card = ({ title, description, src, isBtn, href }) => {
   return (
     <>
       <Box
         sx={{
           display: "flex",
           alignItems: "center",
+          flexDirection: !isBtn ? { xs: "column", lg: "row" } : "column",
           background: "#141414",
           borderRadius: "20px",
           overflow: "hidden",
+          width: "100%",
+          height: "100%",
         }}
       >
-        <Box sx={{ width: "50%" }}>
+        <Box sx={{ width: !isBtn ? { xs: "100%", lg: "50%" } : "100%" }}>
           <Image
             src={src}
             width={600}
-            height={300}
+            height={559}
             style={{
-              objectFit: "contain",
+              objectFit: "cover",
+              objectPosition: "center",
               maxWidth: "100%",
               height: "auto",
-              aspectRatio: "1/1",
+              aspectRatio: "600/559",
             }}
             alt="image"
           />
@@ -31,11 +36,16 @@ const Card = ({ title, description, src }) => {
         <Box
           sx={{
             boxSizing: "border-box",
-            padding: "16px",
-            width: "50%",
+            width: !isBtn ? { xs: "100%", lg: "50%" } : "100%",
+            py: !isBtn
+              ? { xs: "50px", sm: "16px", md: "50px", lg: "16px" }
+              : { xs: "50px", md: "50px" },
+            px: !isBtn
+              ? { xs: "20px", sm: "16px", md: "50px", lg: "16px" }
+              : { xs: "20px", md: "50px" },
           }}
         >
-          <Typography variant="h5" component="h5" mb={"8px"}>
+          <Typography variant="h3" component="h3" mb={"8px"}>
             {title}
           </Typography>
           <Typography
@@ -49,6 +59,17 @@ const Card = ({ title, description, src }) => {
           >
             {description}
           </Typography>
+          {isBtn && (
+            <Box sx={{ mt: "80px" }}>
+              <ButtonLabel
+                btnText={"Try It Now"}
+                href={href}
+                sx={{
+                  width: "100% !important",
+                }}
+              />
+            </Box>
+          )}
         </Box>
       </Box>
     </>

@@ -8,7 +8,9 @@ function Header({ onClick }) {
   return (
     <Box
       sx={{
+        width: "100%",
         padding: "16px",
+        boxSizing: "border-box",
         backdropFilter: "blur(5px)",
         backgroundColor: "#0d223794",
       }}

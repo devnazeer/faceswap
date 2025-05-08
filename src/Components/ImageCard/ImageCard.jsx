@@ -50,7 +50,7 @@ function ImageCard({ src, title, description, isDate, date, onClick }) {
             height: "calc(100% - 384px) !important",
           }}
         >
-          <Typography variant="h5" component="h5" mb={"8px"}>
+          <Typography variant="h3" component="h3" mb={"8px"}>
             {title}
           </Typography>
           <Typography

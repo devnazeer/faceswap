@@ -100,7 +100,7 @@ const Terms = () => {
 
   return (
     <>
-      <Box sx={{ py: { xs: "4px", md: "8px" } }}>
+      <Box>
         <Box sx={{ pt: "24px", background: "#000" }}>
           <Container maxWidth="md">
             <Typography variant="h2" component={"h2"} mb={"24px"}>

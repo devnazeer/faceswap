@@ -1,6 +1,7 @@
 import { Box, Typography } from "@mui/material";
 import React from "react";
 import FormatQuoteIcon from "@mui/icons-material/FormatQuote";
+import Image from "next/image";
 
 function ReviewCards({ title, para }) {
   return (
@@ -31,18 +32,37 @@ function ReviewCards({ title, para }) {
             display: "flex",
             alignItems: "center",
             justifyContent: "space-between",
-            mb: "8px",
+            mb: "10px",
           }}
         >
           <Typography
-            variant="h5"
-            component="h5"
+            variant="h3"
+            component="h3"
             mb={"0px"}
             sx={{ color: "#818cf8" }}
           >
             {title}
           </Typography>
           <FormatQuoteIcon sx={{ color: "#818cf8", fontSize: "24px" }} />
+        </Box>
+        <Box
+          sx={{ display: "flex", alignItems: "center", gap: "5px", mb: "25px" }}
+        >
+          {[...Array(5)].map((_, idx) => (
+            <Image
+              key={idx}
+              src="/home/star.png"
+              width={16}
+              height={16}
+              alt="star"
+              style={{
+                objectFit: "cover",
+                aspectRatio: "16/16",
+                maxWidth: "100%",
+                height: "auto",
+              }}
+            />
+          ))}
         </Box>
         <Typography variant="p" component="p">
           {para}

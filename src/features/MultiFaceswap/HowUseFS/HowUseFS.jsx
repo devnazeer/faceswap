@@ -16,16 +16,18 @@ function HowUseFS() {
         }}
       >
         <Container maxWidth="lg">
-          <Typography variant="h2" component="h2">
+          <Typography variant="h2" component="h2" textAlign={"center"}>
             How to use Multi Face Swap?
           </Typography>
           <Grid container spacing={"24px"}>
             {HowUSeItems.map((item, id) => (
               <Grid key={id} size={{ xs: 12, sm: 6, md: 4 }}>
                 <UniqueCards
-                  title={item.title}
-                  para={item.para}
-                  isCard={true}
+                  title2={item.title}
+                  para2={item.para}
+                  isIcon={true}
+                  code={item.code}
+                  label={item.label}
                 />
               </Grid>
             ))}
