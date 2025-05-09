@@ -7,34 +7,55 @@ import Image from "next/image";
 import Footer from "../Footer/Footer";
 import Icon from "../Icon/Icon";
 import { useTranslation } from "react-i18next";
+
 const Sidebar = ({ children }) => {
   const { t } = useTranslation("common");
 
-  const items = t("sidebar.cards", { returnObjects: true });
+  // const items = t("sidebar.cards", { returnObjects: true });
+  const items = t("sidebar.cards", { returnObjects: true }) || [];
+
   const [isOpen, setIsOpen] = useState(false);
   const [loading, setLoading] = useState(true);
   const [drawar, setDrawar] = useState(false);
   const pathname = usePathname();
+  const [isMounted, setIsMounted] = useState(false);
+
+  // useEffect(() => {
+  //   setIsMounted(true); // Only execute after the component is mounted on the client
+  // }, []);
+
+  // // Only render the component after it's mounted to prevent hydration issues
+  // if (!isMounted) return null;
 
   const toggleHandler = () => {
     setIsOpen(!isOpen);
   };
 
-  useEffect(() => {
-    const isReady = true;
-    if (isReady) {
-      setLoading(false);
-    }
-  }, []);
+  // useEffect(() => {
+  //   const isReady = true;
+  //   if (isReady) {
+  //     setLoading(false);
+  //   }
+  // }, []);
 
   const toggleDrawer = () => {
     setDrawar(!drawar);
   };
-  const handlers = {
-    toggleDrawer,
-  };
+  // const handlers = {
+  //   toggleDrawer,
+  // };
+
+  // if (!Array.isArray(items)) {
+  //   return (
+  //     <Box>
+  //       <Typography color="error">
+  //         Error: Sidebar items are not an array!
+  //       </Typography>
+  //     </Box>
+  //   );
+  // }
   return (
-    <Box sx={{}}>
+    <>
       <Box
         sx={{
           pt: "24px",
@@ -305,7 +326,7 @@ const Sidebar = ({ children }) => {
           </Box>
         </Box>
       </Drawer>
-    </Box>
+    </>
   );
 };
 

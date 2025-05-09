@@ -8,7 +8,10 @@ export function middleware(request) {
     (locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`
   );
 
-  if (pathnameHasLocale) return;
+  // if (pathnameHasLocale) return;
+  if (pathnameHasLocale) {
+    return NextResponse.next();
+  }
 
   // Redirect to default locale
   request.nextUrl.pathname = `/en${pathname}`;

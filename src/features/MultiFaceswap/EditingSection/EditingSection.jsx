@@ -31,6 +31,7 @@ function EditingSection() {
                   description={item.para}
                   isBtn={true}
                   href={item.href}
+                  btnText={item.btnText}
                 />
               </Grid>
             ))}

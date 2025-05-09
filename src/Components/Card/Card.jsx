@@ -3,7 +3,7 @@ import Image from "next/image";
 import React from "react";
 import ButtonLabel from "../ButtonLabel/ButtonLabel";
 
-const Card = ({ title, description, src, isBtn, href }) => {
+const Card = ({ title, description, src, isBtn, href, btnText }) => {
   return (
     <>
       <Box
@@ -62,7 +62,7 @@ const Card = ({ title, description, src, isBtn, href }) => {
           {isBtn && (
             <Box sx={{ mt: "80px" }}>
               <ButtonLabel
-                btnText={"Try It Now"}
+                btnText={btnText}
                 href={href}
                 sx={{
                   width: "100% !important",

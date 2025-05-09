@@ -1,15 +1,14 @@
 "use client";
 import React from "react";
 import { useParams } from "next/navigation";
-import { BlogItems } from "@/Constants/BlogData";
 import { Box, Container, Typography, List, ListItem } from "@mui/material";
 import Image from "next/image";
 import { useTranslation } from "react-i18next";
 
 const BlogDetail = () => {
   const { t } = useTranslation("common");
-  const blog = t(`blogDetails.${slug}`, { returnObjects: true });
   const { slug } = useParams();
+  const blog = t(`blogDetails.${slug}`, { returnObjects: true });
   // const blog = BlogItems.find((item) => item.slug === slug);
 
   if (!blog) return <p>Blog not found.</p>;
