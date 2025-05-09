@@ -1,13 +1,7 @@
-import { AppRouterCacheProvider } from "@mui/material-nextjs/v15-appRouter";
-import { ThemeProvider } from "@mui/material/styles";
-import "./globals.css";
-import theme from "@/theme";
-
 import { Roboto } from "next/font/google";
-import Sidebar from "@/Components/Sidebar/Sidebar";
-import Loading from "./Loading/Loading";
-import { Suspense } from "react";
-// import "../i18n";
+import ClientLayoutWrapper from "@/Components/ClientLayoutWrapper/ClientLayoutWrapper";
+import "./globals.css";
+// import "../lib/i18n";
 
 const roboto = Roboto({
   weight: ["300", "400", "500", "700"],
@@ -27,13 +21,7 @@ export default function RootLayout({ children }) {
     <html lang="en" data-arp="">
       <head></head>
       <body className={roboto.variable} inmaintabuse="1">
-        <AppRouterCacheProvider options={{ key: "css", enableCssLayer: true }}>
-          <ThemeProvider theme={theme}>
-            <Sidebar>
-              <Suspense fallback={<Loading />}>{children}</Suspense>
-            </Sidebar>
-          </ThemeProvider>
-        </AppRouterCacheProvider>
+        <ClientLayoutWrapper>{children}</ClientLayoutWrapper>
       </body>
     </html>
   );

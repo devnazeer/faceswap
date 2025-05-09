@@ -49,14 +49,12 @@ export const UploadItem = [
 
 export const EditingItem = [
   {
-    id: uuidv4(),
     src: "/home/img1.webp",
     title: "AI Face Swap",
     para: `AI Face Swap lets you easily swap faces in any photo. With a few clicks, create fun or creative images and experience endless possibilities with face transformations.`,
     href: "/",
   },
   {
-    id: uuidv4(),
     src: "/multiface/1.png",
     title: "Multiple Face Swap AI",
     para: `Multiple Face Swap AI lets you swap multiple faces in a single image with ease. Perfect for group photos, it creates fun, shareable results in just a few clicks.`,

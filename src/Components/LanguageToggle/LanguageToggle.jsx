@@ -1,26 +1,36 @@
 "use client";
+// import { useLanguage } from "../LanguageProvider/LanguageProvider";
+import { useLanguage } from "../LanguageProvider/LanguageProvider";
 import { Box, ClickAwayListener } from "@mui/material";
-import React, { useState } from "react";
+import { useState } from "react";
 import Icon from "../Icon/Icon";
-import { i18n } from "next-i18next";
 
 const LANGUAGES = [
-  { code: "EN", id: 1 },
-  { code: "DE", id: 2 },
-  { code: "RU", id: 3 },
-  { code: "PT", id: 4 },
-  { code: "ES", id: 5 },
-  { code: "ID", id: 6 },
+  { code: "EN", lang: "en" },
+  { code: "DE", lang: "de" },
+  { code: "RU", lang: "ru" },
+  { code: "PT", lang: "pt" },
+  { code: "ES", lang: "es" },
+  { code: "ID", lang: "id" },
 ];
 
-function CustomLanguageToggle({ isBottom }) {
-  const [selectedLang, setSelectedLang] = useState(LANGUAGES[0]);
+function LanguageToggle({ isBottom }) {
+  const { currentLanguage, changeLanguage } = useLanguage();
   const [open, setOpen] = useState(false);
 
+  // Find the current language object
+  const selectedLang =
+    LANGUAGES.find((lang) => lang.lang === currentLanguage) || LANGUAGES[0];
+
   const handleToggle = () => setOpen((prev) => !prev);
-  const handleSelect = (lng) => {
-    setSelectedLang(lng);
-    setOpen(false);
+
+  const handleSelect = async (langCode) => {
+    try {
+      await changeLanguage(langCode);
+      setOpen(false);
+    } catch (error) {
+      console.error("Language change failed:", error);
+    }
   };
 
   return (
@@ -38,7 +48,6 @@ function CustomLanguageToggle({ isBottom }) {
         {/* Toggle Button */}
         <Box
           onClick={handleToggle}
-          // onClick={() => i18n.changeLanguage(lng)}
           sx={{
             px: "12px",
             py: "5px",
@@ -80,12 +89,10 @@ function CustomLanguageToggle({ isBottom }) {
               border: "1px solid rgb(66, 66, 87)",
             }}
           >
-            {LANGUAGES.map((lng) => (
+            {LANGUAGES.map((lang) => (
               <Box
-                key={lng.id}
-                // onClick={() => handleSelect(lang)}
-                onClick={() => i18n.changeLanguage(lng)}
-                dis
+                key={lang.lang} // Using lang code as key since it's unique
+                onClick={() => handleSelect(lang.lang)}
                 sx={{
                   px: 1.5,
                   py: 0.5,
@@ -99,7 +106,7 @@ function CustomLanguageToggle({ isBottom }) {
                   },
                 }}
               >
-                {lng.code}
+                {lang.code}
               </Box>
             ))}
           </Box>
@@ -109,4 +116,4 @@ function CustomLanguageToggle({ isBottom }) {
   );
 }
 
-export default CustomLanguageToggle;
+export default LanguageToggle;

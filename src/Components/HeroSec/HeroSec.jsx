@@ -20,6 +20,7 @@ function HeroSec({
   labelBtn,
   btnText,
   note,
+  isMfs,
 }) {
   return (
     <>
@@ -43,14 +44,16 @@ function HeroSec({
               {title}
             </Typography>
           )}
-          <Typography
-            variant="h2"
-            component="h2"
-            align="center"
-            sx={{ mb: "16px" }}
-          >
-            {title}
-          </Typography>
+          {isMfs && (
+            <Typography
+              variant="h1"
+              component="h1"
+              align="center"
+              sx={{ mb: "16px" }}
+            >
+              {title}
+            </Typography>
+          )}
           <Typography
             variant="p"
             component="p"

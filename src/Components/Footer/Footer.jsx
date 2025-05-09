@@ -5,8 +5,10 @@ import React from "react";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import { FacebookOutlined, Instagram } from "@mui/icons-material";
 import LanguageToggle from "../LanguageToggle/LanguageToggle";
+import { useTranslation } from "react-i18next";
 
 function Footer() {
+  const { t } = useTranslation("common");
   return (
     <>
       <>
@@ -42,19 +44,19 @@ function Footer() {
                   fontSize={"14px"}
                   mb={"8px"}
                 >
-                  Pixelmorph
+                  {t("footer.pixel")}
                 </Typography>
                 <Typography
                   variant="p"
                   component="p"
                   sx={{ color: "#6b7280", fontSize: "14px", mb: "0px" }}
                 >
-                  Pixelmorph. All rights reserved.
+                  {t("footer.subPixel")}
                 </Typography>
               </Grid>
               <Grid size={{ xs: 6, sm: 3, md: 3 }}>
                 <Typography variant="h3" component="h3" mb={"8px"}>
-                  Tools
+                  {t("footer.tools")}
                 </Typography>
                 <Box
                   sx={{ display: "flex", flexDirection: "column", gap: "4px" }}
@@ -65,7 +67,7 @@ function Footer() {
                     className="footerLists"
                     href="/"
                   >
-                    Faceswap
+                    {t("footer.faceswap")}
                   </Typography>
                   <Typography
                     variant="a"
@@ -73,13 +75,13 @@ function Footer() {
                     className="footerLists"
                     href="/multi-faceswap"
                   >
-                    Multi-Faceswap
+                    {t("footer.multiface")}
                   </Typography>
                 </Box>
               </Grid>
               <Grid size={{ xs: 6, sm: 3, md: 3 }}>
                 <Typography variant="h3" component="h3" mb={"8px"}>
-                  Sitemap
+                  {t("footer.sitemap")}
                 </Typography>
                 <Box
                   sx={{ display: "flex", flexDirection: "column", gap: "4px" }}
@@ -90,7 +92,7 @@ function Footer() {
                     className="footerLists"
                     href="/about"
                   >
-                    About Us
+                    {t("footer.about")}
                   </Typography>
                   <Typography
                     variant="a"
@@ -98,7 +100,7 @@ function Footer() {
                     className="footerLists"
                     href="/terms"
                   >
-                    Terms of Service
+                    {t("footer.terms")}
                   </Typography>
                   <Typography
                     variant="a"
@@ -106,7 +108,7 @@ function Footer() {
                     className="footerLists"
                     href="/privacy"
                   >
-                    Privacy Policy
+                    {t("footer.privacy")}
                   </Typography>
                   <Typography
                     variant="a"
@@ -114,13 +116,13 @@ function Footer() {
                     className="footerLists"
                     href="/blog"
                   >
-                    Blog
+                    {t("footer.blog")}
                   </Typography>
                 </Box>
               </Grid>
               <Grid size={{ xs: 6, sm: 3, md: 3 }}>
                 <Typography variant="h3" component="h3" mb={"8px"}>
-                  Follow Us
+                  {t("footer.follow")}
                 </Typography>
                 <Box
                   sx={{ display: "flex", gap: "10px", marginBottom: "16px" }}
@@ -153,9 +155,9 @@ function Footer() {
                 <Typography
                   variant="p"
                   component="p"
-                  sx={{ color: "#fff", fontSize: "14px", mb: "4px" }}
+                  sx={{ color: "#fff", fontSize: "14px", mb: "6px" }}
                 >
-                  Change Language
+                  {t("footer.changeLanguage")}
                 </Typography>
                 <LanguageToggle isBottom={true} />
               </Grid>

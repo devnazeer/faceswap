@@ -3,8 +3,12 @@ import UniqueCards from "@/Components/UniqueCards/UniqueCards";
 import { UploadItem } from "@/Constants/UniqueData";
 import { Box, Container, Grid, Typography } from "@mui/material";
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 function UploadImageSection() {
+  const { t } = useTranslation("common");
+
+  const items = t("UploadImageSection.cards", { returnObjects: true });
   return (
     <>
       <Box
@@ -17,10 +21,10 @@ function UploadImageSection() {
       >
         <Container maxWidth="lg">
           <Typography variant="h2" component="h2" textAlign={"center"}>
-            How to use Face Swap?
+            {t("UploadImageSection.heading")}
           </Typography>
           <Grid container spacing={"24px"}>
-            {UploadItem.map((item, id) => (
+            {items.map((item, id) => (
               <Grid key={id} size={{ xs: 12, sm: 6, md: 4 }}>
                 <UniqueCards
                   title2={item.title}

@@ -1,10 +1,14 @@
+"use client";
 import React from "react";
 import ImageCard from "@/Components/ImageCard/ImageCard";
 import { BlogItems } from "@/Constants/BlogData";
 import { Box, Container, Grid, Typography } from "@mui/material";
 import Link from "next/link";
+import { useTranslation } from "react-i18next";
 
 const Blog = () => {
+  const { t } = useTranslation("common");
+  const post = t("blogCard.blogPost", { returnObjects: true });
   return (
     <Box>
       <Box
@@ -16,10 +20,10 @@ const Blog = () => {
       >
         <Container maxWidth="lg">
           <Typography variant="h2" component="h2">
-            Blog
+            {t("blogCard.title")}
           </Typography>
           <Grid container spacing={"24px"}>
-            {BlogItems.map((item, id) => (
+            {post.map((item, id) => (
               <Grid key={id} size={{ xs: 12, sm: 6, md: 4 }}>
                 <Link
                   style={{ textDecoration: "none" }}

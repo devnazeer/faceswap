@@ -1,10 +1,14 @@
 "use client";
 import CustomAccordion from "@/Components/CustomAccordian/CustomAccordian";
-import { FaqsItems } from "@/Constants/FaqsData";
 import { Box, Container, Grid, Typography } from "@mui/material";
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 function FaqSection() {
+  const { t } = useTranslation("common");
+
+  const items = t("faqs.cards", { returnObjects: true });
+
   return (
     <>
       <Box
@@ -16,9 +20,9 @@ function FaqSection() {
       >
         <Container maxWidth="lg">
           <Typography variant="h2" component="h2" align="center">
-            FAQS
+            {t("faqs.heading")}
           </Typography>
-          <CustomAccordion FaqsData={FaqsItems} />
+          <CustomAccordion FaqsData={items} />
         </Container>
       </Box>
     </>

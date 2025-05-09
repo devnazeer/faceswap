@@ -4,10 +4,13 @@ import { useParams } from "next/navigation";
 import { BlogItems } from "@/Constants/BlogData";
 import { Box, Container, Typography, List, ListItem } from "@mui/material";
 import Image from "next/image";
+import { useTranslation } from "react-i18next";
 
 const BlogDetail = () => {
+  const { t } = useTranslation("common");
+  const blog = t(`blogDetails.${slug}`, { returnObjects: true });
   const { slug } = useParams();
-  const blog = BlogItems.find((item) => item.slug === slug);
+  // const blog = BlogItems.find((item) => item.slug === slug);
 
   if (!blog) return <p>Blog not found.</p>;
 
@@ -96,31 +99,33 @@ const BlogDetail = () => {
             <Box
               sx={{
                 width: "100%",
-                height: "576px",
-                position: "relative",
-                mb: "24px ",
+                display: "flex",
+                justifyContent: "center",
+                mb: "24px",
               }}
             >
               <Image
                 src={blog.image}
                 alt={blog.title}
                 style={{
-                  width: "100%",
                   borderRadius: "8px",
                   objectFit: "contain",
                   height: "auto",
                   maxWidth: "100%",
+                  aspectRatio: "1024 / 576",
                 }}
-                width={1200}
+                width={1024}
                 height={576}
               />
             </Box>
           )}
+        </Container>
+        <Container maxWidth="md">
           <Typography
             variant="h2"
-            component="h1"
-            sx={{ color: "#000", mb: "16px" }}
-            gutterBottom
+            component="h2"
+            sx={{ color: "#000 ", pt: "24px", mb: "16px" }}
+            // gutterBottom
           >
             {blog.title}
           </Typography>
@@ -138,8 +143,7 @@ const BlogDetail = () => {
           >
             {blog.fullDescription}
           </Typography>
-
-          {blog.content?.map((block, index) => (
+          {blog.content.map((block, index) => (
             <React.Fragment key={index}>{renderContent(block)}</React.Fragment>
           ))}
         </Container>

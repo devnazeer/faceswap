@@ -1,9 +1,15 @@
+"use client";
 import UniqueCards from "@/Components/UniqueCards/UniqueCards";
 import { WhyItems } from "@/Constants/WhyUse";
 import { Box, Container, Grid, Typography } from "@mui/material";
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 function WhyUseFS() {
+  const { t } = useTranslation("common");
+
+  const items = t("uniquemf.items", { returnObjects: true });
+
   return (
     <>
       <Box
@@ -15,10 +21,10 @@ function WhyUseFS() {
       >
         <Container maxWidth="lg">
           <Typography variant="h2" component="h2" textAlign={"center"}>
-            Why Use Multiple Face Swap?
+            {t("uniquemf.heading")}
           </Typography>
           <Grid container spacing={"24px"}>
-            {WhyItems.map((item, id) => (
+            {items?.map((item, id) => (
               <Grid key={id} size={{ xs: 12, sm: 6, md: 4, lg: 3 }}>
                 <UniqueCards
                   title={item.title}

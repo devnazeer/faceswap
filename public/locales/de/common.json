@@ -1,0 +1,36 @@
+{
+    "hero": {
+      "title": "Kostenloser KI-Gesichtstausch – Bester Face Swapper online",
+      "para": "Entdecke den Spaß am KI-Gesichtstausch mit unserem kostenlosen Face Swapper. Tausche Gesichter sofort mit Freunden, Prominenten oder wem auch immer! KI macht es einfach und unterhaltsam, einzigartige und teilbare Gesichtstausche in Sekunden zu erstellen."
+    },
+    "choose": {
+    "base": "Basisbild hochladen – Hauptbild, in dem Gesichter ersetzt werden.",
+    "target": "Zielgesicht hochladen – Dieses Gesicht ersetzt das im Basisbild.",
+    "button": "Datei auswählen",
+    "swap": "Gesichter tauschen",
+    "reset": "Neuen Gesichtswechsel starten",
+    "download": "Ergebnis herunterladen"
+  },
+  "unique": {
+    "heading": "Was macht AI Face Swapper einzigartig?",
+    "items": [
+      {
+        "title": "Gesichter tauschen in Sekunden",
+        "para": "Tausche Gesichter in Sekundenschnelle mit unserem kostenlosen Online-Tool. Lade dein Foto hoch und lass die KI ihre Magie wirken. Schnell und unterhaltsam – erstelle mühelos einzigartige Face-Swap-Bilder."
+      },
+      {
+        "title": "Realistische & nahtlose Gesichtswechsel",
+        "para": "Unser kostenloses Tool verwendet künstliche Intelligenz, um Gesichter nahtlos zu verschmelzen. Ersetze Gesichter in Fotos online kostenlos und erzeuge realistisch aussehende Face Swaps."
+      },
+      {
+        "title": "Mach deine Fotos mit KI-Face-Swap unterhaltsam",
+        "para": "Viel Spaß beim Gesichtertauschen mit Freunden und Familie. Erstelle witzige Momente mit sofortigem KI-Face-Switch. Probiere den Face Swap kostenlos aus!"
+      },
+      {
+        "title": "Platziere dein Gesicht auf berühmte Gemälde mit KI",
+        "para": "Setze dein Gesicht mit AI Face Swap auf berühmte Gemälde. Verwende unseren Face Swap Generator, um Gesichter in Fotos auszutauschen und lustige, teilbare Kunst zu erstellen."
+      }
+    ]
+  }
+  }
+  

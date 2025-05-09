@@ -1,11 +1,13 @@
 "use client";
 import Card from "@/Components/Card/Card";
-import UniqueCards from "@/Components/UniqueCards/UniqueCards";
-import { EditingItemFS } from "@/Constants/WhyUse";
 import { Box, Container, Grid, Typography } from "@mui/material";
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 function EditingSection() {
+  const { t } = useTranslation("common");
+
+  const items = t("editingmf.cards", { returnObjects: true });
   return (
     <>
       <Box
@@ -18,11 +20,11 @@ function EditingSection() {
       >
         <Container maxWidth="lg">
           <Typography variant="h2" component="h2" textAlign={"center"}>
-            All Online Photo & Video Editing Tools
+            {t("editingmf.heading")}
           </Typography>
-          <Grid container spacing={"24px"}>
-            {EditingItemFS.map((item, id) => (
-              <Grid key={id} size={{ xs: 12, sm: 6 }}>
+          <Grid container spacing={"24px"} justifyContent={"center"}>
+            {items.map((item, id) => (
+              <Grid key={id} size={{ xs: 12, sm: 6, md: 5 }}>
                 <Card
                   src={item?.src}
                   title={item.title}

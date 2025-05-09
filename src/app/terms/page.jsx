@@ -1,8 +1,11 @@
-import { TermItems } from "@/Constants/Terms";
+"use client";
 import { Box, Container, Typography } from "@mui/material";
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 const Terms = () => {
+  const { t } = useTranslation("common");
+  const items = t("terms.content", { returnObjects: true });
   const renderContent = (block) => {
     switch (block.type) {
       case "paragraph":
@@ -104,10 +107,10 @@ const Terms = () => {
         <Box sx={{ pt: "24px", background: "#000" }}>
           <Container maxWidth="md">
             <Typography variant="h2" component={"h2"} mb={"24px"}>
-              {TermItems.title}
+              {t("terms.title")}
             </Typography>
             <Box pb={"32px"}>
-              {TermItems?.content?.map((block, index) => (
+              {items?.map((block, index) => (
                 <React.Fragment key={index}>
                   {renderContent(block)}
                 </React.Fragment>

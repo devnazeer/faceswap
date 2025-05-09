@@ -1,8 +1,11 @@
-import { AboutItems } from "@/Constants/AboutData";
+"use client";
 import { Box, Container, Typography } from "@mui/material";
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 const About = () => {
+  const { t } = useTranslation("common");
+  const items = t("about.content", { returnObjects: true });
   const renderContent = (block) => {
     switch (block.type) {
       case "paragraph":
@@ -89,10 +92,10 @@ const About = () => {
         <Box sx={{ pt: "24px", background: "#000" }}>
           <Container maxWidth="md">
             <Typography variant="h2" component={"h2"} mb={"24px"}>
-              {AboutItems.title}
+              {t("about.title")}
             </Typography>
             <Box pb={"32px"}>
-              {AboutItems?.content?.map((block, index) => (
+              {items.map((block, index) => (
                 <React.Fragment key={index}>
                   {renderContent(block)}
                 </React.Fragment>

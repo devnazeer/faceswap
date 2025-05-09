@@ -39,10 +39,10 @@ const Card = ({ title, description, src, isBtn, href }) => {
             width: !isBtn ? { xs: "100%", lg: "50%" } : "100%",
             py: !isBtn
               ? { xs: "50px", sm: "16px", md: "50px", lg: "16px" }
-              : { xs: "50px", md: "50px" },
+              : { xs: "40px", md: "50px" },
             px: !isBtn
               ? { xs: "20px", sm: "16px", md: "50px", lg: "16px" }
-              : { xs: "20px", md: "50px" },
+              : { xs: "20px", md: "20px" },
           }}
         >
           <Typography variant="h3" component="h3" mb={"8px"}>
@@ -66,6 +66,7 @@ const Card = ({ title, description, src, isBtn, href }) => {
                 href={href}
                 sx={{
                   width: "100% !important",
+                  // mx: "auto !important",
                 }}
               />
             </Box>

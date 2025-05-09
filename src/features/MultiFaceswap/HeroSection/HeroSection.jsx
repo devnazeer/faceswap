@@ -1,27 +1,30 @@
+"use client";
 import HeroSec from "@/Components/HeroSec/HeroSec";
 import { Box } from "@mui/material";
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 function HeroSection() {
+  const { t } = useTranslation("common");
+
   return (
     <>
-      <Box>
-        <HeroSec
-          title="Multiple Face Swap AI - Online Free for Group Photos"
-          para="Using Multiple Face Swap AI, effortlessly transform group photos by swapping faces for fun and unique results. Ideal for capturing memorable moments with friends or family in a creative way."
-          src="/multiface/hero.jpg"
-          uploadPara1={"Upload Face"}
-          uploadPara2={"Base Image"}
-          code1="&#xe7fe;"
-          label1={"person_add"}
-          code2="&#xe439;"
-          label2={"add_a_photo"}
-          codeBtn="&#xe86a;"
-          labelBtn={"cached"}
-          btnText={"Swap Face"}
-          note={"Unlock More Face Swap Templates or DIY Swap in the App"}
-        />
-      </Box>
+      <HeroSec
+        isMfs={true}
+        title={t("heromf.title")}
+        para={t("heromf.para")}
+        src="/home/1.webp"
+        uploadPara1={t("heromf.uploadPara1")}
+        uploadPara2={t("heromf.uploadPara2")}
+        code1="&#xe7fe;"
+        label1={"person_add"}
+        code2="&#xe439;"
+        label2={"add_a_photo"}
+        codeBtn="&#xe86a;"
+        labelBtn={"cached"}
+        btnText={t("heromf.btnText")}
+        note={t("heromf.note")}
+      />
     </>
   );
 }

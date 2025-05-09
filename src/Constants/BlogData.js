@@ -1,13 +1,10 @@
-import { v4 as uuidv4 } from "uuid";
-
 export const BlogItems = [
   {
-    id: uuidv4(),
     slug: "swap-face-photoshop",
     image: `/blog/blog1.jpeg`,
     title: "Swap Face Photoshop",
     description:
-      "Are you starving for the expert intuition of Photoshop gratis online? If yes then we have got you covered with our detailed guide on “How to Swap face Photoshop”. Face swapping is no doubt a charming method of enhancing your social media reach with its fun-combined face morphing techniques but swapping faces in Photoshop CC…",
+      "Are you starving for the expert intuition of Photoshop gratis online? If yes then we have got you covered with our detailed guide on 'How to Swap face Photoshop'. Face swapping is no doubt a charming method of enhancing your social media reach with its fun-combined face morphing techniques but swapping faces in Photoshop CC...",
     fullDescription:
       "Are you starving for the expert intuition of Photoshop gratis online? If yes then we have got you covered with our detailed guide on “How to Swap face Photoshop”. Face swapping is no doubt a charming method of enhancing your social media reach with its fun-combined face morphing techniques but swapping faces in Photoshop CC is tricky if you don’t know the exact process. So, to avoid any kind of mess and confusion, we have strategized a step-by-step guide that makes it a good-to-go process, to learn all about it, stay tuned and have fun.",
     isDate: true,
@@ -202,7 +199,6 @@ export const BlogItems = [
     ],
   },
   {
-    id: uuidv4(),
     slug: "how-to-use-insight-face-swap-discord",
     image: `/blog/blog2.jpeg`,
     title: "How to Use Insight Face Swap Discord",

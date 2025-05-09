@@ -4,10 +4,13 @@ import { Box, List, ListItem, Typography, Link, Drawer } from "@mui/material";
 import { usePathname } from "next/navigation";
 import Header from "../Header/Header";
 import Image from "next/image";
-import { SidebarData } from "@/Constants/SidebarData";
 import Footer from "../Footer/Footer";
 import Icon from "../Icon/Icon";
+import { useTranslation } from "react-i18next";
 const Sidebar = ({ children }) => {
+  const { t } = useTranslation("common");
+
+  const items = t("sidebar.cards", { returnObjects: true });
   const [isOpen, setIsOpen] = useState(false);
   const [loading, setLoading] = useState(true);
   const [drawar, setDrawar] = useState(false);
@@ -90,7 +93,7 @@ const Sidebar = ({ children }) => {
               gap: "8px",
             }}
           >
-            {SidebarData.map((item, id) => (
+            {items.map((item, id) => (
               <ListItem
                 key={id}
                 disablePadding
@@ -254,7 +257,7 @@ const Sidebar = ({ children }) => {
                 gap: "8px",
               }}
             >
-              {SidebarData.map((item, id) => (
+              {items.map((item, id) => (
                 <ListItem
                   key={id}
                   disablePadding

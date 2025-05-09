@@ -1,11 +1,13 @@
 "use client";
 import React from "react";
 import { Box, Container, Grid, Typography } from "@mui/material";
-import ButtonLabel from "@/Components/ButtonLabel/ButtonLabel";
 import Card from "@/Components/Card/Card";
-import { SwiperFS } from "@/Constants/SwiperData";
+import { useTranslation } from "react-i18next";
+import "@/lib/i18n";
 
 function SwiperSection() {
+  const { t } = useTranslation("common");
+  const cards = t("swipermf.cards", { returnObjects: true });
   return (
     <Box
       component="section"
@@ -16,7 +18,7 @@ function SwiperSection() {
     >
       <Container maxWidth="lg">
         <Typography variant="h2" component="h2" align="center">
-          Best Use of Multi Face Swapper
+          {t("swipermf.heading")}
         </Typography>
         <Grid container spacing={4}>
           <Grid size={{ xs: 12, sm: 6 }}>
@@ -30,7 +32,7 @@ function SwiperSection() {
                 alignItems: { xs: "center", md: "center" },
               }}
             >
-              {SwiperFS.slice(0, 1).map((item, id) => (
+              {cards.slice(0, 1).map((item, id) => (
                 <Card
                   key={id}
                   src={item.src}
@@ -50,7 +52,7 @@ function SwiperSection() {
                 // justifyContent: "center",
               }}
             >
-              {SwiperFS.slice(1, 3).map((item, id) => (
+              {cards.slice(1, 3).map((item, id) => (
                 <Card
                   key={id}
                   src={item.src}

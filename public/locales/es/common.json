@@ -1,0 +1,35 @@
+{
+  "hero": {
+    "title": "Intercambio de caras con IA gratis - El mejor cambiador de caras en línea",
+    "para": "Explora la diversión del intercambio de caras con IA con nuestro cambiador de caras gratuito. ¡Cambia caras al instante con amigos, celebridades o quien sea! La IA hace que sea fácil y divertido crear intercambios únicos y compartibles en segundos."
+  },
+  "choose": {
+    "base": "Sube imagen base - imagen principal donde se reemplazarán las caras.",
+    "target": "Sube rostro objetivo - Este rostro reemplazará al de la imagen base.",
+    "button": "Elegir archivo",
+    "swap": "Cambiar caras",
+    "reset": "Iniciar nuevo cambio de rostro",
+    "download": "Descargar resultado"
+  },
+  "unique": {
+    "heading": "¿Qué hace único al AI Face Swapper?",
+    "items": [
+      {
+        "title": "Cambia de rostro en segundos",
+        "para": "Cambia rostros en segundos con nuestra herramienta gratuita en línea. Sube tu foto y deja que la IA haga su magia al instante. Rápido y divertido, crea fotos únicas con cambio de rostro fácilmente."
+      },
+      {
+        "title": "Cambios de rostro realistas y perfectos",
+        "para": "Nuestra herramienta gratuita utiliza inteligencia artificial para combinar rostros perfectamente. Reemplaza rostros en fotos de forma natural y gratuita en segundos."
+      },
+      {
+        "title": "Convierte tus fotos en diversión con AI Face Swap",
+        "para": "Diviértete cambiando rostros con amigos y familiares usando nuestro cambiador. Crea momentos divertidos con cambios instantáneos de rostro por IA. ¡Pruébalo gratis!"
+      },
+      {
+        "title": "Pon tu cara en pinturas famosas con AI Face Swap",
+        "para": "Pon tu cara en obras icónicas con nuestro generador de rostros por IA. Cambia rostros en fotos fácilmente y crea arte divertido y compartible al instante."
+      }
+    ]
+  }
+}

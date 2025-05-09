@@ -1,0 +1,36 @@
+{
+    "hero": {
+      "title": "Troca de Rosto com IA Grátis – O Melhor Face Swapper Online",
+      "para": "Explore a diversão da troca de rostos com IA usando nosso Face Swapper gratuito. Troque rostos instantaneamente com amigos, celebridades ou qualquer pessoa! A IA torna fácil e divertido criar trocas únicas e compartilháveis em segundos."
+    },
+    "choose": {
+    "base": "Enviar imagem base - imagem principal onde os rostos serão trocados.",
+    "target": "Enviar rosto alvo - Este rosto substituirá o da imagem base.",
+    "button": "Escolher arquivo",
+    "swap": "Trocar rostos",
+    "reset": "Iniciar nova troca de rostos",
+    "download": "Baixar resultado"
+  },
+  "unique": {
+    "heading": "O Que Torna o AI Face Swapper Único?",
+    "items": [
+      {
+        "title": "Troque Rostos em Segundos",
+        "para": "Troque rostos em segundos com nossa ferramenta online gratuita. Faça upload de sua foto e deixe a IA fazer sua mágica. Rápido e divertido, crie trocas de rosto únicas facilmente."
+      },
+      {
+        "title": "Trocas de Rosto Realistas e Suaves",
+        "para": "Nossa ferramenta gratuita usa IA para misturar rostos perfeitamente. Substitua rostos em fotos de forma natural e crie imagens incríveis em segundos."
+      },
+      {
+        "title": "Transforme Fotos em Diversão com AI Face Swap",
+        "para": "Divirta-se trocando rostos com amigos e familiares. Crie momentos engraçados com trocas instantâneas. Experimente a troca de rosto profunda agora mesmo!"
+      },
+      {
+        "title": "Coloque Seu Rosto em Pinturas Famosas com IA",
+        "para": "Use AI Face Swap para colocar seu rosto em obras de arte icônicas. Altere rostos em fotos com facilidade e crie arte divertida e compartilhável instantaneamente."
+      }
+    ]
+  }
+  }
+  

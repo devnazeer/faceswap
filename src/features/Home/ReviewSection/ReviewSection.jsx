@@ -1,10 +1,13 @@
 "use client";
 import ReviewCards from "@/Components/ReviewCards/ReviewCards";
-import { ReviewItems } from "@/Constants/ReviewData";
 import { Box, Container, Grid, Typography } from "@mui/material";
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 function ReviewSection() {
+  const { t } = useTranslation("common");
+
+  const items = t("reviews.cards", { returnObjects: true });
   return (
     <>
       <Box
@@ -17,10 +20,10 @@ function ReviewSection() {
       >
         <Container maxWidth="lg">
           <Typography variant="h2" component="h2" align="center">
-            User Reviews
+            {t("reviews.heading")}
           </Typography>
           <Grid container spacing={"24px"}>
-            {ReviewItems.map((item, id) => (
+            {items.map((item, id) => (
               <Grid key={id} size={{ xs: 12, sm: 6 }}>
                 <ReviewCards title={item.title} para={item.para} />
               </Grid>

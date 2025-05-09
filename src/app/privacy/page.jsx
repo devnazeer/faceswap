@@ -1,8 +1,12 @@
+"use client";
 import { PrivacyItems } from "@/Constants/Privacy";
 import { Box, Container, Typography } from "@mui/material";
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 const Privacy = () => {
+  const { t } = useTranslation("common");
+  const items = t("privacy.content", { returnObjects: true });
   const renderContent = (block) => {
     switch (block.type) {
       case "paragraph":
@@ -13,18 +17,31 @@ const Privacy = () => {
             component="p"
             sx={{
               color: "#fff",
-              mb: block.customMargin ? block.customMargin : "5px",
+              mb: block.customMargin ? "17px" : "5px !important",
             }}
           >
             {block.prefix && <strong>{block.prefix} </strong>}
             {Array.isArray(block.text)
-              ? block.text.map((part, i) =>
-                  typeof part === "string" ? (
-                    part
-                  ) : (
-                    <strong key={i}>{part.bold}</strong>
-                  )
-                )
+              ? block.text.map((part, i) => {
+                  if (typeof part === "string") return part;
+                  if (part.bold) return <strong key={i}>{part.bold}</strong>;
+                  if (part.link)
+                    return (
+                      <a
+                        key={i}
+                        href={part.link.href}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        style={{
+                          color: "#fff",
+                          textDecoration: "underline",
+                        }}
+                      >
+                        {part.link.text}
+                      </a>
+                    );
+                  return null;
+                })
               : block.text}
             {block.suffix && (
               <>
@@ -90,10 +107,10 @@ const Privacy = () => {
         <Box sx={{ pt: "24px", background: "#000" }}>
           <Container maxWidth="md">
             <Typography variant="h2" component={"h2"} mb={"24px"}>
-              {PrivacyItems.title}
+              {t("privacy.title")}
             </Typography>
             <Box pb={"32px"}>
-              {PrivacyItems.content?.map((block, index) => (
+              {items.map((block, index) => (
                 <React.Fragment key={index}>
                   {renderContent(block)}
                 </React.Fragment>
