@@ -37,7 +37,7 @@ const theme = createTheme({
       //   fontFamily: maven_pro.style.fontFamily,
       fontSize: 48,
       fontWeight: 600,
-      textTransform: "uppercase",
+      textTransform: "capitalize",
       lineHeight: "normal",
       marginBottom: 40,
       color: "#fff",

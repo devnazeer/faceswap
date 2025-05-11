@@ -1,6 +1,5 @@
 "use client";
 import UniqueCards from "@/Components/UniqueCards/UniqueCards";
-import { UploadItem } from "@/Constants/UniqueData";
 import { Box, Container, Grid, Typography } from "@mui/material";
 import React from "react";
 import { useTranslation } from "react-i18next";

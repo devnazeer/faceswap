@@ -41,7 +41,7 @@ const Card = ({ title, description, src, isBtn, href, btnText }) => {
               ? { xs: "50px", sm: "16px", md: "50px", lg: "16px" }
               : { xs: "40px", md: "50px" },
             px: !isBtn
-              ? { xs: "20px", sm: "16px", md: "50px", lg: "16px" }
+              ? { xs: "20px", sm: "16px", md: "16px", lg: "16px" }
               : { xs: "20px", md: "20px" },
           }}
         >

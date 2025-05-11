@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
 import ImageCard from "@/Components/ImageCard/ImageCard";
-import { BlogItems } from "@/Constants/BlogData";
 import { Box, Container, Grid, Typography } from "@mui/material";
 import Link from "next/link";
 import { useTranslation } from "react-i18next";

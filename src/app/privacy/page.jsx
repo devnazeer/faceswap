@@ -1,5 +1,4 @@
 "use client";
-import { PrivacyItems } from "@/Constants/Privacy";
 import { Box, Container, Typography } from "@mui/material";
 import React from "react";
 import { useTranslation } from "react-i18next";
@@ -99,7 +98,7 @@ const Privacy = () => {
         return null;
     }
   };
-  console.log("Privacytitle", PrivacyItems.title);
+  // console.log("Privacytitle", PrivacyItems.title);/
 
   return (
     <>

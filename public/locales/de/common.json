@@ -1,6 +1,6 @@
 {
   "hero": {
-    "title": "der beste Face Swapper im Internet",
+    "title": "Kostenloser AI Face Swap - Bester Face Swapper Online",
     "para": "Entdecke den Spaß am KI Gesichter tauschen Programm mit unserem kostenlosen Face Swapper. Tausche Gesichter sofort mit Freunden, Prominenten oder jedem anderen aus! KI macht es einfach und unterhaltsam, in Sekundenschnelle einzigartige, teilbare Gesichtstauschbilder zu erstellen",
     "uploadPara1":"Gesicht hochladen",
     "uploadPara2":"Basisbild",
@@ -1000,7 +1000,7 @@
       {
         "type": "paragraph",
         "text": [
-          "Wenn Sie Fragen zu dieser Datenschutzrichtlinie haben, kontaktieren Sie uns bitte unter:",
+          "Wenn Sie Fragen zu dieser Datenschutzrichtlinie haben, kontaktieren Sie uns bitte unter: ",
           {
             "link": {
               "href": "mailto:shahshawaiz@gmail.com",
@@ -1140,7 +1140,7 @@
       {
         "type": "paragraph",
         "text": [
-          "Wenn Sie Fragen zu diesen Bedingungen haben, kontaktieren Sie uns bitte unter ",
+          "Wenn Sie Fragen zu diesen Bedingungen haben, kontaktieren Sie uns bitte unter: ",
           {
             "link": {
               "href": "mailto:shahshawaiz@gmail.com",

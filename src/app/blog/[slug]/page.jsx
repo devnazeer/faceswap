@@ -9,7 +9,6 @@ const BlogDetail = () => {
   const { t } = useTranslation("common");
   const { slug } = useParams();
   const blog = t(`blogDetails.${slug}`, { returnObjects: true });
-  // const blog = BlogItems.find((item) => item.slug === slug);
 
   if (!blog) return <p>Blog not found.</p>;
 

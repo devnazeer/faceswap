@@ -1,35 +1,1242 @@
 {
   "hero": {
-    "title": "Intercambio de caras con IA gratis - El mejor cambiador de caras en línea",
-    "para": "Explora la diversión del intercambio de caras con IA con nuestro cambiador de caras gratuito. ¡Cambia caras al instante con amigos, celebridades o quien sea! La IA hace que sea fácil y divertido crear intercambios únicos y compartibles en segundos."
+    "title": "Intercambio de caras con IA gratis: el mejor intercambiador de caras online",
+    "para": "Explora la diversión del intercambio de caras con IA con nuestro Intercambiador de Caras gratuito. ¡Intercambia caras al instante con amigos, celebridades o cualquier persona! La IA hace que sea fácil y divertido crear intercambios de caras únicos y compartibles en segundos.",
+    "uploadPara1": "Subir Cara",
+    "uploadPara2": "Imagen Base",
+    "btnText": "Intercambiar Cara",
+    "note": "Desbloquea más plantillas de intercambio de caras o hazlo tú mismo en la aplicación"
   },
   "choose": {
-    "base": "Sube imagen base - imagen principal donde se reemplazarán las caras.",
-    "target": "Sube rostro objetivo - Este rostro reemplazará al de la imagen base.",
-    "button": "Elegir archivo",
-    "swap": "Cambiar caras",
-    "reset": "Iniciar nuevo cambio de rostro",
-    "download": "Descargar resultado"
+    "base": "Sube Imagen Base - Imagen principal donde se reemplazarán las caras.",
+    "target": "Sube la Cara Objetivo - Esta cara reemplazará la de tu imagen base.",
+    "button": "Elegir Archivo",
+    "swap": "Intercambiar Caras",
+    "reset": "Iniciar Nuevo Intercambio de Caras",
+    "download": "Descargar Resultado"
   },
   "unique": {
-    "heading": "¿Qué hace único al AI Face Swapper?",
+    "heading": "¿Qué Hace Único al Intercambiador de Caras con IA?",
     "items": [
       {
-        "title": "Cambia de rostro en segundos",
-        "para": "Cambia rostros en segundos con nuestra herramienta gratuita en línea. Sube tu foto y deja que la IA haga su magia al instante. Rápido y divertido, crea fotos únicas con cambio de rostro fácilmente."
+        "title": "Intercambio de Caras en Segundos",
+        "para": "Intercambia caras en segundos con nuestra herramienta gratuita en línea. Sube tu foto y deja que el cambiador de caras con IA haga su magia al instante. Rápido y divertido, crea imágenes únicas de intercambio de caras fácilmente en línea en poco tiempo."
       },
       {
-        "title": "Cambios de rostro realistas y perfectos",
-        "para": "Nuestra herramienta gratuita utiliza inteligencia artificial para combinar rostros perfectamente. Reemplaza rostros en fotos de forma natural y gratuita en segundos."
+        "title": "Intercambios de Caras Realistas y Sin Costuras",
+        "para": "Nuestra herramienta gratuita de intercambio de caras en línea usa inteligencia artificial para mezclar las caras sin costuras. Reemplaza fácilmente caras en fotos en línea gratis y crea imágenes de intercambio de caras con apariencia natural en segundos."
       },
       {
-        "title": "Convierte tus fotos en diversión con AI Face Swap",
-        "para": "Diviértete cambiando rostros con amigos y familiares usando nuestro cambiador. Crea momentos divertidos con cambios instantáneos de rostro por IA. ¡Pruébalo gratis!"
+        "title": "Convierte Fotos en Diversión con el Intercambio de Caras con IA en Línea",
+        "para": "Diviértete intercambiando caras con amigos y familiares usando nuestro cambiador de caras. Crea momentos divertidos al instante con el cambio de cara con IA. Prueba el intercambio de caras profundo y reemplaza fácilmente caras en fotos gratis."
       },
       {
-        "title": "Pon tu cara en pinturas famosas con AI Face Swap",
-        "para": "Pon tu cara en obras icónicas con nuestro generador de rostros por IA. Cambia rostros en fotos fácilmente y crea arte divertido y compartible al instante."
+        "title": "Pon Tu Cara en Pinturas Famosas con el Intercambio de Caras con IA",
+        "para": "Pon tu cara en pinturas icónicas con el intercambio de caras con IA. Usando un generador de intercambio de caras en línea y cambiador de caras con IA, puedes cambiar fácilmente caras en fotos y crear arte divertido y compartible en segundos. Descárgalo y disfruta de tus creaciones al instante."
       }
     ]
+  },
+  "swiperSection": {
+    "heading": "El Intercambiador de Caras Definitivo para Todos",
+    "subheading": "¿Necesitas mostrar detalles del producto? Usa el mejorador de imágenes con IA de AirBrush para ampliar imágenes fácilmente para ediciones o impresiones.",
+    "upload": "Subir Imagen",
+    "download": "Descargar App",
+    "cards": [
+      {
+        "src": "/home/img1.webp",
+        "title": "Aumenta el Engagement en Redes Sociales con Intercambios Virales de Caras",
+        "description": "¡El intercambiador de caras definitivo para todos! Cambia fácilmente caras en fotos, ya sea actualizando una imagen antigua, intercambiando la cara de un modelo, o simplemente divirtiéndote. Con el editor de intercambio de caras en línea, es rápido, simple y versátil para todas tus necesidades."
+      },
+      {
+        "src": "/home/img2.webp",
+        "title": "Intercambio de Caras de Celebridades",
+        "description": "El contenido de intercambio de caras es tendencia en Instagram y Twitter. Usa herramientas de intercambio de caras con IA para crear imágenes divertidas y compartibles. Publica fotos creativas de cambio de cara profundo para hacer crecer tu audiencia y aumentar el engagement rápidamente."
+      },
+      {
+        "src": "/home/img3.webp",
+        "title": "Descubre Nuevos Looks con el Intercambio de Caras con IA",
+        "description": "Intercambia tu cara con celebridades usando una herramienta en línea. Reemplaza caras fácilmente en fotos con un cambiador de caras con IA para resultados divertidos y realistas. Prueba el cambiador de cara en fotos en línea gratis y crea increíbles imágenes de intercambio de caras en segundos. Perfecto para cualquiera que quiera cambiar caras rápida y fácilmente."
+      }
+    ]
+  },
+  "UploadImageSection": {
+    "heading": "¿Cómo usar el Intercambio de Caras?",
+    "cards": [
+      {
+        "code": "\uf09b",
+        "label": "upload",
+        "title": "Subir Imagen",
+        "para": "Sube una Imagen con Cara \"foto fuente\""
+      },
+      {
+        "code": "\uf09b",
+        "label": "upload",
+        "title": "Subir Imagen",
+        "para": "Sube una Imagen con Cara \"foto de la cara objetivo\""
+      },
+      {
+        "code": "\ue43e",
+        "label": "add_photo_alternate",
+        "title": "Intercambiar Cara Ahora",
+        "para": "Haz clic en Intercambiar cara ahora para comenzar el proceso"
+      }
+    ]
+  },
+  "editing": {
+    "heading": "Todas las Herramientas de Edición de Fotos y Videos en Línea",
+    "cards": [
+      {
+        "src": "/home/img1.webp",
+        "title": "Intercambio de Caras con IA",
+        "para": "El intercambio de caras con IA te permite intercambiar fácilmente caras en cualquier foto. Con unos pocos clics, crea imágenes divertidas o creativas y experimenta posibilidades infinitas con las transformaciones faciales.",
+        "href": "/",
+        "btnText": "Pruébalo Ahora"
+      },
+      {
+        "src": "/multiface/1.png",
+        "title": "Intercambio de Múltiples Caras con IA",
+        "para": "El Intercambio de Múltiples Caras con IA te permite intercambiar múltiples caras en una sola imagen con facilidad. Perfecto para fotos grupales, crea resultados divertidos y compartibles en solo unos clics.",
+        "href": "/multi-faceswap",
+        "btnText": "Pruébalo Ahora"
+      }
+    ]
+  },
+  "reviews": {
+    "heading": "Opiniones de los Usuarios",
+    "cards": [
+      {
+        "title": "Jessica Harper",
+        "para": "\"He estado usando FaceSwap por un tiempo y todavía me sorprende lo realistas que se ven los intercambios. ¡Es súper fácil de usar y me he divertido mucho creando fotos divertidas con mis amigos! Lo recomiendo totalmente a cualquiera que quiera añadir un poco de creatividad a sus fotos.\""
+      },
+      {
+        "title": "Michael Lee",
+        "para": "\"La precisión de FaceSwap es de primera. Me encanta lo suaves que son las transiciones – ¡se siente tan natural! La aplicación es muy fácil de usar, incluso para alguien como yo que no es muy técnico. ¡Honestamente, es la mejor app de intercambio de caras que he usado hasta ahora!\""
+      },
+      {
+        "title": "Samantha Clark",
+        "para": "\"FaceSwap ha transformado completamente mis fotos. La app no solo es divertida, sino también una gran herramienta para crear contenido atractivo para mi blog. Además, el soporte móvil es fantástico, así que puedo usarla donde sea. ¡Definitivamente vale la pena probarla!\""
+      },
+      {
+        "title": "Kishore Anand",
+        "para": "\"¡Esta app es increíble! ¡Pude intercambiar caras con mis personajes de películas favoritos y los resultados fueron graciosísimos! Lo mejor es lo rápido que todo sucede. En solo unos toques, ya está hecho. Es muy divertido – perfecto para entretener a mis hijos y amigos.\""
+      }
+    ]
+  },
+  "faqs": {
+    "heading": "PREGUNTAS FRECUENTES",
+    "cards": [
+      {
+        "question": "¿Qué es un Intercambio de Caras?",
+        "answer": "Es una técnica que reemplaza una cara en una foto o video con otra, permitiendo transformaciones divertidas y creativas."
+      },
+      {
+        "question": "¿Cómo intercambiar una cara en una imagen?",
+        "answer": "Con FaceSwapAI, simplemente sube tu foto, selecciona las caras que quieres intercambiar y deja que la IA haga el resto en solo unos clics."
+      },
+      {
+        "question": "¿Puedo intercambiar caras en cualquier foto?",
+        "answer": "Sí, puedes intercambiar caras en cualquier foto mientras las caras sean claras y visibles."
+      },
+      {
+        "question": "¿Es legal el intercambio de caras?",
+        "answer": "Sí, el intercambio de caras es legal cuando se usa para fines personales y no comerciales, pero siempre asegúrate de tener el consentimiento adecuado al usar imágenes de otras personas."
+      },
+      {
+        "question": "¿Es seguro el intercambiador de caras en línea?",
+        "answer": "Sí, FaceSwapAI es seguro y prioriza tu privacidad mediante cargas cifradas y sin almacenar tus imágenes."
+      },
+      {
+        "question": "¿Puedo intercambiar caras entre humanos y animales?",
+        "answer": "No, FaceSwapAI no admite el intercambio de caras entre animales y humanos."
+      },
+      {
+        "question": "¿El Intercambio de Caras con IA admite cambio de género?",
+        "answer": "Sí, FaceSwapAI permite el intercambio fluido entre géneros tanto para uso divertido como artístico."
+      },
+      {
+        "question": "¿Cómo obtener los mejores resultados?",
+        "answer": "Para obtener los mejores resultados, usa imágenes de alta calidad."
+      },
+      {
+        "question": "¿Cómo funciona el Intercambiador de Caras con IA?",
+        "answer": "FaceSwapAI utiliza algoritmos avanzados de IA para detectar y emparejar rasgos faciales, reemplazando sin problemas una cara por otra."
+      },
+      {
+        "question": "¿Qué tipo de formatos de archivo admite esta herramienta?",
+        "answer": "FaceSwapAI admite formatos comunes como JPEG, PNG y WebM para facilitar las cargas y los intercambios."
+      }
+    ]
+},
+  "footer": {
+  "pixel": "Pixelmorph",
+  "subPixel": "Pixelmorph. All rights reserved.",
+  "tools":"Tools",
+  "faceswap":"faceswap",
+  "multiface":"Multi-Faceswap",
+  "sitemap":"Sitemap",
+  "about":"About Us",
+  "terms":"Terms of Service",
+  "privacy":"Privacy Policy",
+  "blog":"Blog",
+  "follow":"Follow Us",
+  "changeLanguage":"Change Language"
+},
+  "sidebar": {
+  "cards": [
+  {
+    "name": "Faceswap",
+    "href": "/"
+  },
+  {
+    "name": "Multi-Faceswap",
+    "href": "/multi-faceswap"
+  },
+  {
+    "name": "Blogs",
+    "href": "/blog"
+  },
+  {
+    "name": "Privacy Policy",
+    "href": "/privacy"
+  },
+  {
+    "name": "Terms of Service",
+    "href": "/terms"
+  },
+  {
+    "name": "About",
+    "href": "/about"
   }
+]
+},
+"heromf": {
+  "title": "Intercambio de Caras Múltiples AI - Gratis en Línea para Fotos Grupales",
+  "para": "Usando Intercambio de Caras Múltiples AI, transforma fácilmente fotos grupales intercambiando caras para obtener resultados divertidos y únicos. Ideal para capturar momentos memorables con amigos o familiares de una manera creativa.",
+  "uploadPara1":"Subir Cara",
+  "uploadPara2":"Imagen Base",
+  "btnText":"Intercambiar Caras",
+  "note":"Desbloquea Más Plantillas de Intercambio de Caras o Hazlo Tú Mismo en la App"
+},
+"uniquemf": {
+  "heading": "¿Por Qué Usar Intercambio de Caras Múltiples?",
+  "items": [
+    {
+      "title": "Mejor Intercambiador de Caras Múltiples AI",
+      "para": "Con el Mejor Intercambiador de Caras Múltiples AI, no necesitas instalar una app. Simplemente sube tus fotos grupales y la IA intercambiará automáticamente las caras, dándote resultados instantáneos y divertidos en línea gratis."
+    },
+    {
+      "title": "No Requiere Instalación",
+      "para": "¡No necesitas instalación! Con el intercambio de caras múltiples gratis en línea, sube tus imágenes y deja que la IA se encargue del resto. Ya sea un intercambio de caras en pareja o en una foto grupal, ¡puedes intercambiar fácilmente múltiples caras en segundos!"
+    },
+    {
+      "title": "Cualquiera Puede Formar Parte de la Foto Grupal",
+      "para": "Sorprende a tus amigos intercambiando sus caras en una foto grupal usando la herramienta avanzada de intercambio de caras múltiples. Solo sube tu foto grupal y las imágenes de tus amigos, y el intercambio de caras múltiples gratis en línea integrará sus caras perfectamente en la imagen, ¡creando recuerdos divertidos y compartibles para todos!"
+    },
+    {
+      "title": "Interfaz Fácil de Usar",
+      "para": "Con una interfaz fácil de usar, cualquiera puede realizar un intercambio perfecto de múltiples caras en línea gratis. No se necesita experiencia—solo sube tus fotos y la herramienta de intercambio de caras múltiples hace el resto para obtener resultados sin problemas."
+    }
+  ]
+},
+"swipermf": {
+  "heading": "Mejor Uso del Intercambiador de Caras Múltiples",
+  "subheading": "¿Necesitas mostrar detalles de productos? Usa el mejorador de imágenes AI de AirBrush para escalar imágenes fácilmente para edición o impresión.",
+  "upload": "Subir Imagen",
+  "download": "Descargar App",
+  "cards": [
+    {
+      "src": "/multiface/1.png",
+      "title": "Crea Memes Divertidos Familiares con Intercambio de Caras Múltiples",
+      "description": "Un intercambiador de caras múltiples es perfecto para agregar diversión a fotos grupales, eventos familiares o proyectos creativos. Intercambia fácilmente caras para crear imágenes memorables que se destaquen y provoquen risas en cualquier ocasión."
+    },
+    {
+      "src": "/multiface/2.png",
+      "title": "Intercambio de Caras de Celebridades en Grupo",
+      "description": "Convierte tus fotos familiares en memes divertidísimos con el cambiador de caras múltiples. Intercambia fácilmente caras en fotos grupales para crear momentos divertidos y memorables. Perfecto para bromas, reuniones familiares o simplemente reírse un rato."
+    },
+    {
+      "src": "/multiface/3.png",
+      "title": "Crea Contenido Viral en Redes Sociales con el Cambiador de Caras Múltiples",
+      "description": "Intercambia las caras de celebridades con tus amigos y familiares usando el intercambio de caras múltiples en línea. Ya sea un intercambio de caras en pareja o grupal, crea contenido divertido fácilmente y compártelo al instante en línea."
+    },
+    {
+      "src": "/multiface/4.png",
+      "title": "Explora Nuevas Apariencias con el Intercambio de Caras Grupales",
+      "description": "Crea contenido divertido y compartible para tus redes sociales usando el cambiador de caras múltiples. Intercambia fácilmente caras para generar publicaciones únicas que destaquen, aumenten el engagement e inviten a tus seguidores a dar me gusta, comentar y compartir—ayudando a que tu perfil crezca y se vuelva viral."
+    }
+  ]
+},
+"howUsemf": {
+  "heading": "¿Cómo Usar el Intercambio de Caras?",
+  "cards": [
+    {
+      "code": "\uefeb",
+      "label": "camera_switch",
+      "title": "Paso 1. Sube una foto grupal",
+      "para": "Simplemente sube una foto grupal con múltiples caras, y asegúrate de que tu imagen sea clara y de alta calidad."
+    },
+    {
+      "code": "\ue8a7",
+      "label": "upload",
+      "title": "Paso 2. Sube fotos con las caras objetivo",
+      "para":"Cuando se reconozcan las caras, sube fotos faciales adicionales para cambiar ciertas caras."
+    },
+    {
+      "code": "\ue7ef",
+      "label": "group",
+      "title": "Procesa el intercambio de caras múltiples",
+      "para": "Haz clic en 'Intercambiar Múltiples Caras Ahora'. ¡Descárgalo y compártelo con tus amigos!"
+    }
+  ]
+},
+"editingmf": {
+  "heading": "Todas las Herramientas de Edición de Fotos y Videos en Línea",
+  "cards": [
+    {
+      "src": "/home/img1.webp",
+      "title": "Intercambio de Caras AI",
+      "para":"El Intercambio de Caras AI te permite intercambiar caras fácilmente en cualquier foto. Con unos pocos clics, crea imágenes divertidas o creativas y experimenta infinitas posibilidades con las transformaciones faciales.",
+      "href": "/",
+      "btnText":"Pruébalo Ahora"
+    },
+    {
+      "src": "/multiface/1.png",
+      "title": "Intercambio de Caras Múltiples AI",
+      "para": "El Intercambio de Caras Múltiples AI te permite intercambiar múltiples caras en una sola imagen con facilidad. Perfecto para fotos grupales, crea resultados divertidos y compartibles en solo unos clics.",
+      "href": "/multi-faceswap",
+      "btnText":"Pruébalo Ahora"
+    }
+  ]
+},
+"reviewsmf": {
+  "heading": "Reseñas de Usuarios",
+  "cards": [
+    {
+      "title": "Aarav Mehta",
+      "para":"“¡Me sorprendió lo fácil que fue intercambiar múltiples caras en una sola foto! FaceSwapAI hizo que todo el proceso fuera fluido, y los resultados fueron tan realistas. Es perfecto para fotos grupales y ocasiones especiales.”"
+    },
+    {
+      "title": "Priya Patel",
+      "para":"“FaceSwapAI es una herramienta imprescindible si quieres intercambiar múltiples caras a la vez. Lo usé para una foto de reunión familiar, ¡y los resultados fueron hilarantes y exactos! La IA detectó todas las caras perfectamente, incluso en un grupo grande.”"
+    },
+    {
+      "title": "Liam Johnson",
+      "para": "“¡Esta herramienta es revolucionaria! Probé la función de intercambio múltiple de caras en una foto grupal de mis amigos, y no podíamos dejar de reír con los cambios. ¡La precisión y la velocidad son inigualables!”"
+    },
+    {
+      "title": "Neha Kapoor",
+      "para": "“Este sitio web ha simplificado el intercambio de caras, incluso en grupos grandes. Intercambié caras en una foto de boda con 12 personas, y funcionó perfectamente. Todos quedaron asombrados con los resultados.”"
+    }
+  ]
+},
+"faqsmf": {
+  "heading": "PREGUNTAS FRECUENTES",
+  "cards":  [
+    {
+      "question": "¿Qué es el Intercambio de Caras Múltiples?",
+      "answer": "Te permite intercambiar múltiples caras en una sola imagen al mismo tiempo, lo que lo hace ideal para fotos grupales o ediciones divertidas con varias personas."
+    },
+    {
+      "question": "¿Cómo funciona el intercambio de caras múltiples AI?",
+      "answer": "FaceSwapAI utiliza tecnología AI avanzada para detectar todas las caras en una imagen y luego intercambiarlas sin problemas con otras caras en solo unos pasos."
+    },
+    {
+      "question": "¿El intercambio de caras múltiples es gratis en línea?",
+      "answer": "Sí, ofrecemos una versión gratuita que te permite intercambiar múltiples caras en línea."
+    },
+    {
+      "question": "¿Está segura mi información con Multi Face Swap?",
+      "answer": "Sí, FaceSwapAI prioriza la privacidad del usuario y utiliza cifrado seguro para garantizar que tus imágenes subidas y datos personales estén protegidos."
+    },
+    {
+      "question": "¿Cuánto tiempo se tarda en intercambiar múltiples caras a la vez?",
+      "answer": "El tiempo depende del número de caras y del tamaño de la imagen, pero la mayoría de los intercambios se completan en segundos o pocos minutos."
+    },
+    {
+      "question": "¿Cuántas caras se pueden intercambiar a la vez?",
+      "answer": "FaceSwapAI puede intercambiar múltiples caras a la vez, dependiendo de la complejidad de la imagen, con capacidad para manejar fotos grupales de hasta 2-8 caras."
+    },
+    {
+      "question": "¿FaceSwapAI reduce la calidad de la imagen original?",
+      "answer": "No, FaceSwapAI conserva la calidad de tu imagen original mientras realiza el intercambio de caras, asegurando un resultado en alta resolución."
+    },
+    {
+      "question": "¿Puedo intercambiar caras en fotos grupales grandes?",
+      "answer": "Sí, está diseñado para manejar fotos grupales grandes y puede detectar e intercambiar múltiples caras con precisión en una imagen."
+    },
+    {
+      "question": "¿FaceSwapAI permite subir caras personalizadas para intercambios múltiples?",
+      "answer": "Sí, puedes subir tus propias imágenes o seleccionar entre una variedad de caras disponibles para los intercambios."
+    },
+    {
+      "question": "¿Qué tipos de archivos admite esta herramienta?",
+      "answer": "FaceSwapAI admite formatos de imagen populares como JPEG, PNG y GIF, asegurando compatibilidad con la mayoría de archivos de imagen."
+    }
+  ]
+},
+"blogCard": {
+  "title": "Blog",
+  "blogPost": [
+    {
+      "slug": "swap-face-photoshop",
+      "image": "/blog/blog1.webp",
+      "title": "Intercambiar Cara en Photoshop",
+      "description": "¿Tienes hambre de intuición experta con Photoshop gratis en línea? Si es así, tenemos una guía detallada sobre 'Cómo intercambiar cara en Photoshop'. Intercambiar caras es sin duda un método encantador para mejorar tu alcance en redes sociales con sus técnicas divertidas de morphing de caras, pero intercambiar caras en Photoshop CC...",
+      "isDate": true,
+      "date": "25 de febrero de 2025"
+    },
+    {
+      "slug": "how-to-use-insight-face-swap-discord",
+      "image": "/blog/blog2.webp",
+      "title": "Cómo Usar Insight Face Swap en Discord",
+      "description": "Deja fluir tus ideas creativas plenamente con Insight Face Swap Discord y disfruta de mezclas perfectas de identidades distintivas como nunca antes. Insight Face Swap es el plugin más genial para intercambiar caras donde los usuarios pueden cambiar su rostro por otra imagen usando 'Insight Face…",
+      "isDate": true,
+      "date": "25 de febrero de 2025"
+    }
+  ]
+},
+  "blogDetails": {
+    "swap-face-photoshop": {
+      "slug": "swap-face-photoshop",
+      "image": "/blog/blog1.webp",
+      "title": "Intercambiar Cara en Photoshop",
+      "description": "¿Estás buscando la intuición experta de Photoshop gratis en línea? Si es así, te tenemos cubierto con nuestra guía detallada sobre \"Cómo intercambiar caras en Photoshop\". El intercambio de caras es sin duda un método encantador para mejorar tu alcance en redes sociales con sus técnicas divertidas de morphing facial, pero intercambiar caras en Photoshop CC...",
+      "fullDescription": "¿Estás buscando la intuición experta de Photoshop gratis en línea? Si es así, te tenemos cubierto con nuestra guía detallada sobre \"Cómo intercambiar caras en Photoshop\". El intercambio de caras es sin duda un método encantador para mejorar tu alcance en redes sociales con sus técnicas divertidas de morphing facial, pero intercambiar caras en Photoshop CC es complicado si no conoces el proceso exacto. Así que, para evitar cualquier tipo de confusión, hemos creado una guía paso a paso que hace que sea un proceso sencillo. Para aprender todo sobre ello, mantente atento y diviértete.",
+      "isDate": true,
+      "date": "25 de febrero de 2025",
+    "content":[
+      {
+        "type": "heading",
+        "text": "Descubre Photoshop Gratis en Línea."
+      },
+      {
+        "type": "paragraph",
+        "text": "En el ámbito digital actual, donde la manipulación de fotos con fines estéticos ha ganado popularidad, la técnica de Photoshop gratis en línea es un estímulo avanzado que te permite hacer esto con mayor perfección. Es una aplicación increíble que te permite dar forma a todos tus esfuerzos creativos, permitiéndote acelerar tu viaje de edición con las estadísticas estéticas del intercambio de caras. Además, es muy útil y está enriquecida con muchas características avanzadas que lo convierten en una opción que vale la pena probar."
+      },
+      {
+        "type": "heading",
+        "text": "Desglose de Pasos Clave"
+      },
+      {
+        "type": "paragraph",
+        "text": "El método de intercambio de caras es una técnica brillante de morphing facial que consta de 5 pasos básicos y te permite transformar tus fotos en el resultado deseado. Los siguientes pasos contribuyen a ello."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Selección de las imágenes subjetiva y objetiva",
+          "Mapeo",
+          "Superposición",
+          "Mezcla y revisión",
+          "Guardado y compartir"
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Cómo Intercambiar Cara en Photoshop: Guía Paso a Paso"
+      },
+      {
+        "type": "paragraph",
+        "text": "Para los usuarios que buscan una guía experta sobre cómo intercambiar caras en Photoshop, la siguiente sección con 9 pasos simples y fáciles de seguir está lista para ayudarlos. Sigue la guía proporcionada y disfruta intercambiando caras en Photoshop con excelencia. Comencemos."
+      },
+      {
+        "type": "heading",
+        "text": "Abre el Archivo de Imagen en Photoshop"
+      },
+      {
+        "type": "paragraph",
+        "text": "Lo primero es lo primero, inicia la técnica de intercambio de cara en Photoshop simplemente seleccionando la imagen fuente del archivo de imagen en Photoshop que deseas reemplazar con otra cara. Para ello, haz clic en el archivo, ábrelo y luego, seleccionando la imagen deseada, continúa con el proceso."
+      },
+      {
+        "type": "heading",
+        "text": "Selecciona la Cara Objetivo"
+      },
+      {
+        "type": "paragraph",
+        "text": "Después de abrir la cara fuente en Photoshop, el siguiente paso es seleccionar la cara objetivo que deseas reemplazar con la cara fuente. Para ello, simplemente haz clic en Photoshop y, tocando la opción de segunda cara, accede a tu archivo de imagen. Desde aquí, elige la cara que deseas insertar y continúa."
+      },
+      {
+        "type": "heading",
+        "text": "Copia y Pega la Segunda Cara"
+      },
+      {
+        "type": "paragraph",
+        "text": "Toca y mantén presionada la segunda cara seleccionada de tu lista y cópiala con todos sus detalles. Después de copiarla, ve a la opción de segunda cara e insértala simplemente haciendo clic en la opción de pegar. Para mayor precisión, también puedes usar los",
+
+        "strongSuffix": "“Atajos de Teclado de Photoshop”"
+      },
+      {
+        "type": "heading",
+        "text": "Alinea la Cara"
+      },
+      {
+        "type": "paragraph",
+        "text": [
+          "Avanza hacia la alineación de la cara, que será tu próximo paso. Es el paso en el que reducirás la opacidad al 50% y harás visible el",
+          { "bold": " “Panel de Capas”" },
+          ". Luego, alineando perfectamente la cara con el redimensionamiento y la coincidencia de proporciones, procede al siguiente paso."
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Mapea y Superpone"
+      },
+      {
+        "type": "paragraph",
+        "text": "Para un realismo mejorado y una coincidencia perfecta, mapea la cara con la capa del cuerpo y superpónla ligeramente. La cara recién alineada será tu objetivo en este paso, que necesitarás superponer con el cuerpo."
+      },
+      {
+        "type": "heading",
+        "text": "Selecciona la Capa del Cuerpo"
+      },
+      {
+        "type": "paragraph",
+        "text": "Después de esto, selecciona la capa del cuerpo que vas a reemplazar con la cara. Para ello, puedes optar por la selección automática o simplemente seleccionar la capa del cuerpo con la cara antigua que vas a reemplazar con la nueva."
+      },
+      {
+        "type": "heading",
+        "text": "Superpone la Cara con la Capa del Cuerpo"
+      },
+      {
+        "type": "paragraph",
+        "text": "Ahora es el momento de proceder a la superposición, donde la nueva cara se superpondrá con la capa del cuerpo que has seleccionado para el morphing. Para ello, simplemente haz clic en la opción de modificar con la capa del cuerpo seleccionada y luego, desde la opción de contrato, avanza."
+      },
+      {
+        "type": "heading",
+        "text": "Elimina la Cara de la Capa del Cuerpo"
+      },
+      {
+        "type": "paragraph",
+        "text": "Con el proceso de selección de cara en curso, toca la opción de eliminar y haz que la cara antigua se elimine de la capa del cuerpo en general. Esto eliminará la cara antigua de tu proceso y emergerá una nueva cara."
+      },
+      {
+        "type": "heading",
+        "text": "Mezcla y Revisa"
+      },
+      {
+        "type": "paragraph",
+        "text": "Luego, procede al proceso de mezcla, que determina la perfección de los resultados finales, ya que la mezcla perfecta te llevará hacia un morphing perfecto. También puedes activar la opción “Mezcla Automática” para que el proceso se realice muy bien. Ahora, revísalo y pasa al paso final."
+      },
+      {
+        "type": "heading",
+        "text": "Da los Toques Finales y Guarda"
+      },
+      {
+        "type": "paragraph",
+        "text": "Por último, pero no menos importante, dale los toques finales a tu proceso con los filtros y efectos seleccionados y, simplemente haciendo clic en la opción de guardar, completa tu intercambio de cara en Photoshop. Además, puedes compartir tu creación con amigos y en tus redes sociales."
+      },
+      {
+        "type": "heading",
+        "text": "Consejos Profesionales"
+      },
+      {
+        "type": "paragrah",
+        "text": "Todos aman obtener privilegios adicionales al intercambiar caras para que se pueda disfrutar de un viaje dentro de la aplicación con perfección y resultados finales asignados, y para ayudarte a disfrutar de tu viaje con estos privilegios, hemos establecido los consejos profesionales en esta sección. Los consejos son fáciles de seguir y vale la pena conocerlos. Así que, familiaricémonos con ellos."
+      },
+      {
+        "type": "paragraph",
+        "prefix": "Obtén una Versión Actualizada de la Aplicación:",
+        "text": " ¿Sabes qué es lo que realmente marca la diferencia al asignar perfección a los resultados finales de tu cara intercambiada? Bueno, son las funciones actualizadas más recientes en la versión actualizada las que lo hacen. Así que, obtén una versión actualizada de la aplicación."
+      },
+      {
+        "type": "paragraph",
+        "prefix": "Usa los Atajos de Teclado de Photoshop: ",
+        "text": " Para asignar súper facilidad y suavidad a tu viaje de edición, los atajos de Photoshop hacen magia al usar una PC y son una opción que debes probar para obtener los mejores resultados jamás obtenidos."
+      },
+      {
+        "type": "paragraph",
+        "prefix": "Duplica las Capas de Fondo: ",
+        "text": " No olvides duplicar la capa de fondo, lo que te ayuda a obtener fácilmente la imagen original en el punto de distorsión o proceso destructivo."
+      },
+      {
+        "type": "paragraph",
+        "prefix": "Usa Imágenes de Alta Resolución: ",
+        "text": " Asegúrate de que la imagen que has seleccionado para intercambiar la cara sea de una potencia bien definida y de alta resolución, lo que también garantiza la perfección de tus resultados finales."
+      },
+      {
+        "type": "heading",
+        "text": "Preguntas Frecuentes"
+      },
+      {
+        "type": "paragraph",
+        "text": "¿Cómo puedes poner una cara en otra en Photoshop gratis?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Para poner una cara en otra en Photoshop gratis, externaliza la aplicación de intercambio de caras de Photoshop y completa tu tarea con mayor excelencia sin gastar un solo centavo."
+      },
+      {
+        "type": "paragraph",
+        "text": "¿Hay algún riesgo para nuestro dispositivo en Photoshop gratis en línea?"
+      },
+      {
+        "type": "paragraph",
+        "text": "No, no hay ningún riesgo para tu dispositivo en Photoshop gratis en línea, sino que es completamente seguro y seguro hacerlo todo externalizando Photoshop y siguiendo nuestra guía."
+      },
+      {
+        "type": "paragraph",
+        "text": "¿Podemos intercambiar cabezas en Photoshop?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Sí, por supuesto, puedes intercambiar cabezas en Photoshop siguiendo la guía experta en nuestro sitio web y disfrutar de los intercambios de cabezas divertidos con súper facilidad."
+      },
+      {
+        "type": "heading",
+        "text": "Palabras Finales"
+      },
+      {
+        "type": "paragraph",
+        "text": "Para concluir, en solo 10 pasos puedes dominar el intercambio de caras en Photoshop, que es bastante simple y fácil también, y hemos trabajado arduamente al crear la guía divertida sobre \"Cómo intercambiar caras en Photoshop CS6\". El proceso avanza sin problemas sin problemas correlacionados que te lleven a lograr la máxima perfección en tu viaje. Además, los consejos profesionales para mejorar tus resultados finales se establecen para facilitarte tu camino hacia la creación de retratos humorísticos. Además, los pasos clave se destacan para facilitarte aún más. Así que, explora nuestra publicación y diviértete."
+      }
+    ]
+    },
+    "how-to-use-insight-face-swap-discord": {
+      "slug": "how-to-use-insight-face-swap-discord",
+      "image": "/blog/blog2.webp",
+      "title": "Cómo Usar Insight Face Swap Discord",
+      "description": "Deja que tus ideas creativas fluyan de manera completa con Insight Face Swap Discord y disfruta de mezclas perfectas de identidades distintivas como nunca antes. Insight Face Swap es el complemento más genial de intercambio de caras donde los usuarios pueden cambiar su cara por otra imagen usando un \"Bot de Insight Face…",
+      "fullDescription": "Deja que tus ideas creativas fluyan de manera completa con Insight Face Swap Discord y disfruta de mezclas perfectas de identidades distintivas como nunca antes. Insight Face Swap es el complemento más genial de intercambio de caras donde los usuarios pueden cambiar su cara por otra imagen usando un \"Bot de Insight Face Swap\" y con unos simples comandos pueden hacerlo todo con unos clics. Además, te guiaremos a fondo en el uso de este Discord y en la creación de obras maestras imaginarias.",
+      "isDate": true,
+      "date": "25 de febrero de 2025",
+       "content":  [
+      {
+        "type": "paragraph",
+        "text": "Aquí está todo lo que necesitas saber, desde la guía paso a paso sobre \"Cómo usar Insight Face Swap Discord\" hasta los motivos detrás del uso de este Discord y el método de agregar un Discord al servidor. Así que, mantente atento a la publicación y hazlo todo."
+      },
+      {
+        "type": "heading",
+        "text": "Por Qué Usar un Insight Face Swap Discord"
+      },
+      {
+        "type": "paragraph",
+        "text": "¿Buscas un flujo de trabajo de edición optimizado con dominios de fotografía de alta gama? Si es así, el espacio de intercambio de caras Insight es algo que puede llevarte hacia un espacio divertido y bien organizado. Es el método más genial que funciona muy bien con un bot, permitiéndote superar tus habilidades de edición con algunas perfecciones superlativas y dominios estratégicos divertidos. Ofrece beneficios ilimitados y algunos de los mejores beneficios son los siguientes:"
+      },
+      {
+        "type": "paragraph",
+        "prefix": "Calidad Mejorada de GIF:",
+        "text": " Entre los miles de beneficios, uno de los principales es la calidad mejorada de GIF y el dominio de trabajo que asigna la perfección para sus admiradores."
+      },
+      {
+        "type": "paragraph",
+        "prefix": "IU Interactiva y Diseño Atractivo: ",
+        "text": "Una IU interactiva con un diseño atractivo te espera en el bot, haciendo que tu viaje de edición sea divertido y emocionante."
+      },
+      {
+        "type": "paragraph",
+        "prefix": "Soporte para URL:",
+        "text": " Completar tu tarea con un simple comando de URL es lo que lo distingue del resto de las aplicaciones, convirtiéndolo en un centro completo."
+      },
+      {
+        "type": "paragraph",
+        "prefix": "Marcos y Características Extendidos: ",
+        "text": "Hay un marco extendido con características ilimitadas para ayudarte, que también te facilitan mejorar tus habilidades."
+      },
+      {
+        "type": "heading",
+        "text": "Cómo Usar Insight Face Swap Discord: Guía"
+      },
+      {
+        "type": "paragraph",
+        "text": "El Discord de intercambio de caras Insight es la forma más genial de dominar los intercambios de caras con un bot integrado que es muy simple de usar y te brinda los resultados más geniales en tus ediciones. Es un método que asigna brillantez y que debes probar, y para ayudarte a hacer un uso perfecto de este espacio, los siguientes pasos te ayudarán. Así que, explóralos y aprende las tácticas de uso experto."
+      },
+      {
+        "type": "heading",
+        "text": "Crea un Servidor de Discord"
+      },
+      {
+        "type": "paragraph",
+        "text": "Para comenzar, crear un servidor de Discord es lo primero que debes hacer. Es bastante simple crear uno siguiendo unos pocos pasos simples que son los siguientes:"
+      },
+      {
+        "type": "paragraph",
+        "text": "Haz doble clic para abrir Discord."
+      },
+      {
+        "type": "paragraph",
+        "text": ["Toca la", { "bold": " “Barra de Menú” " }, "."]
+      },
+      {
+        "type": "paragraph",
+        "text": [
+          "Navega hasta la opción",
+          { "bold": " “Agregar Servidor” " },
+          "y haz clic en ella."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": [
+          "Ahora, selecciona ",
+          { "bold": " “Crear el Mío”  " },
+          " y crea tu propio servidor de Discord."
+        ]
+      },
+      {
+        "type": "'heading",
+        "text": "Agrega el Bot de Mid-Journey"
+      },
+      {
+        "type": "paragraph",
+        "text": "Una vez que hayas terminado de crear tu propio servidor de Discord, el siguiente paso es agregar el bot de Midjourney siguiendo unos pocos pasos simples que son los siguientes:"
+      },
+      {
+        "type": "paragraph",
+        "text": "Haz clic para abrir tu propio servidor."
+      },
+      {
+        "type": "paragraph",
+        "text": ["Toca", { "bold": " “Mostrar Lista de Miembros”." }]
+      },
+      {
+        "type": "paragraph",
+        "text": [
+          "Ahora, presiona el icono de",
+          { "bold": " “Agregar Servidor” " },
+          " y accede a la opción “Autorizar”."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Agrega Midjourney y hazlo todo."
+      },
+      {
+        "type": "heading",
+        "text": "Activa el Bot de Intercambio de Caras"
+      },
+      {
+        "type": "paragraph",
+        "text": "Ahora, activa el bot de intercambio de caras y ejecútalo en tu servidor para comenzar el proceso de intercambio de caras. Los siguientes consejos te ayudarán."
+      },
+      {
+        "type": "paragraph",
+        "text": "Haz clic para cargar una imagen destinada al intercambio de caras."
+      },
+      {
+        "type": "paragraph",
+        "text": [
+          "Crea un ID escribiendo",
+          { "bold": " “/save ID” " },
+          "para confirmar el comando."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Ahora, selecciona un nombre de ID y guárdalo."
+      },
+      {
+        "type": "paragraph",
+        "text": "Carga esa imagen con el nombre de ID guardado y ejecuta tu bot de intercambio de caras."
+      },
+      {
+        "type": "heading",
+        "text": "Intercambia Caras"
+      },
+      {
+        "type": "paragraph",
+        "text": "Después de activar el bot de intercambio de caras y generar un ID de intercambio de caras, es hora de intercambiar las caras de tus imágenes siguiendo los comandos proporcionados."
+      },
+      {
+        "type": "paragraph",
+        "text": [
+          "Genera la imagen con el comando ",
+          { "bold": " “/imagine” " },
+          "y presiona enter."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Mejora esa imagen en particular."
+      },
+      {
+        "type": "paragraph",
+        "text": [
+          "Haz clic derecho en la imagen y ve a la opción ",
+          { "bold": " “Aplicaciones” " },
+          "."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": [
+          "Desde aquí, selecciona ",
+          { "bold": " “In Swapper” " },
+          " y coloca la cara cargada en la imagen."
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Ajusta la Imagen y Gestiona los IDs"
+      },
+      {
+        "type": "paragraph",
+        "text": "Por último, pero no menos importante, es hora de ajustar tu imagen intercambiada con los cambios deseados y gestionar los IDs en tu servidor. Los IDs pueden variar de 1 a 10 y pueden cambiarse fácilmente con los siguientes comandos simples."
+      },
+      {
+        "type": "paragraph",
+        "prefix": "Cargar un Nuevo ID: ",
+        "text": [
+          " Haz clic en ",
+          { "bold": " “/save ID” " },
+          " para agregar el nuevo ID a tu servidor."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "prefix": "Eliminar un ID: ",
+        "text": [
+          "Para eliminar un ID, escribe el comando ",
+          { "bold": " “/del ID” " },
+          "y para eliminar todos los IDs guardados puedes escribir "
+        ],
+        "suffix": " “/delall IDs”."
+      },
+      {
+        "type": "paragraph",
+        "prefix": "Cambiar un ID: ",
+        "text": [
+          "También puedes cambiar un ID haciendo clic en la opción ",
+          { "bold": " “/set ID” " },
+          "y estableciendo cualquiera de los IDs deseados como predeterminado según tu elección."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "prefix": "Ver la Lista de IDs: ",
+        "text": [
+          "Para ver una lista de IDs, no necesitas pasar por ningún problema adicional, sino que simplemente escribiendo el comando ",
+          { "bold": " “/list ID” " },
+          "puedes hacerlo todo."
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Cómo Mejorar los Resultados de Insight Face Swap: Consejos"
+      },
+      {
+        "type": "paragraph",
+        "text": "Es un proceso simple y fluido que está involucrado en tu viaje de intercambio de caras en el bot de Insight Face Swap, pero algunos consejos pueden mejorar los resultados finales. Estos son los consejos sugeridos por expertos que son clave para obtener efectos ajustados para tus imágenes transformadas y los siguientes consejos están involucrados en ello."
+      },
+      {
+        "type": "paragraph",
+        "text": "Utiliza formatos de medios distintivos."
+      },
+      {
+        "type": "paragraph",
+        "text": "Aprovecha los comandos y obtén mejores resultados en poco tiempo."
+      },
+      {
+        "type": "paragraph",
+        "text": "Selecciona imágenes de calidad HD con vista ampliada."
+      },
+      {
+        "type": "paragraph",
+        "text": "Crea intercambios de caras personalizados."
+      },
+      {
+        "type": "paragraph",
+        "text": "Familiarízate por completo con el bot de intercambio de caras Insight, junto con todas sus características y espacios técnicos."
+      },
+      {
+        "type": "heading",
+        "text": "Limitaciones de Insight Face Swap en Midjourney"
+      },
+      {
+        "type": "paragraph",
+        "text": "Hay algunos desafíos y limitaciones que los usuarios deben tener en cuenta al usar Insight Face Swap en Midjourney, pero seguir una guía sugerida por expertos como se indica en nuestro sitio web puede ayudarte a superar todos los desafíos. Las siguientes limitaciones contribuyen a ello."
+      },
+      {
+        "type": "paragraph",
+        "text": "Involucra desafíos mecánicos como un dominio completo de los comandos de IDs."
+      },
+      {
+        "type": "paragraph",
+        "text": "Invitar bots al servidor de Discord."
+      },
+      {
+        "type": "paragraph",
+        "text": "Acceder a un dispositivo de alta gama para obtener resultados de alta gama."
+      },
+      {
+        "type": "heading",
+        "text": "Palabras Finales"
+      },
+      {
+        "type": "paragraph",
+        "text": "Se acabaron los días de preocuparse por el uso de Insight Face Swap Discord, ya que hemos llegado con el truco más brillante y encantador para permitirte dominar el intercambio de IA generativa a tu disposición. El Discord de intercambio de caras Insight te facilita completamente tu camino para editar rápidamente con un comando rápido y su bot integrado te brinda la máxima perfección. En cuanto a la pregunta sobre cómo usar Insight Face Swap Discord, nuestra guía seguramente te permitirá sobresalir en hacer que tu edición sea divertida con el bot de Insight Face. Así que, busca ayuda en nuestra guía y domina las habilidades de edición profesional."
+      }
+    ]
+    }
+  },
+
+  "privacy": {
+    "title": "Política de Privacidad",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Última actualización: 3/2/2025",
+        "customMargin": "17px"
+      },
+      {
+        "type": "paragraph",
+        "text": "Esta Política de Privacidad describe cómo PixelMorph (\"nosotros\") recopila, utiliza y comparte información sobre usted cuando utiliza nuestros servicios de procesamiento de imágenes (\"Servicios\"). Estamos comprometidos a proteger su privacidad.",
+        "customMargin": "17px"
+      },
+      {
+        "type": "paragraph",
+        "text": "1. Información que recopilamos"
+      },
+      {
+        "type": "paragraph",
+        "text": "1.1. Información que usted nos proporciona"
+      },
+      {
+        "type": "paragraph",
+        "text": "Imágenes: Cuando utiliza nuestros Servicios, sube imágenes a nuestros servidores para su procesamiento. Almacenamos temporalmente estas imágenes para realizar las operaciones solicitadas (eliminación de fondo, eliminación de marca de agua)."
+      },
+      {
+        "type": "paragraph",
+        "text": "Información opcional de cuenta (si aplica): Si decide crear una cuenta, podemos recopilar información como su dirección de correo electrónico, nombre de usuario y contraseña. *Si no tiene cuentas, elimine esta sección.*"
+      },
+      {
+        "type": "paragraph",
+        "text": "Otra información (si aplica): Si el usuario puede contactarlo de alguna manera, agréguelo."
+      },
+      {
+        "type": "paragraph",
+        "text": "1.2. Información que recopilamos automáticamente"
+      },
+      {
+        "type": "paragraph",
+        "text": "Datos de uso: Podemos recopilar información sobre cómo utiliza nuestros Servicios, como los tipos de funciones que utiliza, la frecuencia de su uso y el tiempo que pasa en nuestra plataforma."
+      },
+      {
+        "type": "paragraph",
+        "text": "Información del dispositivo: Podemos recopilar información sobre el dispositivo que utiliza para acceder a nuestros Servicios, incluido el tipo de dispositivo, sistema operativo, tipo de navegador y dirección IP. *Esto es crucial para la seguridad y solución de problemas.*"
+      },
+      {
+        "type": "paragraph",
+        "text": "Cookies y tecnologías similares: Podemos usar cookies y tecnologías similares (por ejemplo, balizas web, píxeles) para recopilar información sobre su actividad de navegación y preferencias. Puede controlar las cookies a través de la configuración de su navegador. *Vea la sección \"Cookies\" a continuación para más detalles.*"
+      },
+      {
+        "type": "paragraph",
+        "text": "2. Cómo utilizamos su información"
+      },
+      {
+        "type": "paragraph",
+        "text": "Para proporcionar y mejorar nuestros Servicios: Utilizamos las imágenes que sube para realizar el procesamiento solicitado. Utilizamos datos de uso e información del dispositivo para mejorar nuestros Servicios, corregir errores y desarrollar nuevas funciones."
+      },
+      {
+        "type": "paragraph",
+        "text": "Para comunicarnos con usted (si aplica): Si tiene una cuenta o ha proporcionado información de contacto, podemos utilizar su información para enviarle actualizaciones, responder a consultas o brindar soporte al cliente."
+      },
+      {
+        "type": "paragraph",
+        "text": "Con fines de seguridad: Utilizamos la información para proteger la seguridad e integridad de nuestros Servicios, prevenir fraudes y cumplir con obligaciones legales."
+      },
+      {
+        "type": "paragraph",
+        "text": "Para personalizar su experiencia (si aplica): Si recopila información sobre las preferencias del usuario, utilice esta sección."
+      },
+      {
+        "type": "paragraph",
+        "text": "3. Cómo compartimos su información"
+      },
+      {
+        "type": "paragraph",
+        "text": "Con proveedores de servicios externos: Podemos compartir su información con proveedores de servicios externos que nos ayudan a proporcionar nuestros Servicios, como proveedores de almacenamiento en la nube (por ejemplo, AWS, Google Cloud) y proveedores de análisis (por ejemplo, Google Analytics). *Estos proveedores están contractualmente obligados a proteger su información.* **DEBE enumerar los proveedores específicos que utiliza.**"
+      },
+      {
+        "type": "paragraph",
+        "text": "Por razones legales: Podemos divulgar su información si la ley lo exige, como en respuesta a una citación, orden judicial u otro proceso legal. También podemos divulgar su información si creemos que es necesario para proteger nuestros derechos, propiedad o seguridad, o los derechos, propiedad o seguridad de otros."
+      },
+      {
+        "type": "paragraph",
+        "text": "En relación con una transacción comercial: Si estamos involucrados en una fusión, adquisición o venta de activos, su información puede ser transferida como parte de esa transacción."
+      },
+      {
+        "type": "paragraph",
+        "text": "Con su consentimiento: Podemos compartir su información con otros terceros con su consentimiento."
+      },
+      {
+        "type": "paragraph",
+        "text": "4. Retención de datos"
+      },
+      {
+        "type": "paragraph",
+        "text": "Retenemos las imágenes que sube por un tiempo limitado necesario para procesarlas. Las imágenes procesadas y las imágenes cargadas se eliminan típicamente de nuestros servidores dentro de [Especifique el plazo - por ejemplo, 24 horas, 7 días]. Otra información (datos de uso, información del dispositivo) puede conservarse por períodos más largos según sea necesario para fines comerciales legítimos, como mejorar nuestros Servicios y cumplir con obligaciones legales. *Sea específico sobre los períodos de retención.*",
+        "customMargin": "17px"
+      },
+      {
+        "type": "paragraph",
+        "text": "5. Sus derechos y opciones"
+      },
+      {
+        "type": "paragraph",
+        "text": "Acceso y corrección: Puede tener derecho a acceder y corregir la información personal que tenemos sobre usted. Contáctenos en [Su correo de contacto] para realizar dichas solicitudes."
+      },
+      {
+        "type": "paragraph",
+        "text": "Eliminación: Puede tener derecho a solicitar que eliminemos su información personal. Tenga en cuenta que podemos necesitar conservar cierta información por motivos legales o comerciales legítimos."
+      },
+      {
+        "type": "paragraph",
+        "text": "Oposición y restricción: Puede tener derecho a oponerse o restringir nuestro procesamiento de su información personal."
+      },
+      {
+        "type": "paragraph",
+        "text": "Portabilidad de datos: Puede tener derecho a recibir una copia de su información personal en un formato estructurado, de uso común y lectura mecánica."
+      },
+      {
+        "type": "paragraph",
+        "text": "*Estos derechos dependen de la ley aplicable (por ejemplo, GDPR, CCPA). Adapte esta sección a las jurisdicciones donde opera.*"
+      },
+      {
+        "type": "paragraph",
+        "text": "6. Cookies"
+      },
+      {
+        "type": "paragraph",
+        "text": "Utilizamos cookies y tecnologías similares para recopilar información sobre su actividad de navegación y preferencias. Una cookie es un pequeño archivo de texto que se almacena en su dispositivo. Puede controlar las cookies a través de la configuración de su navegador. La mayoría de los navegadores permiten bloquear o eliminar cookies. Sin embargo, bloquear cookies puede afectar su capacidad para utilizar nuestros Servicios. *Si utiliza cookies, DEBE tener una sección dedicada que las explique, incluyendo:* * **Tipos de cookies utilizadas (por ejemplo, de sesión, persistentes, propias, de terceros)** * **Fines de las cookies (por ejemplo, análisis, funcionalidad, publicidad)** * **Cómo gestionar cookies (con enlaces a instrucciones del navegador)** * **Si no usa cookies, elimine esta sección y en la sección 1.2 simplemente diga eso**",
+        "customMargin": "17px"
+      },
+      {
+        "type": "paragraph",
+        "text": "7. Seguridad"
+      },
+      {
+        "type": "paragraph",
+        "text": "Tomamos medidas razonables para proteger su información contra el acceso, uso o divulgación no autorizados. Estas medidas pueden incluir cifrado, controles de acceso y políticas de seguridad de datos. Sin embargo, ningún método de transmisión por internet o almacenamiento electrónico es completamente seguro. *Sea realista sobre las limitaciones de seguridad.*",
+        "customMargin": "17px"
+      },
+      {
+        "type": "paragraph",
+        "text": "8. Privacidad de los niños"
+      },
+      {
+        "type": "paragraph",
+        "text": "Nuestro servicio está destinado a una audiencia general y no recopilamos deliberadamente información personal de niños menores de 16 años. Si tiene menos de 16 años, no use ni proporcione ninguna información en este sitio web.",
+        "customMargin": "17px"
+      },
+      {
+        "type": "paragraph",
+        "text": "9. Cambios a esta Política de Privacidad"
+      },
+      {
+        "type": "paragraph",
+        "text": "Podemos actualizar esta Política de Privacidad de vez en cuando. Publicaremos cualquier cambio en esta página y actualizaremos la fecha de \"Última actualización\". Le recomendamos revisar periódicamente esta Política de Privacidad.",
+        "customMargin": "17px"
+      },
+      {
+        "type": "paragraph",
+        "text": "10. Contáctenos"
+      },
+      {
+        "type": "paragraph",
+        "text": [
+          "Si tiene alguna pregunta sobre esta Política de Privacidad, contáctenos en: ",
+          {
+            "link": {
+              "href": "mailto:shahshawaiz@gmail.com",
+              "text": "shahshawaiz@gmail.com"
+            }
+          }
+        ]
+      }
+    ]
+  },
+"terms": {
+  "title": "Términos de Servicio",
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "Última actualización: 2/3/2025",
+      "customMargin": "17px"
+    },
+    {
+      "type": "paragraph",
+      "text": "Por favor, lea atentamente estos Términos de Servicio (\"Términos\") antes de utilizar el servicio de procesamiento de imágenes PixelMorph (\"Servicio\") operado por PixelMorph Inc. (\"nosotros\", \"nos\" o \"nuestro\"). Al acceder o utilizar el Servicio, usted acepta estar sujeto a estos Términos. Si no está de acuerdo con alguna parte de los Términos, no podrá acceder al Servicio.",
+      "customMargin": "17px"
+    },
+    {
+      "type": "paragraph",
+      "text": "1. Aceptación de los Términos"
+    },
+    {
+      "type": "paragraph",
+      "text": "Al acceder o utilizar el Servicio, usted declara y garantiza que tiene al menos 18 años de edad y que tiene la capacidad legal para aceptar estos Términos. Si utiliza el Servicio en nombre de una organización, usted declara y garantiza que tiene la autoridad para vincular a dicha organización a estos Términos.",
+      "customMargin": "17px"
+    },
+    {
+      "type": "paragraph",
+      "text": "2. Uso del Servicio"
+    },
+    {
+      "type": "paragraph",
+      "text": "2.1. Uso Permitido"
+    },
+    {
+      "type": "paragraph",
+      "text": "Usted puede utilizar el Servicio únicamente con fines legales. Usted acepta no utilizar el Servicio para:",
+      "customMargin": "17px"
+    },
+    {
+      "type": "paragraph",
+      "text": "Subir, procesar o compartir cualquier contenido que sea ilegal, dañino, amenazante, abusivo, acosador, difamatorio, vulgar, obsceno, calumnioso, invasivo de la privacidad de otra persona, odioso o de otra manera objetable."
+    },
+    {
+      "type": "paragraph",
+      "text": "Infringir los derechos de propiedad intelectual de otros, incluidos derechos de autor, marcas registradas y patentes."
+    },
+    {
+      "type": "paragraph",
+      "text": "Subir, procesar o compartir cualquier contenido que contenga virus, malware u otro código dañino."
+    },
+    {
+      "type": "paragraph",
+      "text": "Hacerse pasar por cualquier persona o entidad, o declarar falsamente o tergiversar su afiliación con una persona o entidad."
+    },
+    {
+      "type": "paragraph",
+      "text": "Interferir o interrumpir el Servicio o los servidores o redes conectados al Servicio."
+    },
+    {
+      "type": "paragraph",
+      "text": "Violar cualquier ley o reglamento aplicable."
+    },
+    {
+      "type": "paragraph",
+      "text": "Recopilar o almacenar datos personales de otros usuarios sin su consentimiento expreso."
+    },
+    {
+      "type": "paragraph",
+      "text": "2.2. Contenido del Usuario"
+    },
+    {
+      "type": "paragraph",
+      "text": "Usted es el único responsable del contenido que suba al Servicio (\"Contenido del Usuario\"). Usted conserva la propiedad de su Contenido del Usuario, pero al subirlo al Servicio, nos otorga una licencia no exclusiva, mundial, libre de regalías para usar, reproducir, modificar, adaptar, publicar, traducir, distribuir y mostrar su Contenido del Usuario únicamente con el fin de prestar el Servicio. Usted declara y garantiza que tiene todos los derechos necesarios para otorgarnos esta licencia.",
+      "customMargin": "17px"
+    },
+    {
+      "type": "paragraph",
+      "text": "No reclamamos la propiedad de su Contenido del Usuario; sin embargo, prohibimos estrictamente cualquier actividad que infrinja los derechos de propiedad intelectual.",
+      "customMargin": "17px"
+    },
+    {
+      "type": "paragraph",
+      "text": "3. Propiedad Intelectual"
+    },
+    {
+      "type": "paragraph",
+      "text": "El Servicio y su contenido original, características y funcionalidad son y seguirán siendo propiedad exclusiva de PixelMorph Inc. y sus licenciantes. El Servicio está protegido por leyes de derechos de autor, marcas registradas y otras leyes de los Estados Unidos y de otros países. Nuestras marcas registradas y presentación comercial no pueden utilizarse en relación con ningún producto o servicio sin nuestro consentimiento previo por escrito.",
+      "customMargin": "17px"
+    },
+    {
+      "type": "paragraph",
+      "text": "4. Renuncia de Garantías"
+    },
+    {
+      "type": "paragraph",
+      "text": "El Servicio se proporciona \"tal cual\" y \"según disponibilidad\" sin ninguna garantía de ningún tipo, expresa o implícita, incluidas, entre otras, las garantías implícitas de comerciabilidad, idoneidad para un propósito particular y no infracción. No garantizamos que el Servicio será ininterrumpido, libre de errores, seguro o libre de virus u otros componentes dañinos, ni garantizamos la exactitud, integridad o confiabilidad de los resultados obtenidos del uso del Servicio.",
+      "customMargin": "17px"
+    },
+    {
+      "type": "paragraph",
+      "text": "5. Limitación de Responsabilidad"
+    },
+    {
+      "type": "paragraph",
+      "text": "En ningún caso PixelMorph Inc., sus directores, funcionarios, empleados, socios, agentes, proveedores o afiliados serán responsables por daños indirectos, incidentales, especiales, consecuentes o punitivos, incluidos, entre otros, pérdida de ganancias, datos, uso, buena voluntad u otras pérdidas intangibles, resultantes de: (i) su acceso o uso o imposibilidad de acceder o usar el Servicio; (ii) cualquier conducta o contenido de un tercero en el Servicio; (iii) cualquier contenido obtenido del Servicio; y (iv) acceso no autorizado, uso o alteración de sus transmisiones o contenido, ya sea basado en garantía, contrato, agravio (incluyendo negligencia) o cualquier otra teoría legal, incluso si se nos ha informado de la posibilidad de tales daños.",
+      "customMargin": "17px"
+    },
+    {
+      "type": "paragraph",
+      "text": "6. Legislación Aplicable"
+    },
+    {
+      "type": "paragraph",
+      "text": "Estos Términos se regirán e interpretarán de acuerdo con las leyes del Estado de California, Estados Unidos, sin tener en cuenta sus disposiciones sobre conflictos de leyes.",
+      "customMargin": "17px"
+    },
+    {
+      "type": "paragraph",
+      "text": "7. Cambios en los Términos"
+    },
+    {
+      "type": "paragraph",
+      "text": "Nos reservamos el derecho, a nuestra entera discreción, de modificar o reemplazar estos Términos en cualquier momento. Si una revisión es material, proporcionaremos un aviso con al menos 30 días de antelación antes de que entren en vigor los nuevos términos. Qué constituye un cambio material será determinado a nuestra exclusiva discreción. Al continuar accediendo o utilizando nuestro Servicio después de que dichas revisiones entren en vigor, usted acepta estar sujeto a los términos revisados.",
+      "customMargin": "17px"
+    },
+    {
+      "type": "paragraph",
+      "text": "8. Contáctenos"
+    },
+    {
+      "type": "paragraph",
+      "text": [
+        "Si tiene alguna pregunta sobre estos Términos, por favor contáctenos en: ",
+        {
+          "link": {
+            "href": "mailto:shahshawaiz@gmail.com",
+            "text": "shahshawaiz@gmail.com"
+          }
+        }
+      ]
+    }
+  ]
+},
+
+"about": {
+  "title": "Acerca de PixelMorph",
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "PixelMorph es una plataforma simple y fácil de usar que ofrece servicios de procesamiento de imágenes rápidos y gratuitos. Nuestro objetivo es hacer que la edición de imágenes sea accesible para todos mediante herramientas como la eliminación de fondos y marcas de agua, todo en solo unos clics.",
+      "customMargin": "17px"
+    },
+    {
+      "type": "paragraph",
+      "text": "Características Clave"
+    },
+    {
+      "type": "paragraph",
+      "text": "Elimina fondos de imágenes sin esfuerzo con inteligencia artificial."
+    },
+    {
+      "type": "paragraph",
+      "text": "Borra marcas de agua de imágenes de forma rápida y eficiente."
+    },
+    {
+      "type": "paragraph",
+      "text": "No necesitas software complejo: todo es en línea y gratuito."
+    },
+    {
+      "type": "paragraph",
+      "text": "Interfaz fácil de usar diseñada para la simplicidad."
+    },
+    {
+      "type": "paragraph",
+      "text": "Procesamiento rápido con resultados de alta calidad."
+    },
+    {
+      "type": "paragraph",
+      "text": "Nuestra Misión"
+    },
+    {
+      "type": "paragraph",
+      "text": "Nuestra misión es ofrecer herramientas de edición de imágenes gratuitas y fáciles de usar para todos. Creemos que el procesamiento de imágenes de alta calidad debe ser accesible sin software costoso ni conocimientos técnicos. Con PixelMorph, cualquiera puede obtener resultados profesionales.",
+      "customMargin": "17px"
+    },
+    {
+      "type": "paragraph",
+      "text": "¿Por Qué Elegirnos?"
+    },
+    {
+      "type": "paragraph",
+      "text": "PixelMorph se destaca por su simplicidad y eficiencia. Ya sea que necesites eliminar un fondo para fotos de productos o quitar marcas de agua de imágenes personales, nuestras herramientas están diseñadas para que el proceso sea lo más fácil y fluido posible."
+    }
+  ]
 }
+}
+
+

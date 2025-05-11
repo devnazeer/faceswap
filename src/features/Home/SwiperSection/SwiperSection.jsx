@@ -20,8 +20,8 @@ function SwiperSection() {
         <Typography variant="h2" component="h2" align="center">
           {t("swiperSection.heading")}
         </Typography>
-        <Grid container spacing={4}>
-          <Grid size={{ xs: 12, sm: 6 }}>
+        <Grid container spacing={4} justifyContent={"center"}>
+          <Grid size={{ xs: 12, sm: 6, md: 5, lg: 6 }}>
             <Box
               sx={{
                 position: "sticky !important",
@@ -43,7 +43,7 @@ function SwiperSection() {
             </Box>
           </Grid>
 
-          <Grid size={{ xs: 12, sm: 6 }}>
+          <Grid size={{ xs: 12, sm: 6, md: 5, lg: 6 }}>
             <Box
               sx={{
                 display: "flex",

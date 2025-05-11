@@ -1,6 +1,6 @@
 {
   "hero": {
-    "title": "Best Face Swapper Online",
+    "title": "Free AI Face Swap - Best Face Swapper Online",
     "para": "Explore the fun of AI Face Swap with our free Face Swapper. Swap faces instantly with friends, celebrities, or anyone! AI makes it easy and fun to create unique, shareable face swaps in seconds.",
     "uploadPara1":"Upload Face",
     "uploadPara2":"Base Image",
@@ -1034,7 +1034,7 @@
     },
     {
       "type": "paragraph",
-      "text":[ "If you have any questions about this Privacy Policy, please contact us at:",
+      "text":[ "If you have any questions about this Privacy Policy, please contact us at: ",
        {
           "link": {
             "href": "mailto:shahshawaiz@gmail.com",
@@ -1173,7 +1173,7 @@
     {
       "type": "paragraph",
       "text": [
-        "If you have any questions about these Terms, please contact us at ",
+        "If you have any questions about these Terms, please contact us at: ",
         {
           "link": {
             "href": "mailto:shahshawaiz@gmail.com",
