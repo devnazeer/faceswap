@@ -1,4 +1,4 @@
-import { Box, Typography } from "@mui/material";
+import { Box, Grid, Typography } from "@mui/material";
 import React from "react";
 import Icon from "../Icon/Icon";
 
@@ -15,8 +15,10 @@ function UniqueCards({
   return (
     <>
       {isCard && (
-        <Box
+        <Grid
+          rowGap={"16px"}
           className="uniqueCard"
+          container
           sx={{
             height: "100%",
             width: "100%",
@@ -33,17 +35,32 @@ function UniqueCards({
             transition: "all 0.3s linear",
           }}
         >
-          <Typography variant="h3" component="h3" marginBottom={"16px"}>
-            {title}
-          </Typography>
-          <Typography
-            variant="p"
-            component="p"
-            sx={{ color: "#9ca3af", margin: 0 }}
-          >
-            {para}
-          </Typography>
-        </Box>
+          <Grid size={12} sx={{ height: { xs: "auto", sm: "72px" } }}>
+            <Box sx={{ width: "100%", height: "100%" }}>
+              <Typography variant="h3" component="h3" marginBottom={"0px"}>
+                {title}
+              </Typography>
+            </Box>
+          </Grid>
+          <Grid size={12} height={{ xs: "auto", sm: "calc(100% - 72px)" }}>
+            <Box
+              sx={{
+                width: "100%",
+                height: "100%",
+                display: "flex",
+                alignItems: "start",
+              }}
+            >
+              <Typography
+                variant="p"
+                component="p"
+                sx={{ color: "#9ca3af", margin: 0 }}
+              >
+                {para}
+              </Typography>
+            </Box>
+          </Grid>
+        </Grid>
       )}
       {isIcon && (
         <Box

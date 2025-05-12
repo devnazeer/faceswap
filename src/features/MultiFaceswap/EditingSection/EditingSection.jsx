@@ -24,7 +24,7 @@ function EditingSection() {
           </Typography>
           <Grid container spacing={"24px"} justifyContent={"center"}>
             {items.map((item, id) => (
-              <Grid key={id} size={{ xs: 12, sm: 6, md: 5 }}>
+              <Grid key={id} size={{ xs: 12, sm: 6, md: 4 }}>
                 <Card
                   src={item?.src}
                   title={item.title}
