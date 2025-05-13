@@ -9,6 +9,7 @@ const Card = ({ title, description, src, isBtn, href, btnText }) => {
       <Box
         sx={{
           display: "flex",
+          // justifyContent: "space-between",
           alignItems: "center",
           flexDirection: !isBtn ? { xs: "column", lg: "row" } : "column",
           background: "#141414",
@@ -36,6 +37,7 @@ const Card = ({ title, description, src, isBtn, href, btnText }) => {
         <Box
           sx={{
             boxSizing: "border-box",
+            height: "100%",
             width: !isBtn ? { xs: "100%", lg: "50%" } : "100%",
             py: !isBtn
               ? { xs: "50px", sm: "16px", md: "50px", lg: "16px" }
@@ -43,30 +45,35 @@ const Card = ({ title, description, src, isBtn, href, btnText }) => {
             px: !isBtn
               ? { xs: "20px", sm: "16px", md: "16px", lg: "16px" }
               : { xs: "20px", md: "20px" },
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "space-between",
           }}
         >
-          <Typography variant="h3" component="h3" mb={"8px"}>
-            {title}
-          </Typography>
-          <Typography
-            variant="p"
-            component="p"
-            mb={"0px"}
-            sx={{
-              color: "#9ca3af",
-              fontSize: "16px",
-            }}
-          >
-            {description}
-          </Typography>
+          <Box>
+            <Typography variant="h3" component="h3" mb={"8px"}>
+              {title}
+            </Typography>
+            <Typography
+              variant="p"
+              component="p"
+              mb={"0px"}
+              sx={{
+                color: "#9ca3af",
+                fontSize: "16px",
+              }}
+            >
+              {description}
+            </Typography>
+          </Box>
           {isBtn && (
             <Box sx={{ mt: "80px" }}>
               <ButtonLabel
                 btnText={btnText}
                 href={href}
                 sx={{
-                  width: "100% !important",
-                  // mx: "auto !important",
+                  // width: "100% !important",
+                  mx: "auto !important",
                 }}
               />
             </Box>

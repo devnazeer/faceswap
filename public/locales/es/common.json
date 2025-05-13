@@ -1,4 +1,8 @@
 {
+   "seo": {
+    "title": "Intercambio de caras con IA gratis: el mejor intercambiador de caras online",
+    "description": "Explora la diversión del intercambio de caras con IA con nuestro Intercambiador de Caras gratuito. ¡Intercambia caras al instante con amigos, celebridades o cualquier persona! La IA hace que sea fácil y divertido crear intercambios de caras únicos y compartibles en segundos."
+  },
   "hero": {
     "title": "Intercambio de caras con IA gratis: el mejor intercambiador de caras online",
     "para": "Explora la diversión del intercambio de caras con IA con nuestro Intercambiador de Caras gratuito. ¡Intercambia caras al instante con amigos, celebridades o cualquier persona! La IA hace que sea fácil y divertido crear intercambios de caras únicos y compartibles en segundos.",
@@ -194,14 +198,6 @@
   {
     "name": "Blogs",
     "href": "/blog"
-  },
-  {
-    "name": "Privacy Policy",
-    "href": "/privacy"
-  },
-  {
-    "name": "Terms of Service",
-    "href": "/terms"
   },
   {
     "name": "About",

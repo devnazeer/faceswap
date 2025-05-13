@@ -6,7 +6,8 @@ import Link from "next/link";
 import { useTranslation } from "react-i18next";
 
 const Blog = () => {
-  const { t } = useTranslation("common");
+  const { t, i18n } = useTranslation("common");
+  const currentLang = i18n.language;
   const post = t("blogCard.blogPost", { returnObjects: true });
   return (
     <Box>
@@ -26,7 +27,7 @@ const Blog = () => {
               <Grid key={id} size={{ xs: 12, sm: 6, md: 4 }}>
                 <Link
                   style={{ textDecoration: "none" }}
-                  href={`/blog/${item.slug}`}
+                  href={`/${currentLang}/blog/${item.slug}`}
                   passHref
                 >
                   <ImageCard

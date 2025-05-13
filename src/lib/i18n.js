@@ -9,7 +9,9 @@ import pt from "../../public/locales/pt/common.json";
 import es from "../../public/locales/es/common.json";
 import id from "../../public/locales/id/common.json";
 
-// Sync init (load all locales here)
+// ✅ Define and export locales as an array
+export const locales = ["en", "de", "ru", "pt", "es", "id"];
+
 i18n.use(initReactI18next).init({
   resources: {
     en: { common: en },
@@ -19,7 +21,7 @@ i18n.use(initReactI18next).init({
     es: { common: es },
     id: { common: id },
   },
-  lng: "en", // default language
+  lng: "en",
   fallbackLng: "en",
   debug: false,
   interpolation: {

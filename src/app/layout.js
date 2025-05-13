@@ -1,7 +1,6 @@
+import ClientOnly from "@/Components/ClientOnly";
+import { NextIntlClientProvider } from "next-intl";
 import { Roboto } from "next/font/google";
-import ClientLayoutWrapper from "@/Components/ClientLayoutWrapper/ClientLayoutWrapper";
-import "./globals.css";
-// import "../lib/i18n";
 
 const roboto = Roboto({
   weight: ["300", "400", "500", "700"],
@@ -10,18 +9,12 @@ const roboto = Roboto({
   variable: "--font-roboto",
 });
 
-export const metadata = {
-  title: "Free AI Face Swap – Best Face Swapper Online",
-  description:
-    "Explore the fun of AI Face Swap with our free Face Swapper. Swap faces instantly with friends, celebrities, or anyone! AI makes it easy and fun to create unique, shareable face swaps in seconds.",
-};
-
-export default function RootLayout({ children }) {
+export default function RootLayout({ children, params }) {
+  const { locale } = params;
   return (
-    <html lang="en" data-arp="">
-      <head></head>
-      <body className={roboto.variable} inmaintabuse="1">
-        <ClientLayoutWrapper>{children}</ClientLayoutWrapper>
+    <html lang={locale} className={roboto.variable} data-arp="">
+      <body inmaintabuse="1">
+        <ClientOnly>{children}</ClientOnly>
       </body>
     </html>
   );

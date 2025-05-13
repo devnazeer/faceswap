@@ -1,3 +1,4 @@
+"use client";
 import UniqueCards from "@/Components/UniqueCards/UniqueCards";
 import { Box, Container, Grid, Typography } from "@mui/material";
 import React from "react";
@@ -7,6 +8,7 @@ function UniqueSection() {
   const { t } = useTranslation("common");
 
   const items = t("unique.items", { returnObjects: true });
+  console.log(t("unique.items", { returnObjects: true }));
 
   return (
     <>

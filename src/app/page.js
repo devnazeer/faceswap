@@ -1,3 +1,4 @@
+// // "use client";
 // import Image from "next/image";
 // import styles from "./page.module.css";
 // import { Box, Button, Container, Typography } from "@mui/material";
@@ -12,15 +13,13 @@
 //   );
 // }
 
-"use client";
-import Image from "next/image";
-import styles from "./page.module.css";
-import { Box } from "@mui/material";
-import HomePage from "@/features/Home";
+import { redirect } from "next/navigation";
+
+export async function generateMetadata() {
+  return {};
+}
+
 export default function Home() {
-  return (
-    <Box>
-      <HomePage />
-    </Box>
-  );
+  // redirect to your default locale
+  redirect("/en");
 }

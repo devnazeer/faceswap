@@ -9,6 +9,7 @@ function HeroSec({
   title,
   para,
   src,
+  alt,
   isHome,
   uploadPara1,
   uploadPara2,
@@ -46,8 +47,8 @@ function HeroSec({
           )}
           {isMfs && (
             <Typography
-              variant="h1"
-              component="h1"
+              variant="h2"
+              component="h2"
               align="center"
               sx={{ mb: "16px" }}
             >
@@ -57,7 +58,7 @@ function HeroSec({
           <Typography
             variant="p"
             component="p"
-            sx={{ mb: "32px", color: "#fffc", px: { xs: "16px", sm: "48px" } }}
+            sx={{ mb: "32px", color: "#fffc", px: { xs: "16px", sm: "px" } }}
             align="center"
           >
             {para}
@@ -72,10 +73,9 @@ function HeroSec({
                   objectFit: "contain",
                   maxWidth: "100%",
                   height: "auto",
-                  // aspectRatio:
                   borderRadius: "20px",
                 }}
-                alt="image"
+                alt={"Face Shape Detector"}
               />
             </Grid>
             <Grid size={{ xs: 12, md: 6, lg: 4 }}>

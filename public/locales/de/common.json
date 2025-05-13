@@ -1,4 +1,11 @@
 {
+    "seo": {
+    "title": "ddededededededed",
+    "description": "fyuuuuuuuuuuuuuuuuuuuuuuu",
+    "url": "https://yourdomain.com",
+    "image": "https://yourdomain.com/seo-image.jpg",
+    "imageAlt": "AI Face Swap Example"
+  },
   "hero": {
     "title": "Kostenloser AI Face Swap - Bester Face Swapper Online",
     "para": "Entdecke den Spaß am KI Gesichter tauschen Programm mit unserem kostenlosen Face Swapper. Tausche Gesichter sofort mit Freunden, Prominenten oder jedem anderen aus! KI macht es einfach und unterhaltsam, in Sekundenschnelle einzigartige, teilbare Gesichtstauschbilder zu erstellen",
@@ -194,14 +201,6 @@
   {
     "name": "Blogs",
     "href": "/blog"
-  },
-  {
-    "name": "Privacy Policy",
-    "href": "/privacy"
-  },
-  {
-    "name": "Terms of Service",
-    "href": "/terms"
   },
   {
     "name": "About",

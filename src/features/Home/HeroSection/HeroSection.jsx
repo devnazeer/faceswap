@@ -10,6 +10,7 @@ function HeroSection() {
   return (
     <>
       <HeroSec
+        isMfs={false}
         title={t("hero.title")}
         para={t("hero.para")}
         src="/home/1.webp"

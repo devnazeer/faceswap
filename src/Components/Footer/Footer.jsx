@@ -8,7 +8,9 @@ import LanguageToggle from "../LanguageToggle/LanguageToggle";
 import { useTranslation } from "react-i18next";
 
 function Footer() {
-  const { t } = useTranslation("common");
+  const { t, i18n } = useTranslation("common");
+  const currentLang = i18n.language;
+
   return (
     <>
       <>
@@ -65,7 +67,7 @@ function Footer() {
                     variant="a"
                     component="a"
                     className="footerLists"
-                    href="/"
+                    href={`/${currentLang}/`}
                   >
                     {t("footer.faceswap")}
                   </Typography>
@@ -73,7 +75,7 @@ function Footer() {
                     variant="a"
                     component="a"
                     className="footerLists"
-                    href="/multi-faceswap"
+                    href={`/${currentLang}/multi-faceswap`}
                   >
                     {t("footer.multiface")}
                   </Typography>
@@ -90,7 +92,7 @@ function Footer() {
                     variant="a"
                     component="a"
                     className="footerLists"
-                    href="/about"
+                    href={`/${currentLang}/about`}
                   >
                     {t("footer.about")}
                   </Typography>
@@ -98,7 +100,7 @@ function Footer() {
                     variant="a"
                     component="a"
                     className="footerLists"
-                    href="/terms"
+                    href={`/${currentLang}/terms`}
                   >
                     {t("footer.terms")}
                   </Typography>
@@ -106,7 +108,7 @@ function Footer() {
                     variant="a"
                     component="a"
                     className="footerLists"
-                    href="/privacy"
+                    href={`/${currentLang}/privacy`}
                   >
                     {t("footer.privacy")}
                   </Typography>
@@ -114,7 +116,7 @@ function Footer() {
                     variant="a"
                     component="a"
                     className="footerLists"
-                    href="/blog"
+                    href={`/${currentLang}/blog`}
                   >
                     {t("footer.blog")}
                   </Typography>
