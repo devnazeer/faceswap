@@ -12,7 +12,8 @@ function Header({ onClick }) {
         padding: "16px",
         boxSizing: "border-box",
         backdropFilter: "blur(5px)",
-        backgroundColor: "#0d223794",
+        background: "#1f2937",
+        // backgroundColor: "#0d223794",
       }}
     >
       <Box

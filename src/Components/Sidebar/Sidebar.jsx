@@ -31,111 +31,116 @@ const Sidebar = ({ children }) => {
   };
   return (
     <>
-      <Box
-        sx={{
-          pt: "24px",
-          borderBottom: "1px solid #1f2937",
-          boxSizing: "border-box",
-          backgroundColor: "#000",
-          position: "fixed",
-          top: "0",
-          left: "0",
-          height: "100%",
-          width: isOpen ? "256px" : "0px",
-          transition: " all 0.2s linear",
-          zIndex: "100 ",
-          overflowY: "scroll",
-          "&::-webkit-scrollbar": {
-            width: "4px",
-          },
-          "&::-webkit-scrollbar-track": {
-            background: "transparent",
-          },
-          "&::-webkit-scrollbar-thumb": {
-            background: "#2a2e38",
-            borderRadius: "5px",
-          },
-        }}
-      >
-        <Box sx={{ textAlign: "center" }}>
-          <Link href="/">
-            <Image
-              src="/logo.png"
-              width={208}
-              height={80}
-              style={{
-                maxWidth: "100%",
-                height: "80px",
-                aspectRatio: "13 / 5",
-                objectFit: "contain",
-                objectPosition: "center",
-              }}
-              alt="logo"
-            />
-          </Link>
-        </Box>
+      <Box sx={{ display: { xs: "none", md: "block" } }}>
         <Box
-          component={"div"}
           sx={{
+            pt: "24px",
             borderBottom: "1px solid #1f2937",
-            padding: isOpen ? "24px" : "0px",
+            boxSizing: "border-box",
+            backgroundColor: "#000",
+            position: "fixed",
+            top: "0",
+            left: "0",
+            height: "100%",
+            width: isOpen ? "256px" : "0px",
+            // width: isOpen
+            // ? { xs: "100%", md: "calc(100% - 256px)" }
+            // : { xs: "100%", md: "calc(100% - 0px)" },
+            transition: " all 0.2s linear",
+            zIndex: "100 ",
+            overflowY: "scroll",
+            "&::-webkit-scrollbar": {
+              width: "4px",
+            },
+            "&::-webkit-scrollbar-track": {
+              background: "transparent",
+            },
+            "&::-webkit-scrollbar-thumb": {
+              background: "#2a2e38",
+              borderRadius: "5px",
+            },
           }}
         >
-          <List
+          <Box sx={{ textAlign: "center" }}>
+            <Link href="/">
+              <Image
+                src="/logo.png"
+                width={208}
+                height={80}
+                style={{
+                  maxWidth: "100%",
+                  height: "auto",
+                  aspectRatio: "208 / 80",
+                  objectFit: "contain",
+                  objectPosition: "center",
+                }}
+                alt="logo"
+              />
+            </Link>
+          </Box>
+          <Box
+            component={"div"}
             sx={{
-              padding: "0",
-              display: "flex",
-              flexDirection: "column",
-              gap: "8px",
+              borderBottom: "1px solid #1f2937",
+              padding: isOpen ? "24px" : "0px",
             }}
           >
-            {items.map((item, id) => (
-              <ListItem
-                key={item.href}
-                disablePadding
-                sx={{
-                  "&:hover": {
-                    color: "#fff",
-                    background: "#0891b2",
-                    width: "100%",
-                    borderRadius: "5px",
-                  },
-                }}
-              >
-                <Link
-                  href={`/${currentLang}${item.href}`}
+            <List
+              sx={{
+                padding: "0",
+                display: "flex",
+                flexDirection: "column",
+                gap: "8px",
+              }}
+            >
+              {items.map((item, id) => (
+                <ListItem
+                  key={item.href}
+                  disablePadding
                   sx={{
-                    padding: "8px 16px",
-                    textDecoration: "none",
-                    cursor: "pointer",
-                    color: "#fff",
-                    transition: "all 0.3s linear",
-                    "&:hover span": {
+                    "&:hover": {
                       color: "#fff",
                       background: "#0891b2",
                       width: "100%",
+                      borderRadius: "5px",
                     },
                   }}
                 >
-                  <Typography
-                    className="text"
-                    variant="span"
-                    component="span"
+                  <Link
+                    href={`/${currentLang}${item.href}`}
                     sx={{
-                      margin: "0",
-                      fontWeight: pathname == item.href ? "700" : "400",
-                      fontSize: pathname == item.href ? "18px" : "16px",
-                      transition: "opacity 0.3s linear",
-                      opacity: isOpen ? "1" : "0",
-                      display: isOpen ? "block" : "none",
+                      padding: "8px 16px",
+                      textDecoration: "none",
+                      cursor: "pointer",
+                      color: "#fff",
+                      transition: "all 0.3s linear",
+                      "&:hover span": {
+                        color: "#fff",
+                        background: "#0891b2",
+                        width: "100%",
+                      },
                     }}
                   >
-                    {item.name}
-                  </Typography>
-                </Link>
-              </ListItem>
-            ))}
-          </List>
+                    <Typography
+                      className="text"
+                      variant="span"
+                      component="span"
+                      sx={{
+                        margin: "0",
+                        fontWeight: pathname == item.href ? "700" : "400",
+                        fontSize: pathname == item.href ? "18px" : "16px",
+                        transition: "opacity 0.3s linear",
+                        opacity: isOpen ? "1" : "0",
+                        display: isOpen ? "block" : "none",
+                      }}
+                    >
+                      {item.name}
+                    </Typography>
+                  </Link>
+                </ListItem>
+              ))}
+            </List>
+          </Box>
         </Box>
       </Box>
       <Box
@@ -143,7 +148,7 @@ const Sidebar = ({ children }) => {
           position: "relative",
           width: isOpen
             ? { xs: "100%", md: "calc(100% - 256px)" }
-            : { xs: "100%", md: "calc(100% - 0px)" },
+            : { xs: "100%", md: "100%" },
           left: isOpen ? { xs: "0px", md: "256px" } : { xs: "0px", md: "0px" },
           transition: "all 0.2s linear",
         }}
@@ -151,8 +156,10 @@ const Sidebar = ({ children }) => {
         <Box
           sx={{
             top: "0%",
-            position: "fixed",
-            width: isOpen ? "calc(100% - 256px)" : "100%",
+            // position: "fixed",
+            position: "sticky",
+            // width: isOpen ? "calc(100% - 256px)" : "100%",
+            width: "100%",
             boxSizing: "border-box",
             transition: "all 0.2s linear",
             zIndex: "100",
@@ -165,7 +172,7 @@ const Sidebar = ({ children }) => {
             <Header onClick={toggleHandler} />
           </Box>
         </Box>
-        <Box sx={{ width: "100%", height: "66px", background: "#000" }} />
+        {/* <Box sx={{ width: "100%", height: "66px", background: "#000" }} /> */}
         <Box sx={{ boxSizing: "border-box" }}>
           <Box>{children}</Box>
         </Box>
