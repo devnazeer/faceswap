@@ -120,8 +120,8 @@ const BlogDetail = () => {
         </Container>
         <Container maxWidth="md">
           <Typography
-            variant="h2"
-            component="h2"
+            variant="h1"
+            component="h1"
             sx={{ color: "#000 ", pt: "24px", mb: "16px" }}
             // gutterBottom
           >

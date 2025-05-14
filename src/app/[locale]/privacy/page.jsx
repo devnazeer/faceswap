@@ -105,7 +105,7 @@ const Privacy = () => {
       <Box>
         <Box sx={{ pt: "24px", background: "#000" }}>
           <Container maxWidth="md">
-            <Typography variant="h2" component={"h2"} mb={"24px"}>
+            <Typography variant="h1" component={"h1"} mb={"24px"}>
               {t("privacy.title")}
             </Typography>
             <Box pb={"32px"}>

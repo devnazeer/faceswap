@@ -35,30 +35,18 @@ function HeroSec({
         }}
       >
         <Container maxWidth="lg">
-          {isHome && (
-            <Typography
-              variant="h1"
-              component="h1"
-              align="center"
-              sx={{ mb: "16px" }}
-            >
-              {title}
-            </Typography>
-          )}
-          {isMfs && (
-            <Typography
-              variant="h2"
-              component="h2"
-              align="center"
-              sx={{ mb: "16px" }}
-            >
-              {title}
-            </Typography>
-          )}
+          <Typography
+            variant="h1"
+            component="h1"
+            align="center"
+            sx={{ mb: "16px" }}
+          >
+            {title}
+          </Typography>
           <Typography
             variant="p"
             component="p"
-            sx={{ mb: "32px", color: "#fffc", px: { xs: "16px", sm: "px" } }}
+            sx={{ mb: "32px", color: "#fffc", px: { xs: "16px", sm: "24px" } }}
             align="center"
           >
             {para}

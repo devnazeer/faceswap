@@ -103,7 +103,7 @@ const Sidebar = ({ children }) => {
                 }}
               >
                 <Link
-                  href={`/${currentLang}/${item.href}`}
+                  href={`/${currentLang}${item.href}`}
                   sx={{
                     padding: "8px 16px",
                     textDecoration: "none",
@@ -267,7 +267,7 @@ const Sidebar = ({ children }) => {
                   }}
                 >
                   <Link
-                    href={`/${currentLang}/${item.href}`}
+                    href={`/${currentLang}${item.href}`}
                     sx={{
                       padding: "8px 16px",
                       textDecoration: "none",

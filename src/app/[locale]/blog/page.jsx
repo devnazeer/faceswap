@@ -19,7 +19,7 @@ const Blog = () => {
         }}
       >
         <Container maxWidth="lg">
-          <Typography variant="h2" component="h2">
+          <Typography variant="h1" component="h1">
             {t("blogCard.title")}
           </Typography>
           <Grid container spacing={"24px"}>

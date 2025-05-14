@@ -10,11 +10,11 @@ function HeroSection() {
   return (
     <>
       <HeroSec
-        isMfs={false}
+        // isMfs={false}
         title={t("hero.title")}
         para={t("hero.para")}
         src="/home/1.webp"
-        isHome={true}
+        // isHome={true}
         uploadPara1={t("hero.uploadPara1")}
         uploadPara2={t("hero.uploadPara2")}
         code1="&#xe7fe;"

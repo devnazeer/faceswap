@@ -10,8 +10,8 @@ function HeroSection() {
   return (
     <>
       <HeroSec
-        isHome={false}
-        isMfs={true}
+        // isHome={false}
+        // isMfs={true}
         title={t("heromf.title")}
         para={t("heromf.para")}
         src="/multiface/hero.jpg"
