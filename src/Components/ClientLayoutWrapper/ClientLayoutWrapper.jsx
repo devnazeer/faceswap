@@ -20,14 +20,16 @@ export default function ClientLayoutWrapper({ children, locale }) {
   }, [locale, i18n]);
 
   return (
-    <LanguageProvider>
-      <AppRouterCacheProvider options={{ key: "css", enableCssLayer: true }}>
-        <ThemeProvider theme={theme}>
-          <Sidebar>
-            <Suspense fallback={<Loading />}>{children}</Suspense>
-          </Sidebar>
-        </ThemeProvider>
-      </AppRouterCacheProvider>
-    </LanguageProvider>
+    <Suspense fallback={<Loading />}>
+      <LanguageProvider>
+        <AppRouterCacheProvider options={{ key: "css", enableCssLayer: true }}>
+          <ThemeProvider theme={theme}>
+            <Sidebar>
+              <Suspense fallback={<Loading />}>{children}</Suspense>
+            </Sidebar>
+          </ThemeProvider>
+        </AppRouterCacheProvider>
+      </LanguageProvider>
+    </Suspense>
   );
 }
