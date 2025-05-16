@@ -8,7 +8,6 @@ function UniqueSection() {
   const { t } = useTranslation("common");
 
   const items = t("unique.items", { returnObjects: true });
-  console.log(t("unique.items", { returnObjects: true }));
 
   return (
     <>

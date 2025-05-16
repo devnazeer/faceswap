@@ -11,12 +11,8 @@ import { useTranslation } from "react-i18next";
 const Sidebar = ({ children }) => {
   const { t, i18n } = useTranslation("common");
   const currentLang = i18n.language;
-  console.log(currentLang, "current");
 
   const items = t("sidebar.cards", { returnObjects: true }) || [];
-
-  // const rawItems = t("sidebar.cards", { returnObjects: true });
-  // const items = Array.isArray(rawItems) ? rawItems : [];
 
   const [isOpen, setIsOpen] = useState(false);
   const [drawar, setDrawar] = useState(false);
@@ -29,6 +25,7 @@ const Sidebar = ({ children }) => {
   const toggleDrawer = () => {
     setDrawar(!drawar);
   };
+
   return (
     <>
       <Box sx={{ display: { xs: "none", md: "block" } }}>

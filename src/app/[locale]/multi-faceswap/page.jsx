@@ -7,7 +7,15 @@ export async function generateStaticParams() {
 
   return locales.map((locale) => ({ locale }));
 }
+export async function generateMetadata({ params }) {
+  const { locale } = params;
 
+  return {
+    alternates: {
+      canonical: `https://faceswaponline.ai/${locale}/multi-faceswap`,
+    },
+  };
+}
 function MultiFaceswap() {
   return (
     <>

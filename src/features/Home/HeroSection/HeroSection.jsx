@@ -25,6 +25,7 @@ function HeroSection() {
         labelBtn={"cached"}
         btnText={t("hero.btnText")}
         note={t("hero.note")}
+        apiUrl={"http://147.93.62.9:8765/faceswap"}
       />
     </>
   );

@@ -1,4 +1,3 @@
-// components/ClientOnly.jsx
 "use client";
 import { useEffect, useState } from "react";
 
@@ -11,5 +10,5 @@ export default function ClientOnly({ children }) {
 
   if (!mounted) return null;
 
-  return children;
+  return <>{children}</>;
 }

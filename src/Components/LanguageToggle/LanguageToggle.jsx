@@ -39,8 +39,6 @@ function LanguageToggle({ isBottom }) {
     }
   };
 
-  console.log(currentLanguage, "currentLanguage", changeLanguage);
-
   return (
     <ClickAwayListener onClickAway={() => setOpen(false)}>
       <Box

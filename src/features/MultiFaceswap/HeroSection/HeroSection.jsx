@@ -25,6 +25,8 @@ function HeroSection() {
         labelBtn={"cached"}
         btnText={t("heromf.btnText")}
         note={t("heromf.note")}
+        apiUrl={"http://147.93.62.9:8765/multifaceswap"}
+        extraFields={{ face_index: 0 }}
       />
     </>
   );

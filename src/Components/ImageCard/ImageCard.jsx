@@ -39,6 +39,7 @@ function ImageCard({ src, title, description, isDate, date, onClick }) {
                 transition: "all 0.1s linear",
               }}
               alt="Swiper Img"
+              priority
             />
           </Box>
         ) : null}
