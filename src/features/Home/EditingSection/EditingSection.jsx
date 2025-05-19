@@ -1,5 +1,5 @@
 "use client";
-import Card from "@/Components/Card/Card";
+import Card from "@/Components/Card";
 import { Box, Container, Grid, Typography } from "@mui/material";
 import React from "react";
 import { useTranslation } from "react-i18next";

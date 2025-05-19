@@ -1,6 +1,6 @@
 import { Button } from "@mui/material";
 import React from "react";
-import Icon from "../Icon/Icon";
+import Icon from "./Icon";
 
 function ButtonLabel({
   btnText,

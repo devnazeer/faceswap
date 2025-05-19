@@ -12,9 +12,7 @@ export async function generateMetadata({ params }) {
 }
 
 export async function generateStaticParams() {
-  const locales = ["en", "de", "es", "ru", "pt", "id"];
-
-  return locales.map((locale) => ({ locale }));
+  return ["en", "es", "ru", "pt", "id"].map((locale) => ({ locale }));
 }
 
 export default function Home({ params }) {

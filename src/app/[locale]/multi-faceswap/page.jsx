@@ -3,9 +3,7 @@ import { Box } from "@mui/material";
 import React from "react";
 
 export async function generateStaticParams() {
-  const locales = ["en", "de", "es", "ru", "pt", "id"];
-
-  return locales.map((locale) => ({ locale }));
+  return ["en", "es", "ru", "pt", "id", "de"].map((locale) => ({ locale }));
 }
 export async function generateMetadata({ params }) {
   const { locale } = params;

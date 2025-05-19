@@ -1,7 +1,6 @@
 import { Box } from "@mui/material";
 import React from "react";
 import HeroSection from "./HeroSection/HeroSection";
-import ChooseFileSection from "./ChooseFileSection/ChooseFileSection";
 import UniqueSection from "./UniqueSection/UniqueSection";
 import SwiperSection from "./SwiperSection/SwiperSection";
 import UploadImageSection from "./UploadImageSection/UploadImageSection";
@@ -14,7 +13,6 @@ function HomePage() {
     <>
       <Box sx={{ background: "#0891b2" }}>
         <HeroSection />
-        {/* <ChooseFileSection /> */}
         <UniqueSection />
         <SwiperSection />
         <UploadImageSection />

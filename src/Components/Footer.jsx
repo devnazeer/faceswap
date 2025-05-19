@@ -1,11 +1,11 @@
 "use client";
 import { Box, Container, Grid, Link, Typography } from "@mui/material";
-import Image from "next/image";
 import React from "react";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import { FacebookOutlined, Instagram } from "@mui/icons-material";
-import LanguageToggle from "../LanguageToggle/LanguageToggle";
+import LanguageToggle from "./LanguageToggle";
 import { useTranslation } from "react-i18next";
+import Images from "./Images";
 
 function Footer() {
   const { t, i18n } = useTranslation("common");
@@ -26,17 +26,11 @@ function Footer() {
             <Grid container spacing={{ xs: "24px", md: "32px" }}>
               <Grid size={{ xs: 6, sm: 3, md: 3 }}>
                 <Link href="/">
-                  <Image
+                  <Images
                     src={"/logo.png"}
                     width={40}
                     height={40}
-                    style={{
-                      objectFit: "contain",
-                      maxWidth: "100%",
-                      height: "auto",
-                      aspectRatio: "1 / 1",
-                      marginBottom: "8px",
-                    }}
+                    objectFit="contain"
                     alt="logo"
                   />
                 </Link>
@@ -44,7 +38,7 @@ function Footer() {
                   variant="p"
                   component="p"
                   fontSize={"14px"}
-                  mb={"8px"}
+                  my={"8px"}
                 >
                   {t("footer.pixel")}
                 </Typography>
@@ -67,7 +61,7 @@ function Footer() {
                     variant="a"
                     component="a"
                     className="footerLists"
-                    href={`/${currentLang}/`}
+                    href={`/`}
                   >
                     {t("footer.faceswap")}
                   </Typography>
@@ -75,7 +69,7 @@ function Footer() {
                     variant="a"
                     component="a"
                     className="footerLists"
-                    href={`/${currentLang}/multi-faceswap`}
+                    href={`/multi-faceswap`}
                   >
                     {t("footer.multiface")}
                   </Typography>
@@ -92,7 +86,7 @@ function Footer() {
                     variant="a"
                     component="a"
                     className="footerLists"
-                    href={`/${currentLang}/about`}
+                    href={`/about`}
                   >
                     {t("footer.about")}
                   </Typography>
@@ -100,7 +94,7 @@ function Footer() {
                     variant="a"
                     component="a"
                     className="footerLists"
-                    href={`/${currentLang}/terms`}
+                    href={`/terms`}
                   >
                     {t("footer.terms")}
                   </Typography>
@@ -108,7 +102,7 @@ function Footer() {
                     variant="a"
                     component="a"
                     className="footerLists"
-                    href={`/${currentLang}/privacy`}
+                    href={`/privacy`}
                   >
                     {t("footer.privacy")}
                   </Typography>
@@ -116,7 +110,7 @@ function Footer() {
                     variant="a"
                     component="a"
                     className="footerLists"
-                    href={`/${currentLang}/blog`}
+                    href={`/blog`}
                   >
                     {t("footer.blog")}
                   </Typography>

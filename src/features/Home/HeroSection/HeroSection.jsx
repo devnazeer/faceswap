@@ -1,6 +1,5 @@
 "use client";
-import HeroSec from "@/Components/HeroSec/HeroSec";
-import { Box } from "@mui/material";
+import HeroSec from "@/Components/HeroSec";
 import React from "react";
 import { useTranslation } from "react-i18next";
 

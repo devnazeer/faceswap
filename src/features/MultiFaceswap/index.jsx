@@ -1,7 +1,6 @@
 import { Box } from "@mui/material";
 import React from "react";
 import HeroSection from "./HeroSection/HeroSection";
-import ChooseFileSection from "./ChooseFileSection/ChooseFileSection";
 import WhyUseFS from "./WhyUseFS/WhyUseFS";
 import SwiperSection from "./SwiperSection/SwiperSection";
 import HowUseFS from "./HowUseFS/HowUseFS";
@@ -14,7 +13,6 @@ function MultiFaceswapPage() {
     <>
       <Box sx={{ background: "#fff" }}>
         <HeroSection />
-        {/* <ChooseFileSection /> */}
         <WhyUseFS />
         <SwiperSection />
         <HowUseFS />

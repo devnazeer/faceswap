@@ -141,7 +141,7 @@ export async function generateMetadata({ params }) {
       ],
     },
     alternates: {
-      canonical: canonicalUrl,
+      canonical: `https://faceswaponline.ai`,
     },
   };
 }

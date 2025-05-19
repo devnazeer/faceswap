@@ -1,7 +1,7 @@
 import { Box, Typography } from "@mui/material";
-import Image from "next/image";
 import React from "react";
-import ButtonLabel from "../ButtonLabel/ButtonLabel";
+import ButtonLabel from "./ButtonLabel";
+import Images from "./Images";
 
 const Card = ({ title, description, src, isBtn, href, btnText }) => {
   return (
@@ -9,7 +9,6 @@ const Card = ({ title, description, src, isBtn, href, btnText }) => {
       <Box
         sx={{
           display: "flex",
-          // justifyContent: "space-between",
           alignItems: "center",
           flexDirection: !isBtn ? { xs: "column", lg: "row" } : "column",
           background: "#141414",
@@ -20,19 +19,7 @@ const Card = ({ title, description, src, isBtn, href, btnText }) => {
         }}
       >
         <Box sx={{ width: !isBtn ? { xs: "100%", lg: "50%" } : "100%" }}>
-          <Image
-            src={src}
-            width={600}
-            height={559}
-            style={{
-              objectFit: "cover",
-              objectPosition: "center",
-              maxWidth: "100%",
-              height: "auto",
-              aspectRatio: "600/559",
-            }}
-            alt="image"
-          />
+          <Images src={src} width={600} height={559} objectFit={"cover"} />
         </Box>
         <Box
           sx={{
@@ -72,7 +59,6 @@ const Card = ({ title, description, src, isBtn, href, btnText }) => {
                 btnText={btnText}
                 href={href}
                 sx={{
-                  // width: "100% !important",
                   mx: "auto !important",
                 }}
               />

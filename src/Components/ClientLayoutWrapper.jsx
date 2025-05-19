@@ -4,8 +4,8 @@ import React, { useEffect, Suspense } from "react";
 import { useTranslation } from "react-i18next";
 import { AppRouterCacheProvider } from "@mui/material-nextjs/v15-appRouter";
 import { ThemeProvider } from "@mui/material/styles";
-import { LanguageProvider } from "@/Components/LanguageProvider/LanguageProvider";
-import Sidebar from "@/Components/Sidebar/Sidebar";
+import { LanguageProvider } from "@/Components/LanguageProvider";
+import Sidebar from "@/Components/Sidebar";
 import Loading from "@/app/Loading/Loading";
 import theme from "@/theme";
 

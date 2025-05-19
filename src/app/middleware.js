@@ -14,8 +14,8 @@ export function middleware(req) {
 
   // Redirect if no locale in pathname
   if (
-    !languages.some((loc) => req.nextUrl.pathname.startsWith(`/${loc}`)) &&
-    !req.nextUrl.pathname.startsWith("/_next")
+    !languages.some((loc) => req.nextUrl.pathname.startsWith("")) &&
+    !req.nextUrl.pathname.startsWith("")
   ) {
     return NextResponse.redirect(
       new URL(`/${lng}${req.nextUrl.pathname}`, req.url)

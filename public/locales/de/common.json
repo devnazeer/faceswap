@@ -1,26 +1,11 @@
 {
-    "seo": {
-    "title": "ddededededededed",
-    "description": "fyuuuuuuuuuuuuuuuuuuuuuuu",
-    "url": "https://yourdomain.com",
-    "image": "https://yourdomain.com/seo-image.jpg",
-    "imageAlt": "AI Face Swap Example"
-  },
   "hero": {
     "title": "Kostenloser AI Face Swap - Bester Face Swapper Online",
     "para": "Entdecke den Spaß am KI Gesichter tauschen Programm mit unserem kostenlosen Face Swapper. Tausche Gesichter sofort mit Freunden, Prominenten oder jedem anderen aus! KI macht es einfach und unterhaltsam, in Sekundenschnelle einzigartige, teilbare Gesichtstauschbilder zu erstellen",
-    "uploadPara1":"Gesicht hochladen",
-    "uploadPara2":"Basisbild",
-    "btnText":"Gesicht tauschen",
-    "note":"Schalte weitere Face-Swap-Vorlagen oder DIY-Swap in der App frei"
-  },
-  "choose": {
-    "base": "Upload Base Image - Main image where faces will be replaced.",
-    "target": "Upload Target Face - This face will replace the one in your base image.",
-    "button": "Choose File",
-    "swap": "Swap Faces",
-    "reset": "Start New Face Swap",
-    "download": "Download Result"
+    "uploadPara1": "Gesicht hochladen",
+    "uploadPara2": "Basisbild",
+    "btnText": "Gesicht tauschen",
+    "note": "Schalte weitere Face-Swap-Vorlagen oder DIY-Swap in der App frei"
   },
   "unique": {
     "heading": "Was kann der KI Face Swap online kostenlos?",
@@ -44,356 +29,355 @@
     ]
   },
   "swiperSection": {
-  "heading": "Der ultimative Face Swapper für alle",
-  "subheading": "Need to showcase product details? Use AirBrush's AI image enhancer to effortlessly upscale images for edits or prints.",
-  "upload": "Upload Image",
-  "download": "Download App",
-  "cards": [
-    {
-        "src":"/home/img1.webp",
-      "title": "Steigere das Engagement in den sozialen Medien mit viralen Gesichtstausch-Inhalten",
-      "description": "Die ultimative KI Gesichtertausch für alle! Ändere ganz einfach die Gesichter in Fotos, egal ob du ein altes Bild aktualisieren, das Gesicht auf anderen Körper setzen oder einfach nur Spaß haben möchtest. Mit dem online verfügbaren Faceswap-Editor ist es schnell, einfach und vielseitig für alle deine Bedürfnisse."
-    },
-    {
-        "src":"/home/img2.webp",
-      "title": "Gesicht tauschen mit Prominenten",
-      "description": "Inhalte mit Gesichtstausch liegen auf Instagram und Twitter im Trend. Verwende KI-Tool, um ein Gesicht in Bild einfügen online ganz einfach zu handhaben. Poste kreative Fotos mit tiefgreifenden Gesichtsveränderungen, um deine Followerzahl zu erhöhen und das Engagement schnell zu steigern."
-    },
-    {
-        "src":"/home/img3.webp",
-      "title": "Erlebe neue Looks mit der KI-Gesichtstausch-Funktion",
-      "description": "Mit einem Online-Tool kannst du dein Gesicht tauschen gegen das von einem Prominenten. Ersetze mühelos Gesichter in Fotos mit dem KI Face Swapper für lustige und realistische Ergebnisse – Fake Fotos erstellen kostenlos leicht gemacht. Probiere den Face Swapper online kostenlos aus und erstelle in Sekundenschnelle tolle Bilder mit getauschten Gesichtern! Perfekt für alle, die schnell und einfach das Gesicht tauschen möchten."
-    }
-  ]
-},
+    "heading": "Der ultimative Face Swapper für alle",
+    "subheading": "Need to showcase product details? Use AirBrush's AI image enhancer to effortlessly upscale images for edits or prints.",
+    "upload": "Upload Image",
+    "download": "Download App",
+    "cards": [
+      {
+        "src": "/home/img1.webp",
+        "title": "Steigere das Engagement in den sozialen Medien mit viralen Gesichtstausch-Inhalten",
+        "description": "Die ultimative KI Gesichtertausch für alle! Ändere ganz einfach die Gesichter in Fotos, egal ob du ein altes Bild aktualisieren, das Gesicht auf anderen Körper setzen oder einfach nur Spaß haben möchtest. Mit dem online verfügbaren Faceswap-Editor ist es schnell, einfach und vielseitig für alle deine Bedürfnisse."
+      },
+      {
+        "src": "/home/img2.webp",
+        "title": "Gesicht tauschen mit Prominenten",
+        "description": "Inhalte mit Gesichtstausch liegen auf Instagram und Twitter im Trend. Verwende KI-Tool, um ein Gesicht in Bild einfügen online ganz einfach zu handhaben. Poste kreative Fotos mit tiefgreifenden Gesichtsveränderungen, um deine Followerzahl zu erhöhen und das Engagement schnell zu steigern."
+      },
+      {
+        "src": "/home/img3.webp",
+        "title": "Erlebe neue Looks mit der KI-Gesichtstausch-Funktion",
+        "description": "Mit einem Online-Tool kannst du dein Gesicht tauschen gegen das von einem Prominenten. Ersetze mühelos Gesichter in Fotos mit dem KI Face Swapper für lustige und realistische Ergebnisse – Fake Fotos erstellen kostenlos leicht gemacht. Probiere den Face Swapper online kostenlos aus und erstelle in Sekundenschnelle tolle Bilder mit getauschten Gesichtern! Perfekt für alle, die schnell und einfach das Gesicht tauschen möchten."
+      }
+    ]
+  },
   "UploadImageSection": {
-  "heading": "Wie kann ich ein Gesicht tauschen?",
-  "cards": [
-    {
-    "code": "\uf09b",
-    "label": "upload",
-    "title": "Bild hochladen",
-      "para": "Lade ein Bild mit Gesicht hoch. „Quellfoto“"
+    "heading": "Wie kann ich ein Gesicht tauschen?",
+    "cards": [
+      {
+        "code": "\uf09b",
+        "label": "upload",
+        "title": "Bild hochladen",
+        "para": "Lade ein Bild mit Gesicht hoch. „Quellfoto“"
+      },
+      {
+        "code": "\uf09b",
+        "label": "upload",
+        "title": "Bild hochladen",
+        "para": " Lade ein Bild mit Gesicht hoch. „Zielfoto“"
+      },
+      {
+        "code": "\ue43e",
+        "label": "add_photo_alternate",
+        "title": "Gesicht jetzt tauschen",
+        "para": "Klicke auf „Gesicht jetzt tauschen“, um den Vorgang zu starten."
+      }
+    ]
   },
-  {
-    "code": "\uf09b",
-    "label": "upload",
-    "title": "Bild hochladen",
-    "para":" Lade ein Bild mit Gesicht hoch. „Zielfoto“"
-  },
-  {
-    "code": "\ue43e",
-    "label": "add_photo_alternate",
-    "title": "Gesicht jetzt tauschen",
-    "para": "Klicke auf „Gesicht jetzt tauschen“, um den Vorgang zu starten."
-  }
-  ]
-},
   "editing": {
-  "heading": "Alle Tools zur Online-Foto- und Videobearbeitung",
-  "cards": [
-    {
-    "src": "/home/img1.webp",
-    "title": "Gesicht tauschen",
-    "para":"Mit „Gesicht tauschen“ kannst du ganz einfach Gesichter in jedem Foto austauschen. Erstelle mit wenigen Klicks lustige oder kreative Bilder und erlebe unendliche Möglichkeiten der Gesichtstransformation.",
-    "href": "/",
-    "btnText":"Probieren Sie es jetzt aus"
+    "heading": "Alle Tools zur Online-Foto- und Videobearbeitung",
+    "cards": [
+      {
+        "src": "/home/img1.webp",
+        "title": "Gesicht tauschen",
+        "para": "Mit „Gesicht tauschen“ kannst du ganz einfach Gesichter in jedem Foto austauschen. Erstelle mit wenigen Klicks lustige oder kreative Bilder und erlebe unendliche Möglichkeiten der Gesichtstransformation.",
+        "href": "/",
+        "btnText": "Probieren Sie es jetzt aus"
+      },
+      {
+        "src": "/multiface/1.png",
+        "title": "Mehrere Gesichter tauschen online kostenlos",
+        "para": "Mit Multiple Face Swap AI kannst du mehrere Gesichter in einem einzigen Bild ganz einfach austauschen. Perfekt für Gruppenfotos, erstellt es mit nur wenigen Klicks lustige, teilbare Ergebnisse.",
+        "btnText": "Probieren Sie es jetzt aus"
+      }
+    ]
   },
-  {
-    "src": "/multiface/1.png",
-    "title": "Mehrere Gesichter tauschen online kostenlos",
-    "para": "Mit Multiple Face Swap AI kannst du mehrere Gesichter in einem einzigen Bild ganz einfach austauschen. Perfekt für Gruppenfotos, erstellt es mit nur wenigen Klicks lustige, teilbare Ergebnisse.",
-    "btnText":"Probieren Sie es jetzt aus"
-
-  }
-  ]
-},
   "reviews": {
-  "heading": "Benutzerbewertungen",
-  "cards": [
-    {
-    "title": "Jessica Harper",
-    "para":"Ich benutze FaceSwap jetzt schon eine Weile und bin immer noch erstaunt, wie realistisch die Swaps aussehen! Die App ist super einfach zu bedienen und es hat mir großen Spaß gemacht, mit meinen Freunden Gesichter in Bilder einfügen kostenlos online. Ich kann sie jedem empfehlen, der seinen Fotos ein wenig Kreativität verleihen möchte!"
+    "heading": "Benutzerbewertungen",
+    "cards": [
+      {
+        "title": "Jessica Harper",
+        "para": "Ich benutze FaceSwap jetzt schon eine Weile und bin immer noch erstaunt, wie realistisch die Swaps aussehen! Die App ist super einfach zu bedienen und es hat mir großen Spaß gemacht, mit meinen Freunden Gesichter in Bilder einfügen kostenlos online. Ich kann sie jedem empfehlen, der seinen Fotos ein wenig Kreativität verleihen möchte!"
+      },
+      {
+        "title": "Michael Lee",
+        "para": "Die Genauigkeit von FaceSwap ist erstklassig. Ich liebe es, wie nahtlos die Übergänge sind – es fühlt sich so natürlich an! Die App ist ein Kinderspiel zu bedienen, selbst für jemanden wie mich, der nicht sehr technisch versiert ist. Ehrlich gesagt ist es die beste FaceSwap-App, die ich bisher benutzt habe!"
+      },
+      {
+        "title": "Samantha Clark",
+        "para": "“Face Swap kostenlos hat meine Fotos komplett verändert. Die App macht nicht nur Spaß, sondern ist auch ein großartiges Tool, um ansprechende Inhalte für meinen Blog zu erstellen. Außerdem ist die mobile Unterstützung fantastisch, sodass ich sie unterwegs nutzen kann. Es lohnt sich auf jeden Fall, sie auszuprobieren!"
+      },
+      {
+        "title": "Kishore Anand",
+        "para": "“Diese App ist unglaublich! Ich habe gesicht auf foto austauschen?m Kein Problem! Ich habe mit meinen Lieblingsfilmfiguren getauscht und die Ergebnisse waren zum Totlachen! Das Beste daran ist, wie schnell das Ganze geht. Mit nur wenigen Fingertipps ist man fertig. Es macht so viel Spaß – perfekt, um meine Kinder und Freunde zu unterhalten."
+      }
+    ]
   },
-  {
-    "title": "Michael Lee",
-    "para":"Die Genauigkeit von FaceSwap ist erstklassig. Ich liebe es, wie nahtlos die Übergänge sind – es fühlt sich so natürlich an! Die App ist ein Kinderspiel zu bedienen, selbst für jemanden wie mich, der nicht sehr technisch versiert ist. Ehrlich gesagt ist es die beste FaceSwap-App, die ich bisher benutzt habe!"
-  },
-  {
-    "title": "Samantha Clark",
-    "para": "“Face Swap kostenlos hat meine Fotos komplett verändert. Die App macht nicht nur Spaß, sondern ist auch ein großartiges Tool, um ansprechende Inhalte für meinen Blog zu erstellen. Außerdem ist die mobile Unterstützung fantastisch, sodass ich sie unterwegs nutzen kann. Es lohnt sich auf jeden Fall, sie auszuprobieren!"
-  },
-  {
-    "title": "Kishore Anand",
-    "para": "“Diese App ist unglaublich! Ich habe gesicht auf foto austauschen?m Kein Problem! Ich habe mit meinen Lieblingsfilmfiguren getauscht und die Ergebnisse waren zum Totlachen! Das Beste daran ist, wie schnell das Ganze geht. Mit nur wenigen Fingertipps ist man fertig. Es macht so viel Spaß – perfekt, um meine Kinder und Freunde zu unterhalten."
-  }
-  ]
-},
   "faqs": {
-  "heading": "FAQ",
-  "cards": [
-   {
-    "question": "Was ist ein Face Swap?",
-    "answer": "Es handelt sich um eine Technik, bei der ein Gesicht in einem Foto oder Video durch ein anderes ersetzt wird, was lustige und kreative Verwandlungen ermöglicht."
+    "heading": "FAQ",
+    "cards": [
+      {
+        "question": "Was ist ein Face Swap?",
+        "answer": "Es handelt sich um eine Technik, bei der ein Gesicht in einem Foto oder Video durch ein anderes ersetzt wird, was lustige und kreative Verwandlungen ermöglicht."
+      },
+      {
+        "question": "Wie kann man in einem Bild ein Gesicht tauschen?",
+        "answer": "Mit FaceSwapAI lädst du einfach dein Foto hoch, wählst die Gesichter aus, die du austauschen möchtest"
+      },
+      {
+        "question": "Kann ich Gesichter in jedem Foto austauschen?",
+        "answer": "Ja, du kannst Gesichter in jedem Foto austauschen, solange die Gesichter klar und sichtbar sind."
+      },
+      {
+        "question": "Ist Face Swapping legal?",
+        "answer": "Ja, Face Swapping ist legal, wenn es für persönliche und nicht-kommerzielle Zwecke verwendet wird. Stelle jedoch immer sicher, dass du die Einwilligung der Personen hast, deren Bilder du verwendest."
+      },
+      {
+        "question": "Ist Face Swapping online sicher?",
+        "answer": "Ja, FaceSwapAI ist sicher und schützt deine Privatsphäre, indem es verschlüsselte Uploads verwendet und deine Bilder nicht speichert."
+      },
+      {
+        "question": "Kann ich Gesichter zwischen Tieren und Menschen austauschen?",
+        "answer": "Nein, FaceSwapAI unterstützt keinen Gesichtswechsel zwischen Tieren und Menschen."
+      },
+      {
+        "question": "Unterstützt AI FaceSwap einen Geschlechtertausch?",
+        "answer": "Ja, FaceSwapAI ermöglicht einen nahtlosen Austausch zwischen den Geschlechtern für den Spaß und für künstlerische Zwecke."
+      },
+      {
+        "question": "Wie erzielt man die besten Ergebnisse beim Gesicht tauschen?",
+        "answer": "Verwende für die besten Ergebnisse hochwertige Bilder mit klaren und gut beleuchteten Gesichtern."
+      },
+      {
+        "question": "Wie funktioniert der KI Face Swapper?",
+        "answer": "FaceSwapAI verwendet fortschrittliche KI-Algorithmen, um Gesichtsmerkmale zu erkennen und abzugleichen und ein Gesicht nahtlos durch ein anderes zu ersetzen."
+      },
+      {
+        "question": "Welche Dateiformate unterstützt dieses Tool?",
+        "answer": "FaceSwapAI unterstützt gängige Formate wie JPEG, PNG und WebM für einfache Uploads und Swaps."
+      }
+    ]
   },
-  {
-    "question": "Wie kann man in einem Bild ein Gesicht tauschen?",
-    "answer": "Mit FaceSwapAI lädst du einfach dein Foto hoch, wählst die Gesichter aus, die du austauschen möchtest"
-  },
-  {
-    "question": "Kann ich Gesichter in jedem Foto austauschen?",
-    "answer": "Ja, du kannst Gesichter in jedem Foto austauschen, solange die Gesichter klar und sichtbar sind."
-  },
-  {
-    "question": "Ist Face Swapping legal?",
-    "answer":"Ja, Face Swapping ist legal, wenn es für persönliche und nicht-kommerzielle Zwecke verwendet wird. Stelle jedoch immer sicher, dass du die Einwilligung der Personen hast, deren Bilder du verwendest."
-  },
-  {
-    "question": "Ist Face Swapping online sicher?",
-    "answer": "Ja, FaceSwapAI ist sicher und schützt deine Privatsphäre, indem es verschlüsselte Uploads verwendet und deine Bilder nicht speichert."
-  },
-  {
-    "question": "Kann ich Gesichter zwischen Tieren und Menschen austauschen?",
-    "answer": "Nein, FaceSwapAI unterstützt keinen Gesichtswechsel zwischen Tieren und Menschen."
-  },
-  {
-    "question": "Unterstützt AI FaceSwap einen Geschlechtertausch?",
-    "answer": "Ja, FaceSwapAI ermöglicht einen nahtlosen Austausch zwischen den Geschlechtern für den Spaß und für künstlerische Zwecke."
-  },
-  {
-    "question": "Wie erzielt man die besten Ergebnisse beim Gesicht tauschen?",
-    "answer": "Verwende für die besten Ergebnisse hochwertige Bilder mit klaren und gut beleuchteten Gesichtern."
-  },
-  {
-    "question": "Wie funktioniert der KI Face Swapper?",
-    "answer": "FaceSwapAI verwendet fortschrittliche KI-Algorithmen, um Gesichtsmerkmale zu erkennen und abzugleichen und ein Gesicht nahtlos durch ein anderes zu ersetzen."
-  },
-  {
-    "question": "Welche Dateiformate unterstützt dieses Tool?",
-    "answer":"FaceSwapAI unterstützt gängige Formate wie JPEG, PNG und WebM für einfache Uploads und Swaps."
-  }
-  ]
-},
   "footer": {
-  "pixel": "Pixelmorph",
-  "subPixel": "Pixelmorph. All rights reserved.",
-  "tools":"Tools",
-  "faceswap":"faceswap",
-  "multiface":"Multi-Faceswap",
-  "sitemap":"Sitemap",
-  "about":"About Us",
-  "terms":"Terms of Service",
-  "privacy":"Privacy Policy",
-  "blog":"Blog",
-  "follow":"Follow Us",
-  "changeLanguage":"Change Language"
-},
+    "pixel": "Pixelmorph",
+    "subPixel": "Pixelmorph. All rights reserved.",
+    "tools": "Tools",
+    "faceswap": "faceswap",
+    "multiface": "Multi-Faceswap",
+    "sitemap": "Sitemap",
+    "about": "About Us",
+    "terms": "Terms of Service",
+    "privacy": "Privacy Policy",
+    "blog": "Blog",
+    "follow": "Follow Us",
+    "changeLanguage": "Change Language"
+  },
   "sidebar": {
-  "cards": [
-  {
-    "name": "Faceswap",
-    "href": "/"
+    "cards": [
+      {
+        "name": "Faceswap",
+        "href": "/"
+      },
+      {
+        "name": "Multi-Faceswap",
+        "href": "/multi-faceswap"
+      },
+      {
+        "name": "Blogs",
+        "href": "/blog"
+      },
+      {
+        "name": "About",
+        "href": "/about"
+      }
+    ]
   },
-  {
-    "name": "Multi-Faceswap",
-    "href": "/multi-faceswap"
+  "heromf": {
+    "title": "Mehrfach-Gesichtstausch KI – Online kostenlos für Gruppenfotos",
+    "para": "Mit der Mehrfach-Gesichtstausch-KI können Sie Gruppenfotos mühelos verändern, indem Sie Gesichter austauschen – für lustige und einzigartige Ergebnisse. Ideal, um kreative Erinnerungen mit Freunden oder Familie festzuhalten.",
+    "uploadPara1": "Gesicht hochladen",
+    "uploadPara2": "Basisbild",
+    "btnText": "Gesicht tauschen",
+    "note": "Entdecke mehr Gesichtstausch-Vorlagen oder DIY-Tausch in der App"
   },
-  {
-    "name": "Blogs",
-    "href": "/blog"
+  "uniquemf": {
+    "heading": "Warum Mehrfach-Gesichtstausch verwenden?",
+    "items": [
+      {
+        "title": "Beste KI für Mehrfach-Gesichtstausch",
+        "para": "Mit der besten KI für Mehrfach-Gesichtstausch musst du keine App installieren. Lade einfach deine Gruppenfotos hoch, und die KI tauscht automatisch die Gesichter – sofort und kostenlos online."
+      },
+      {
+        "title": "Keine Installation erforderlich",
+        "para": "Keine Installation nötig! Mit dem kostenlosen Online-Tool für Mehrfach-Gesichtstausch einfach Bilder hochladen und die KI erledigt den Rest. Ob Paar- oder Gruppenfoto – du kannst mehrere Gesichter in Sekunden tauschen!"
+      },
+      {
+        "title": "Jeder kann Teil des Gruppenfotos sein",
+        "para": "Überrasche deine Freunde, indem du ihre Gesichter mit dem fortschrittlichen Gesichtstausch-Tool in Gruppenfotos einfügst. Einfach das Gruppenfoto und Bilder deiner Freunde hochladen – der kostenlose Mehrfach-Gesichtstausch integriert sie nahtlos!"
+      },
+      {
+        "title": "Benutzerfreundliche Oberfläche",
+        "para": "Dank der benutzerfreundlichen Oberfläche kann jeder ganz einfach einen perfekten Gesichtstausch online durchführen – ganz ohne Vorkenntnisse. Fotos hochladen, der Rest erfolgt automatisch!"
+      }
+    ]
   },
-  {
-    "name": "About",
-    "href": "/about"
-  }
-]
-},
-"heromf": {
-  "title": "Mehrfach-Gesichtstausch KI – Online kostenlos für Gruppenfotos",
-  "para": "Mit der Mehrfach-Gesichtstausch-KI können Sie Gruppenfotos mühelos verändern, indem Sie Gesichter austauschen – für lustige und einzigartige Ergebnisse. Ideal, um kreative Erinnerungen mit Freunden oder Familie festzuhalten.",
-  "uploadPara1": "Gesicht hochladen",
-  "uploadPara2": "Basisbild",
-  "btnText": "Gesicht tauschen",
-  "note": "Entdecke mehr Gesichtstausch-Vorlagen oder DIY-Tausch in der App"
-},
-"uniquemf": {
-  "heading": "Warum Mehrfach-Gesichtstausch verwenden?",
-  "items": [
-    {
-      "title": "Beste KI für Mehrfach-Gesichtstausch",
-      "para": "Mit der besten KI für Mehrfach-Gesichtstausch musst du keine App installieren. Lade einfach deine Gruppenfotos hoch, und die KI tauscht automatisch die Gesichter – sofort und kostenlos online."
-    },
-    {
-      "title": "Keine Installation erforderlich",
-      "para": "Keine Installation nötig! Mit dem kostenlosen Online-Tool für Mehrfach-Gesichtstausch einfach Bilder hochladen und die KI erledigt den Rest. Ob Paar- oder Gruppenfoto – du kannst mehrere Gesichter in Sekunden tauschen!"
-    },
-    {
-      "title": "Jeder kann Teil des Gruppenfotos sein",
-      "para": "Überrasche deine Freunde, indem du ihre Gesichter mit dem fortschrittlichen Gesichtstausch-Tool in Gruppenfotos einfügst. Einfach das Gruppenfoto und Bilder deiner Freunde hochladen – der kostenlose Mehrfach-Gesichtstausch integriert sie nahtlos!"
-    },
-    {
-      "title": "Benutzerfreundliche Oberfläche",
-      "para": "Dank der benutzerfreundlichen Oberfläche kann jeder ganz einfach einen perfekten Gesichtstausch online durchführen – ganz ohne Vorkenntnisse. Fotos hochladen, der Rest erfolgt automatisch!"
-    }
-  ]
-},
-"swipermf": {
-  "heading": "Beste Einsatzmöglichkeiten für Multi Face Swapper",
-  "subheading": "Möchten Sie Produktdetails präsentieren? Verwenden Sie den KI-Bildverbesserer von AirBrush, um Bilder mühelos für Bearbeitung oder Druck zu vergrößern.",
-  "upload": "Bild hochladen",
-  "download": "App herunterladen",
-  "cards": [
-    {
-      "src": "/multiface/1.png",
-      "title": "Erstelle lustige Familienmemes mit Multi Face Swap",
-      "description": "Ein Multi Face Swapper ist perfekt, um Gruppenfotos, Familienfeiern oder kreative Projekte aufzupeppen. Tausche Gesichter aus und kreiere unvergessliche Bilder!"
-    },
-    {
-      "src": "/multiface/2.png",
-      "title": "Gruppen-Gesichtstausch mit Prominenten",
-      "description": "Verwandle Familienfotos in lustige Memes mit dem Multi Face Changer! Tausche Gesichter in Gruppenbildern für Spaß bei Streichen, Feiern oder einfach nur zum Lachen."
-    },
-    {
-      "src": "/multiface/3.png",
-      "title": "Erstelle virale Inhalte für soziale Medien mit Multi Face Changer",
-      "description": "Tausche Gesichter von Prominenten mit deinen Freunden oder deiner Familie mit dem Online-Tool für mehrfachen Gesichtstausch. Perfekt für unterhaltsame Inhalte zum sofortigen Teilen!"
-    },
-    {
-      "src": "/multiface/4.png",
-      "title": "Neue Looks erkunden mit Gruppen-Multi-Face-Swap",
-      "description": "Erstelle lustige, teilbare Inhalte für Social Media mit dem Multi Face Changer. Tausche Gesichter aus, um einzigartige Posts zu kreieren, die Reichweite und Interaktionen fördern!"
-    }
-  ]
-},
-"howUsemf": {
-  "heading": "Wie funktioniert der Gesichtstausch?",
-  "cards": [
-    {
-      "code": "\uefeb",
-      "label": "camera_switch",
-      "title": "Schritt 1. Gruppenfoto hochladen",
-      "para": "Lade ein Gruppenfoto mit mehreren Gesichtern hoch. Achte darauf, dass das Bild klar und in guter Qualität ist."
-    },
-    {
-      "code": "\ue8a7",
-      "label": "upload",
-      "title": "Schritt 2. Zielgesichter hochladen",
-      "para": "Sobald Gesichter erkannt werden, kannst du weitere Bilder hochladen, um bestimmte Gesichter auszutauschen."
-    },
-    {
-      "code": "\ue7ef",
-      "label": "group",
-      "title": "Gesichtstausch ausführen",
-      "para": "Klicke auf 'Multi Swap Face Now'. Dann herunterladen und mit Freunden teilen!"
-    }
-  ]
-},
-"editingmf": {
-  "heading": "Alle Online-Tools für Foto- & Videobearbeitung",
-  "cards": [
-    {
-      "src": "/home/img1.webp",
-      "title": "KI-Gesichtstausch",
-      "para": "Mit dem KI-Gesichtstausch kannst du Gesichter in Fotos mühelos austauschen. Kreiere mit wenigen Klicks kreative oder witzige Bilder mit FaceSwap.",
-      "href": "/",
-    "btnText":"Probieren Sie es jetzt aus"
-    },
-    {
-      "src": "/multiface/1.png",
-      "title": "Mehrfach-Gesichtstausch KI",
-      "para": "Mit der Mehrfach-Gesichtstausch KI kannst du mehrere Gesichter in einem Bild tauschen. Ideal für Gruppenfotos – spaßige Ergebnisse in wenigen Sekunden.",
-      "href": "/multi-faceswap",
-    "btnText":"Probieren Sie es jetzt aus"
-    }
-  ]
-},
-"reviewsmf": {
-  "heading": "Nutzerbewertungen",
-  "cards": [
-    {
-      "title": "Aarav Mehta",
-      "para": "Ich war begeistert, wie einfach es war, mehrere Gesichter in einem Bild zu tauschen! FaceSwapAI hat den Prozess reibungslos gemacht, und die Ergebnisse waren sehr realistisch."
-    },
-    {
-      "title": "Priya Patel",
-      "para": "FaceSwapAI ist ein Muss, wenn du mehrere Gesichter gleichzeitig tauschen willst. Ich habe es für ein Familienfoto verwendet – die Ergebnisse waren urkomisch und punktgenau!"
-    },
-    {
-      "title": "Liam Johnson",
-      "para": "Dieses Tool ist ein echter Game Changer! Ich habe den Multi-Face-Swap bei einem Gruppenbild ausprobiert – wir konnten nicht mehr aufhören zu lachen!"
-    },
-    {
-      "title": "Neha Kapoor",
-      "para": "Diese Website hat den Gesichtstausch selbst für große Gruppen einfach gemacht. Ich habe ein Hochzeitsfoto mit 12 Personen bearbeitet – und es hat perfekt funktioniert!"
-    }
-  ]
-},
-"faqsmf": {
-  "heading": "Häufig gestellte Fragen",
-  "cards": [
-    {
-      "question": "Was ist der Mehrfach-Gesichtstausch?",
-      "answer": "Damit kannst du mehrere Gesichter in einem einzigen Bild auf einmal austauschen – ideal für Gruppenfotos oder witzige Bearbeitungen mit mehreren Personen."
-    },
-    {
-      "question": "Wie funktioniert die KI für Mehrfach-Gesichtstausch?",
-      "answer": "FaceSwapAI verwendet fortschrittliche KI, um alle Gesichter im Bild zu erkennen und sie in wenigen Schritten nahtlos zu tauschen."
-    },
-    {
-      "question": "Ist Face Swap Multiple online kostenlos?",
-      "answer": "Ja, wir bieten eine kostenlose Version, mit der du mehrere Gesichter online tauschen kannst."
-    },
-    {
-      "question": "Sind meine Daten beim Multi Face Swap sicher?",
-      "answer": "Ja, FaceSwapAI legt großen Wert auf Datenschutz und verwendet sichere Verschlüsselung, um deine Bilder und persönlichen Daten zu schützen."
-    },
-    {
-      "question": "Wie lange dauert ein Mehrfach-Gesichtstausch?",
-      "answer": "Die Dauer hängt von der Anzahl der Gesichter und der Bildgröße ab, aber die meisten Vorgänge sind in wenigen Sekunden bis Minuten abgeschlossen."
-    },
-    {
-      "question": "Wie viele Gesichter können gleichzeitig getauscht werden?",
-      "answer": "FaceSwapAI kann je nach Bildkomplexität 2–8 Gesichter gleichzeitig tauschen."
-    },
-    {
-      "question": "Wird die Bildqualität durch den Gesichtstausch beeinträchtigt?",
-      "answer": "Nein, FaceSwapAI bewahrt die Qualität deines Originalbildes und liefert ein hochauflösendes Ergebnis."
-    },
-    {
-      "question": "Kann ich Gesichter in großen Gruppenfotos tauschen?",
-      "answer": "Ja, das Tool ist für große Gruppenfotos geeignet und kann mehrere Gesichter in einem Bild präzise erkennen und tauschen."
-    },
-    {
-      "question": "Erlaubt FaceSwapAI benutzerdefinierte Gesichtsuploads für mehrere Swaps?",
-      "answer": "Ja, du kannst eigene Bilder hochladen oder aus einer Vielzahl von Gesichtern für den Tausch auswählen."
-    },
-    {
-      "question": "Welche Dateiformate werden unterstützt?",
-      "answer": "FaceSwapAI unterstützt gängige Bildformate wie JPEG, PNG und GIF."
-    }
-  ]
-},
-"blogCard": {
-  "title": "Blog",
-  "blogPost": [
-    {
-      "slug": "swap-face-photoshop",
-      "image": "/blog/blog1.webp",
-      "title": "Gesichtstausch mit Photoshop",
-      "description": "Sehnst du dich nach professionellen Photoshop-Tipps – kostenlos online? Dann haben wir genau das Richtige für dich: unseren ausführlichen Leitfaden „Gesicht in Photoshop tauschen“. Der Gesichtstausch ist zweifellos eine charmante Methode, um deine Social-Media-Reichweite mit unterhaltsamen Morphing-Techniken zu steigern. Doch wie tauscht man Gesichter in Photoshop CC...",
-      "isDate": true,
-      "date": "25. Februar 2025"
-    },
-    {
-      "slug": "how-to-use-insight-face-swap-discord",
-      "image": "/blog/blog2.webp",
-      "title": "So nutzt du Insight Face Swap auf Discord",
-      "description": "Lass deiner Kreativität freien Lauf mit dem Insight Face Swap auf Discord und genieße nahtlose Verschmelzungen unterschiedlicher Identitäten wie nie zuvor. Insight Face Swap ist das coolste Plugin für Gesichtstausch, bei dem Nutzer ihr Gesicht mit einem anderen Bild mithilfe von „Insight Face“… tauschen können.",
-      "isDate": true,
-      "date": "25. Februar 2025"
-    }
-  ]
-},
+  "swipermf": {
+    "heading": "Beste Einsatzmöglichkeiten für Multi Face Swapper",
+    "subheading": "Möchten Sie Produktdetails präsentieren? Verwenden Sie den KI-Bildverbesserer von AirBrush, um Bilder mühelos für Bearbeitung oder Druck zu vergrößern.",
+    "upload": "Bild hochladen",
+    "download": "App herunterladen",
+    "cards": [
+      {
+        "src": "/multiface/1.png",
+        "title": "Erstelle lustige Familienmemes mit Multi Face Swap",
+        "description": "Ein Multi Face Swapper ist perfekt, um Gruppenfotos, Familienfeiern oder kreative Projekte aufzupeppen. Tausche Gesichter aus und kreiere unvergessliche Bilder!"
+      },
+      {
+        "src": "/multiface/2.png",
+        "title": "Gruppen-Gesichtstausch mit Prominenten",
+        "description": "Verwandle Familienfotos in lustige Memes mit dem Multi Face Changer! Tausche Gesichter in Gruppenbildern für Spaß bei Streichen, Feiern oder einfach nur zum Lachen."
+      },
+      {
+        "src": "/multiface/3.png",
+        "title": "Erstelle virale Inhalte für soziale Medien mit Multi Face Changer",
+        "description": "Tausche Gesichter von Prominenten mit deinen Freunden oder deiner Familie mit dem Online-Tool für mehrfachen Gesichtstausch. Perfekt für unterhaltsame Inhalte zum sofortigen Teilen!"
+      },
+      {
+        "src": "/multiface/4.png",
+        "title": "Neue Looks erkunden mit Gruppen-Multi-Face-Swap",
+        "description": "Erstelle lustige, teilbare Inhalte für Social Media mit dem Multi Face Changer. Tausche Gesichter aus, um einzigartige Posts zu kreieren, die Reichweite und Interaktionen fördern!"
+      }
+    ]
+  },
+  "howUsemf": {
+    "heading": "Wie funktioniert der Gesichtstausch?",
+    "cards": [
+      {
+        "code": "\uefeb",
+        "label": "camera_switch",
+        "title": "Schritt 1. Gruppenfoto hochladen",
+        "para": "Lade ein Gruppenfoto mit mehreren Gesichtern hoch. Achte darauf, dass das Bild klar und in guter Qualität ist."
+      },
+      {
+        "code": "\ue8a7",
+        "label": "upload",
+        "title": "Schritt 2. Zielgesichter hochladen",
+        "para": "Sobald Gesichter erkannt werden, kannst du weitere Bilder hochladen, um bestimmte Gesichter auszutauschen."
+      },
+      {
+        "code": "\ue7ef",
+        "label": "group",
+        "title": "Gesichtstausch ausführen",
+        "para": "Klicke auf 'Multi Swap Face Now'. Dann herunterladen und mit Freunden teilen!"
+      }
+    ]
+  },
+  "editingmf": {
+    "heading": "Alle Online-Tools für Foto- & Videobearbeitung",
+    "cards": [
+      {
+        "src": "/home/img1.webp",
+        "title": "KI-Gesichtstausch",
+        "para": "Mit dem KI-Gesichtstausch kannst du Gesichter in Fotos mühelos austauschen. Kreiere mit wenigen Klicks kreative oder witzige Bilder mit FaceSwap.",
+        "href": "/",
+        "btnText": "Probieren Sie es jetzt aus"
+      },
+      {
+        "src": "/multiface/1.png",
+        "title": "Mehrfach-Gesichtstausch KI",
+        "para": "Mit der Mehrfach-Gesichtstausch KI kannst du mehrere Gesichter in einem Bild tauschen. Ideal für Gruppenfotos – spaßige Ergebnisse in wenigen Sekunden.",
+        "href": "/multi-faceswap",
+        "btnText": "Probieren Sie es jetzt aus"
+      }
+    ]
+  },
+  "reviewsmf": {
+    "heading": "Nutzerbewertungen",
+    "cards": [
+      {
+        "title": "Aarav Mehta",
+        "para": "Ich war begeistert, wie einfach es war, mehrere Gesichter in einem Bild zu tauschen! FaceSwapAI hat den Prozess reibungslos gemacht, und die Ergebnisse waren sehr realistisch."
+      },
+      {
+        "title": "Priya Patel",
+        "para": "FaceSwapAI ist ein Muss, wenn du mehrere Gesichter gleichzeitig tauschen willst. Ich habe es für ein Familienfoto verwendet – die Ergebnisse waren urkomisch und punktgenau!"
+      },
+      {
+        "title": "Liam Johnson",
+        "para": "Dieses Tool ist ein echter Game Changer! Ich habe den Multi-Face-Swap bei einem Gruppenbild ausprobiert – wir konnten nicht mehr aufhören zu lachen!"
+      },
+      {
+        "title": "Neha Kapoor",
+        "para": "Diese Website hat den Gesichtstausch selbst für große Gruppen einfach gemacht. Ich habe ein Hochzeitsfoto mit 12 Personen bearbeitet – und es hat perfekt funktioniert!"
+      }
+    ]
+  },
+  "faqsmf": {
+    "heading": "Häufig gestellte Fragen",
+    "cards": [
+      {
+        "question": "Was ist der Mehrfach-Gesichtstausch?",
+        "answer": "Damit kannst du mehrere Gesichter in einem einzigen Bild auf einmal austauschen – ideal für Gruppenfotos oder witzige Bearbeitungen mit mehreren Personen."
+      },
+      {
+        "question": "Wie funktioniert die KI für Mehrfach-Gesichtstausch?",
+        "answer": "FaceSwapAI verwendet fortschrittliche KI, um alle Gesichter im Bild zu erkennen und sie in wenigen Schritten nahtlos zu tauschen."
+      },
+      {
+        "question": "Ist Face Swap Multiple online kostenlos?",
+        "answer": "Ja, wir bieten eine kostenlose Version, mit der du mehrere Gesichter online tauschen kannst."
+      },
+      {
+        "question": "Sind meine Daten beim Multi Face Swap sicher?",
+        "answer": "Ja, FaceSwapAI legt großen Wert auf Datenschutz und verwendet sichere Verschlüsselung, um deine Bilder und persönlichen Daten zu schützen."
+      },
+      {
+        "question": "Wie lange dauert ein Mehrfach-Gesichtstausch?",
+        "answer": "Die Dauer hängt von der Anzahl der Gesichter und der Bildgröße ab, aber die meisten Vorgänge sind in wenigen Sekunden bis Minuten abgeschlossen."
+      },
+      {
+        "question": "Wie viele Gesichter können gleichzeitig getauscht werden?",
+        "answer": "FaceSwapAI kann je nach Bildkomplexität 2–8 Gesichter gleichzeitig tauschen."
+      },
+      {
+        "question": "Wird die Bildqualität durch den Gesichtstausch beeinträchtigt?",
+        "answer": "Nein, FaceSwapAI bewahrt die Qualität deines Originalbildes und liefert ein hochauflösendes Ergebnis."
+      },
+      {
+        "question": "Kann ich Gesichter in großen Gruppenfotos tauschen?",
+        "answer": "Ja, das Tool ist für große Gruppenfotos geeignet und kann mehrere Gesichter in einem Bild präzise erkennen und tauschen."
+      },
+      {
+        "question": "Erlaubt FaceSwapAI benutzerdefinierte Gesichtsuploads für mehrere Swaps?",
+        "answer": "Ja, du kannst eigene Bilder hochladen oder aus einer Vielzahl von Gesichtern für den Tausch auswählen."
+      },
+      {
+        "question": "Welche Dateiformate werden unterstützt?",
+        "answer": "FaceSwapAI unterstützt gängige Bildformate wie JPEG, PNG und GIF."
+      }
+    ]
+  },
+  "blogCard": {
+    "title": "Blog",
+    "blogPost": [
+      {
+        "slug": "swap-face-photoshop",
+        "image": "/blog/blog1.webp",
+        "title": "Gesichtstausch mit Photoshop",
+        "description": "Sehnst du dich nach professionellen Photoshop-Tipps – kostenlos online? Dann haben wir genau das Richtige für dich: unseren ausführlichen Leitfaden „Gesicht in Photoshop tauschen“. Der Gesichtstausch ist zweifellos eine charmante Methode, um deine Social-Media-Reichweite mit unterhaltsamen Morphing-Techniken zu steigern. Doch wie tauscht man Gesichter in Photoshop CC...",
+        "isDate": true,
+        "date": "25. Februar 2025"
+      },
+      {
+        "slug": "how-to-use-insight-face-swap-discord",
+        "image": "/blog/blog2.webp",
+        "title": "So nutzt du Insight Face Swap auf Discord",
+        "description": "Lass deiner Kreativität freien Lauf mit dem Insight Face Swap auf Discord und genieße nahtlose Verschmelzungen unterschiedlicher Identitäten wie nie zuvor. Insight Face Swap ist das coolste Plugin für Gesichtstausch, bei dem Nutzer ihr Gesicht mit einem anderen Bild mithilfe von „Insight Face“… tauschen können.",
+        "isDate": true,
+        "date": "25. Februar 2025"
+      }
+    ]
+  },
   "blogDetails": {
     "swap-face-photoshop": {
       "slug": "swap-face-photoshop",
@@ -471,7 +455,9 @@
           "type": "paragraph",
           "text": [
             "Gehen Sie zur Gesichtsausrichtung, die Ihr nächster Schritt sein wird. Reduzieren Sie die Deckkraft auf 50% und machen Sie den",
-            { "bold": " „Ebenen-Bereich“" },
+            {
+              "bold": " „Ebenen-Bereich“"
+            },
             " sichtbar. Richten Sie dann das Gesicht perfekt durch Größenanpassung und Proportionen aus."
           ]
         },
@@ -652,13 +638,21 @@
         },
         {
           "type": "paragraph",
-          "text": ["Klicken Sie auf die", { "bold": " „Menü“" }, "-Leiste."]
+          "text": [
+            "Klicken Sie auf die",
+            {
+              "bold": " „Menü“"
+            },
+            "-Leiste."
+          ]
         },
         {
           "type": "paragraph",
           "text": [
             "Navigieren Sie zur",
-            { "bold": " „Server hinzufügen“" },
+            {
+              "bold": " „Server hinzufügen“"
+            },
             "-Option und klicken Sie darauf."
           ]
         },
@@ -666,7 +660,9 @@
           "type": "paragraph",
           "text": [
             "Wählen Sie",
-            { "bold": " „Eigenen erstellen“" },
+            {
+              "bold": " „Eigenen erstellen“"
+            },
             " und erstellen Sie Ihren eigenen Discord-Server."
           ]
         },
@@ -684,13 +680,20 @@
         },
         {
           "type": "paragraph",
-          "text": ["Klicken Sie auf", { "bold": " „Mitgliederliste anzeigen“." }]
+          "text": [
+            "Klicken Sie auf",
+            {
+              "bold": " „Mitgliederliste anzeigen“."
+            }
+          ]
         },
         {
           "type": "paragraph",
           "text": [
             "Klicken Sie auf das",
-            { "bold": " „Server hinzufügen“" },
+            {
+              "bold": " „Server hinzufügen“"
+            },
             "-Symbol und wählen Sie „Autorisieren“."
           ]
         },
@@ -714,7 +717,9 @@
           "type": "paragraph",
           "text": [
             "Erstellen Sie eine ID, indem Sie",
-            { "bold": " „/save ID“" },
+            {
+              "bold": " „/save ID“"
+            },
             "eingeben."
           ]
         },
@@ -738,7 +743,9 @@
           "type": "paragraph",
           "text": [
             "Generieren Sie das Bild mit dem",
-            { "bold": " „/imagine“" },
+            {
+              "bold": " „/imagine“"
+            },
             "-Befehl."
           ]
         },
@@ -750,7 +757,9 @@
           "type": "paragraph",
           "text": [
             "Klicken Sie mit der rechten Maustaste auf das Bild und wählen Sie",
-            { "bold": " „Apps“" },
+            {
+              "bold": " „Apps“"
+            },
             "."
           ]
         },
@@ -758,7 +767,9 @@
           "type": "paragraph",
           "text": [
             "Wählen Sie",
-            { "bold": " „In Swapper“" },
+            {
+              "bold": " „In Swapper“"
+            },
             " und fügen Sie das hochgeladene Gesicht ein."
           ]
         },
@@ -775,7 +786,9 @@
           "prefix": "Neue ID hochladen:",
           "text": [
             " Geben Sie",
-            { "bold": " „/save ID“" },
+            {
+              "bold": " „/save ID“"
+            },
             " ein, um eine neue ID hinzuzufügen."
           ]
         },
@@ -784,7 +797,9 @@
           "prefix": "ID löschen:",
           "text": [
             " Geben Sie",
-            { "bold": " „/del ID“" },
+            {
+              "bold": " „/del ID“"
+            },
             " ein, um eine ID zu löschen."
           ]
         },
@@ -793,7 +808,9 @@
           "prefix": "ID ändern:",
           "text": [
             " Verwenden Sie",
-            { "bold": " „/set ID“" },
+            {
+              "bold": " „/set ID“"
+            },
             ", um eine ID als Standard festzulegen."
           ]
         },
@@ -802,7 +819,9 @@
           "prefix": "ID-Liste anzeigen:",
           "text": [
             " Geben Sie",
-            { "bold": " „/list ID“" },
+            {
+              "bold": " „/list ID“"
+            },
             " ein, um alle IDs anzuzeigen."
           ]
         },
@@ -833,7 +852,6 @@
       ]
     }
   },
-
   "privacy": {
     "title": "Datenschutzrichtlinie",
     "content": [
@@ -1200,7 +1218,5 @@
         "text": "PixelMorph zeichnet sich durch seine Einfachheit und Effizienz aus. Egal, ob Sie Hintergründe für Produktfotos entfernen oder Wasserzeichen aus persönlichen Bildern entfernen möchten – unsere Tools sind darauf ausgelegt, den Prozess so einfach und nahtlos wie möglich zu gestalten."
       }
     ]
+  }
 }
-}
-
-

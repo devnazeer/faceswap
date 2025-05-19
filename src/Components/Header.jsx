@@ -1,8 +1,8 @@
 "use client";
 import React, { useState } from "react";
 import { Box } from "@mui/material";
-import Icon from "../Icon/Icon";
-import LanguageToggle from "../LanguageToggle/LanguageToggle";
+import Icon from "./Icon";
+import LanguageToggle from "./LanguageToggle";
 
 function Header({ onClick }) {
   return (
@@ -13,7 +13,6 @@ function Header({ onClick }) {
         boxSizing: "border-box",
         backdropFilter: "blur(5px)",
         background: "#1f2937",
-        // backgroundColor: "#0d223794",
       }}
     >
       <Box

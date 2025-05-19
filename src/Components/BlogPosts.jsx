@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import ImageCard from "@/Components/ImageCard/ImageCard";
+import ImageCard from "@/Components/ImageCard";
 import { Box, Container, Grid, Typography } from "@mui/material";
 import Link from "next/link";
 import { useTranslation } from "react-i18next";
@@ -35,8 +35,8 @@ const BlogPosts = ({ locale }) => {
               <Grid key={id} size={{ xs: 12, sm: 6, md: 4 }}>
                 <Link
                   style={{ textDecoration: "none" }}
+                  // href={`https://swapinfo.xyz/wp-json/wp/v2/posts?slug=${item.slug}&lang=${locale}&_embed`}
                   href={`/${locale}/blog/${item.slug}`}
-                  passHref
                 >
                   <ImageCard
                     title={item.title}

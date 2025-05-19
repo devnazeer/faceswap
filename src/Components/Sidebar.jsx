@@ -2,11 +2,11 @@
 import { useState } from "react";
 import { Box, List, ListItem, Typography, Link, Drawer } from "@mui/material";
 import { usePathname } from "next/navigation";
-import Header from "../Header/Header";
-import Image from "next/image";
-import Footer from "../Footer/Footer";
-import Icon from "../Icon/Icon";
+import Header from "./Header";
+import Footer from "./Footer";
+import Icon from "./Icon";
 import { useTranslation } from "react-i18next";
+import Images from "./Images";
 
 const Sidebar = ({ children }) => {
   const { t, i18n } = useTranslation("common");
@@ -40,37 +40,17 @@ const Sidebar = ({ children }) => {
             left: "0",
             height: "100%",
             width: isOpen ? "256px" : "0px",
-            // width: isOpen
-            // ? { xs: "100%", md: "calc(100% - 256px)" }
-            // : { xs: "100%", md: "calc(100% - 0px)" },
             transition: " all 0.2s linear",
             zIndex: "100 ",
-            overflowY: "scroll",
-            "&::-webkit-scrollbar": {
-              width: "4px",
-            },
-            "&::-webkit-scrollbar-track": {
-              background: "transparent",
-            },
-            "&::-webkit-scrollbar-thumb": {
-              background: "#2a2e38",
-              borderRadius: "5px",
-            },
           }}
         >
           <Box sx={{ textAlign: "center" }}>
             <Link href="/">
-              <Image
+              <Images
                 src="/logo.png"
                 width={208}
                 height={80}
-                style={{
-                  maxWidth: "100%",
-                  height: "auto",
-                  aspectRatio: "208 / 80",
-                  objectFit: "contain",
-                  objectPosition: "center",
-                }}
+                objectFit="contain"
                 alt="logo"
               />
             </Link>
@@ -104,7 +84,8 @@ const Sidebar = ({ children }) => {
                   }}
                 >
                   <Link
-                    href={`/${currentLang}${item.href}`}
+                    // href={`/${currentLang}${item.href}`}
+                    href={item.href}
                     sx={{
                       padding: "8px 16px",
                       textDecoration: "none",
@@ -153,9 +134,7 @@ const Sidebar = ({ children }) => {
         <Box
           sx={{
             top: "0%",
-            // position: "fixed",
             position: "sticky",
-            // width: isOpen ? "calc(100% - 256px)" : "100%",
             width: "100%",
             boxSizing: "border-box",
             transition: "all 0.2s linear",
@@ -169,7 +148,6 @@ const Sidebar = ({ children }) => {
             <Header onClick={toggleHandler} />
           </Box>
         </Box>
-        {/* <Box sx={{ width: "100%", height: "66px", background: "#000" }} /> */}
         <Box sx={{ boxSizing: "border-box" }}>
           <Box>{children}</Box>
         </Box>
@@ -188,17 +166,6 @@ const Sidebar = ({ children }) => {
             width: "70%",
             height: "100vh",
             background: "#121418",
-            overflowY: "scroll",
-            "&::-webkit-scrollbar": {
-              width: "5px",
-            },
-            "&::-webkit-scrollbar-track": {
-              background: "#121418",
-            },
-            "&::-webkit-scrollbar-thumb": {
-              background: "#2a2e38",
-              borderRadius: "5px",
-            },
           },
         }}
         anchor="left"
@@ -228,17 +195,11 @@ const Sidebar = ({ children }) => {
               />
             </Box>
             <Link href="/">
-              <Image
+              <Images
                 src="/logo.png"
-                width={50}
-                height={50}
-                style={{
-                  maxWidth: "100%",
-                  height: "auto",
-                  aspectRatio: "1 / 1",
-                  objectFit: "contain",
-                  objectPosition: "center",
-                }}
+                width={208}
+                height={80}
+                objectFit="contain"
                 alt="logo"
               />
             </Link>
@@ -271,7 +232,10 @@ const Sidebar = ({ children }) => {
                   }}
                 >
                   <Link
-                    href={`/${currentLang}${item.href}`}
+                    href={item.href}
+                    // href={`${currentLang === "en" ? "" : "/" + currentLang}${
+                    //   item.href
+                    // }`}
                     sx={{
                       padding: "8px 16px",
                       textDecoration: "none",

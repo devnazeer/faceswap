@@ -1,6 +1,5 @@
 "use client";
-import HeroSec from "@/Components/HeroSec/HeroSec";
-import { Box } from "@mui/material";
+import HeroSec from "@/Components/HeroSec";
 import React from "react";
 import { useTranslation } from "react-i18next";
 
@@ -10,8 +9,6 @@ function HeroSection() {
   return (
     <>
       <HeroSec
-        // isHome={false}
-        // isMfs={true}
         title={t("heromf.title")}
         para={t("heromf.para")}
         src="/multiface/hero.jpg"

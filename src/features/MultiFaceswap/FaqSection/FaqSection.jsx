@@ -1,5 +1,5 @@
 "use client";
-import CustomAccordion from "@/Components/CustomAccordian/CustomAccordian";
+import CustomAccordion from "@/Components/CustomAccordian";
 import { Box, Container, Grid, Typography } from "@mui/material";
 import React from "react";
 import { useTranslation } from "react-i18next";

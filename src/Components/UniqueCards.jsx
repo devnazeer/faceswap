@@ -1,6 +1,6 @@
 import { Box, Grid, Typography } from "@mui/material";
 import React from "react";
-import Icon from "../Icon/Icon";
+import Icon from "./Icon";
 
 function UniqueCards({
   title,
@@ -64,14 +64,11 @@ function UniqueCards({
       )}
       {isIcon && (
         <Box
-          className="uniqueCard"
+          className="uniqueCard flex"
           sx={{
             width: "100%",
             height: "100%",
-            display: "flex",
             flexDirection: "column",
-            alignItems: "center",
-            justifyContent: "center",
             gap: "24px",
             border: "1px solid #0891b2",
             padding: "32px 16px",
@@ -82,13 +79,11 @@ function UniqueCards({
           }}
         >
           <Box
+            className="flex"
             sx={{
               width: "60px",
               height: "60px",
               borderRadius: "50%",
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
               background: "#0891b2",
             }}
           >

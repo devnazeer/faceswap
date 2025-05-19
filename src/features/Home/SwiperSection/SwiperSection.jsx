@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { Box, Container, Grid, Typography } from "@mui/material";
-import Card from "@/Components/Card/Card";
+import Card from "@/Components/Card";
 import { useTranslation } from "react-i18next";
 import "@/lib/i18n";
 
@@ -49,7 +49,6 @@ function SwiperSection() {
                 display: "flex",
                 flexDirection: "column",
                 gap: "24px",
-                // justifyContent: "center",
               }}
             >
               {cards.slice(1, 3).map((item, id) => (

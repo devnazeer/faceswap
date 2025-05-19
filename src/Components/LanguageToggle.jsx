@@ -1,9 +1,9 @@
 "use client";
 
-import { useLanguage } from "../LanguageProvider/LanguageProvider";
+import { useLanguage } from "./LanguageProvider";
 import { Box, ClickAwayListener } from "@mui/material";
 import { useState } from "react";
-import Icon from "../Icon/Icon";
+import Icon from "./Icon";
 import { usePathname, useRouter } from "next/navigation"; // ✅ useRouter added
 
 const LANGUAGES = [
@@ -38,6 +38,53 @@ function LanguageToggle({ isBottom }) {
       console.error("Language change failed:", error);
     }
   };
+
+  // const handleSelect = async (langCode) => {
+  //   try {
+  //     const pathParts = pathname.split("/").filter(Boolean); // removes empty parts
+  //     const isBlogPage = pathParts[1] === "blog"; // [locale]/blog/[slug]
+
+  //     if (isBlogPage) {
+  //       const currentLocale = pathParts[0];
+  //       const currentSlug = pathParts[2];
+
+  //       // Fetch the current post using slug and current language
+  //       const res = await fetch(
+  //         `https://swapinfo.xyz/wp-json/wp/v2/posts?slug=${currentSlug}&lang=${currentLocale}`
+  //       );
+  //       const currentPost = await res.json();
+
+  //       if (currentPost.length && currentPost[0].translations?.[langCode]) {
+  //         const translatedPostId = currentPost[0].translations[langCode];
+
+  //         // Fetch the translated post to get its slug
+  //         const translatedRes = await fetch(
+  //           `https://swapinfo.xyz/wp-json/wp/v2/posts/${translatedPostId}?lang=${langCode}`
+  //         );
+  //         const translatedPost = await translatedRes.json();
+
+  //         const translatedSlug = translatedPost.slug;
+  //         const newPath = `/${langCode}/blog/${translatedSlug}`;
+
+  //         changeLanguage(langCode);
+  //         router.push(newPath);
+  //         setOpen(false);
+  //         return;
+  //       } else {
+  //         console.warn("No translated version found for the current post.");
+  //       }
+  //     }
+
+  //     // ✅ For non-blog pages — fallback to same path with new lang
+  //     const pathWithoutLang = pathname.replace(/^\/[a-z]{2}/, "");
+  //     const newPath = `/${langCode}${pathWithoutLang}`;
+  //     changeLanguage(langCode);
+  //     router.push(newPath);
+  //     setOpen(false);
+  //   } catch (error) {
+  //     console.error("Language change failed:", error);
+  //   }
+  // };
 
   return (
     <ClickAwayListener onClickAway={() => setOpen(false)}>

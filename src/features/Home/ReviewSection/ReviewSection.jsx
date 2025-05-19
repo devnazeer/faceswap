@@ -1,5 +1,5 @@
 "use client";
-import ReviewCards from "@/Components/ReviewCards/ReviewCards";
+import ReviewCards from "@/Components/ReviewCards";
 import { Box, Container, Grid, Typography } from "@mui/material";
 import React from "react";
 import { useTranslation } from "react-i18next";
