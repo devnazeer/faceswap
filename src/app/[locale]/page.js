@@ -12,7 +12,7 @@ export async function generateMetadata({ params }) {
 }
 
 export async function generateStaticParams() {
-  return ["en", "es", "ru", "pt", "id"].map((locale) => ({ locale }));
+  return ["en", "es", "ru", "pt", "id", "de"].map((locale) => ({ locale }));
 }
 
 export default function Home({ params }) {

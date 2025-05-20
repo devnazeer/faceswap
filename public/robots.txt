@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /api/
+Disallow: /admin/
+Allow: /
+
+Sitemap: https://faceswaponline.ai/sitemap.xml
+Sitemap: https://faceswaponline.ai/de/sitemap.xml
+Sitemap: https://faceswaponline.ai/ru/sitemap.xml
+Sitemap: https://faceswaponline.ai/pt/sitemap.xml
+Sitemap: https://faceswaponline.ai/es/sitemap.xml
+Sitemap: https://faceswaponline.ai/id/sitemap.xml

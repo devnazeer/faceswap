@@ -4,7 +4,7 @@ import ChooseFile from "./ChooseFile";
 import Icon from "./Icon";
 import ButtonLabel from "./ButtonLabel";
 import { useState } from "react";
-import Image from "next/image";
+import Images from "./Images";
 
 function HeroSec({
   title,
@@ -136,18 +136,12 @@ function HeroSec({
               size={{ xs: 12, md: 6, lg: 8 }}
               sx={{ borderRadius: "20px", overflow: "hidden" }}
             >
-              <Image
+              <Images
                 src={swap ? result : src}
                 width={800}
                 height={400}
-                loading="lazy"
-                style={{
-                  maxWidth: "100%",
-                  height: "auto",
-                  borderRadius: "20px",
-                  objectFit: "contain",
-                  aspectRatio: "800/400",
-                }}
+                objectFit="contain"
+                borderRadius="20px"
                 alt={alt || "Preview"}
               />
               {swap && (
@@ -268,17 +262,11 @@ function HeroSec({
                   mx: "auto",
                 }}
               >
-                <Image
+                <Images
                   src={"/home/qrCode.png"}
                   width={99}
                   height={99}
-                  loading="lazy"
-                  style={{
-                    maxWidth: "100%",
-                    height: "auto",
-                    objectFit: "contain",
-                    aspectRatio: "99/99",
-                  }}
+                  objectFit="contain"
                   alt={alt || "Preview"}
                 />
               </Box>

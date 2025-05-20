@@ -130,3 +130,98 @@ const BlogDetailPage = ({ slug, locale }) => {
 };
 
 export default BlogDetailPage;
+
+// "use client";
+
+// import React, { useEffect, useState } from "react";
+// import { Box, Container, Typography } from "@mui/material";
+// import Image from "next/image";
+// import { useParams } from "next/navigation";
+// import Loading from "@/app/Loading/Loading";
+
+// const BlogDetailPage = () => {
+//   const params = useParams(); // Get dynamic route params
+//   const { slug, locale } = params;
+
+//   const [blog, setBlog] = useState(null);
+//   const [loading, setLoading] = useState(true);
+
+//   useEffect(() => {
+//     if (!slug || !locale) return;
+
+//     const fetchBlogDetail = async () => {
+//       try {
+//         const res = await fetch(
+//           `https://swapinfo.xyz/wp-json/wp/v2/posts?slug=${slug}&lang=${locale}&_embed`
+//         );
+//         const data = await res.json();
+//         if (data.length > 0) {
+//           const post = data[0];
+//           setBlog({
+//             title: post.title.rendered,
+//             content: post.content.rendered,
+//             date: new Date(post.date).toLocaleDateString(locale),
+//             image:
+//               post._embedded?.["wp:featuredmedia"]?.[0]?.source_url || null,
+//           });
+//         } else {
+//           setBlog(null);
+//         }
+//       } catch (error) {
+//         console.error("Failed to fetch blog post", error);
+//         setBlog(null);
+//       } finally {
+//         setLoading(false);
+//       }
+//     };
+
+//     fetchBlogDetail();
+//   }, [slug, locale]);
+
+//   if (loading) return <Loading />;
+//   if (!blog) return <p>Blog not found.</p>;
+
+//   return (
+//     <Box sx={{ py: "32px" }}>
+//       <Container maxWidth="lg">
+//         {blog.image && (
+//           <Box sx={{ display: "flex", justifyContent: "center", mb: 4 }}>
+//             <Image
+//               src={blog.image}
+//               alt={blog.title}
+//               width={1024}
+//               height={576}
+//               style={{
+//                 borderRadius: "8px",
+//                 objectFit: "cover",
+//                 width: "100%",
+//                 height: "auto",
+//               }}
+//             />
+//           </Box>
+//         )}
+//       </Container>
+//       <Container maxWidth="md">
+//         {blog.title && (
+//           <Typography variant="h1" component="h1" sx={{ mb: 2, color: "#000" }}>
+//             {blog.title}
+//           </Typography>
+//         )}
+//         {blog.date && (
+//           <Typography
+//             variant="caption"
+//             sx={{ color: "#4b5563", mb: 2, display: "block" }}
+//           >
+//             {blog.date}
+//           </Typography>
+//         )}
+//         <div
+//           dangerouslySetInnerHTML={{ __html: blog.content }}
+//           style={{ color: "#4b5563" }}
+//         />
+//       </Container>
+//     </Box>
+//   );
+// };
+
+// export default BlogDetailPage;

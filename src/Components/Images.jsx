@@ -2,7 +2,6 @@ import React from "react";
 import Image from "next/image";
 
 const Images = ({ src, width, height, alt, borderRadius, objectFit }) => {
-  console.log(src, "src");
   return (
     <Image
       alt={alt || "Face Shape Detector"}
