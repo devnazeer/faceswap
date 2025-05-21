@@ -23,13 +23,12 @@ function SwiperSection() {
         <Grid container spacing={4} justifyContent={"center"}>
           <Grid size={{ xs: 12, sm: 6, md: 5, lg: 6 }}>
             <Box
+              className="align"
               sx={{
                 position: "sticky !important",
                 top: "69px",
                 padding: "5px",
-                display: "flex",
                 flexDirection: "column",
-                alignItems: "center",
               }}
             >
               {cards.slice(0, 1).map((item, id) => (

@@ -6,12 +6,10 @@ function Loading() {
   return (
     <>
       <Box
+        className="flex"
         sx={{
           width: "100%",
           height: "100vh",
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
           background: "linear-gradient(to right, #1f2937, #374151)",
         }}
       >

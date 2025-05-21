@@ -7,14 +7,6 @@
     "btnText": "Trocar Rosto",
     "note": "Desbloqueie Mais Modelos de Troca de Rostos ou Faça Você Mesmo no Aplicativo"
   },
-  "choose": {
-    "base": "Carregar Imagem Base - Imagem principal onde os rostos serão substituídos.",
-    "target": "Carregar Rosto Alvo - Este rosto substituirá o da sua imagem base.",
-    "button": "Escolher Arquivo",
-    "swap": "Trocar Rostos",
-    "reset": "Iniciar Nova Troca de Rostos",
-    "download": "Baixar Resultado"
-  },
   "unique": {
     "heading": "O Que Torna o Trocador de Rostos com IA Único?",
     "items": [
@@ -168,226 +160,225 @@
     ]
   },
   "footer": {
-  "pixel": "Pixelmorph",
-  "subPixel": "Pixelmorph. All rights reserved.",
-  "tools":"Tools",
-  "faceswap":"faceswap",
-  "multiface":"Multi-Faceswap",
-  "sitemap":"Sitemap",
-  "about":"About Us",
-  "terms":"Terms of Service",
-  "privacy":"Privacy Policy",
-  "blog":"Blog",
-  "follow":"Follow Us",
-  "changeLanguage":"Change Language"
-},
+    "pixel": "Pixelmorph",
+    "subPixel": "Pixelmorph. All rights reserved.",
+    "tools": "Tools",
+    "faceswap": "faceswap",
+    "multiface": "Multi-Faceswap",
+    "sitemap": "Sitemap",
+    "about": "About Us",
+    "terms": "Terms of Service",
+    "privacy": "Privacy Policy",
+    "blog": "Blog",
+    "follow": "Follow Us",
+    "changeLanguage": "Change Language"
+  },
   "sidebar": {
-  "cards": [
-  {
-    "name": "Faceswap",
-    "href": "/"
+    "cards": [
+      {
+        "name": "Faceswap",
+        "href": "/"
+      },
+      {
+        "name": "Multi-Faceswap",
+        "href": "/multi-faceswap"
+      },
+      {
+        "name": "Blogs",
+        "href": "/blog"
+      },
+      {
+        "name": "About",
+        "href": "/about"
+      }
+    ]
   },
-  {
-    "name": "Multi-Faceswap",
-    "href": "/multi-faceswap"
+  "heromf": {
+    "title": "Troca de Múltiplos Rostos com IA - Grátis Online para Fotos em Grupo",
+    "para": "Com a Troca de Múltiplos Rostos com IA, transforme facilmente fotos em grupo trocando rostos de forma divertida e criativa. Ideal para capturar momentos memoráveis com amigos ou familiares de maneira original.",
+    "uploadPara1": "Carregar Rosto",
+    "uploadPara2": "Imagem Base",
+    "btnText": "Trocar Rosto",
+    "note": "Desbloqueie Mais Modelos de Troca de Rosto ou Faça Você Mesmo no Aplicativo"
   },
-  {
-    "name": "Blogs",
-    "href": "/blog"
+  "uniquemf": {
+    "heading": "Por que Usar Troca de Múltiplos Rostos?",
+    "items": [
+      {
+        "title": "Melhor Troca de Múltiplos Rostos com IA",
+        "para": "Com a melhor ferramenta de troca de múltiplos rostos com IA, não é necessário instalar um aplicativo. Basta carregar suas fotos em grupo e a IA trocará os rostos automaticamente, com resultados instantâneos e divertidos online gratuitamente."
+      },
+      {
+        "title": "Sem Necessidade de Instalação",
+        "para": "Não é preciso instalar nada! Com a troca de múltiplos rostos online grátis, basta carregar suas imagens e deixar a IA fazer o resto. Seja para trocar rostos de casais ou fotos em grupo, você pode fazer isso facilmente em segundos!"
+      },
+      {
+        "title": "Qualquer Pessoa Pode Fazer Parte da Foto em Grupo",
+        "para": "Surpreenda seus amigos trocando os rostos deles em uma foto em grupo usando a ferramenta avançada de troca de múltiplos rostos. Carregue a foto em grupo e as imagens dos seus amigos, e a ferramenta fará a integração perfeita dos rostos para criar lembranças engraçadas e compartilháveis!"
+      },
+      {
+        "title": "Interface Amigável ao Usuário",
+        "para": "Com uma interface amigável, qualquer pessoa pode realizar uma troca perfeita de múltiplos rostos online gratuitamente. Não é necessário experiência — basta carregar suas fotos e a ferramenta cuidará do resto com resultados impecáveis!"
+      }
+    ]
   },
-  {
-    "name": "About",
-    "href": "/about"
-  }
-]
-},
- "heromf": {
-  "title": "Troca de Múltiplos Rostos com IA - Grátis Online para Fotos em Grupo",
-  "para": "Com a Troca de Múltiplos Rostos com IA, transforme facilmente fotos em grupo trocando rostos de forma divertida e criativa. Ideal para capturar momentos memoráveis com amigos ou familiares de maneira original.",
-  "uploadPara1": "Carregar Rosto",
-  "uploadPara2": "Imagem Base",
-  "btnText": "Trocar Rosto",
-  "note": "Desbloqueie Mais Modelos de Troca de Rosto ou Faça Você Mesmo no Aplicativo"
-},
-"uniquemf": {
-  "heading": "Por que Usar Troca de Múltiplos Rostos?",
-  "items": [
-    {
-      "title": "Melhor Troca de Múltiplos Rostos com IA",
-      "para": "Com a melhor ferramenta de troca de múltiplos rostos com IA, não é necessário instalar um aplicativo. Basta carregar suas fotos em grupo e a IA trocará os rostos automaticamente, com resultados instantâneos e divertidos online gratuitamente."
-    },
-    {
-      "title": "Sem Necessidade de Instalação",
-      "para": "Não é preciso instalar nada! Com a troca de múltiplos rostos online grátis, basta carregar suas imagens e deixar a IA fazer o resto. Seja para trocar rostos de casais ou fotos em grupo, você pode fazer isso facilmente em segundos!"
-    },
-    {
-      "title": "Qualquer Pessoa Pode Fazer Parte da Foto em Grupo",
-      "para": "Surpreenda seus amigos trocando os rostos deles em uma foto em grupo usando a ferramenta avançada de troca de múltiplos rostos. Carregue a foto em grupo e as imagens dos seus amigos, e a ferramenta fará a integração perfeita dos rostos para criar lembranças engraçadas e compartilháveis!"
-    },
-    {
-      "title": "Interface Amigável ao Usuário",
-      "para": "Com uma interface amigável, qualquer pessoa pode realizar uma troca perfeita de múltiplos rostos online gratuitamente. Não é necessário experiência — basta carregar suas fotos e a ferramenta cuidará do resto com resultados impecáveis!"
-    }
-  ]
-},
-"swipermf": {
-  "heading": "Melhores Usos da Troca de Múltiplos Rostos",
-  "subheading": "Precisa destacar detalhes do produto? Use o aprimorador de imagem com IA do AirBrush para ampliar imagens com facilidade para edições ou impressões.",
-  "upload": "Carregar Imagem",
-  "download": "Baixar Aplicativo",
-  "cards": [
-    {
-      "src": "/multiface/1.png",
-      "title": "Crie Memes Divertidos em Família com Troca de Múltiplos Rostos",
-      "description": "Um trocador de múltiplos rostos é perfeito para adicionar diversão a fotos em grupo, eventos familiares ou projetos criativos. Troque rostos facilmente e crie imagens memoráveis que se destacam!"
-    },
-    {
-      "src": "/multiface/2.png",
-      "title": "Troca de Rostos de Celebridades em Grupo",
-      "description": "Transforme suas fotos familiares em memes hilários com o trocador de múltiplos rostos! Troque rostos em fotos de grupo e crie momentos divertidos para compartilhar."
-    },
-    {
-      "src": "/multiface/3.png",
-      "title": "Crie Conteúdo Viral nas Redes com Troca de Múltiplos Rostos",
-      "description": "Troque rostos de celebridades com seus amigos e familiares usando a troca de múltiplos rostos online. Seja com casais ou grupos, crie conteúdo divertido e compartilhe instantaneamente!"
-    },
-    {
-      "src": "/multiface/4.png",
-      "title": "Explore Novos Visuais com Troca de Rostos em Grupo",
-      "description": "Crie conteúdo engraçado e compartilhável nas redes sociais com o trocador de múltiplos rostos. Troque rostos com facilidade, aumente o engajamento e impulsione seu perfil!"
-    }
-  ]
-},
-"howUsemf": {
-  "heading": "Como usar a Troca de Rosto?",
-  "cards": [
-    {
-      "code": "\uefeb",
-      "label": "camera_switch",
-      "title": "Passo 1. Carregue uma foto em grupo",
-      "para": "Basta carregar uma foto em grupo com múltiplos rostos. Certifique-se de que a imagem seja clara e de alta qualidade."
-    },
-    {
-      "code": "\ue8a7",
-      "label": "upload",
-      "title": "Passo 2. Carregue as fotos dos rostos a serem trocados",
-      "para": "Depois que os rostos forem detectados, carregue imagens adicionais com os rostos desejados para a troca."
-    },
-    {
-      "code": "\ue7ef",
-      "label": "group",
-      "title": "Processe a troca de múltiplos rostos",
-      "para": "Clique em 'Trocar Múltiplos Rostos Agora'. Baixe e compartilhe com seus amigos!"
-    }
-  ]
-},
-"editingmf": {
-  "heading": "Todas as Ferramentas Online de Edição de Foto e Vídeo",
-  "cards": [
-    {
-      "src": "/home/img1.webp",
-      "title": "Troca de Rosto com IA",
-      "para": "A Troca de Rosto com IA permite trocar rostos em qualquer foto facilmente. Crie imagens divertidas ou criativas com apenas alguns cliques.",
-      "href": "/",
-      "btnText": "Experimente Agora"
-    },
-    {
-      "src": "/multiface/1.png",
-      "title": "Troca de Múltiplos Rostos com IA",
-      "para": "A Troca de Múltiplos Rostos com IA permite trocar vários rostos em uma única imagem com facilidade. Perfeita para fotos em grupo, cria resultados divertidos e compartilháveis com poucos cliques.",
-      "href": "/multi-faceswap",
-      "btnText": "Experimente Agora"
-    }
-  ]
-},
-"reviewsmf": {
-  "heading": "Avaliações de Usuários",
-  "cards": [
-    {
-      "title": "Aarav Mehta",
-      "para": "Fiquei impressionado com a facilidade de trocar vários rostos em uma única foto! O FaceSwapAI tornou tudo tão simples e os resultados foram super realistas. Perfeito para fotos em grupo e ocasiões especiais."
-    },
-    {
-      "title": "Priya Patel",
-      "para": "O FaceSwapAI é uma ferramenta indispensável para trocar vários rostos ao mesmo tempo. Usei em uma foto de reunião familiar e os resultados foram hilários! A IA detectou todos os rostos com precisão, mesmo em um grupo grande."
-    },
-    {
-      "title": "Liam Johnson",
-      "para": "Essa ferramenta é revolucionária! Experimentei a troca de múltiplos rostos em uma foto com meus amigos e não conseguimos parar de rir. A precisão e a velocidade são incomparáveis!"
-    },
-    {
-      "title": "Neha Kapoor",
-      "para": "Este site facilitou muito a troca de rostos, mesmo em grupos grandes. Troquei rostos em uma foto de casamento com 12 pessoas, e funcionou perfeitamente. Todos ficaram impressionados com o resultado."
-    }
-  ]
-},
-"faqsmf": {
-  "heading": "Perguntas Frequentes",
-  "cards": [
-    {
-      "question": "O que é a Troca de Múltiplos Rostos?",
-      "answer": "Ela permite trocar vários rostos em uma única imagem, ideal para fotos em grupo ou edições divertidas com várias pessoas."
-    },
-    {
-      "question": "Como funciona a IA de troca de múltiplos rostos?",
-      "answer": "O FaceSwapAI usa tecnologia avançada de IA para detectar todos os rostos na imagem e trocá-los de forma automática e perfeita."
-    },
-    {
-      "question": "A troca de rostos múltiplos online é gratuita?",
-      "answer": "Sim, oferecemos uma versão gratuita que permite realizar a troca de múltiplos rostos online."
-    },
-    {
-      "question": "Meus dados estão seguros com o Multi Face Swap?",
-      "answer": "Sim, o FaceSwapAI prioriza a privacidade do usuário e usa criptografia segura para proteger suas imagens e dados pessoais."
-    },
-    {
-      "question": "Quanto tempo leva para trocar vários rostos?",
-      "answer": "O tempo varia de acordo com o número de rostos e o tamanho da imagem, mas geralmente leva de segundos a alguns minutos."
-    },
-    {
-      "question": "Quantos rostos podem ser trocados ao mesmo tempo?",
-      "answer": "O FaceSwapAI pode trocar entre 2 a 8 rostos ao mesmo tempo, dependendo da complexidade da imagem."
-    },
-    {
-      "question": "A qualidade da imagem original será reduzida?",
-      "answer": "Não, o FaceSwapAI mantém a qualidade da imagem original durante a troca de rostos, garantindo um resultado em alta resolução."
-    },
-    {
-      "question": "Posso trocar rostos em fotos de grupos grandes?",
-      "answer": "Sim, o sistema é projetado para lidar com fotos em grupo e pode detectar e trocar rostos com precisão."
-    },
-    {
-      "question": "O FaceSwapAI permite o envio de rostos personalizados?",
-      "answer": "Sim, você pode carregar suas próprias imagens ou escolher entre rostos disponíveis para a troca."
-    },
-    {
-      "question": "Quais tipos de arquivos são suportados?",
-      "answer": "O FaceSwapAI suporta formatos populares como JPEG, PNG e GIF, garantindo compatibilidade com a maioria dos arquivos de imagem."
-    }
-  ]
-},
-"blogCard": {
-  "title": "Blog",
-  "blogPost": [
-    {
-      "slug": "swap-face-photoshop",
-      "image": "/blog/blog1.webp",
-      "title": "Trocar Rosto no Photoshop",
-      "description": "Está em busca de uma maneira profissional de usar o Photoshop gratuitamente online? Então temos o guia ideal para você: 'Como Trocar Rostos no Photoshop'. A troca de rostos é, sem dúvida, uma técnica divertida e eficaz para aumentar o alcance nas redes sociais, combinando rostos de forma criativa. Descubra como realizar essa edição no Photoshop CC...",
-      "isDate": true,
-      "date": "25 de fevereiro de 2025"
-    },
-    {
-      "slug": "how-to-use-insight-face-swap-discord",
-      "image": "/blog/blog2.webp",
-      "title": "Como Usar o Insight Face Swap no Discord",
-      "description": "Dê vida às suas ideias criativas com o Insight Face Swap no Discord e aproveite misturas perfeitas de diferentes identidades como nunca antes. O Insight Face Swap é um plugin avançado de troca de rostos, permitindo aos usuários trocar seu rosto por outro usando um modelo de IA conhecido como 'Insight Face'…",
-      "isDate": true,
-      "date": "25 de fevereiro de 2025"
-    }
-  ]
-},
-
+  "swipermf": {
+    "heading": "Melhores Usos da Troca de Múltiplos Rostos",
+    "subheading": "Precisa destacar detalhes do produto? Use o aprimorador de imagem com IA do AirBrush para ampliar imagens com facilidade para edições ou impressões.",
+    "upload": "Carregar Imagem",
+    "download": "Baixar Aplicativo",
+    "cards": [
+      {
+        "src": "/multiface/1.png",
+        "title": "Crie Memes Divertidos em Família com Troca de Múltiplos Rostos",
+        "description": "Um trocador de múltiplos rostos é perfeito para adicionar diversão a fotos em grupo, eventos familiares ou projetos criativos. Troque rostos facilmente e crie imagens memoráveis que se destacam!"
+      },
+      {
+        "src": "/multiface/2.png",
+        "title": "Troca de Rostos de Celebridades em Grupo",
+        "description": "Transforme suas fotos familiares em memes hilários com o trocador de múltiplos rostos! Troque rostos em fotos de grupo e crie momentos divertidos para compartilhar."
+      },
+      {
+        "src": "/multiface/3.png",
+        "title": "Crie Conteúdo Viral nas Redes com Troca de Múltiplos Rostos",
+        "description": "Troque rostos de celebridades com seus amigos e familiares usando a troca de múltiplos rostos online. Seja com casais ou grupos, crie conteúdo divertido e compartilhe instantaneamente!"
+      },
+      {
+        "src": "/multiface/4.png",
+        "title": "Explore Novos Visuais com Troca de Rostos em Grupo",
+        "description": "Crie conteúdo engraçado e compartilhável nas redes sociais com o trocador de múltiplos rostos. Troque rostos com facilidade, aumente o engajamento e impulsione seu perfil!"
+      }
+    ]
+  },
+  "howUsemf": {
+    "heading": "Como usar a Troca de Rosto?",
+    "cards": [
+      {
+        "code": "\uefeb",
+        "label": "camera_switch",
+        "title": "Passo 1. Carregue uma foto em grupo",
+        "para": "Basta carregar uma foto em grupo com múltiplos rostos. Certifique-se de que a imagem seja clara e de alta qualidade."
+      },
+      {
+        "code": "\ue8a7",
+        "label": "upload",
+        "title": "Passo 2. Carregue as fotos dos rostos a serem trocados",
+        "para": "Depois que os rostos forem detectados, carregue imagens adicionais com os rostos desejados para a troca."
+      },
+      {
+        "code": "\ue7ef",
+        "label": "group",
+        "title": "Processe a troca de múltiplos rostos",
+        "para": "Clique em 'Trocar Múltiplos Rostos Agora'. Baixe e compartilhe com seus amigos!"
+      }
+    ]
+  },
+  "editingmf": {
+    "heading": "Todas as Ferramentas Online de Edição de Foto e Vídeo",
+    "cards": [
+      {
+        "src": "/home/img1.webp",
+        "title": "Troca de Rosto com IA",
+        "para": "A Troca de Rosto com IA permite trocar rostos em qualquer foto facilmente. Crie imagens divertidas ou criativas com apenas alguns cliques.",
+        "href": "/",
+        "btnText": "Experimente Agora"
+      },
+      {
+        "src": "/multiface/1.png",
+        "title": "Troca de Múltiplos Rostos com IA",
+        "para": "A Troca de Múltiplos Rostos com IA permite trocar vários rostos em uma única imagem com facilidade. Perfeita para fotos em grupo, cria resultados divertidos e compartilháveis com poucos cliques.",
+        "href": "/multi-faceswap",
+        "btnText": "Experimente Agora"
+      }
+    ]
+  },
+  "reviewsmf": {
+    "heading": "Avaliações de Usuários",
+    "cards": [
+      {
+        "title": "Aarav Mehta",
+        "para": "Fiquei impressionado com a facilidade de trocar vários rostos em uma única foto! O FaceSwapAI tornou tudo tão simples e os resultados foram super realistas. Perfeito para fotos em grupo e ocasiões especiais."
+      },
+      {
+        "title": "Priya Patel",
+        "para": "O FaceSwapAI é uma ferramenta indispensável para trocar vários rostos ao mesmo tempo. Usei em uma foto de reunião familiar e os resultados foram hilários! A IA detectou todos os rostos com precisão, mesmo em um grupo grande."
+      },
+      {
+        "title": "Liam Johnson",
+        "para": "Essa ferramenta é revolucionária! Experimentei a troca de múltiplos rostos em uma foto com meus amigos e não conseguimos parar de rir. A precisão e a velocidade são incomparáveis!"
+      },
+      {
+        "title": "Neha Kapoor",
+        "para": "Este site facilitou muito a troca de rostos, mesmo em grupos grandes. Troquei rostos em uma foto de casamento com 12 pessoas, e funcionou perfeitamente. Todos ficaram impressionados com o resultado."
+      }
+    ]
+  },
+  "faqsmf": {
+    "heading": "Perguntas Frequentes",
+    "cards": [
+      {
+        "question": "O que é a Troca de Múltiplos Rostos?",
+        "answer": "Ela permite trocar vários rostos em uma única imagem, ideal para fotos em grupo ou edições divertidas com várias pessoas."
+      },
+      {
+        "question": "Como funciona a IA de troca de múltiplos rostos?",
+        "answer": "O FaceSwapAI usa tecnologia avançada de IA para detectar todos os rostos na imagem e trocá-los de forma automática e perfeita."
+      },
+      {
+        "question": "A troca de rostos múltiplos online é gratuita?",
+        "answer": "Sim, oferecemos uma versão gratuita que permite realizar a troca de múltiplos rostos online."
+      },
+      {
+        "question": "Meus dados estão seguros com o Multi Face Swap?",
+        "answer": "Sim, o FaceSwapAI prioriza a privacidade do usuário e usa criptografia segura para proteger suas imagens e dados pessoais."
+      },
+      {
+        "question": "Quanto tempo leva para trocar vários rostos?",
+        "answer": "O tempo varia de acordo com o número de rostos e o tamanho da imagem, mas geralmente leva de segundos a alguns minutos."
+      },
+      {
+        "question": "Quantos rostos podem ser trocados ao mesmo tempo?",
+        "answer": "O FaceSwapAI pode trocar entre 2 a 8 rostos ao mesmo tempo, dependendo da complexidade da imagem."
+      },
+      {
+        "question": "A qualidade da imagem original será reduzida?",
+        "answer": "Não, o FaceSwapAI mantém a qualidade da imagem original durante a troca de rostos, garantindo um resultado em alta resolução."
+      },
+      {
+        "question": "Posso trocar rostos em fotos de grupos grandes?",
+        "answer": "Sim, o sistema é projetado para lidar com fotos em grupo e pode detectar e trocar rostos com precisão."
+      },
+      {
+        "question": "O FaceSwapAI permite o envio de rostos personalizados?",
+        "answer": "Sim, você pode carregar suas próprias imagens ou escolher entre rostos disponíveis para a troca."
+      },
+      {
+        "question": "Quais tipos de arquivos são suportados?",
+        "answer": "O FaceSwapAI suporta formatos populares como JPEG, PNG e GIF, garantindo compatibilidade com a maioria dos arquivos de imagem."
+      }
+    ]
+  },
+  "blogCard": {
+    "title": "Blog",
+    "blogPost": [
+      {
+        "slug": "swap-face-photoshop",
+        "image": "/blog/blog1.webp",
+        "title": "Trocar Rosto no Photoshop",
+        "description": "Está em busca de uma maneira profissional de usar o Photoshop gratuitamente online? Então temos o guia ideal para você: 'Como Trocar Rostos no Photoshop'. A troca de rostos é, sem dúvida, uma técnica divertida e eficaz para aumentar o alcance nas redes sociais, combinando rostos de forma criativa. Descubra como realizar essa edição no Photoshop CC...",
+        "isDate": true,
+        "date": "25 de fevereiro de 2025"
+      },
+      {
+        "slug": "how-to-use-insight-face-swap-discord",
+        "image": "/blog/blog2.webp",
+        "title": "Como Usar o Insight Face Swap no Discord",
+        "description": "Dê vida às suas ideias criativas com o Insight Face Swap no Discord e aproveite misturas perfeitas de diferentes identidades como nunca antes. O Insight Face Swap é um plugin avançado de troca de rostos, permitindo aos usuários trocar seu rosto por outro usando um modelo de IA conhecido como 'Insight Face'…",
+        "isDate": true,
+        "date": "25 de fevereiro de 2025"
+      }
+    ]
+  },
   "blogDetails": {
     "swap-face-photoshop": {
       "slug": "swap-face-photoshop",
@@ -455,7 +446,6 @@
         {
           "type": "paragraph",
           "text": "Toque e segure o segundo rosto selecionado da sua lista e copie-o com todos os seus detalhes. Depois de copiá-lo, vá para a opção do segundo rosto e insira-o clicando na opção 'Colar'. Para maior precisão, você também pode usar o",
-
           "strongSuffix": "“Atalho de Teclado do Photoshop”"
         },
         {
@@ -466,7 +456,9 @@
           "type": "paragraph",
           "text": [
             "Avance para o alinhamento do rosto, que será seu próximo passo. É nesta etapa que você reduzirá a opacidade para 50% e tornará o",
-            { "bold": " “Painel de Camadas”" },
+            {
+              "bold": " “Painel de Camadas”"
+            },
             " visível. Em seguida, alinhando perfeitamente o rosto com redimensionamento e correspondência de proporção, prossiga para o próximo passo."
           ]
         },
@@ -647,13 +639,21 @@
         },
         {
           "type": "paragraph",
-          "text": ["Toque na", { "bold": " “Barra de Menu” " }, "."]
+          "text": [
+            "Toque na",
+            {
+              "bold": " “Barra de Menu” "
+            },
+            "."
+          ]
         },
         {
           "type": "paragraph",
           "text": [
             "Navegue até a opção",
-            { "bold": " “Adicionar Servidor” " },
+            {
+              "bold": " “Adicionar Servidor” "
+            },
             " e clique nela."
           ]
         },
@@ -661,7 +661,9 @@
           "type": "paragraph",
           "text": [
             "Agora, selecione ",
-            { "bold": " “Criar o Meu Próprio”  " },
+            {
+              "bold": " “Criar o Meu Próprio”  "
+            },
             " e crie seu próprio servidor no Discord."
           ]
         },
@@ -679,13 +681,20 @@
         },
         {
           "type": "paragraph",
-          "text": ["Toque em", { "bold": " “Mostrar Lista de Membros”." }]
+          "text": [
+            "Toque em",
+            {
+              "bold": " “Mostrar Lista de Membros”."
+            }
+          ]
         },
         {
           "type": "paragraph",
           "text": [
             "Agora, clique no ícone",
-            { "bold": " “Adicionar Servidor” " },
+            {
+              "bold": " “Adicionar Servidor” "
+            },
             " e acesse a opção “Autorizar”."
           ]
         },
@@ -709,7 +718,9 @@
           "type": "paragraph",
           "text": [
             "Crie um ID digitando",
-            { "bold": " “/save ID” " },
+            {
+              "bold": " “/save ID” "
+            },
             "para confirmar o comando."
           ]
         },
@@ -733,7 +744,9 @@
           "type": "paragraph",
           "text": [
             "Gere a imagem com o comando ",
-            { "bold": " “/imagine” " },
+            {
+              "bold": " “/imagine” "
+            },
             "e pressione Enter."
           ]
         },
@@ -745,7 +758,9 @@
           "type": "paragraph",
           "text": [
             "Clique com o botão direito na imagem e vá para a opção ",
-            { "bold": " “Aplicativos” " },
+            {
+              "bold": " “Aplicativos” "
+            },
             "."
           ]
         },
@@ -753,7 +768,9 @@
           "type": "paragraph",
           "text": [
             "A partir daqui, selecione ",
-            { "bold": " “In Swapper” " },
+            {
+              "bold": " “In Swapper” "
+            },
             " e coloque o rosto carregado na imagem."
           ]
         },
@@ -770,7 +787,9 @@
           "prefix": "Carregar um Novo ID: ",
           "text": [
             " Clique em ",
-            { "bold": " “/save ID” " },
+            {
+              "bold": " “/save ID” "
+            },
             " para adicionar o novo ID ao seu servidor."
           ]
         },
@@ -779,7 +798,9 @@
           "prefix": "Excluir um ID: ",
           "text": [
             "Para excluir um ID, digite o comando ",
-            { "bold": " “/del ID” " },
+            {
+              "bold": " “/del ID” "
+            },
             "e para excluir todos os IDs salvos, você pode digitar "
           ],
           "suffix": " “/delall IDs”."
@@ -789,7 +810,9 @@
           "prefix": "Alterar um ID: ",
           "text": [
             "Você também pode alterar um ID clicando na opção ",
-            { "bold": " “/set ID” " },
+            {
+              "bold": " “/set ID” "
+            },
             "e definindo qualquer um dos IDs desejados como o padrão de sua escolha."
           ]
         },
@@ -798,7 +821,9 @@
           "prefix": "Visualizar a Lista de IDs: ",
           "text": [
             "Para visualizar uma lista de IDs, não há necessidade de se envolver em nenhum problema adicional; basta digitar o comando ",
-            { "bold": " “/list ID” " },
+            {
+              "bold": " “/list ID” "
+            },
             " e tudo será feito."
           ]
         },
@@ -861,371 +886,371 @@
       ]
     }
   },
-"privacy":{
+  "privacy": {
     "title": "Política de Privacidade",
-  "content": [
-    {
-      "type": "paragraph",
-      "text": "Última atualização: 03/02/2025",
-      "customMargin": "17px"
-    },
-    {
-      "type": "paragraph",
-      "text": "Esta Política de Privacidade descreve como o PixelMorph (\"nós\", \"nosso\" ou \"nossa\") coleta, usa e compartilha informações sobre você quando você usa nossos serviços de processamento de imagens (\"Serviços\"). Estamos comprometidos em proteger sua privacidade.",
-      "customMargin": "17px"
-    },
-    {
-      "type": "paragraph",
-      "text": "1. Informações que Coletamos"
-    },
-    {
-      "type": "paragraph",
-      "text": "1.1. Informações que Você Nos Fornece"
-    },
-    {
-      "type": "paragraph",
-      "text": "Imagens: Quando você usa nossos Serviços, você faz upload de imagens para nossos servidores para processamento. Armazenamos temporariamente essas imagens para realizar as operações solicitadas (remoção de fundo, remoção de marca d'água)."
-    },
-    {
-      "type": "paragraph",
-      "text": "Informações Opcionais da Conta (Se Aplicável): Se você optar por criar uma conta, podemos coletar informações como seu endereço de e-mail, nome de usuário e senha. *Se você não tiver contas, remova esta seção.*"
-    },
-    {
-      "type": "paragraph",
-      "text": "Outras Informações (Se Aplicável): Se o usuário puder entrar em contato com você de alguma forma, adicione isso."
-    },
-    {
-      "type": "paragraph",
-      "text": "1.2. Informações que Coletamos Automaticamente"
-    },
-    {
-      "type": "paragraph",
-      "text": "Dados de Uso: Podemos coletar informações sobre como você usa nossos Serviços, como os tipos de recursos que você usa, a frequência de uso e o tempo gasto em nossa plataforma."
-    },
-    {
-      "type": "paragraph",
-      "text": "Informações do Dispositivo: Podemos coletar informações sobre o dispositivo que você usa para acessar nossos Serviços, incluindo o tipo de dispositivo, sistema operacional, tipo de navegador e endereço IP. *Isso é crucial para segurança e solução de problemas.*"
-    },
-    {
-      "type": "paragraph",
-      "text": "Cookies e Tecnologias Semelhantes: Podemos usar cookies e tecnologias semelhantes (por exemplo, web beacons, pixels) para coletar informações sobre sua atividade de navegação e preferências. Você pode controlar os cookies através das configurações do seu navegador. *Consulte a seção \"Cookies\" abaixo para mais detalhes.*"
-    },
-    {
-      "type": "paragraph",
-      "text": "2. Como Usamos Suas Informações"
-    },
-    {
-      "type": "paragraph",
-      "text": "Para Fornecer e Melhorar Nossos Serviços: Usamos as imagens que você envia para realizar o processamento de imagem solicitado. Usamos informações de uso e dispositivo para melhorar nossos Serviços, corrigir bugs e desenvolver novos recursos."
-    },
-    {
-      "type": "paragraph",
-      "text": "Para Comunicar com Você (Se Aplicável): Se você tiver uma conta ou tiver fornecido informações de contato, podemos usar suas informações para enviar atualizações, responder a consultas ou fornecer suporte ao cliente."
-    },
-    {
-      "type": "paragraph",
-      "text": "Para Fins de Segurança: Usamos informações para proteger a segurança e integridade de nossos Serviços, prevenir fraudes e cumprir obrigações legais."
-    },
-    {
-      "type": "paragraph",
-      "text": "Para Personalizar Sua Experiência (Se Aplicável): Se você coletar informações sobre as preferências do usuário, use esta seção."
-    },
-    {
-      "type": "paragraph",
-      "text": "3. Como Compartilhamos Suas Informações"
-    },
-    {
-      "type": "paragraph",
-      "text": "Com Provedores de Serviços de Terceiros: Podemos compartilhar suas informações com provedores de serviços terceirizados que nos ajudam a fornecer nossos Serviços, como provedores de armazenamento em nuvem (por exemplo, AWS, Google Cloud) e provedores de análise (por exemplo, Google Analytics). *Esses provedores são contratualmente obrigados a proteger suas informações.* **Você DEVE listar os provedores específicos que usa.**"
-    },
-    {
-      "type": "paragraph",
-      "text": "Por Motivos Legais: Podemos divulgar suas informações se exigido por lei, como em resposta a uma intimação, ordem judicial ou outro processo legal. Também podemos divulgar suas informações se acreditarmos que é necessário para proteger nossos direitos, propriedade ou segurança, ou os direitos, propriedade ou segurança de outros."
-    },
-    {
-      "type": "paragraph",
-      "text": "Em Conexão com uma Transação Comercial: Se estivermos envolvidos em uma fusão, aquisição ou venda de ativos, suas informações podem ser transferidas como parte dessa transação."
-    },
-    {
-      "type": "paragraph",
-      "text": "Com Seu Consentimento: Podemos compartilhar suas informações com outros terceiros com seu consentimento."
-    },
-    {
-      "type": "paragraph",
-      "text": "4. Retenção de Dados"
-    },
-    {
-      "type": "paragraph",
-      "text": "Retemos as imagens que você envia por um tempo limitado necessário para processá-las. Imagens processadas e enviadas são normalmente excluídas de nossos servidores dentro de [Especificar Período - por exemplo, 24 horas, 7 dias]. Outras informações (dados de uso, informações do dispositivo) podem ser retidas por períodos mais longos conforme necessário para fins comerciais legítimos, como melhorar nossos Serviços e cumprir obrigações legais. *Seja específico sobre os períodos de retenção.*",
-      "customMargin": "17px"
-    },
-    {
-      "type": "paragraph",
-      "text": "5. Seus Direitos e Escolhas"
-    },
-    {
-      "type": "paragraph",
-      "text": "Acesso e Correção: Você pode ter o direito de acessar e corrigir as informações pessoais que mantemos sobre você. Entre em contato conosco em [Seu E-mail de Contato] para fazer essas solicitações."
-    },
-    {
-      "type": "paragraph",
-      "text": "Exclusão: Você pode ter o direito de solicitar que excluamos suas informações pessoais. Observe que podemos precisar reter certas informações para fins legais ou comerciais legítimos."
-    },
-    {
-      "type": "paragraph",
-      "text": "Oposição e Restrição: Você pode ter o direito de se opor ou restringir nosso processamento de suas informações pessoais."
-    },
-    {
-      "type": "paragraph",
-      "text": "Portabilidade de Dados: Você pode ter o direito de receber uma cópia de suas informações pessoais em um formato estruturado, comumente usado e legível por máquina."
-    },
-    {
-      "type": "paragraph",
-      "text": "*Esses direitos dependem da lei aplicável (por exemplo, GDPR, CCPA). Adapte esta seção às jurisdições onde você opera.*"
-    },
-    {
-      "type": "paragraph",
-      "text": "6. Cookies"
-    },
-    {
-      "type": "paragraph",
-      "text": "Usamos cookies e tecnologias semelhantes para coletar informações sobre sua atividade de navegação e preferências. Um cookie é um pequeno arquivo de texto que é armazenado em seu dispositivo. Você pode controlar os cookies através das configurações do seu navegador. A maioria dos navegadores permite bloquear ou excluir cookies. No entanto, bloquear cookies pode afetar sua capacidade de usar nossos Serviços. *Se você usar cookies, você DEVE ter uma seção dedicada explicando-os, incluindo:* * **Tipos de cookies usados (por exemplo, sessão, persistentes, de primeira parte, de terceiros)** * **Finalidades dos cookies (por exemplo, análise, funcionalidade, publicidade)** * **Como gerenciar cookies (com links para instruções do navegador)** * **Se você não usar cookies, remova esta seção e na seção 1.2 apenas mencione isso**",
-      "customMargin": "17px"
-    },
-    {
-      "type": "paragraph",
-      "text": "7. Segurança"
-    },
-    {
-      "type": "paragraph",
-      "text": "Tomamos medidas razoáveis para proteger suas informações contra acesso, uso ou divulgação não autorizados. Essas medidas podem incluir criptografia, controles de acesso e políticas de segurança de dados. No entanto, nenhum método de transmissão pela internet ou método de armazenamento eletrônico é completamente seguro. *Seja realista sobre as limitações de segurança.*",
-      "customMargin": "17px"
-    },
-    {
-      "type": "paragraph",
-      "text": "8. Privacidade de Crianças"
-    },
-    {
-      "type": "paragraph",
-      "text": "Nosso serviço é destinado a um público geral e não coletamos intencionalmente informações pessoais de crianças menores de 16 anos. Se você tem menos de 16 anos, não use ou forneça qualquer informação neste site.",
-      "customMargin": "17px"
-    },
-    {
-      "type": "paragraph",
-      "text": "9. Alterações nesta Política de Privacidade"
-    },
-    {
-      "type": "paragraph",
-      "text": "Podemos atualizar esta Política de Privacidade periodicamente. Publicaremos quaisquer alterações nesta página e atualizaremos a data da \"Última Atualização\". Recomendamos que você revise esta Política de Privacidade periodicamente.",
-      "customMargin": "17px"
-    },
-    {
-      "type": "paragraph",
-      "text": "10. Entre em Contato Conosco"
-    },
-    {
-      "type": "paragraph",
-      "text":[ "Se você tiver alguma dúvida sobre esta Política de Privacidade, entre em contato conosco em: ",
-       {
-          "link": {
-            "href": "mailto:shahshawaiz@gmail.com",
-            "text": "shahshawaiz@gmail.com"
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Última atualização: 03/02/2025",
+        "customMargin": "17px"
+      },
+      {
+        "type": "paragraph",
+        "text": "Esta Política de Privacidade descreve como o PixelMorph (\"nós\", \"nosso\" ou \"nossa\") coleta, usa e compartilha informações sobre você quando você usa nossos serviços de processamento de imagens (\"Serviços\"). Estamos comprometidos em proteger sua privacidade.",
+        "customMargin": "17px"
+      },
+      {
+        "type": "paragraph",
+        "text": "1. Informações que Coletamos"
+      },
+      {
+        "type": "paragraph",
+        "text": "1.1. Informações que Você Nos Fornece"
+      },
+      {
+        "type": "paragraph",
+        "text": "Imagens: Quando você usa nossos Serviços, você faz upload de imagens para nossos servidores para processamento. Armazenamos temporariamente essas imagens para realizar as operações solicitadas (remoção de fundo, remoção de marca d'água)."
+      },
+      {
+        "type": "paragraph",
+        "text": "Informações Opcionais da Conta (Se Aplicável): Se você optar por criar uma conta, podemos coletar informações como seu endereço de e-mail, nome de usuário e senha. *Se você não tiver contas, remova esta seção.*"
+      },
+      {
+        "type": "paragraph",
+        "text": "Outras Informações (Se Aplicável): Se o usuário puder entrar em contato com você de alguma forma, adicione isso."
+      },
+      {
+        "type": "paragraph",
+        "text": "1.2. Informações que Coletamos Automaticamente"
+      },
+      {
+        "type": "paragraph",
+        "text": "Dados de Uso: Podemos coletar informações sobre como você usa nossos Serviços, como os tipos de recursos que você usa, a frequência de uso e o tempo gasto em nossa plataforma."
+      },
+      {
+        "type": "paragraph",
+        "text": "Informações do Dispositivo: Podemos coletar informações sobre o dispositivo que você usa para acessar nossos Serviços, incluindo o tipo de dispositivo, sistema operacional, tipo de navegador e endereço IP. *Isso é crucial para segurança e solução de problemas.*"
+      },
+      {
+        "type": "paragraph",
+        "text": "Cookies e Tecnologias Semelhantes: Podemos usar cookies e tecnologias semelhantes (por exemplo, web beacons, pixels) para coletar informações sobre sua atividade de navegação e preferências. Você pode controlar os cookies através das configurações do seu navegador. *Consulte a seção \"Cookies\" abaixo para mais detalhes.*"
+      },
+      {
+        "type": "paragraph",
+        "text": "2. Como Usamos Suas Informações"
+      },
+      {
+        "type": "paragraph",
+        "text": "Para Fornecer e Melhorar Nossos Serviços: Usamos as imagens que você envia para realizar o processamento de imagem solicitado. Usamos informações de uso e dispositivo para melhorar nossos Serviços, corrigir bugs e desenvolver novos recursos."
+      },
+      {
+        "type": "paragraph",
+        "text": "Para Comunicar com Você (Se Aplicável): Se você tiver uma conta ou tiver fornecido informações de contato, podemos usar suas informações para enviar atualizações, responder a consultas ou fornecer suporte ao cliente."
+      },
+      {
+        "type": "paragraph",
+        "text": "Para Fins de Segurança: Usamos informações para proteger a segurança e integridade de nossos Serviços, prevenir fraudes e cumprir obrigações legais."
+      },
+      {
+        "type": "paragraph",
+        "text": "Para Personalizar Sua Experiência (Se Aplicável): Se você coletar informações sobre as preferências do usuário, use esta seção."
+      },
+      {
+        "type": "paragraph",
+        "text": "3. Como Compartilhamos Suas Informações"
+      },
+      {
+        "type": "paragraph",
+        "text": "Com Provedores de Serviços de Terceiros: Podemos compartilhar suas informações com provedores de serviços terceirizados que nos ajudam a fornecer nossos Serviços, como provedores de armazenamento em nuvem (por exemplo, AWS, Google Cloud) e provedores de análise (por exemplo, Google Analytics). *Esses provedores são contratualmente obrigados a proteger suas informações.* **Você DEVE listar os provedores específicos que usa.**"
+      },
+      {
+        "type": "paragraph",
+        "text": "Por Motivos Legais: Podemos divulgar suas informações se exigido por lei, como em resposta a uma intimação, ordem judicial ou outro processo legal. Também podemos divulgar suas informações se acreditarmos que é necessário para proteger nossos direitos, propriedade ou segurança, ou os direitos, propriedade ou segurança de outros."
+      },
+      {
+        "type": "paragraph",
+        "text": "Em Conexão com uma Transação Comercial: Se estivermos envolvidos em uma fusão, aquisição ou venda de ativos, suas informações podem ser transferidas como parte dessa transação."
+      },
+      {
+        "type": "paragraph",
+        "text": "Com Seu Consentimento: Podemos compartilhar suas informações com outros terceiros com seu consentimento."
+      },
+      {
+        "type": "paragraph",
+        "text": "4. Retenção de Dados"
+      },
+      {
+        "type": "paragraph",
+        "text": "Retemos as imagens que você envia por um tempo limitado necessário para processá-las. Imagens processadas e enviadas são normalmente excluídas de nossos servidores dentro de [Especificar Período - por exemplo, 24 horas, 7 dias]. Outras informações (dados de uso, informações do dispositivo) podem ser retidas por períodos mais longos conforme necessário para fins comerciais legítimos, como melhorar nossos Serviços e cumprir obrigações legais. *Seja específico sobre os períodos de retenção.*",
+        "customMargin": "17px"
+      },
+      {
+        "type": "paragraph",
+        "text": "5. Seus Direitos e Escolhas"
+      },
+      {
+        "type": "paragraph",
+        "text": "Acesso e Correção: Você pode ter o direito de acessar e corrigir as informações pessoais que mantemos sobre você. Entre em contato conosco em [Seu E-mail de Contato] para fazer essas solicitações."
+      },
+      {
+        "type": "paragraph",
+        "text": "Exclusão: Você pode ter o direito de solicitar que excluamos suas informações pessoais. Observe que podemos precisar reter certas informações para fins legais ou comerciais legítimos."
+      },
+      {
+        "type": "paragraph",
+        "text": "Oposição e Restrição: Você pode ter o direito de se opor ou restringir nosso processamento de suas informações pessoais."
+      },
+      {
+        "type": "paragraph",
+        "text": "Portabilidade de Dados: Você pode ter o direito de receber uma cópia de suas informações pessoais em um formato estruturado, comumente usado e legível por máquina."
+      },
+      {
+        "type": "paragraph",
+        "text": "*Esses direitos dependem da lei aplicável (por exemplo, GDPR, CCPA). Adapte esta seção às jurisdições onde você opera.*"
+      },
+      {
+        "type": "paragraph",
+        "text": "6. Cookies"
+      },
+      {
+        "type": "paragraph",
+        "text": "Usamos cookies e tecnologias semelhantes para coletar informações sobre sua atividade de navegação e preferências. Um cookie é um pequeno arquivo de texto que é armazenado em seu dispositivo. Você pode controlar os cookies através das configurações do seu navegador. A maioria dos navegadores permite bloquear ou excluir cookies. No entanto, bloquear cookies pode afetar sua capacidade de usar nossos Serviços. *Se você usar cookies, você DEVE ter uma seção dedicada explicando-os, incluindo:* * **Tipos de cookies usados (por exemplo, sessão, persistentes, de primeira parte, de terceiros)** * **Finalidades dos cookies (por exemplo, análise, funcionalidade, publicidade)** * **Como gerenciar cookies (com links para instruções do navegador)** * **Se você não usar cookies, remova esta seção e na seção 1.2 apenas mencione isso**",
+        "customMargin": "17px"
+      },
+      {
+        "type": "paragraph",
+        "text": "7. Segurança"
+      },
+      {
+        "type": "paragraph",
+        "text": "Tomamos medidas razoáveis para proteger suas informações contra acesso, uso ou divulgação não autorizados. Essas medidas podem incluir criptografia, controles de acesso e políticas de segurança de dados. No entanto, nenhum método de transmissão pela internet ou método de armazenamento eletrônico é completamente seguro. *Seja realista sobre as limitações de segurança.*",
+        "customMargin": "17px"
+      },
+      {
+        "type": "paragraph",
+        "text": "8. Privacidade de Crianças"
+      },
+      {
+        "type": "paragraph",
+        "text": "Nosso serviço é destinado a um público geral e não coletamos intencionalmente informações pessoais de crianças menores de 16 anos. Se você tem menos de 16 anos, não use ou forneça qualquer informação neste site.",
+        "customMargin": "17px"
+      },
+      {
+        "type": "paragraph",
+        "text": "9. Alterações nesta Política de Privacidade"
+      },
+      {
+        "type": "paragraph",
+        "text": "Podemos atualizar esta Política de Privacidade periodicamente. Publicaremos quaisquer alterações nesta página e atualizaremos a data da \"Última Atualização\". Recomendamos que você revise esta Política de Privacidade periodicamente.",
+        "customMargin": "17px"
+      },
+      {
+        "type": "paragraph",
+        "text": "10. Entre em Contato Conosco"
+      },
+      {
+        "type": "paragraph",
+        "text": [
+          "Se você tiver alguma dúvida sobre esta Política de Privacidade, entre em contato conosco em: ",
+          {
+            "link": {
+              "href": "mailto:shahshawaiz@gmail.com",
+              "text": "shahshawaiz@gmail.com"
+            }
           }
-        }]
-    }
-  ]
+        ]
+      }
+    ]
   },
-  "terms":{
+  "terms": {
     "title": "Termos de Serviço",
-  "content": [
-    {
-      "type": "paragraph",
-      "text": "Última atualização: 03/02/2025",
-      "customMargin": "17px"
-    },
-    {
-      "type": "paragraph",
-      "text": "Por favor, leia estes Termos de Serviço (\"Termos\") com atenção antes de usar o serviço de processamento de imagens PixelMorph (\"Serviço\") operado pela PixelMorph Inc. (\"nós\", \"nosso\" ou \"nossa\"). Ao acessar ou usar o Serviço, você concorda em ficar vinculado por estes Termos. Se você discordar de qualquer parte dos Termos, então você não pode acessar o Serviço.",
-      "customMargin": "17px"
-    },
-    {
-      "type": "paragraph",
-      "text": "1. Aceitação dos Termos"
-    },
-    {
-      "type": "paragraph",
-      "text": "Ao acessar ou usar o Serviço, você declara e garante que tem pelo menos 18 anos de idade e tem capacidade legal para celebrar estes Termos. Se você estiver usando o Serviço em nome de uma organização, você declara e garante que tem autoridade para vincular essa organização a estes Termos.",
-      "customMargin": "17px"
-    },
-    {
-      "type": "paragraph",
-      "text": "2. Uso do Serviço"
-    },
-    {
-      "type": "paragraph",
-      "text": "2.1. Uso Permitido"
-    },
-    {
-      "type": "paragraph",
-      "text": "Você pode usar o Serviço apenas para fins legais. Você concorda em não usar o Serviço:",
-      "customMargin": "17px"
-    },
-    {
-      "type": "paragraph",
-      "text": "Para enviar, processar ou compartilhar qualquer conteúdo que seja ilegal, prejudicial, ameaçador, abusivo, assediador, difamatório, vulgar, obsceno, calunioso, invasivo da privacidade de outra pessoa, odioso ou de outra forma censurável."
-    },
-    {
-      "type": "paragraph",
-      "text": "Para infringir os direitos de propriedade intelectual de outros, incluindo direitos autorais, marcas registradas e patentes."
-    },
-    {
-      "type": "paragraph",
-      "text": "Para enviar, processar ou compartilhar qualquer conteúdo que contenha vírus, malware ou outro código prejudicial."
-    },
-    {
-      "type": "paragraph",
-      "text": "Para se passar por qualquer pessoa ou entidade, ou declarar falsamente ou deturpar seu afiliamento com uma pessoa ou entidade."
-    },
-    {
-      "type": "paragraph",
-      "text": "Para interferir ou interromper o Serviço ou servidores ou redes conectadas ao Serviço."
-    },
-    {
-      "type": "paragraph",
-      "text": "Para violar quaisquer leis ou regulamentos aplicáveis."
-    },
-    {
-      "type": "paragraph",
-      "text": "Para coletar ou armazenar dados pessoais sobre outros usuários sem seu consentimento expresso."
-    },
-    {
-      "type": "paragraph",
-      "text": "2.2. Conteúdo do Usuário"
-    },
-    {
-      "type": "paragraph",
-      "text": "Você é o único responsável pelo conteúdo que envia para o Serviço (\"Conteúdo do Usuário\"). Você mantém a propriedade do seu Conteúdo do Usuário, mas, ao enviá-lo para o Serviço, você nos concede uma licença não exclusiva, mundial, isenta de royalties para usar, reproduzir, modificar, adaptar, publicar, traduzir, distribuir e exibir seu Conteúdo do Usuário apenas para fins de fornecer o Serviço. Você declara e garante que tem todos os direitos necessários para nos conceder esta licença.",
-      "customMargin": "17px"
-    },
-    {
-      "type": "paragraph",
-      "text": "Não reivindicamos propriedade do seu Conteúdo do Usuário; no entanto, proibimos estritamente quaisquer atividades que infrinjam direitos de propriedade intelectual.",
-      "customMargin": "17px"
-    },
-    {
-      "type": "paragraph",
-      "text": "3. Propriedade Intelectual"
-    },
-    {
-      "type": "paragraph",
-      "text": "O Serviço e seu conteúdo original, recursos e funcionalidade são e permanecerão propriedade exclusiva da PixelMorph Inc. e seus licenciadores. O Serviço é protegido por leis de direitos autorais, marcas registradas e outras leis dos Estados Unidos e de países estrangeiros. Nossas marcas registradas e vestimenta comercial não podem ser usadas em conexão com qualquer produto ou serviço sem nosso consentimento prévio por escrito.",
-      "customMargin": "17px"
-    },
-    {
-      "type": "paragraph",
-      "text": "4. Isenção de Garantias"
-    },
-    {
-      "type": "paragraph",
-      "text": "O Serviço é fornecido \"no estado em que se encontra\" e \"conforme disponível\" sem garantia de qualquer tipo, expressa ou implícita, incluindo, mas não se limitando a, as garantias implícitas de comercialização, adequação a um propósito específico e não violação. Não garantimos que o Serviço será ininterrupto, livre de erros, seguro ou livre de vírus ou outros componentes prejudiciais, nem garantimos a precisão, integridade ou confiabilidade de quaisquer resultados obtidos do uso do Serviço.",
-      "customMargin": "17px"
-    },
-    {
-      "type": "paragraph",
-      "text": "5. Limitação de Responsabilidade"
-    },
-    {
-      "type": "paragraph",
-      "text": "Em nenhum caso a PixelMorph Inc., seus diretores, funcionários, parceiros, agentes, fornecedores ou afiliados serão responsáveis por quaisquer danos indiretos, incidentais, especiais, consequenciais ou punitivos, incluindo, sem limitação, perda de lucros, dados, uso, boa vontade ou outras perdas intangíveis, resultantes de: (i) seu acesso ou uso ou incapacidade de acessar ou usar o Serviço; (ii) qualquer conduta ou conteúdo de qualquer terceiro no Serviço; (iii) qualquer conteúdo obtido do Serviço; e (iv) acesso, uso ou alteração não autorizados de suas transmissões ou conteúdo, seja com base em garantia, contrato, delito (incluindo negligência) ou qualquer outra teoria legal, mesmo se tivéssemos sido avisados da possibilidade de tais danos.",
-      "customMargin": "17px"
-    },
-    {
-      "type": "paragraph",
-      "text": "6. Lei Aplicável"
-    },
-    {
-      "type": "paragraph",
-      "text": "Estes Termos serão regidos e interpretados de acordo com as leis do Estado da Califórnia, Estados Unidos, sem consideração a seus conflitos de disposições legais.",
-      "customMargin": "17px"
-    },
-    {
-      "type": "paragraph",
-      "text": "7. Alterações nos Termos"
-    },
-    {
-      "type": "paragraph",
-      "text": "Reservamos o direito, a nosso exclusivo critério, de modificar ou substituir estes Termos a qualquer momento. Se uma revisão for material, forneceremos pelo menos 30 dias de aviso antes que quaisquer novos termos entrem em vigor. O que constitui uma alteração material será determinado a nosso exclusivo critério. Ao continuar a acessar ou usar nosso Serviço após essas revisões entrarem em vigor, você concorda em ficar vinculado pelos termos revisados.",
-      "customMargin": "17px"
-    },
-    {
-      "type": "paragraph",
-      "text": "8. Entre em Contato Conosco"
-    },
-    {
-      "type": "paragraph",
-      "text": [
-        "Se você tiver alguma dúvida sobre estes Termos, entre em contato conosco em: ",
-        {
-          "link": {
-            "href": "mailto:shahshawaiz@gmail.com",
-            "text": "shahshawaiz@gmail.com"
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Última atualização: 03/02/2025",
+        "customMargin": "17px"
+      },
+      {
+        "type": "paragraph",
+        "text": "Por favor, leia estes Termos de Serviço (\"Termos\") com atenção antes de usar o serviço de processamento de imagens PixelMorph (\"Serviço\") operado pela PixelMorph Inc. (\"nós\", \"nosso\" ou \"nossa\"). Ao acessar ou usar o Serviço, você concorda em ficar vinculado por estes Termos. Se você discordar de qualquer parte dos Termos, então você não pode acessar o Serviço.",
+        "customMargin": "17px"
+      },
+      {
+        "type": "paragraph",
+        "text": "1. Aceitação dos Termos"
+      },
+      {
+        "type": "paragraph",
+        "text": "Ao acessar ou usar o Serviço, você declara e garante que tem pelo menos 18 anos de idade e tem capacidade legal para celebrar estes Termos. Se você estiver usando o Serviço em nome de uma organização, você declara e garante que tem autoridade para vincular essa organização a estes Termos.",
+        "customMargin": "17px"
+      },
+      {
+        "type": "paragraph",
+        "text": "2. Uso do Serviço"
+      },
+      {
+        "type": "paragraph",
+        "text": "2.1. Uso Permitido"
+      },
+      {
+        "type": "paragraph",
+        "text": "Você pode usar o Serviço apenas para fins legais. Você concorda em não usar o Serviço:",
+        "customMargin": "17px"
+      },
+      {
+        "type": "paragraph",
+        "text": "Para enviar, processar ou compartilhar qualquer conteúdo que seja ilegal, prejudicial, ameaçador, abusivo, assediador, difamatório, vulgar, obsceno, calunioso, invasivo da privacidade de outra pessoa, odioso ou de outra forma censurável."
+      },
+      {
+        "type": "paragraph",
+        "text": "Para infringir os direitos de propriedade intelectual de outros, incluindo direitos autorais, marcas registradas e patentes."
+      },
+      {
+        "type": "paragraph",
+        "text": "Para enviar, processar ou compartilhar qualquer conteúdo que contenha vírus, malware ou outro código prejudicial."
+      },
+      {
+        "type": "paragraph",
+        "text": "Para se passar por qualquer pessoa ou entidade, ou declarar falsamente ou deturpar seu afiliamento com uma pessoa ou entidade."
+      },
+      {
+        "type": "paragraph",
+        "text": "Para interferir ou interromper o Serviço ou servidores ou redes conectadas ao Serviço."
+      },
+      {
+        "type": "paragraph",
+        "text": "Para violar quaisquer leis ou regulamentos aplicáveis."
+      },
+      {
+        "type": "paragraph",
+        "text": "Para coletar ou armazenar dados pessoais sobre outros usuários sem seu consentimento expresso."
+      },
+      {
+        "type": "paragraph",
+        "text": "2.2. Conteúdo do Usuário"
+      },
+      {
+        "type": "paragraph",
+        "text": "Você é o único responsável pelo conteúdo que envia para o Serviço (\"Conteúdo do Usuário\"). Você mantém a propriedade do seu Conteúdo do Usuário, mas, ao enviá-lo para o Serviço, você nos concede uma licença não exclusiva, mundial, isenta de royalties para usar, reproduzir, modificar, adaptar, publicar, traduzir, distribuir e exibir seu Conteúdo do Usuário apenas para fins de fornecer o Serviço. Você declara e garante que tem todos os direitos necessários para nos conceder esta licença.",
+        "customMargin": "17px"
+      },
+      {
+        "type": "paragraph",
+        "text": "Não reivindicamos propriedade do seu Conteúdo do Usuário; no entanto, proibimos estritamente quaisquer atividades que infrinjam direitos de propriedade intelectual.",
+        "customMargin": "17px"
+      },
+      {
+        "type": "paragraph",
+        "text": "3. Propriedade Intelectual"
+      },
+      {
+        "type": "paragraph",
+        "text": "O Serviço e seu conteúdo original, recursos e funcionalidade são e permanecerão propriedade exclusiva da PixelMorph Inc. e seus licenciadores. O Serviço é protegido por leis de direitos autorais, marcas registradas e outras leis dos Estados Unidos e de países estrangeiros. Nossas marcas registradas e vestimenta comercial não podem ser usadas em conexão com qualquer produto ou serviço sem nosso consentimento prévio por escrito.",
+        "customMargin": "17px"
+      },
+      {
+        "type": "paragraph",
+        "text": "4. Isenção de Garantias"
+      },
+      {
+        "type": "paragraph",
+        "text": "O Serviço é fornecido \"no estado em que se encontra\" e \"conforme disponível\" sem garantia de qualquer tipo, expressa ou implícita, incluindo, mas não se limitando a, as garantias implícitas de comercialização, adequação a um propósito específico e não violação. Não garantimos que o Serviço será ininterrupto, livre de erros, seguro ou livre de vírus ou outros componentes prejudiciais, nem garantimos a precisão, integridade ou confiabilidade de quaisquer resultados obtidos do uso do Serviço.",
+        "customMargin": "17px"
+      },
+      {
+        "type": "paragraph",
+        "text": "5. Limitação de Responsabilidade"
+      },
+      {
+        "type": "paragraph",
+        "text": "Em nenhum caso a PixelMorph Inc., seus diretores, funcionários, parceiros, agentes, fornecedores ou afiliados serão responsáveis por quaisquer danos indiretos, incidentais, especiais, consequenciais ou punitivos, incluindo, sem limitação, perda de lucros, dados, uso, boa vontade ou outras perdas intangíveis, resultantes de: (i) seu acesso ou uso ou incapacidade de acessar ou usar o Serviço; (ii) qualquer conduta ou conteúdo de qualquer terceiro no Serviço; (iii) qualquer conteúdo obtido do Serviço; e (iv) acesso, uso ou alteração não autorizados de suas transmissões ou conteúdo, seja com base em garantia, contrato, delito (incluindo negligência) ou qualquer outra teoria legal, mesmo se tivéssemos sido avisados da possibilidade de tais danos.",
+        "customMargin": "17px"
+      },
+      {
+        "type": "paragraph",
+        "text": "6. Lei Aplicável"
+      },
+      {
+        "type": "paragraph",
+        "text": "Estes Termos serão regidos e interpretados de acordo com as leis do Estado da Califórnia, Estados Unidos, sem consideração a seus conflitos de disposições legais.",
+        "customMargin": "17px"
+      },
+      {
+        "type": "paragraph",
+        "text": "7. Alterações nos Termos"
+      },
+      {
+        "type": "paragraph",
+        "text": "Reservamos o direito, a nosso exclusivo critério, de modificar ou substituir estes Termos a qualquer momento. Se uma revisão for material, forneceremos pelo menos 30 dias de aviso antes que quaisquer novos termos entrem em vigor. O que constitui uma alteração material será determinado a nosso exclusivo critério. Ao continuar a acessar ou usar nosso Serviço após essas revisões entrarem em vigor, você concorda em ficar vinculado pelos termos revisados.",
+        "customMargin": "17px"
+      },
+      {
+        "type": "paragraph",
+        "text": "8. Entre em Contato Conosco"
+      },
+      {
+        "type": "paragraph",
+        "text": [
+          "Se você tiver alguma dúvida sobre estes Termos, entre em contato conosco em: ",
+          {
+            "link": {
+              "href": "mailto:shahshawaiz@gmail.com",
+              "text": "shahshawaiz@gmail.com"
+            }
           }
-        }
-      ]
-    }
-  ]
+        ]
+      }
+    ]
   },
-  "about":{
-     "title": "Sobre o PixelMorph",
-  "content": [
-    {
-      "type": "paragraph",
-      "text": "O PixelMorph é uma plataforma simples e fácil de usar que fornece serviços rápidos e gratuitos de processamento de imagens. Nosso objetivo é tornar a edição de imagens acessível a todos, oferecendo ferramentas como remoção de fundo e remoção de marca d'água, tudo em apenas alguns cliques.",
-      "customMargin": "17px"
-    },
-    {
-      "type": "paragraph",
-      "text": "Principais Recursos"
-    },
-    {
-      "type": "paragraph",
-      "text": "Remova fundos de imagens facilmente com IA."
-    },
-    {
-      "type": "paragraph",
-      "text": "Apague marcas d'água de imagens de forma rápida e eficiente."
-    },
-    {
-      "type": "paragraph",
-      "text": "Não há necessidade de software complexo - tudo é online e gratuito."
-    },
-    {
-      "type": "paragraph",
-      "text": "Interface amigável projetada para simplicidade."
-    },
-    {
-      "type": "paragraph",
-      "text": "Tempos de processamento rápidos com resultados de alta qualidade."
-    },
-    {
-      "type": "paragraph",
-      "text": "Nossa Missão"
-    },
-    {
-      "type": "paragraph",
-      "text": "Nossa missão é fornecer ferramentas gratuitas e fáceis de usar para edição de imagens para todos. Acreditamos que o processamento de imagens de alta qualidade deve ser acessível sem software caro ou conhecimento técnico. Com o PixelMorph, qualquer pessoa pode obter resultados profissionais.",
-      "customMargin": "17px"
-    },
-    {
-      "type": "paragraph",
-      "text": "Por Que Nos Escolher?"
-    },
-    {
-      "type": "paragraph",
-      "text": "O PixelMorph se destaca por sua simplicidade e eficiência. Se você precisa remover um fundo para fotos de produtos ou se livrar de marcas d'água de imagens pessoais, nossas ferramentas são projetadas para tornar o processo o mais fácil e tranquilo possível."
-    }
-  ]
+  "about": {
+    "title": "Sobre o PixelMorph",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "O PixelMorph é uma plataforma simples e fácil de usar que fornece serviços rápidos e gratuitos de processamento de imagens. Nosso objetivo é tornar a edição de imagens acessível a todos, oferecendo ferramentas como remoção de fundo e remoção de marca d'água, tudo em apenas alguns cliques.",
+        "customMargin": "17px"
+      },
+      {
+        "type": "paragraph",
+        "text": "Principais Recursos"
+      },
+      {
+        "type": "paragraph",
+        "text": "Remova fundos de imagens facilmente com IA."
+      },
+      {
+        "type": "paragraph",
+        "text": "Apague marcas d'água de imagens de forma rápida e eficiente."
+      },
+      {
+        "type": "paragraph",
+        "text": "Não há necessidade de software complexo - tudo é online e gratuito."
+      },
+      {
+        "type": "paragraph",
+        "text": "Interface amigável projetada para simplicidade."
+      },
+      {
+        "type": "paragraph",
+        "text": "Tempos de processamento rápidos com resultados de alta qualidade."
+      },
+      {
+        "type": "paragraph",
+        "text": "Nossa Missão"
+      },
+      {
+        "type": "paragraph",
+        "text": "Nossa missão é fornecer ferramentas gratuitas e fáceis de usar para edição de imagens para todos. Acreditamos que o processamento de imagens de alta qualidade deve ser acessível sem software caro ou conhecimento técnico. Com o PixelMorph, qualquer pessoa pode obter resultados profissionais.",
+        "customMargin": "17px"
+      },
+      {
+        "type": "paragraph",
+        "text": "Por Que Nos Escolher?"
+      },
+      {
+        "type": "paragraph",
+        "text": "O PixelMorph se destaca por sua simplicidade e eficiência. Se você precisa remover um fundo para fotos de produtos ou se livrar de marcas d'água de imagens pessoais, nossas ferramentas são projetadas para tornar o processo o mais fácil e tranquilo possível."
+      }
+    ]
   }
 }
-
-

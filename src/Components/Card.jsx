@@ -7,9 +7,8 @@ const Card = ({ title, description, src, isBtn, href, btnText }) => {
   return (
     <>
       <Box
+        className="align"
         sx={{
-          display: "flex",
-          alignItems: "center",
           flexDirection: !isBtn ? { xs: "column", lg: "row" } : "column",
           background: "#141414",
           borderRadius: "20px",

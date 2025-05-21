@@ -1,819 +1,890 @@
 {
-"hero": {
-  "title": "Penukar Wajah AI Gratis - Penukar Wajah Online Terbaik",
-  "para": "Jelajahi keseruan Tukar Wajah AI dengan alat gratis kami. Tukar wajah seketika dengan teman, selebriti, atau siapa pun! AI membuatnya mudah dan menyenangkan untuk menciptakan hasil unik dan dapat dibagikan dalam hitungan detik.",
-  "uploadPara1": "Unggah Wajah",
-  "uploadPara2": "Gambar Dasar",
-  "btnText": "Tukar Wajah",
-  "note": "Buka Lebih Banyak Template Tukar Wajah atau Tukar DIY di Aplikasi"
-},
-"choose": {
-  "base": "Unggah Gambar Dasar - Gambar utama tempat wajah akan diganti.",
-  "target": "Unggah Wajah Target - Wajah ini akan menggantikan yang ada di gambar dasar Anda.",
-  "button": "Pilih File",
-  "swap": "Tukar Wajah",
-  "reset": "Mulai Tukar Wajah Baru",
-  "download": "Unduh Hasil"
-},
-"unique": {
-  "heading": "Apa yang Membuat AI Face Swapper Unik?",
-  "items": [
-    {
-      "title": "Tukar Wajah dalam Hitungan Detik",
-      "para": "Tukar wajah hanya dalam hitungan detik dengan alat online gratis kami. Unggah foto Anda dan biarkan AI melakukan keajaibannya secara instan. Cepat dan menyenangkan, buat gambar tukar wajah unik dengan mudah."
-    },
-    {
-      "title": "Tukar Wajah Realistis & Mulus",
-      "para": "Alat tukar wajah online gratis kami menggunakan AI untuk memadukan wajah secara mulus. Ganti wajah di foto dengan mudah dan buat hasil yang tampak alami hanya dalam hitungan detik."
-    },
-    {
-      "title": "Ubah Foto Jadi Seru dengan AI Face Swap",
-      "para": "Bersenang-senanglah menukar wajah dengan teman dan keluarga menggunakan penukar wajah kami. Ciptakan momen lucu dengan AI face change instan. Coba deep face swap secara gratis dan ganti wajah di foto dengan mudah!"
-    },
-    {
-      "title": "Letakkan Wajah Anda di Lukisan Terkenal dengan AI",
-      "para": "Letakkan wajah Anda di lukisan ikonik dengan AI face swap. Dengan generator online dan pengubah wajah AI, Anda dapat mengganti wajah di foto dan membuat seni yang menyenangkan serta dapat dibagikan dalam hitungan detik."
-    }
-  ]
-},
-"swiperSection": {
-  "heading": "Penukar Wajah Terbaik Untuk Semua Orang",
-  "subheading": "Ingin menampilkan detail produk? Gunakan penambah gambar AI dari AirBrush untuk meningkatkan kualitas gambar secara instan untuk pengeditan atau pencetakan.",
-  "upload": "Unggah Gambar",
-  "download": "Unduh Aplikasi",
-  "cards": [
-    {
-      "src": "/home/img1.webp",
-      "title": "Tingkatkan Interaksi Media Sosial dengan Tukar Wajah Viral",
-      "description": "Penukar wajah terbaik untuk semua! Tukar wajah di foto dengan mudah – baik itu memperbarui gambar lama, menukar wajah model, atau sekadar bersenang-senang. Dengan editor face swap online, semuanya cepat, mudah, dan serbaguna untuk kebutuhan Anda."
-    },
-    {
-      "src": "/home/img2.webp",
-      "title": "Tukar Wajah Selebriti",
-      "description": "Konten tukar wajah sedang tren di Instagram dan Twitter. Gunakan alat AI face swap untuk membuat gambar lucu dan mudah dibagikan. Posting hasil face change untuk meningkatkan pengikut dan interaksi dengan cepat."
-    },
-    {
-      "src": "/home/img3.webp",
-      "title": "Temukan Gaya Baru dengan AI Face Swap",
-      "description": "Tukar wajah Anda dengan selebriti menggunakan alat online. Ganti wajah di foto dengan hasil realistis dan menyenangkan. Coba pengubah wajah online gratis dan buat gambar tukar wajah luar biasa dalam hitungan detik!"
-    }
-  ]
-},
-"UploadImageSection": {
-  "heading": "Bagaimana Cara Menggunakan Face Swap?",
-  "cards": [
-    {
-      "code": "\uf09b",
-      "label": "upload",
-      "title": "Unggah Gambar",
-      "para": "Unggah gambar dengan wajah \"foto sumber\""
-    },
-    {
-      "code": "\uf09b",
-      "label": "upload",
-      "title": "Unggah Gambar",
-      "para": "Unggah gambar dengan wajah \"foto wajah target\""
-    },
-    {
-      "code": "\ue43e",
-      "label": "add_photo_alternate",
-      "title": "Tukar Wajah Sekarang",
-      "para": "Klik Tukar Wajah Sekarang untuk memulai proses"
-    }
-  ]
-},
-"editing": {
-  "heading": "Semua Alat Pengeditan Foto & Video Online",
-  "cards": [
-    {
-      "src": "/home/img1.webp",
-      "title": "AI Face Swap",
-      "para": "AI Face Swap memungkinkan Anda menukar wajah di foto dengan mudah. Dengan beberapa klik saja, buat gambar menyenangkan dan kreatif, serta rasakan berbagai kemungkinan transformasi wajah.",
-      "href": "/",
-      "btnText": "Coba Sekarang"
-    },
-    {
-      "src": "/multiface/1.png",
-      "title": "AI Tukar Wajah Ganda",
-      "para": "AI Tukar Wajah Ganda memungkinkan Anda menukar beberapa wajah dalam satu gambar dengan mudah. Sempurna untuk foto grup, hasil menyenangkan dapat dibagikan hanya dalam beberapa klik.",
-      "href": "/multi-faceswap",
-      "btnText": "Coba Sekarang"
-    }
-  ]
-},
-"reviews": {
-  "heading": "Ulasan Pengguna",
-  "cards": [
-    {
-      "title": "Jessica Harper",
-      "para": "Saya telah menggunakan FaceSwap selama beberapa waktu, dan saya masih kagum betapa realistis hasilnya! Sangat mudah digunakan, dan saya sangat menikmati membuat foto lucu dengan teman-teman. Sangat direkomendasikan bagi siapa pun yang ingin menambahkan kreativitas pada foto mereka!"
-    },
-    {
-      "title": "Michael Lee",
-      "para": "Akurasi FaceSwap sangat luar biasa. Transisinya sangat mulus – terasa begitu alami! Aplikasinya juga sangat mudah digunakan, bahkan untuk saya yang tidak terlalu mahir teknologi. Jujur saja, ini adalah aplikasi face swap terbaik yang pernah saya gunakan!"
-    },
-    {
-      "title": "Samantha Clark",
-      "para": "FaceSwap benar-benar mengubah foto saya. Aplikasi ini bukan hanya menyenangkan, tapi juga alat yang hebat untuk membuat konten menarik di blog saya. Dukungan untuk versi seluler juga luar biasa, jadi saya bisa menggunakannya kapan saja. Pantas dicoba!"
-    },
-    {
-      "title": "Kishore Anand",
-      "para": "Aplikasi ini luar biasa! Saya bisa menukar wajah dengan karakter film favorit saya dan hasilnya sangat lucu! Bagian terbaiknya adalah seberapa cepat prosesnya. Hanya dengan beberapa ketukan, semua selesai. Sangat menyenangkan – sempurna untuk menghibur anak-anak dan teman-teman saya."
-    }
-  ]
-},
-"faqs": {
-  "heading": "FAQ",
-  "cards": [
-    {
-      "question": "Apa itu Face Swap?",
-      "answer": "Ini adalah teknik yang menggantikan satu wajah dalam foto atau video dengan wajah lain, memungkinkan transformasi yang menyenangkan dan kreatif."
-    },
-    {
-      "question": "Bagaimana cara menukar wajah dalam foto?",
-      "answer": "Dengan FaceSwapAI, cukup unggah foto Anda, pilih wajah yang ingin Anda tukar, dan biarkan AI menyelesaikannya hanya dalam beberapa klik."
-    },
-    {
-      "question": "Bisakah saya menukar wajah di foto apa pun?",
-      "answer": "Ya, Anda bisa menukar wajah di foto apa pun selama wajahnya jelas dan terlihat."
-    },
-    {
-      "question": "Apakah tukar wajah legal?",
-      "answer": "Ya, tukar wajah legal jika digunakan untuk tujuan pribadi dan non-komersial, namun selalu pastikan Anda memiliki izin jika menggunakan gambar orang lain."
-    },
-    {
-      "question": "Apakah face swapper online aman?",
-      "answer": "Ya, FaceSwapAI aman dan memprioritaskan privasi Anda dengan unggahan terenkripsi dan tidak menyimpan gambar Anda."
-    },
-    {
-      "question": "Bisakah saya menukar wajah antara hewan dan manusia?",
-      "answer": "Tidak, FaceSwapAI tidak mendukung tukar wajah antara hewan dan manusia."
-    },
-    {
-      "question": "Apakah AI FaceSwap mendukung penukaran gender?",
-      "answer": "Ya, FaceSwapAI memungkinkan tukar wajah antar gender secara mulus untuk keperluan hiburan dan artistik."
-    },
-    {
-      "question": "Bagaimana cara mendapatkan hasil terbaik?",
-      "answer": "Untuk hasil terbaik, gunakan gambar berkualitas tinggi."
-    },
-    {
-      "question": "Bagaimana cara kerja AI face swapper?",
-      "answer": "FaceSwapAI menggunakan algoritma AI canggih untuk mendeteksi dan mencocokkan fitur wajah, lalu menggantikan satu wajah dengan lainnya secara mulus."
-    },
-    {
-      "question": "Format file apa yang didukung alat ini?",
-      "answer": "FaceSwapAI mendukung format umum seperti JPEG, PNG, dan WebM untuk unggahan dan tukar yang mudah."
-    }
-  ]
-},
+  "hero": {
+    "title": "Penukar Wajah AI Gratis - Penukar Wajah Online Terbaik",
+    "para": "Jelajahi keseruan Tukar Wajah AI dengan alat gratis kami. Tukar wajah seketika dengan teman, selebriti, atau siapa pun! AI membuatnya mudah dan menyenangkan untuk menciptakan hasil unik dan dapat dibagikan dalam hitungan detik.",
+    "uploadPara1": "Unggah Wajah",
+    "uploadPara2": "Gambar Dasar",
+    "btnText": "Tukar Wajah",
+    "note": "Buka Lebih Banyak Template Tukar Wajah atau Tukar DIY di Aplikasi"
+  },
+  "unique": {
+    "heading": "Apa yang Membuat AI Face Swapper Unik?",
+    "items": [
+      {
+        "title": "Tukar Wajah dalam Hitungan Detik",
+        "para": "Tukar wajah hanya dalam hitungan detik dengan alat online gratis kami. Unggah foto Anda dan biarkan AI melakukan keajaibannya secara instan. Cepat dan menyenangkan, buat gambar tukar wajah unik dengan mudah."
+      },
+      {
+        "title": "Tukar Wajah Realistis & Mulus",
+        "para": "Alat tukar wajah online gratis kami menggunakan AI untuk memadukan wajah secara mulus. Ganti wajah di foto dengan mudah dan buat hasil yang tampak alami hanya dalam hitungan detik."
+      },
+      {
+        "title": "Ubah Foto Jadi Seru dengan AI Face Swap",
+        "para": "Bersenang-senanglah menukar wajah dengan teman dan keluarga menggunakan penukar wajah kami. Ciptakan momen lucu dengan AI face change instan. Coba deep face swap secara gratis dan ganti wajah di foto dengan mudah!"
+      },
+      {
+        "title": "Letakkan Wajah Anda di Lukisan Terkenal dengan AI",
+        "para": "Letakkan wajah Anda di lukisan ikonik dengan AI face swap. Dengan generator online dan pengubah wajah AI, Anda dapat mengganti wajah di foto dan membuat seni yang menyenangkan serta dapat dibagikan dalam hitungan detik."
+      }
+    ]
+  },
+  "swiperSection": {
+    "heading": "Penukar Wajah Terbaik Untuk Semua Orang",
+    "subheading": "Ingin menampilkan detail produk? Gunakan penambah gambar AI dari AirBrush untuk meningkatkan kualitas gambar secara instan untuk pengeditan atau pencetakan.",
+    "upload": "Unggah Gambar",
+    "download": "Unduh Aplikasi",
+    "cards": [
+      {
+        "src": "/home/img1.webp",
+        "title": "Tingkatkan Interaksi Media Sosial dengan Tukar Wajah Viral",
+        "description": "Penukar wajah terbaik untuk semua! Tukar wajah di foto dengan mudah – baik itu memperbarui gambar lama, menukar wajah model, atau sekadar bersenang-senang. Dengan editor face swap online, semuanya cepat, mudah, dan serbaguna untuk kebutuhan Anda."
+      },
+      {
+        "src": "/home/img2.webp",
+        "title": "Tukar Wajah Selebriti",
+        "description": "Konten tukar wajah sedang tren di Instagram dan Twitter. Gunakan alat AI face swap untuk membuat gambar lucu dan mudah dibagikan. Posting hasil face change untuk meningkatkan pengikut dan interaksi dengan cepat."
+      },
+      {
+        "src": "/home/img3.webp",
+        "title": "Temukan Gaya Baru dengan AI Face Swap",
+        "description": "Tukar wajah Anda dengan selebriti menggunakan alat online. Ganti wajah di foto dengan hasil realistis dan menyenangkan. Coba pengubah wajah online gratis dan buat gambar tukar wajah luar biasa dalam hitungan detik!"
+      }
+    ]
+  },
+  "UploadImageSection": {
+    "heading": "Bagaimana Cara Menggunakan Face Swap?",
+    "cards": [
+      {
+        "code": "\uf09b",
+        "label": "upload",
+        "title": "Unggah Gambar",
+        "para": "Unggah gambar dengan wajah \"foto sumber\""
+      },
+      {
+        "code": "\uf09b",
+        "label": "upload",
+        "title": "Unggah Gambar",
+        "para": "Unggah gambar dengan wajah \"foto wajah target\""
+      },
+      {
+        "code": "\ue43e",
+        "label": "add_photo_alternate",
+        "title": "Tukar Wajah Sekarang",
+        "para": "Klik Tukar Wajah Sekarang untuk memulai proses"
+      }
+    ]
+  },
+  "editing": {
+    "heading": "Semua Alat Pengeditan Foto & Video Online",
+    "cards": [
+      {
+        "src": "/home/img1.webp",
+        "title": "AI Face Swap",
+        "para": "AI Face Swap memungkinkan Anda menukar wajah di foto dengan mudah. Dengan beberapa klik saja, buat gambar menyenangkan dan kreatif, serta rasakan berbagai kemungkinan transformasi wajah.",
+        "href": "/",
+        "btnText": "Coba Sekarang"
+      },
+      {
+        "src": "/multiface/1.png",
+        "title": "AI Tukar Wajah Ganda",
+        "para": "AI Tukar Wajah Ganda memungkinkan Anda menukar beberapa wajah dalam satu gambar dengan mudah. Sempurna untuk foto grup, hasil menyenangkan dapat dibagikan hanya dalam beberapa klik.",
+        "href": "/multi-faceswap",
+        "btnText": "Coba Sekarang"
+      }
+    ]
+  },
+  "reviews": {
+    "heading": "Ulasan Pengguna",
+    "cards": [
+      {
+        "title": "Jessica Harper",
+        "para": "Saya telah menggunakan FaceSwap selama beberapa waktu, dan saya masih kagum betapa realistis hasilnya! Sangat mudah digunakan, dan saya sangat menikmati membuat foto lucu dengan teman-teman. Sangat direkomendasikan bagi siapa pun yang ingin menambahkan kreativitas pada foto mereka!"
+      },
+      {
+        "title": "Michael Lee",
+        "para": "Akurasi FaceSwap sangat luar biasa. Transisinya sangat mulus – terasa begitu alami! Aplikasinya juga sangat mudah digunakan, bahkan untuk saya yang tidak terlalu mahir teknologi. Jujur saja, ini adalah aplikasi face swap terbaik yang pernah saya gunakan!"
+      },
+      {
+        "title": "Samantha Clark",
+        "para": "FaceSwap benar-benar mengubah foto saya. Aplikasi ini bukan hanya menyenangkan, tapi juga alat yang hebat untuk membuat konten menarik di blog saya. Dukungan untuk versi seluler juga luar biasa, jadi saya bisa menggunakannya kapan saja. Pantas dicoba!"
+      },
+      {
+        "title": "Kishore Anand",
+        "para": "Aplikasi ini luar biasa! Saya bisa menukar wajah dengan karakter film favorit saya dan hasilnya sangat lucu! Bagian terbaiknya adalah seberapa cepat prosesnya. Hanya dengan beberapa ketukan, semua selesai. Sangat menyenangkan – sempurna untuk menghibur anak-anak dan teman-teman saya."
+      }
+    ]
+  },
+  "faqs": {
+    "heading": "FAQ",
+    "cards": [
+      {
+        "question": "Apa itu Face Swap?",
+        "answer": "Ini adalah teknik yang menggantikan satu wajah dalam foto atau video dengan wajah lain, memungkinkan transformasi yang menyenangkan dan kreatif."
+      },
+      {
+        "question": "Bagaimana cara menukar wajah dalam foto?",
+        "answer": "Dengan FaceSwapAI, cukup unggah foto Anda, pilih wajah yang ingin Anda tukar, dan biarkan AI menyelesaikannya hanya dalam beberapa klik."
+      },
+      {
+        "question": "Bisakah saya menukar wajah di foto apa pun?",
+        "answer": "Ya, Anda bisa menukar wajah di foto apa pun selama wajahnya jelas dan terlihat."
+      },
+      {
+        "question": "Apakah tukar wajah legal?",
+        "answer": "Ya, tukar wajah legal jika digunakan untuk tujuan pribadi dan non-komersial, namun selalu pastikan Anda memiliki izin jika menggunakan gambar orang lain."
+      },
+      {
+        "question": "Apakah face swapper online aman?",
+        "answer": "Ya, FaceSwapAI aman dan memprioritaskan privasi Anda dengan unggahan terenkripsi dan tidak menyimpan gambar Anda."
+      },
+      {
+        "question": "Bisakah saya menukar wajah antara hewan dan manusia?",
+        "answer": "Tidak, FaceSwapAI tidak mendukung tukar wajah antara hewan dan manusia."
+      },
+      {
+        "question": "Apakah AI FaceSwap mendukung penukaran gender?",
+        "answer": "Ya, FaceSwapAI memungkinkan tukar wajah antar gender secara mulus untuk keperluan hiburan dan artistik."
+      },
+      {
+        "question": "Bagaimana cara mendapatkan hasil terbaik?",
+        "answer": "Untuk hasil terbaik, gunakan gambar berkualitas tinggi."
+      },
+      {
+        "question": "Bagaimana cara kerja AI face swapper?",
+        "answer": "FaceSwapAI menggunakan algoritma AI canggih untuk mendeteksi dan mencocokkan fitur wajah, lalu menggantikan satu wajah dengan lainnya secara mulus."
+      },
+      {
+        "question": "Format file apa yang didukung alat ini?",
+        "answer": "FaceSwapAI mendukung format umum seperti JPEG, PNG, dan WebM untuk unggahan dan tukar yang mudah."
+      }
+    ]
+  },
   "footer": {
-  "pixel": "Pixelmorph",
-  "subPixel": "Pixelmorph. All rights reserved.",
-  "tools":"Tools",
-  "faceswap":"faceswap",
-  "multiface":"Multi-Faceswap",
-  "sitemap":"Sitemap",
-  "about":"About Us",
-  "terms":"Terms of Service",
-  "privacy":"Privacy Policy",
-  "blog":"Blog",
-  "follow":"Follow Us",
-  "changeLanguage":"Change Language"
-},
+    "pixel": "Pixelmorph",
+    "subPixel": "Pixelmorph. All rights reserved.",
+    "tools": "Tools",
+    "faceswap": "faceswap",
+    "multiface": "Multi-Faceswap",
+    "sitemap": "Sitemap",
+    "about": "About Us",
+    "terms": "Terms of Service",
+    "privacy": "Privacy Policy",
+    "blog": "Blog",
+    "follow": "Follow Us",
+    "changeLanguage": "Change Language"
+  },
   "sidebar": {
-  "cards": [
-  {
-    "name": "Faceswap",
-    "href": "/"
+    "cards": [
+      {
+        "name": "Faceswap",
+        "href": "/"
+      },
+      {
+        "name": "Multi-Faceswap",
+        "href": "/multi-faceswap"
+      },
+      {
+        "name": "Blogs",
+        "href": "/blog"
+      },
+      {
+        "name": "About",
+        "href": "/about"
+      }
+    ]
   },
-  {
-    "name": "Multi-Faceswap",
-    "href": "/multi-faceswap"
+  "heromf": {
+    "title": "Multiple Face Swap AI - Gratis Online untuk Foto Grup",
+    "para": "Dengan Multiple Face Swap AI, ubah foto grup dengan mudah dengan menukar wajah untuk hasil yang menyenangkan dan unik. Cocok untuk mengabadikan momen tak terlupakan bersama teman atau keluarga secara kreatif.",
+    "uploadPara1": "Unggah Wajah",
+    "uploadPara2": "Gambar Dasar",
+    "btnText": "Tukar Wajah",
+    "note": "Buka Lebih Banyak Template Face Swap atau DIY Swap di Aplikasi"
   },
-  {
-    "name": "Blogs",
-    "href": "/blog"
+  "uniquemf": {
+    "heading": "Mengapa Menggunakan Multiple Face Swap?",
+    "items": [
+      {
+        "title": "AI Terbaik untuk Tukar Wajah Ganda",
+        "para": "Dengan AI terbaik untuk tukar wajah ganda, Anda tidak perlu menginstal aplikasi. Cukup unggah foto grup Anda, dan AI akan secara otomatis menukar wajah, memberikan hasil instan dan menyenangkan secara gratis."
+      },
+      {
+        "title": "Tanpa Instalasi",
+        "para": "Tanpa perlu instalasi! Dengan multiple face swap online gratis, unggah gambar Anda dan biarkan AI menangani sisanya. Baik untuk tukar wajah pasangan atau foto grup, Anda bisa menukar banyak wajah secara online hanya dalam hitungan detik!"
+      },
+      {
+        "title": "Siapa Pun Bisa Masuk dalam Foto Grup",
+        "para": "Kejutkan teman Anda dengan menukar wajah mereka ke dalam foto grup menggunakan alat tukar wajah ganda canggih. Cukup unggah foto grup dan gambar wajah teman Anda, lalu multiple face swap online gratis akan menggabungkan wajah mereka dengan mulus ke dalam gambar, menciptakan kenangan seru dan dapat dibagikan!"
+      },
+      {
+        "title": "Antarmuka Ramah Pengguna",
+        "para": "Dengan antarmuka yang ramah pengguna, siapa pun dapat melakukan multiple face swap online gratis dengan sempurna. Tidak perlu pengalaman—cukup unggah foto Anda, dan alat tukar wajah akan menangani sisanya untuk hasil yang mulus!"
+      }
+    ]
   },
-  {
-    "name": "About",
-    "href": "/about"
-  }
-]
-},
-"heromf": {
-  "title": "Multiple Face Swap AI - Gratis Online untuk Foto Grup",
-  "para": "Dengan Multiple Face Swap AI, ubah foto grup dengan mudah dengan menukar wajah untuk hasil yang menyenangkan dan unik. Cocok untuk mengabadikan momen tak terlupakan bersama teman atau keluarga secara kreatif.",
-  "uploadPara1": "Unggah Wajah",
-  "uploadPara2": "Gambar Dasar",
-  "btnText": "Tukar Wajah",
-  "note": "Buka Lebih Banyak Template Face Swap atau DIY Swap di Aplikasi"
-},
-"uniquemf": {
-  "heading": "Mengapa Menggunakan Multiple Face Swap?",
-  "items": [
-    {
-      "title": "AI Terbaik untuk Tukar Wajah Ganda",
-      "para": "Dengan AI terbaik untuk tukar wajah ganda, Anda tidak perlu menginstal aplikasi. Cukup unggah foto grup Anda, dan AI akan secara otomatis menukar wajah, memberikan hasil instan dan menyenangkan secara gratis."
-    },
-    {
-      "title": "Tanpa Instalasi",
-      "para": "Tanpa perlu instalasi! Dengan multiple face swap online gratis, unggah gambar Anda dan biarkan AI menangani sisanya. Baik untuk tukar wajah pasangan atau foto grup, Anda bisa menukar banyak wajah secara online hanya dalam hitungan detik!"
-    },
-    {
-      "title": "Siapa Pun Bisa Masuk dalam Foto Grup",
-      "para": "Kejutkan teman Anda dengan menukar wajah mereka ke dalam foto grup menggunakan alat tukar wajah ganda canggih. Cukup unggah foto grup dan gambar wajah teman Anda, lalu multiple face swap online gratis akan menggabungkan wajah mereka dengan mulus ke dalam gambar, menciptakan kenangan seru dan dapat dibagikan!"
-    },
-    {
-      "title": "Antarmuka Ramah Pengguna",
-      "para": "Dengan antarmuka yang ramah pengguna, siapa pun dapat melakukan multiple face swap online gratis dengan sempurna. Tidak perlu pengalaman—cukup unggah foto Anda, dan alat tukar wajah akan menangani sisanya untuk hasil yang mulus!"
-    }
-  ]
-},
-"swipermf": {
-  "heading": "Penggunaan Terbaik Multi Face Swapper",
-  "subheading": "Ingin menampilkan detail produk? Gunakan penguat gambar AI AirBrush untuk meningkatkan resolusi gambar dengan mudah untuk pengeditan atau cetakan.",
-  "upload": "Unggah Gambar",
-  "download": "Unduh Aplikasi",
-  "cards": [
-    {
-      "src": "/multiface/1.png",
-      "title": "Buat Meme Keluarga Seru dengan Multi Face Swap",
-      "description": "Multi face swapper sempurna untuk menambahkan keseruan dalam foto grup, acara keluarga, atau proyek kreatif. Tukar wajah dengan mudah untuk membuat gambar berkesan yang mencuri perhatian dan menghibur!"
-    },
-    {
-      "src": "/multiface/2.png",
-      "title": "Tukar Wajah Selebriti Grup",
-      "description": "Ubah foto keluarga Anda menjadi meme lucu dengan pengganti wajah ganda! Tukar wajah di foto grup dengan mudah untuk menciptakan momen menyenangkan dan tak terlupakan. Cocok untuk lelucon, acara keluarga, atau sekadar tertawa."
-    },
-    {
-      "src": "/multiface/3.png",
-      "title": "Buat Konten Viral Sosial Media dengan Multi Face Changer",
-      "description": "Tukar wajah selebriti dengan teman dan keluarga Anda menggunakan multiple faceswap online. Baik tukar wajah pasangan atau foto grup, buat konten seru dengan mudah dan bagikan langsung!"
-    },
-    {
-      "src": "/multiface/4.png",
-      "title": "Eksplorasi Penampilan Baru dengan Tukar Wajah Grup",
-      "description": "Ciptakan konten lucu dan bisa dibagikan untuk sosial media Anda menggunakan multi face changer. Tukar wajah dengan mudah untuk membuat postingan unik yang menarik, meningkatkan interaksi, dan mendorong pengikut untuk menyukai, berkomentar, serta membagikan—membantu profil Anda tumbuh dan viral di berbagai platform."
-    }
-  ]
-},
-"howUsemf": {
-  "heading": "Bagaimana Cara Menggunakan Face Swap?",
-  "cards": [
-    {
-      "code": "\uefeb",
-      "label": "camera_switch",
-      "title": "Langkah 1. Unggah foto grup",
-      "para": "Cukup unggah foto grup dengan banyak wajah, pastikan gambarnya jelas dan berkualitas tinggi."
-    },
-    {
-      "code": "\ue8a7",
-      "label": "upload",
-      "title": "Langkah 2. Unggah foto wajah target",
-      "para": "Saat wajah dikenali, unggah gambar wajah tambahan untuk mengganti wajah tertentu."
-    },
-    {
-      "code": "\ue7ef",
-      "label": "group",
-      "title": "Proses Multiple Face Swap",
-      "para": "Klik 'Multi Swap Face Now'. Unduh dan bagikan ke teman-teman Anda!"
-    }
-  ]
-},
-"editingmf": {
-  "heading": "Semua Alat Pengeditan Foto & Video Online",
-  "cards": [
-    {
-      "src": "/home/img1.webp",
-      "title": "AI Face Swap",
-      "para": "AI Face Swap memungkinkan Anda menukar wajah dalam foto dengan mudah. Hanya dengan beberapa klik, buat gambar seru atau kreatif dan nikmati berbagai kemungkinan transformasi wajah.",
-      "href": "/",
-      "btnText": "Coba Sekarang"
-    },
-    {
-      "src": "/multiface/1.png",
-      "title": "Multiple Face Swap AI",
-      "para": "Multiple Face Swap AI memungkinkan Anda menukar banyak wajah dalam satu gambar dengan mudah. Sempurna untuk foto grup, hasilnya menyenangkan dan mudah dibagikan hanya dalam beberapa klik.",
-      "href": "/multi-faceswap",
-      "btnText": "Coba Sekarang"
-    }
-  ]
-},
-"reviewsmf": {
-  "heading": "Ulasan Pengguna",
-  "cards": [
-    {
-      "title": "Aarav Mehta",
-      "para": "Saya kagum betapa mudahnya menukar banyak wajah dalam satu foto! FaceSwapAI membuat semuanya terasa mulus, dan hasilnya sangat realistis. Cocok untuk foto grup dan momen spesial."
-    },
-    {
-      "title": "Priya Patel",
-      "para": "FaceSwapAI adalah alat yang wajib dimiliki jika Anda ingin menukar banyak wajah sekaligus. Saya menggunakannya untuk foto reuni keluarga, dan hasilnya lucu dan akurat! AI mengenali semua wajah dengan sempurna, bahkan di grup besar."
-    },
-    {
-      "title": "Liam Johnson",
-      "para": "Alat ini benar-benar mengubah permainan! Saya mencoba fitur multi face swap pada foto grup teman saya, dan kami tidak berhenti tertawa melihat hasilnya. Akurasi dan kecepatannya luar biasa!"
-    },
-    {
-      "title": "Neha Kapoor",
-      "para": "Situs ini mempermudah tukar wajah, bahkan untuk grup besar. Saya menukar wajah di foto pernikahan dengan 12 orang, dan hasilnya sangat bagus. Semua orang kagum melihat hasilnya."
-    }
-  ]
-},
-"faqsmf": {
-  "heading": "FAQ",
-  "cards": [
-    {
-      "question": "Apa itu Multiple Face Swap?",
-      "answer": "Ini memungkinkan Anda menukar banyak wajah dalam satu gambar sekaligus, ideal untuk foto grup atau edit seru dengan banyak orang."
-    },
-    {
-      "question": "Bagaimana cara kerja Multiple Face Swap AI?",
-      "answer": "FaceSwapAI menggunakan teknologi AI canggih untuk mendeteksi semua wajah dalam gambar dan menukarnya secara mulus hanya dalam beberapa langkah."
-    },
-    {
-      "question": "Apakah Face Swap Multiple online gratis?",
-      "answer": "Ya, kami menawarkan versi gratis yang memungkinkan Anda menukar banyak wajah secara online."
-    },
-    {
-      "question": "Apakah data saya aman dengan Multi Face Swap?",
-      "answer": "Ya, FaceSwapAI mengutamakan privasi pengguna dan menggunakan enkripsi aman untuk melindungi gambar dan data pribadi Anda."
-    },
-    {
-      "question": "Berapa lama waktu yang dibutuhkan untuk menukar banyak wajah sekaligus?",
-      "answer": "Waktu bergantung pada jumlah wajah dan ukuran gambar, tetapi sebagian besar tukar wajah selesai dalam hitungan detik hingga beberapa menit."
-    },
-    {
-      "question": "Berapa banyak wajah yang bisa ditukar sekaligus?",
-      "answer": "FaceSwapAI dapat menukar banyak wajah sekaligus, tergantung pada kompleksitas gambar, dengan kemampuan menangani foto grup hingga 2–8 wajah."
-    },
-    {
-      "question": "Apakah kualitas gambar asli akan menurun setelah face swap?",
-      "answer": "Tidak, FaceSwapAI mempertahankan kualitas gambar asli saat melakukan face swap, memastikan hasil dengan resolusi tinggi."
-    },
-    {
-      "question": "Apakah saya bisa menukar wajah di foto grup besar?",
-      "answer": "Ya, alat ini dirancang untuk menangani foto grup besar dan dapat mendeteksi serta menukar banyak wajah secara akurat dalam satu gambar."
-    },
-    {
-      "question": "Apakah FaceSwapAI mendukung unggahan wajah kustom untuk multiple swap?",
-      "answer": "Ya, Anda dapat mengunggah gambar sendiri atau memilih dari berbagai wajah yang tersedia untuk tukar wajah."
-    },
-    {
-      "question": "Format file apa saja yang didukung oleh alat ini?",
-      "answer": "FaceSwapAI mendukung format gambar populer seperti JPEG, PNG, dan GIF, memastikan kompatibilitas dengan sebagian besar file gambar."
-    }
-  ]
-},
-"blogCard": {
-  "title": "Blog",
-  "blogPost": [
-    {
+  "swipermf": {
+    "heading": "Penggunaan Terbaik Multi Face Swapper",
+    "subheading": "Ingin menampilkan detail produk? Gunakan penguat gambar AI AirBrush untuk meningkatkan resolusi gambar dengan mudah untuk pengeditan atau cetakan.",
+    "upload": "Unggah Gambar",
+    "download": "Unduh Aplikasi",
+    "cards": [
+      {
+        "src": "/multiface/1.png",
+        "title": "Buat Meme Keluarga Seru dengan Multi Face Swap",
+        "description": "Multi face swapper sempurna untuk menambahkan keseruan dalam foto grup, acara keluarga, atau proyek kreatif. Tukar wajah dengan mudah untuk membuat gambar berkesan yang mencuri perhatian dan menghibur!"
+      },
+      {
+        "src": "/multiface/2.png",
+        "title": "Tukar Wajah Selebriti Grup",
+        "description": "Ubah foto keluarga Anda menjadi meme lucu dengan pengganti wajah ganda! Tukar wajah di foto grup dengan mudah untuk menciptakan momen menyenangkan dan tak terlupakan. Cocok untuk lelucon, acara keluarga, atau sekadar tertawa."
+      },
+      {
+        "src": "/multiface/3.png",
+        "title": "Buat Konten Viral Sosial Media dengan Multi Face Changer",
+        "description": "Tukar wajah selebriti dengan teman dan keluarga Anda menggunakan multiple faceswap online. Baik tukar wajah pasangan atau foto grup, buat konten seru dengan mudah dan bagikan langsung!"
+      },
+      {
+        "src": "/multiface/4.png",
+        "title": "Eksplorasi Penampilan Baru dengan Tukar Wajah Grup",
+        "description": "Ciptakan konten lucu dan bisa dibagikan untuk sosial media Anda menggunakan multi face changer. Tukar wajah dengan mudah untuk membuat postingan unik yang menarik, meningkatkan interaksi, dan mendorong pengikut untuk menyukai, berkomentar, serta membagikan—membantu profil Anda tumbuh dan viral di berbagai platform."
+      }
+    ]
+  },
+  "howUsemf": {
+    "heading": "Bagaimana Cara Menggunakan Face Swap?",
+    "cards": [
+      {
+        "code": "\uefeb",
+        "label": "camera_switch",
+        "title": "Langkah 1. Unggah foto grup",
+        "para": "Cukup unggah foto grup dengan banyak wajah, pastikan gambarnya jelas dan berkualitas tinggi."
+      },
+      {
+        "code": "\ue8a7",
+        "label": "upload",
+        "title": "Langkah 2. Unggah foto wajah target",
+        "para": "Saat wajah dikenali, unggah gambar wajah tambahan untuk mengganti wajah tertentu."
+      },
+      {
+        "code": "\ue7ef",
+        "label": "group",
+        "title": "Proses Multiple Face Swap",
+        "para": "Klik 'Multi Swap Face Now'. Unduh dan bagikan ke teman-teman Anda!"
+      }
+    ]
+  },
+  "editingmf": {
+    "heading": "Semua Alat Pengeditan Foto & Video Online",
+    "cards": [
+      {
+        "src": "/home/img1.webp",
+        "title": "AI Face Swap",
+        "para": "AI Face Swap memungkinkan Anda menukar wajah dalam foto dengan mudah. Hanya dengan beberapa klik, buat gambar seru atau kreatif dan nikmati berbagai kemungkinan transformasi wajah.",
+        "href": "/",
+        "btnText": "Coba Sekarang"
+      },
+      {
+        "src": "/multiface/1.png",
+        "title": "Multiple Face Swap AI",
+        "para": "Multiple Face Swap AI memungkinkan Anda menukar banyak wajah dalam satu gambar dengan mudah. Sempurna untuk foto grup, hasilnya menyenangkan dan mudah dibagikan hanya dalam beberapa klik.",
+        "href": "/multi-faceswap",
+        "btnText": "Coba Sekarang"
+      }
+    ]
+  },
+  "reviewsmf": {
+    "heading": "Ulasan Pengguna",
+    "cards": [
+      {
+        "title": "Aarav Mehta",
+        "para": "Saya kagum betapa mudahnya menukar banyak wajah dalam satu foto! FaceSwapAI membuat semuanya terasa mulus, dan hasilnya sangat realistis. Cocok untuk foto grup dan momen spesial."
+      },
+      {
+        "title": "Priya Patel",
+        "para": "FaceSwapAI adalah alat yang wajib dimiliki jika Anda ingin menukar banyak wajah sekaligus. Saya menggunakannya untuk foto reuni keluarga, dan hasilnya lucu dan akurat! AI mengenali semua wajah dengan sempurna, bahkan di grup besar."
+      },
+      {
+        "title": "Liam Johnson",
+        "para": "Alat ini benar-benar mengubah permainan! Saya mencoba fitur multi face swap pada foto grup teman saya, dan kami tidak berhenti tertawa melihat hasilnya. Akurasi dan kecepatannya luar biasa!"
+      },
+      {
+        "title": "Neha Kapoor",
+        "para": "Situs ini mempermudah tukar wajah, bahkan untuk grup besar. Saya menukar wajah di foto pernikahan dengan 12 orang, dan hasilnya sangat bagus. Semua orang kagum melihat hasilnya."
+      }
+    ]
+  },
+  "faqsmf": {
+    "heading": "FAQ",
+    "cards": [
+      {
+        "question": "Apa itu Multiple Face Swap?",
+        "answer": "Ini memungkinkan Anda menukar banyak wajah dalam satu gambar sekaligus, ideal untuk foto grup atau edit seru dengan banyak orang."
+      },
+      {
+        "question": "Bagaimana cara kerja Multiple Face Swap AI?",
+        "answer": "FaceSwapAI menggunakan teknologi AI canggih untuk mendeteksi semua wajah dalam gambar dan menukarnya secara mulus hanya dalam beberapa langkah."
+      },
+      {
+        "question": "Apakah Face Swap Multiple online gratis?",
+        "answer": "Ya, kami menawarkan versi gratis yang memungkinkan Anda menukar banyak wajah secara online."
+      },
+      {
+        "question": "Apakah data saya aman dengan Multi Face Swap?",
+        "answer": "Ya, FaceSwapAI mengutamakan privasi pengguna dan menggunakan enkripsi aman untuk melindungi gambar dan data pribadi Anda."
+      },
+      {
+        "question": "Berapa lama waktu yang dibutuhkan untuk menukar banyak wajah sekaligus?",
+        "answer": "Waktu bergantung pada jumlah wajah dan ukuran gambar, tetapi sebagian besar tukar wajah selesai dalam hitungan detik hingga beberapa menit."
+      },
+      {
+        "question": "Berapa banyak wajah yang bisa ditukar sekaligus?",
+        "answer": "FaceSwapAI dapat menukar banyak wajah sekaligus, tergantung pada kompleksitas gambar, dengan kemampuan menangani foto grup hingga 2–8 wajah."
+      },
+      {
+        "question": "Apakah kualitas gambar asli akan menurun setelah face swap?",
+        "answer": "Tidak, FaceSwapAI mempertahankan kualitas gambar asli saat melakukan face swap, memastikan hasil dengan resolusi tinggi."
+      },
+      {
+        "question": "Apakah saya bisa menukar wajah di foto grup besar?",
+        "answer": "Ya, alat ini dirancang untuk menangani foto grup besar dan dapat mendeteksi serta menukar banyak wajah secara akurat dalam satu gambar."
+      },
+      {
+        "question": "Apakah FaceSwapAI mendukung unggahan wajah kustom untuk multiple swap?",
+        "answer": "Ya, Anda dapat mengunggah gambar sendiri atau memilih dari berbagai wajah yang tersedia untuk tukar wajah."
+      },
+      {
+        "question": "Format file apa saja yang didukung oleh alat ini?",
+        "answer": "FaceSwapAI mendukung format gambar populer seperti JPEG, PNG, dan GIF, memastikan kompatibilitas dengan sebagian besar file gambar."
+      }
+    ]
+  },
+  "blogCard": {
+    "title": "Blog",
+    "blogPost": [
+      {
+        "slug": "swap-face-photoshop",
+        "image": "/blog/blog1.webp",
+        "title": "Tukar Wajah di Photoshop",
+        "description": "Apakah Anda ingin menguasai Photoshop gratis secara online? Jika iya, kami punya panduan lengkap tentang 'Cara Menukar Wajah di Photoshop'. Face swap adalah cara seru untuk meningkatkan jangkauan media sosial Anda dengan teknik morphing wajah yang menyenangkan, terutama di Photoshop CC...",
+        "isDate": true,
+        "date": "25 Februari 2025"
+      },
+      {
+        "slug": "how-to-use-insight-face-swap-discord",
+        "image": "/blog/blog2.webp",
+        "title": "Cara Menggunakan Insight Face Swap di Discord",
+        "description": "Wujudkan ide kreatif Anda dengan maksimal melalui Insight Face Swap di Discord dan nikmati perpaduan identitas wajah yang mulus dengan cara yang belum pernah ada sebelumnya. Insight Face Swap adalah plugin face swap keren yang memungkinkan pengguna mengganti wajah dengan gambar lain menggunakan fitur 'Insight Face'…",
+        "isDate": true,
+        "date": "25 Februari 2025"
+      }
+    ]
+  },
+  "blogDetails": {
+    "swap-face-photoshop": {
       "slug": "swap-face-photoshop",
       "image": "/blog/blog1.webp",
       "title": "Tukar Wajah di Photoshop",
-      "description": "Apakah Anda ingin menguasai Photoshop gratis secara online? Jika iya, kami punya panduan lengkap tentang 'Cara Menukar Wajah di Photoshop'. Face swap adalah cara seru untuk meningkatkan jangkauan media sosial Anda dengan teknik morphing wajah yang menyenangkan, terutama di Photoshop CC...",
+      "description": "Apakah Anda sedang mencari intuisi ahli dalam menggunakan Photoshop gratis online? Jika iya, kami punya panduan lengkap tentang “Cara Menukar Wajah di Photoshop”. Face swap memang menjadi metode menarik untuk meningkatkan jangkauan media sosial Anda dengan teknik morfing wajah yang menyenangkan, namun menukar wajah di Photoshop CC bisa jadi rumit jika Anda tidak tahu caranya…",
+      "fullDescription": "Apakah Anda sedang mencari intuisi ahli dalam menggunakan Photoshop gratis online? Jika iya, kami punya panduan lengkap tentang “Cara Menukar Wajah di Photoshop”. Face swap memang menjadi metode menarik untuk meningkatkan jangkauan media sosial Anda dengan teknik morfing wajah yang menyenangkan, namun menukar wajah di Photoshop CC bisa jadi rumit jika Anda tidak tahu prosesnya. Jadi, agar tidak terjadi kekacauan dan kebingungan, kami telah merancang panduan langkah demi langkah yang mudah diikuti. Tetap bersama kami dan nikmati prosesnya.",
       "isDate": true,
-      "date": "25 Februari 2025"
+      "date": "25 Februari 2025",
+      "content": [
+        {
+          "type": "heading",
+          "text": "Temukan Photoshop Gratis Online"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dalam dunia digital saat ini di mana manipulasi foto untuk keperluan estetika sangat populer, teknik Photoshop gratis online adalah cara canggih untuk melakukannya dengan tingkat ketelitian yang tinggi. Ini adalah aplikasi luar biasa yang memungkinkan Anda mewujudkan semua ide kreatif Anda dan mempercepat proses editing dengan fitur tukar wajah yang estetik. Aplikasi ini juga sangat praktis dan kaya akan fitur canggih yang membuatnya layak dicoba."
+        },
+        {
+          "type": "heading",
+          "text": "Langkah-Langkah Utama"
+        },
+        {
+          "type": "paragraph",
+          "text": "Metode face swap atau pertukaran wajah terdiri dari 5 langkah dasar yang memungkinkan Anda mengubah gambar sesuai keinginan. Langkah-langkahnya sebagai berikut:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Pemilihan gambar subjek dan objek",
+            "Pemetaan",
+            "Tumpang tindih",
+            "Pencampuran dan peninjauan",
+            "Menyimpan dan membagikan"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Cara Menukar Wajah di Photoshop: Panduan Langkah demi Langkah"
+        },
+        {
+          "type": "paragraph",
+          "text": "Untuk pengguna yang mencari panduan ahli tentang cara menukar wajah di Photoshop, bagian di bawah ini dengan 9 langkah sederhana siap membantu. Ikuti panduan berikut dan nikmati menukar wajah di Photoshop dengan hasil maksimal. Mari kita mulai."
+        },
+        {
+          "type": "heading",
+          "text": "Buka File Gambar di Photoshop"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pertama, mulai teknik face swap di Photoshop dengan memilih gambar sumber dari file gambar di Photoshop yang ingin Anda ganti wajahnya. Klik file, buka, lalu pilih gambar yang diinginkan dan lanjutkan prosesnya."
+        },
+        {
+          "type": "heading",
+          "text": "Pilih Wajah Target"
+        },
+        {
+          "type": "paragraph",
+          "text": "Setelah membuka gambar sumber di Photoshop, langkah selanjutnya adalah memilih wajah target yang akan menggantikan wajah sumber. Klik pada Photoshop, lalu pilih wajah kedua dari file gambar. Pilih wajah yang ingin Anda sisipkan."
+        },
+        {
+          "type": "heading",
+          "text": "Salin dan Tempel Wajah Kedua"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tekan dan tahan wajah kedua yang telah dipilih lalu salin beserta semua detailnya. Setelah disalin, buka opsi wajah kedua dan tempelkan dengan mengklik opsi tempel. Untuk lebih akurat, Anda bisa menggunakan",
+          "strongSuffix": "“Photoshop Keyboard Shortcut”"
+        },
+        {
+          "type": "heading",
+          "text": "Selaraskan Wajah"
+        },
+        {
+          "type": "paragraph",
+          "text": [
+            "Langkah selanjutnya adalah menyelaraskan wajah. Pada langkah ini, kurangi opacity hingga 50% dan aktifkan ",
+            {
+              "bold": "“Panel Lapisan”"
+            },
+            ". Lalu selaraskan wajah secara sempurna dengan menyesuaikan ukuran dan posisi."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Pemetaan dan Tumpang Tindih"
+        },
+        {
+          "type": "paragraph",
+          "text": "Untuk hasil yang lebih realistis dan cocok, petakan wajah dengan layer tubuh dan tumpang tindih sedikit. Wajah baru yang telah diselaraskan akan ditumpangkan pada tubuh."
+        },
+        {
+          "type": "heading",
+          "text": "Pilih Layer Tubuh"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pilih layer tubuh yang akan diganti wajahnya. Anda bisa menggunakan auto-select atau pilih manual layer tubuh dengan wajah lama yang akan diganti."
+        },
+        {
+          "type": "heading",
+          "text": "Tumpangkan Wajah pada Layer Tubuh"
+        },
+        {
+          "type": "paragraph",
+          "text": "Sekarang saatnya menumpangkan wajah baru ke layer tubuh yang telah dipilih. Klik opsi modify pada layer tubuh yang dipilih, lalu pilih opsi contract untuk melanjutkan."
+        },
+        {
+          "type": "heading",
+          "text": "Hapus Wajah dari Layer Tubuh"
+        },
+        {
+          "type": "paragraph",
+          "text": "Saat proses pemilihan wajah sedang berlangsung, tekan tombol delete untuk menghapus wajah lama dari layer tubuh. Ini akan menghapus wajah lama dan menampilkan wajah baru."
+        },
+        {
+          "type": "heading",
+          "text": "Campur dan Tinjau"
+        },
+        {
+          "type": "paragraph",
+          "text": "Lanjutkan ke proses pencampuran yang akan menentukan kesempurnaan hasil akhir. Aktifkan opsi “Auto-Blend” untuk hasil optimal. Tinjau kembali dan lanjutkan ke langkah akhir."
+        },
+        {
+          "type": "heading",
+          "text": "Sentuhan Akhir dan Simpan"
+        },
+        {
+          "type": "paragraph",
+          "text": "Terakhir, beri sentuhan akhir dengan filter dan efek pilihan Anda. Klik simpan untuk menyelesaikan face swap di Photoshop. Anda juga bisa membagikan hasil kreasi Anda ke media sosial."
+        },
+        {
+          "type": "heading",
+          "text": "Tips Profesional"
+        },
+        {
+          "type": "paragrah",
+          "text": "Semua orang suka mendapatkan fitur tambahan saat menukar wajah untuk hasil yang lebih sempurna. Untuk itu kami menyediakan tips profesional berikut yang mudah diikuti dan patut diketahui. Yuk simak!"
+        },
+        {
+          "type": "paragraph",
+          "prefix": "Gunakan Versi Terbaru Aplikasi:",
+          "text": " Tahukah Anda apa yang membuat hasil akhir face swap menjadi lebih sempurna? Jawabannya adalah fitur-fitur terbaru pada versi terbaru aplikasi. Jadi, pastikan Anda menggunakan versi terbaru."
+        },
+        {
+          "type": "paragraph",
+          "prefix": "Gunakan Pintasan Keyboard Photoshop:",
+          "text": " Untuk kenyamanan dan kelancaran proses editing, pintasan keyboard Photoshop sangat membantu dan wajib dicoba."
+        },
+        {
+          "type": "paragraph",
+          "prefix": "Duplikat Layer Latar Belakang:",
+          "text": " Jangan lupa untuk menduplikasi layer latar belakang. Ini akan memudahkan Anda mengembalikan gambar asli jika terjadi kesalahan."
+        },
+        {
+          "type": "paragraph",
+          "prefix": "Gunakan Gambar Resolusi Tinggi:",
+          "text": " Pastikan gambar yang dipilih untuk face swap memiliki kualitas tinggi agar hasil akhir tetap sempurna."
+        },
+        {
+          "type": "heading",
+          "text": "Pertanyaan yang Sering Diajukan"
+        },
+        {
+          "type": "paragraph",
+          "text": "Bagaimana cara menukar wajah di Photoshop secara gratis?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Untuk menukar wajah di Photoshop secara gratis, gunakan aplikasi Photoshop face swap dan lakukan prosesnya tanpa mengeluarkan biaya."
+        },
+        {
+          "type": "paragraph",
+          "text": "Apakah Photoshop gratis online aman untuk perangkat kita?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tidak, Photoshop gratis online tidak membahayakan perangkat Anda. Justru aman dan dapat digunakan dengan mengikuti panduan kami."
+        },
+        {
+          "type": "paragraph",
+          "text": "Bisakah kita menukar kepala di Photoshop?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ya, tentu saja, Anda bisa menukar kepala di Photoshop dengan mengikuti panduan ahli di situs kami dan nikmati proses yang menyenangkan."
+        },
+        {
+          "type": "heading",
+          "text": "Penutup"
+        },
+        {
+          "type": "paragraph",
+          "text": "Sebagai kesimpulan, hanya dengan 10 langkah Anda bisa menguasai teknik face swap di Photoshop dengan mudah. Kami telah menyusun panduan menyenangkan tentang “Cara Menukar Wajah di Photoshop CS6” agar Anda bisa mencapai hasil sempurna tanpa hambatan. Tips profesional juga tersedia untuk meningkatkan hasil akhir Anda. Jadi, jelajahi artikel kami dan bersenang-senanglah!"
+        }
+      ]
     },
-    {
+    "how-to-use-insight-face-swap-discord": {
       "slug": "how-to-use-insight-face-swap-discord",
       "image": "/blog/blog2.webp",
       "title": "Cara Menggunakan Insight Face Swap di Discord",
-      "description": "Wujudkan ide kreatif Anda dengan maksimal melalui Insight Face Swap di Discord dan nikmati perpaduan identitas wajah yang mulus dengan cara yang belum pernah ada sebelumnya. Insight Face Swap adalah plugin face swap keren yang memungkinkan pengguna mengganti wajah dengan gambar lain menggunakan fitur 'Insight Face'…",
+      "description": "Biarkan ide kreatif Anda mengalir sepenuhnya dengan Insight Face Swap Discord dan nikmati perpaduan mulus dari identitas berbeda seperti belum pernah sebelumnya. Insight Face Swap adalah plugin face swap terkeren yang memungkinkan pengguna mengganti wajah mereka dengan gambar lain menggunakan 'Insight Face Swap Bot'...",
+      "fullDescription": "Biarkan ide kreatif Anda mengalir sepenuhnya dengan Insight Face Swap Discord dan nikmati perpaduan mulus dari identitas berbeda seperti belum pernah sebelumnya. Insight Face Swap adalah plugin face swap terkeren yang memungkinkan pengguna mengganti wajah mereka dengan gambar lain menggunakan 'Insight Face Swap Bot' dan hanya dengan beberapa perintah sederhana semuanya dapat dilakukan dalam satu klik. Kami juga akan membimbing Anda secara menyeluruh dalam cara menggunakan Discord ini dan menciptakan karya imajinatif yang luar biasa.",
       "isDate": true,
-      "date": "25 Februari 2025"
-    }
-  ]
-},
-     "blogDetails": {
- "swap-face-photoshop": {
-  "slug": "swap-face-photoshop",
-  "image": "/blog/blog1.webp",
-  "title": "Tukar Wajah di Photoshop",
-  "description": "Apakah Anda sedang mencari intuisi ahli dalam menggunakan Photoshop gratis online? Jika iya, kami punya panduan lengkap tentang “Cara Menukar Wajah di Photoshop”. Face swap memang menjadi metode menarik untuk meningkatkan jangkauan media sosial Anda dengan teknik morfing wajah yang menyenangkan, namun menukar wajah di Photoshop CC bisa jadi rumit jika Anda tidak tahu caranya…",
-  "fullDescription": "Apakah Anda sedang mencari intuisi ahli dalam menggunakan Photoshop gratis online? Jika iya, kami punya panduan lengkap tentang “Cara Menukar Wajah di Photoshop”. Face swap memang menjadi metode menarik untuk meningkatkan jangkauan media sosial Anda dengan teknik morfing wajah yang menyenangkan, namun menukar wajah di Photoshop CC bisa jadi rumit jika Anda tidak tahu prosesnya. Jadi, agar tidak terjadi kekacauan dan kebingungan, kami telah merancang panduan langkah demi langkah yang mudah diikuti. Tetap bersama kami dan nikmati prosesnya.",
-  "isDate": true,
-  "date": "25 Februari 2025",
-  "content": [
-    {
-      "type": "heading",
-      "text": "Temukan Photoshop Gratis Online"
-    },
-    {
-      "type": "paragraph",
-      "text": "Dalam dunia digital saat ini di mana manipulasi foto untuk keperluan estetika sangat populer, teknik Photoshop gratis online adalah cara canggih untuk melakukannya dengan tingkat ketelitian yang tinggi. Ini adalah aplikasi luar biasa yang memungkinkan Anda mewujudkan semua ide kreatif Anda dan mempercepat proses editing dengan fitur tukar wajah yang estetik. Aplikasi ini juga sangat praktis dan kaya akan fitur canggih yang membuatnya layak dicoba."
-    },
-    {
-      "type": "heading",
-      "text": "Langkah-Langkah Utama"
-    },
-    {
-      "type": "paragraph",
-      "text": "Metode face swap atau pertukaran wajah terdiri dari 5 langkah dasar yang memungkinkan Anda mengubah gambar sesuai keinginan. Langkah-langkahnya sebagai berikut:"
-    },
-    {
-      "type": "list",
-      "items": [
-        "Pemilihan gambar subjek dan objek",
-        "Pemetaan",
-        "Tumpang tindih",
-        "Pencampuran dan peninjauan",
-        "Menyimpan dan membagikan"
+      "date": "25 Februari 2025",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Berikut semua yang perlu Anda ketahui dari panduan langkah demi langkah tentang 'Cara Menggunakan Insight Face Swap di Discord', hingga alasan menggunakan Discord ini dan cara menambahkannya ke server. Jadi, tetap ikuti postingan ini dan selesaikan semuanya."
+        },
+        {
+          "type": "heading",
+          "text": "Mengapa Menggunakan Insight Face Swap di Discord"
+        },
+        {
+          "type": "paragraph",
+          "text": "Mencari alur kerja pengeditan yang efisien dengan cakupan fotografi berskala tinggi? Jika iya, maka slot Insight Face Swap bisa menjadi tempat menyenangkan yang Anda butuhkan. Ini adalah metode terkeren yang bekerja dengan bot dan memungkinkan Anda mengasah keterampilan edit Anda dengan hasil sempurna dan menyenangkan. Berikut beberapa manfaat utamanya:"
+        },
+        {
+          "type": "paragraph",
+          "prefix": "Kualitas GIF yang Ditingkatkan:",
+          "text": " Di antara ribuan manfaat, salah satu yang utama adalah kualitas GIF yang ditingkatkan dan lingkungan kerja yang dialokasikan secara sempurna, memberikan hasil luar biasa."
+        },
+        {
+          "type": "paragraph",
+          "prefix": "Antarmuka Interaktif dan Desain Menarik:",
+          "text": "Antarmuka interaktif dengan desain menarik hadir dalam bot, menjadikan proses edit Anda menyenangkan dan seru."
+        },
+        {
+          "type": "paragraph",
+          "prefix": "Dukungan URL:",
+          "text": " Menyelesaikan tugas hanya dengan perintah URL sederhana membuatnya berbeda dari aplikasi lain dan menjadikannya pusat serba guna."
+        },
+        {
+          "type": "paragraph",
+          "prefix": "Frame dan Fitur Tambahan:",
+          "text": "Tersedia frame tambahan dengan fitur tak terbatas yang membantu Anda meningkatkan keterampilan."
+        },
+        {
+          "type": "heading",
+          "text": "Cara Menggunakan Insight Face Swap Discord: Panduan"
+        },
+        {
+          "type": "paragraph",
+          "text": "Insight Face Swap Discord adalah cara terbaik untuk menguasai face swap dengan bot bawaan yang sangat mudah digunakan dan memberikan hasil edit terkeren. Ikuti langkah-langkah berikut untuk hasil sempurna."
+        },
+        {
+          "type": "heading",
+          "text": "Buat Server Discord"
+        },
+        {
+          "type": "paragraph",
+          "text": "Langkah pertama adalah membuat server Discord. Caranya sangat mudah dengan mengikuti langkah berikut:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Klik dua kali untuk membuka Discord."
+        },
+        {
+          "type": "paragraph",
+          "text": [
+            "Ketuk ",
+            {
+              "bold": "“Menu”"
+            },
+            " bar."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": [
+            "Navigasikan ke opsi ",
+            {
+              "bold": "“Tambahkan Server”"
+            },
+            " dan klik."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": [
+            "Pilih ",
+            {
+              "bold": "“Buat Milik Saya Sendiri”"
+            },
+            " dan buat server Anda sendiri."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Tambahkan Bot Midjourney"
+        },
+        {
+          "type": "paragraph",
+          "text": "Setelah server Anda siap, tambahkan bot Midjourney dengan langkah berikut:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Klik untuk membuka server Anda."
+        },
+        {
+          "type": "paragraph",
+          "text": [
+            "Ketuk ",
+            {
+              "bold": "“Tampilkan Daftar Anggota”."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": [
+            "Klik ikon ",
+            {
+              "bold": "“Tambahkan Server”"
+            },
+            " dan akses opsi “Authorize”."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Tambahkan Midjourney ke server Anda dan selesai."
+        },
+        {
+          "type": "heading",
+          "text": "Aktifkan Face Swap-Bot"
+        },
+        {
+          "type": "paragraph",
+          "text": "Aktifkan Face Swap Bot dan jalankan di server untuk memulai proses face swap. Ikuti tips berikut:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Klik untuk mengunggah gambar yang ingin di-swap."
+        },
+        {
+          "type": "paragraph",
+          "text": [
+            "Ketik ",
+            {
+              "bold": "“/simpan identitas”"
+            },
+            " untuk membuat ID."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Beri nama ID dan simpan."
+        },
+        {
+          "type": "paragraph",
+          "text": "Unggah gambar dengan ID yang disimpan dan jalankan bot face swap."
+        },
+        {
+          "type": "heading",
+          "text": "Face Swap"
+        },
+        {
+          "type": "paragraph",
+          "text": "Setelah bot aktif dan ID dibuat, saatnya menukar wajah gambar Anda dengan perintah berikut."
+        },
+        {
+          "type": "paragraph",
+          "text": [
+            "Hasilkan gambar dengan perintah ",
+            {
+              "bold": "“/membayangkan”"
+            },
+            " dan tekan enter."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Tingkatkan resolusi gambar tersebut."
+        },
+        {
+          "type": "paragraph",
+          "text": [
+            "Klik kanan pada gambar dan buka opsi ",
+            {
+              "bold": "“Aplikasi”"
+            },
+            "."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": [
+            "Pilih ",
+            {
+              "bold": "“Di Penukar”"
+            },
+            " untuk menempatkan wajah yang diunggah ke dalam gambar."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Sesuaikan Gambar dan Kelola ID"
+        },
+        {
+          "type": "paragraph",
+          "text": "Sesuaikan gambar hasil swap dan kelola ID di server Anda. ID bisa dari 1 hingga 10 dan dapat dikontrol dengan perintah berikut."
+        },
+        {
+          "type": "paragraph",
+          "prefix": "Mengunggah ID Baru: ",
+          "text": [
+            "Klik ",
+            {
+              "bold": "“/simpan identitas”"
+            },
+            " untuk menambahkan ID baru."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "prefix": "Menghapus ID: ",
+          "text": [
+            "Ketik ",
+            {
+              "bold": "“/del ID”"
+            },
+            " untuk menghapus ID, dan ketik "
+          ],
+          "suffix": " “/delall IDs” untuk menghapus semua ID tersimpan."
+        },
+        {
+          "type": "paragraph",
+          "prefix": "Mengubah ID: ",
+          "text": [
+            "Klik ",
+            {
+              "bold": "“/mengatur ID”"
+            },
+            " untuk mengatur ID tertentu sebagai default."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "prefix": "Melihat Daftar ID: ",
+          "text": [
+            "Ketik ",
+            {
+              "bold": "“/daftar ID”"
+            },
+            " untuk melihat daftar ID."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Cara Meningkatkan Hasil Insight Face Swap: Tips"
+        },
+        {
+          "type": "paragraph",
+          "text": "Proses face swap cukup sederhana dengan bot Insight Face Swap, namun beberapa tips berikut dapat meningkatkan hasil akhirnya."
+        },
+        {
+          "type": "paragraph",
+          "text": "Gunakan format media yang unik."
+        },
+        {
+          "type": "paragraph",
+          "text": "Manfaatkan perintah untuk hasil lebih baik dalam waktu singkat."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pilih gambar HD dengan tampilan diperbesar."
+        },
+        {
+          "type": "paragraph",
+          "text": "Buat face swap kustom."
+        },
+        {
+          "type": "paragraph",
+          "text": "Kenali fitur dan kemampuan teknis dari bot Insight Face Swap secara menyeluruh."
+        },
+        {
+          "type": "heading",
+          "text": "Keterbatasan Insight Face Swap di Midjourney"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ada beberapa tantangan dan keterbatasan saat menggunakan Insight Face Swap di Midjourney, namun dengan mengikuti panduan dari situs kami, Anda dapat mengatasinya. Berikut beberapa keterbatasannya:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Melibatkan tantangan teknis seperti memahami perintah ID."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mengundang bot ke server Discord."
+        },
+        {
+          "type": "paragraph",
+          "text": "Menggunakan perangkat canggih untuk hasil maksimal."
+        },
+        {
+          "type": "heading",
+          "text": "Kata Penutup"
+        },
+        {
+          "type": "paragraph",
+          "text": "Kini tak perlu khawatir lagi tentang penggunaan Insight Face Swap Discord karena kami hadir dengan trik luar biasa yang memungkinkan Anda menguasai AI generatif untuk face swap. Discord ini sangat memudahkan proses editing Anda dengan perintah instan dan bot bawaan yang memberikan hasil maksimal. Untuk pertanyaan tentang cara menggunakan Insight Face Swap Discord, panduan kami akan membantu Anda menguasai teknik editing secara menyenangkan. Jadi, manfaatkan panduan ini dan kuasai skill editing profesional."
+        }
       ]
-    },
-    {
-      "type": "heading",
-      "text": "Cara Menukar Wajah di Photoshop: Panduan Langkah demi Langkah"
-    },
-    {
-      "type": "paragraph",
-      "text": "Untuk pengguna yang mencari panduan ahli tentang cara menukar wajah di Photoshop, bagian di bawah ini dengan 9 langkah sederhana siap membantu. Ikuti panduan berikut dan nikmati menukar wajah di Photoshop dengan hasil maksimal. Mari kita mulai."
-    },
-    {
-      "type": "heading",
-      "text": "Buka File Gambar di Photoshop"
-    },
-    {
-      "type": "paragraph",
-      "text": "Pertama, mulai teknik face swap di Photoshop dengan memilih gambar sumber dari file gambar di Photoshop yang ingin Anda ganti wajahnya. Klik file, buka, lalu pilih gambar yang diinginkan dan lanjutkan prosesnya."
-    },
-    {
-      "type": "heading",
-      "text": "Pilih Wajah Target"
-    },
-    {
-      "type": "paragraph",
-      "text": "Setelah membuka gambar sumber di Photoshop, langkah selanjutnya adalah memilih wajah target yang akan menggantikan wajah sumber. Klik pada Photoshop, lalu pilih wajah kedua dari file gambar. Pilih wajah yang ingin Anda sisipkan."
-    },
-    {
-      "type": "heading",
-      "text": "Salin dan Tempel Wajah Kedua"
-    },
-    {
-      "type": "paragraph",
-      "text": "Tekan dan tahan wajah kedua yang telah dipilih lalu salin beserta semua detailnya. Setelah disalin, buka opsi wajah kedua dan tempelkan dengan mengklik opsi tempel. Untuk lebih akurat, Anda bisa menggunakan",
-      "strongSuffix": "“Photoshop Keyboard Shortcut”"
-    },
-    {
-      "type": "heading",
-      "text": "Selaraskan Wajah"
-    },
-    {
-      "type": "paragraph",
-      "text": [
-        "Langkah selanjutnya adalah menyelaraskan wajah. Pada langkah ini, kurangi opacity hingga 50% dan aktifkan ",
-        { "bold": "“Panel Lapisan”" },
-        ". Lalu selaraskan wajah secara sempurna dengan menyesuaikan ukuran dan posisi."
-      ]
-    },
-    {
-      "type": "heading",
-      "text": "Pemetaan dan Tumpang Tindih"
-    },
-    {
-      "type": "paragraph",
-      "text": "Untuk hasil yang lebih realistis dan cocok, petakan wajah dengan layer tubuh dan tumpang tindih sedikit. Wajah baru yang telah diselaraskan akan ditumpangkan pada tubuh."
-    },
-    {
-      "type": "heading",
-      "text": "Pilih Layer Tubuh"
-    },
-    {
-      "type": "paragraph",
-      "text": "Pilih layer tubuh yang akan diganti wajahnya. Anda bisa menggunakan auto-select atau pilih manual layer tubuh dengan wajah lama yang akan diganti."
-    },
-    {
-      "type": "heading",
-      "text": "Tumpangkan Wajah pada Layer Tubuh"
-    },
-    {
-      "type": "paragraph",
-      "text": "Sekarang saatnya menumpangkan wajah baru ke layer tubuh yang telah dipilih. Klik opsi modify pada layer tubuh yang dipilih, lalu pilih opsi contract untuk melanjutkan."
-    },
-    {
-      "type": "heading",
-      "text": "Hapus Wajah dari Layer Tubuh"
-    },
-    {
-      "type": "paragraph",
-      "text": "Saat proses pemilihan wajah sedang berlangsung, tekan tombol delete untuk menghapus wajah lama dari layer tubuh. Ini akan menghapus wajah lama dan menampilkan wajah baru."
-    },
-    {
-      "type": "heading",
-      "text": "Campur dan Tinjau"
-    },
-    {
-      "type": "paragraph",
-      "text": "Lanjutkan ke proses pencampuran yang akan menentukan kesempurnaan hasil akhir. Aktifkan opsi “Auto-Blend” untuk hasil optimal. Tinjau kembali dan lanjutkan ke langkah akhir."
-    },
-    {
-      "type": "heading",
-      "text": "Sentuhan Akhir dan Simpan"
-    },
-    {
-      "type": "paragraph",
-      "text": "Terakhir, beri sentuhan akhir dengan filter dan efek pilihan Anda. Klik simpan untuk menyelesaikan face swap di Photoshop. Anda juga bisa membagikan hasil kreasi Anda ke media sosial."
-    },
-    {
-      "type": "heading",
-      "text": "Tips Profesional"
-    },
-    {
-      "type": "paragrah",
-      "text": "Semua orang suka mendapatkan fitur tambahan saat menukar wajah untuk hasil yang lebih sempurna. Untuk itu kami menyediakan tips profesional berikut yang mudah diikuti dan patut diketahui. Yuk simak!"
-    },
-    {
-      "type": "paragraph",
-      "prefix": "Gunakan Versi Terbaru Aplikasi:",
-      "text": " Tahukah Anda apa yang membuat hasil akhir face swap menjadi lebih sempurna? Jawabannya adalah fitur-fitur terbaru pada versi terbaru aplikasi. Jadi, pastikan Anda menggunakan versi terbaru."
-    },
-    {
-      "type": "paragraph",
-      "prefix": "Gunakan Pintasan Keyboard Photoshop:",
-      "text": " Untuk kenyamanan dan kelancaran proses editing, pintasan keyboard Photoshop sangat membantu dan wajib dicoba."
-    },
-    {
-      "type": "paragraph",
-      "prefix": "Duplikat Layer Latar Belakang:",
-      "text": " Jangan lupa untuk menduplikasi layer latar belakang. Ini akan memudahkan Anda mengembalikan gambar asli jika terjadi kesalahan."
-    },
-    {
-      "type": "paragraph",
-      "prefix": "Gunakan Gambar Resolusi Tinggi:",
-      "text": " Pastikan gambar yang dipilih untuk face swap memiliki kualitas tinggi agar hasil akhir tetap sempurna."
-    },
-    {
-      "type": "heading",
-      "text": "Pertanyaan yang Sering Diajukan"
-    },
-    {
-      "type": "paragraph",
-      "text": "Bagaimana cara menukar wajah di Photoshop secara gratis?"
-    },
-    {
-      "type": "paragraph",
-      "text": "Untuk menukar wajah di Photoshop secara gratis, gunakan aplikasi Photoshop face swap dan lakukan prosesnya tanpa mengeluarkan biaya."
-    },
-    {
-      "type": "paragraph",
-      "text": "Apakah Photoshop gratis online aman untuk perangkat kita?"
-    },
-    {
-      "type": "paragraph",
-      "text": "Tidak, Photoshop gratis online tidak membahayakan perangkat Anda. Justru aman dan dapat digunakan dengan mengikuti panduan kami."
-    },
-    {
-      "type": "paragraph",
-      "text": "Bisakah kita menukar kepala di Photoshop?"
-    },
-    {
-      "type": "paragraph",
-      "text": "Ya, tentu saja, Anda bisa menukar kepala di Photoshop dengan mengikuti panduan ahli di situs kami dan nikmati proses yang menyenangkan."
-    },
-    {
-      "type": "heading",
-      "text": "Penutup"
-    },
-    {
-      "type": "paragraph",
-      "text": "Sebagai kesimpulan, hanya dengan 10 langkah Anda bisa menguasai teknik face swap di Photoshop dengan mudah. Kami telah menyusun panduan menyenangkan tentang “Cara Menukar Wajah di Photoshop CS6” agar Anda bisa mencapai hasil sempurna tanpa hambatan. Tips profesional juga tersedia untuk meningkatkan hasil akhir Anda. Jadi, jelajahi artikel kami dan bersenang-senanglah!"
     }
-  ]
-},
-  "how-to-use-insight-face-swap-discord": {
-  "slug": "how-to-use-insight-face-swap-discord",
-  "image": "/blog/blog2.webp",
-  "title": "Cara Menggunakan Insight Face Swap di Discord",
-  "description": "Biarkan ide kreatif Anda mengalir sepenuhnya dengan Insight Face Swap Discord dan nikmati perpaduan mulus dari identitas berbeda seperti belum pernah sebelumnya. Insight Face Swap adalah plugin face swap terkeren yang memungkinkan pengguna mengganti wajah mereka dengan gambar lain menggunakan 'Insight Face Swap Bot'...",
-  "fullDescription": "Biarkan ide kreatif Anda mengalir sepenuhnya dengan Insight Face Swap Discord dan nikmati perpaduan mulus dari identitas berbeda seperti belum pernah sebelumnya. Insight Face Swap adalah plugin face swap terkeren yang memungkinkan pengguna mengganti wajah mereka dengan gambar lain menggunakan 'Insight Face Swap Bot' dan hanya dengan beberapa perintah sederhana semuanya dapat dilakukan dalam satu klik. Kami juga akan membimbing Anda secara menyeluruh dalam cara menggunakan Discord ini dan menciptakan karya imajinatif yang luar biasa.",
-  "isDate": true,
-  "date": "25 Februari 2025",
-  "content": [
-    {
-      "type": "paragraph",
-      "text": "Berikut semua yang perlu Anda ketahui dari panduan langkah demi langkah tentang 'Cara Menggunakan Insight Face Swap di Discord', hingga alasan menggunakan Discord ini dan cara menambahkannya ke server. Jadi, tetap ikuti postingan ini dan selesaikan semuanya."
-    },
-    {
-      "type": "heading",
-      "text": "Mengapa Menggunakan Insight Face Swap di Discord"
-    },
-    {
-      "type": "paragraph",
-      "text": "Mencari alur kerja pengeditan yang efisien dengan cakupan fotografi berskala tinggi? Jika iya, maka slot Insight Face Swap bisa menjadi tempat menyenangkan yang Anda butuhkan. Ini adalah metode terkeren yang bekerja dengan bot dan memungkinkan Anda mengasah keterampilan edit Anda dengan hasil sempurna dan menyenangkan. Berikut beberapa manfaat utamanya:"
-    },
-    {
-      "type": "paragraph",
-      "prefix": "Kualitas GIF yang Ditingkatkan:",
-      "text": " Di antara ribuan manfaat, salah satu yang utama adalah kualitas GIF yang ditingkatkan dan lingkungan kerja yang dialokasikan secara sempurna, memberikan hasil luar biasa."
-    },
-    {
-      "type": "paragraph",
-      "prefix": "Antarmuka Interaktif dan Desain Menarik:",
-      "text": "Antarmuka interaktif dengan desain menarik hadir dalam bot, menjadikan proses edit Anda menyenangkan dan seru."
-    },
-    {
-      "type": "paragraph",
-      "prefix": "Dukungan URL:",
-      "text": " Menyelesaikan tugas hanya dengan perintah URL sederhana membuatnya berbeda dari aplikasi lain dan menjadikannya pusat serba guna."
-    },
-    {
-      "type": "paragraph",
-      "prefix": "Frame dan Fitur Tambahan:",
-      "text": "Tersedia frame tambahan dengan fitur tak terbatas yang membantu Anda meningkatkan keterampilan."
-    },
-    {
-      "type": "heading",
-      "text": "Cara Menggunakan Insight Face Swap Discord: Panduan"
-    },
-    {
-      "type": "paragraph",
-      "text": "Insight Face Swap Discord adalah cara terbaik untuk menguasai face swap dengan bot bawaan yang sangat mudah digunakan dan memberikan hasil edit terkeren. Ikuti langkah-langkah berikut untuk hasil sempurna."
-    },
-    {
-      "type": "heading",
-      "text": "Buat Server Discord"
-    },
-    {
-      "type": "paragraph",
-      "text": "Langkah pertama adalah membuat server Discord. Caranya sangat mudah dengan mengikuti langkah berikut:"
-    },
-    {
-      "type": "paragraph",
-      "text": "Klik dua kali untuk membuka Discord."
-    },
-    {
-      "type": "paragraph",
-      "text": ["Ketuk ", { "bold": "“Menu”" }, " bar."]
-    },
-    {
-      "type": "paragraph",
-      "text": ["Navigasikan ke opsi ", { "bold": "“Tambahkan Server”" }, " dan klik."]
-    },
-    {
-      "type": "paragraph",
-      "text": ["Pilih ", { "bold": "“Buat Milik Saya Sendiri”" }, " dan buat server Anda sendiri."]
-    },
-    {
-      "type": "heading",
-      "text": "Tambahkan Bot Midjourney"
-    },
-    {
-      "type": "paragraph",
-      "text": "Setelah server Anda siap, tambahkan bot Midjourney dengan langkah berikut:"
-    },
-    {
-      "type": "paragraph",
-      "text": "Klik untuk membuka server Anda."
-    },
-    {
-      "type": "paragraph",
-      "text": ["Ketuk ", { "bold": "“Tampilkan Daftar Anggota”." }]
-    },
-    {
-      "type": "paragraph",
-      "text": ["Klik ikon ", { "bold": "“Tambahkan Server”" }, " dan akses opsi “Authorize”."]
-    },
-    {
-      "type": "paragraph",
-      "text": "Tambahkan Midjourney ke server Anda dan selesai."
-    },
-    {
-      "type": "heading",
-      "text": "Aktifkan Face Swap-Bot"
-    },
-    {
-      "type": "paragraph",
-      "text": "Aktifkan Face Swap Bot dan jalankan di server untuk memulai proses face swap. Ikuti tips berikut:"
-    },
-    {
-      "type": "paragraph",
-      "text": "Klik untuk mengunggah gambar yang ingin di-swap."
-    },
-    {
-      "type": "paragraph",
-      "text": ["Ketik ", { "bold": "“/simpan identitas”" }, " untuk membuat ID."]
-    },
-    {
-      "type": "paragraph",
-      "text": "Beri nama ID dan simpan."
-    },
-    {
-      "type": "paragraph",
-      "text": "Unggah gambar dengan ID yang disimpan dan jalankan bot face swap."
-    },
-    {
-      "type": "heading",
-      "text": "Face Swap"
-    },
-    {
-      "type": "paragraph",
-      "text": "Setelah bot aktif dan ID dibuat, saatnya menukar wajah gambar Anda dengan perintah berikut."
-    },
-    {
-      "type": "paragraph",
-      "text": ["Hasilkan gambar dengan perintah ", { "bold": "“/membayangkan”" }, " dan tekan enter."]
-    },
-    {
-      "type": "paragraph",
-      "text": "Tingkatkan resolusi gambar tersebut."
-    },
-    {
-      "type": "paragraph",
-      "text": ["Klik kanan pada gambar dan buka opsi ", { "bold": "“Aplikasi”" }, "."]
-    },
-    {
-      "type": "paragraph",
-      "text": ["Pilih ", { "bold": "“Di Penukar”" }, " untuk menempatkan wajah yang diunggah ke dalam gambar."]
-    },
-    {
-      "type": "heading",
-      "text": "Sesuaikan Gambar dan Kelola ID"
-    },
-    {
-      "type": "paragraph",
-      "text": "Sesuaikan gambar hasil swap dan kelola ID di server Anda. ID bisa dari 1 hingga 10 dan dapat dikontrol dengan perintah berikut."
-    },
-    {
-      "type": "paragraph",
-      "prefix": "Mengunggah ID Baru: ",
-      "text": ["Klik ", { "bold": "“/simpan identitas”" }, " untuk menambahkan ID baru."]
-    },
-    {
-      "type": "paragraph",
-      "prefix": "Menghapus ID: ",
-      "text": ["Ketik ", { "bold": "“/del ID”" }, " untuk menghapus ID, dan ketik "],
-      "suffix": " “/delall IDs” untuk menghapus semua ID tersimpan."
-    },
-    {
-      "type": "paragraph",
-      "prefix": "Mengubah ID: ",
-      "text": ["Klik ", { "bold": "“/mengatur ID”" }, " untuk mengatur ID tertentu sebagai default."]
-    },
-    {
-      "type": "paragraph",
-      "prefix": "Melihat Daftar ID: ",
-      "text": ["Ketik ", { "bold": "“/daftar ID”" }, " untuk melihat daftar ID."]
-    },
-    {
-      "type": "heading",
-      "text": "Cara Meningkatkan Hasil Insight Face Swap: Tips"
-    },
-    {
-      "type": "paragraph",
-      "text": "Proses face swap cukup sederhana dengan bot Insight Face Swap, namun beberapa tips berikut dapat meningkatkan hasil akhirnya."
-    },
-    {
-      "type": "paragraph",
-      "text": "Gunakan format media yang unik."
-    },
-    {
-      "type": "paragraph",
-      "text": "Manfaatkan perintah untuk hasil lebih baik dalam waktu singkat."
-    },
-    {
-      "type": "paragraph",
-      "text": "Pilih gambar HD dengan tampilan diperbesar."
-    },
-    {
-      "type": "paragraph",
-      "text": "Buat face swap kustom."
-    },
-    {
-      "type": "paragraph",
-      "text": "Kenali fitur dan kemampuan teknis dari bot Insight Face Swap secara menyeluruh."
-    },
-    {
-      "type": "heading",
-      "text": "Keterbatasan Insight Face Swap di Midjourney"
-    },
-    {
-      "type": "paragraph",
-      "text": "Ada beberapa tantangan dan keterbatasan saat menggunakan Insight Face Swap di Midjourney, namun dengan mengikuti panduan dari situs kami, Anda dapat mengatasinya. Berikut beberapa keterbatasannya:"
-    },
-    {
-      "type": "paragraph",
-      "text": "Melibatkan tantangan teknis seperti memahami perintah ID."
-    },
-    {
-      "type": "paragraph",
-      "text": "Mengundang bot ke server Discord."
-    },
-    {
-      "type": "paragraph",
-      "text": "Menggunakan perangkat canggih untuk hasil maksimal."
-    },
-    {
-      "type": "heading",
-      "text": "Kata Penutup"
-    },
-    {
-      "type": "paragraph",
-      "text": "Kini tak perlu khawatir lagi tentang penggunaan Insight Face Swap Discord karena kami hadir dengan trik luar biasa yang memungkinkan Anda menguasai AI generatif untuk face swap. Discord ini sangat memudahkan proses editing Anda dengan perintah instan dan bot bawaan yang memberikan hasil maksimal. Untuk pertanyaan tentang cara menggunakan Insight Face Swap Discord, panduan kami akan membantu Anda menguasai teknik editing secara menyenangkan. Jadi, manfaatkan panduan ini dan kuasai skill editing profesional."
-    }
-  ]
-}
   },
   "privacy": {
     "title": "Kebijakan Privasi",
@@ -991,199 +1062,195 @@
       }
     ]
   },
- "terms": {
-  "title": "Syarat dan Ketentuan Layanan",
-  "content": [
-    {
-      "type": "paragraph",
-      "text": "Terakhir Diperbarui: 3/2/2025",
-      "customMargin": "17px"
-    },
-    {
-      "type": "paragraph",
-      "text": "Harap baca Syarat dan Ketentuan Layanan ini (\"Syarat\") dengan seksama sebelum menggunakan layanan pemrosesan gambar PixelMorph (\"Layanan\") yang dioperasikan oleh PixelMorph Inc. (\"kami\"). Dengan mengakses atau menggunakan Layanan, Anda setuju untuk terikat oleh Syarat ini. Jika Anda tidak setuju dengan bagian mana pun dari Syarat ini, maka Anda tidak diperbolehkan mengakses Layanan.",
-      "customMargin": "17px"
-    },
-    {
-      "type": "paragraph",
-      "text": "1. Penerimaan Syarat"
-    },
-    {
-      "type": "paragraph",
-      "text": "Dengan mengakses atau menggunakan Layanan, Anda menyatakan dan menjamin bahwa Anda berusia minimal 18 tahun dan memiliki kapasitas hukum untuk menyetujui Syarat ini. Jika Anda menggunakan Layanan atas nama suatu organisasi, Anda menyatakan dan menjamin bahwa Anda memiliki wewenang untuk mengikat organisasi tersebut pada Syarat ini.",
-      "customMargin": "17px"
-    },
-    {
-      "type": "paragraph",
-      "text": "2. Penggunaan Layanan"
-    },
-    {
-      "type": "paragraph",
-      "text": "2.1. Penggunaan yang Diizinkan"
-    },
-    {
-      "type": "paragraph",
-      "text": "Anda hanya boleh menggunakan Layanan untuk tujuan yang sah. Anda setuju untuk tidak menggunakan Layanan untuk:",
-      "customMargin": "17px"
-    },
-    {
-      "type": "paragraph",
-      "text": "Mengunggah, memproses, atau membagikan konten yang ilegal, berbahaya, mengancam, kasar, melecehkan, memfitnah, vulgar, cabul, mencemarkan nama baik, melanggar privasi orang lain, penuh kebencian, atau tidak pantas lainnya."
-    },
-    {
-      "type": "paragraph",
-      "text": "Melanggar hak kekayaan intelektual orang lain, termasuk hak cipta, merek dagang, dan paten."
-    },
-    {
-      "type": "paragraph",
-      "text": "Mengunggah, memproses, atau membagikan konten yang mengandung virus, malware, atau kode berbahaya lainnya."
-    },
-    {
-      "type": "paragraph",
-      "text": "Menyamar sebagai orang atau entitas lain, atau secara salah menyatakan atau menggambarkan afiliasi Anda dengan orang atau entitas mana pun."
-    },
-    {
-      "type": "paragraph",
-      "text": "Mengganggu atau mengacaukan Layanan atau server atau jaringan yang terhubung dengan Layanan."
-    },
-    {
-      "type": "paragraph",
-      "text": "Melanggar hukum atau peraturan yang berlaku."
-    },
-    {
-      "type": "paragraph",
-      "text": "Mengumpulkan atau menyimpan data pribadi pengguna lain tanpa persetujuan mereka secara eksplisit."
-    },
-    {
-      "type": "paragraph",
-      "text": "2.2. Konten Pengguna"
-    },
-    {
-      "type": "paragraph",
-      "text": "Anda bertanggung jawab penuh atas konten yang Anda unggah ke Layanan (\"Konten Pengguna\"). Anda tetap memiliki hak atas Konten Pengguna Anda, namun dengan mengunggahnya ke Layanan, Anda memberikan kami lisensi non-eksklusif, global, bebas royalti untuk menggunakan, mereproduksi, memodifikasi, menyesuaikan, menerbitkan, menerjemahkan, mendistribusikan, dan menampilkan Konten Pengguna Anda semata-mata untuk tujuan menyediakan Layanan. Anda menyatakan dan menjamin bahwa Anda memiliki semua hak yang diperlukan untuk memberikan lisensi ini kepada kami.",
-      "customMargin": "17px"
-    },
-    {
-      "type": "paragraph",
-      "text": "Kami tidak mengklaim kepemilikan atas Konten Pengguna Anda; namun, kami secara tegas melarang segala aktivitas yang melanggar hak kekayaan intelektual.",
-      "customMargin": "17px"
-    },
-    {
-      "type": "paragraph",
-      "text": "3. Kekayaan Intelektual"
-    },
-    {
-      "type": "paragraph",
-      "text": "Layanan dan seluruh konten, fitur, serta fungsionalitas aslinya adalah dan akan tetap menjadi milik eksklusif PixelMorph Inc. dan pemberi lisensinya. Layanan dilindungi oleh undang-undang hak cipta, merek dagang, dan hukum lainnya di Amerika Serikat serta negara lain. Merek dagang dan identitas visual kami tidak boleh digunakan sehubungan dengan produk atau layanan apa pun tanpa izin tertulis dari kami terlebih dahulu.",
-      "customMargin": "17px"
-    },
-    {
-      "type": "paragraph",
-      "text": "4. Penafian Jaminan"
-    },
-    {
-      "type": "paragraph",
-      "text": "Layanan disediakan \"sebagaimana adanya\" dan \"sebagaimana tersedia\" tanpa jaminan apa pun, baik tersurat maupun tersirat, termasuk namun tidak terbatas pada jaminan tersirat tentang kelayakan jual, kesesuaian untuk tujuan tertentu, dan tidak melanggar hak. Kami tidak menjamin bahwa Layanan akan bebas gangguan, bebas kesalahan, aman, atau bebas dari virus atau komponen berbahaya lainnya, maupun menjamin keakuratan, kelengkapan, atau keandalan hasil apa pun yang diperoleh dari penggunaan Layanan.",
-      "customMargin": "17px"
-    },
-    {
-      "type": "paragraph",
-      "text": "5. Batasan Tanggung Jawab"
-    },
-    {
-      "type": "paragraph",
-      "text": "Dalam keadaan apa pun PixelMorph Inc., direktur, pejabat, karyawan, mitra, agen, pemasok, atau afiliasinya tidak bertanggung jawab atas kerugian tidak langsung, insidental, khusus, konsekuensial, atau hukuman, termasuk namun tidak terbatas pada kehilangan keuntungan, data, penggunaan, niat baik, atau kerugian tak berwujud lainnya yang diakibatkan oleh: (i) akses Anda ke atau penggunaan Anda atas atau ketidakmampuan Anda untuk mengakses atau menggunakan Layanan; (ii) perilaku atau konten pihak ketiga mana pun di Layanan; (iii) konten yang diperoleh dari Layanan; dan (iv) akses, penggunaan, atau perubahan yang tidak sah atas transmisi atau konten Anda, baik berdasarkan jaminan, kontrak, kesalahan (termasuk kelalaian), atau teori hukum lainnya, meskipun kami telah diberitahu tentang kemungkinan kerugian tersebut.",
-      "customMargin": "17px"
-    },
-    {
-      "type": "paragraph",
-      "text": "6. Hukum yang Mengatur"
-    },
-    {
-      "type": "paragraph",
-      "text": "Syarat ini akan diatur dan ditafsirkan sesuai dengan hukum Negara Bagian California, Amerika Serikat, tanpa memperhatikan pertentangan ketentuan hukum.",
-      "customMargin": "17px"
-    },
-    {
-      "type": "paragraph",
-      "text": "7. Perubahan terhadap Syarat"
-    },
-    {
-      "type": "paragraph",
-      "text": "Kami berhak, atas kebijakan kami sendiri, untuk mengubah atau mengganti Syarat ini kapan saja. Jika perubahan dianggap material, kami akan memberikan pemberitahuan minimal 30 hari sebelum syarat baru berlaku. Apa yang dianggap sebagai perubahan material akan ditentukan semata-mata oleh kami. Dengan terus mengakses atau menggunakan Layanan setelah revisi tersebut berlaku, Anda setuju untuk terikat oleh syarat yang telah direvisi.",
-      "customMargin": "17px"
-    },
-    {
-      "type": "paragraph",
-      "text": "8. Hubungi Kami"
-    },
-    {
-      "type": "paragraph",
-      "text": [
-        "Jika Anda memiliki pertanyaan mengenai Syarat ini, silakan hubungi kami di: ",
-        {
-          "link": {
-            "href": "mailto:shahshawaiz@gmail.com",
-            "text": "shahshawaiz@gmail.com"
+  "terms": {
+    "title": "Syarat dan Ketentuan Layanan",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Terakhir Diperbarui: 3/2/2025",
+        "customMargin": "17px"
+      },
+      {
+        "type": "paragraph",
+        "text": "Harap baca Syarat dan Ketentuan Layanan ini (\"Syarat\") dengan seksama sebelum menggunakan layanan pemrosesan gambar PixelMorph (\"Layanan\") yang dioperasikan oleh PixelMorph Inc. (\"kami\"). Dengan mengakses atau menggunakan Layanan, Anda setuju untuk terikat oleh Syarat ini. Jika Anda tidak setuju dengan bagian mana pun dari Syarat ini, maka Anda tidak diperbolehkan mengakses Layanan.",
+        "customMargin": "17px"
+      },
+      {
+        "type": "paragraph",
+        "text": "1. Penerimaan Syarat"
+      },
+      {
+        "type": "paragraph",
+        "text": "Dengan mengakses atau menggunakan Layanan, Anda menyatakan dan menjamin bahwa Anda berusia minimal 18 tahun dan memiliki kapasitas hukum untuk menyetujui Syarat ini. Jika Anda menggunakan Layanan atas nama suatu organisasi, Anda menyatakan dan menjamin bahwa Anda memiliki wewenang untuk mengikat organisasi tersebut pada Syarat ini.",
+        "customMargin": "17px"
+      },
+      {
+        "type": "paragraph",
+        "text": "2. Penggunaan Layanan"
+      },
+      {
+        "type": "paragraph",
+        "text": "2.1. Penggunaan yang Diizinkan"
+      },
+      {
+        "type": "paragraph",
+        "text": "Anda hanya boleh menggunakan Layanan untuk tujuan yang sah. Anda setuju untuk tidak menggunakan Layanan untuk:",
+        "customMargin": "17px"
+      },
+      {
+        "type": "paragraph",
+        "text": "Mengunggah, memproses, atau membagikan konten yang ilegal, berbahaya, mengancam, kasar, melecehkan, memfitnah, vulgar, cabul, mencemarkan nama baik, melanggar privasi orang lain, penuh kebencian, atau tidak pantas lainnya."
+      },
+      {
+        "type": "paragraph",
+        "text": "Melanggar hak kekayaan intelektual orang lain, termasuk hak cipta, merek dagang, dan paten."
+      },
+      {
+        "type": "paragraph",
+        "text": "Mengunggah, memproses, atau membagikan konten yang mengandung virus, malware, atau kode berbahaya lainnya."
+      },
+      {
+        "type": "paragraph",
+        "text": "Menyamar sebagai orang atau entitas lain, atau secara salah menyatakan atau menggambarkan afiliasi Anda dengan orang atau entitas mana pun."
+      },
+      {
+        "type": "paragraph",
+        "text": "Mengganggu atau mengacaukan Layanan atau server atau jaringan yang terhubung dengan Layanan."
+      },
+      {
+        "type": "paragraph",
+        "text": "Melanggar hukum atau peraturan yang berlaku."
+      },
+      {
+        "type": "paragraph",
+        "text": "Mengumpulkan atau menyimpan data pribadi pengguna lain tanpa persetujuan mereka secara eksplisit."
+      },
+      {
+        "type": "paragraph",
+        "text": "2.2. Konten Pengguna"
+      },
+      {
+        "type": "paragraph",
+        "text": "Anda bertanggung jawab penuh atas konten yang Anda unggah ke Layanan (\"Konten Pengguna\"). Anda tetap memiliki hak atas Konten Pengguna Anda, namun dengan mengunggahnya ke Layanan, Anda memberikan kami lisensi non-eksklusif, global, bebas royalti untuk menggunakan, mereproduksi, memodifikasi, menyesuaikan, menerbitkan, menerjemahkan, mendistribusikan, dan menampilkan Konten Pengguna Anda semata-mata untuk tujuan menyediakan Layanan. Anda menyatakan dan menjamin bahwa Anda memiliki semua hak yang diperlukan untuk memberikan lisensi ini kepada kami.",
+        "customMargin": "17px"
+      },
+      {
+        "type": "paragraph",
+        "text": "Kami tidak mengklaim kepemilikan atas Konten Pengguna Anda; namun, kami secara tegas melarang segala aktivitas yang melanggar hak kekayaan intelektual.",
+        "customMargin": "17px"
+      },
+      {
+        "type": "paragraph",
+        "text": "3. Kekayaan Intelektual"
+      },
+      {
+        "type": "paragraph",
+        "text": "Layanan dan seluruh konten, fitur, serta fungsionalitas aslinya adalah dan akan tetap menjadi milik eksklusif PixelMorph Inc. dan pemberi lisensinya. Layanan dilindungi oleh undang-undang hak cipta, merek dagang, dan hukum lainnya di Amerika Serikat serta negara lain. Merek dagang dan identitas visual kami tidak boleh digunakan sehubungan dengan produk atau layanan apa pun tanpa izin tertulis dari kami terlebih dahulu.",
+        "customMargin": "17px"
+      },
+      {
+        "type": "paragraph",
+        "text": "4. Penafian Jaminan"
+      },
+      {
+        "type": "paragraph",
+        "text": "Layanan disediakan \"sebagaimana adanya\" dan \"sebagaimana tersedia\" tanpa jaminan apa pun, baik tersurat maupun tersirat, termasuk namun tidak terbatas pada jaminan tersirat tentang kelayakan jual, kesesuaian untuk tujuan tertentu, dan tidak melanggar hak. Kami tidak menjamin bahwa Layanan akan bebas gangguan, bebas kesalahan, aman, atau bebas dari virus atau komponen berbahaya lainnya, maupun menjamin keakuratan, kelengkapan, atau keandalan hasil apa pun yang diperoleh dari penggunaan Layanan.",
+        "customMargin": "17px"
+      },
+      {
+        "type": "paragraph",
+        "text": "5. Batasan Tanggung Jawab"
+      },
+      {
+        "type": "paragraph",
+        "text": "Dalam keadaan apa pun PixelMorph Inc., direktur, pejabat, karyawan, mitra, agen, pemasok, atau afiliasinya tidak bertanggung jawab atas kerugian tidak langsung, insidental, khusus, konsekuensial, atau hukuman, termasuk namun tidak terbatas pada kehilangan keuntungan, data, penggunaan, niat baik, atau kerugian tak berwujud lainnya yang diakibatkan oleh: (i) akses Anda ke atau penggunaan Anda atas atau ketidakmampuan Anda untuk mengakses atau menggunakan Layanan; (ii) perilaku atau konten pihak ketiga mana pun di Layanan; (iii) konten yang diperoleh dari Layanan; dan (iv) akses, penggunaan, atau perubahan yang tidak sah atas transmisi atau konten Anda, baik berdasarkan jaminan, kontrak, kesalahan (termasuk kelalaian), atau teori hukum lainnya, meskipun kami telah diberitahu tentang kemungkinan kerugian tersebut.",
+        "customMargin": "17px"
+      },
+      {
+        "type": "paragraph",
+        "text": "6. Hukum yang Mengatur"
+      },
+      {
+        "type": "paragraph",
+        "text": "Syarat ini akan diatur dan ditafsirkan sesuai dengan hukum Negara Bagian California, Amerika Serikat, tanpa memperhatikan pertentangan ketentuan hukum.",
+        "customMargin": "17px"
+      },
+      {
+        "type": "paragraph",
+        "text": "7. Perubahan terhadap Syarat"
+      },
+      {
+        "type": "paragraph",
+        "text": "Kami berhak, atas kebijakan kami sendiri, untuk mengubah atau mengganti Syarat ini kapan saja. Jika perubahan dianggap material, kami akan memberikan pemberitahuan minimal 30 hari sebelum syarat baru berlaku. Apa yang dianggap sebagai perubahan material akan ditentukan semata-mata oleh kami. Dengan terus mengakses atau menggunakan Layanan setelah revisi tersebut berlaku, Anda setuju untuk terikat oleh syarat yang telah direvisi.",
+        "customMargin": "17px"
+      },
+      {
+        "type": "paragraph",
+        "text": "8. Hubungi Kami"
+      },
+      {
+        "type": "paragraph",
+        "text": [
+          "Jika Anda memiliki pertanyaan mengenai Syarat ini, silakan hubungi kami di: ",
+          {
+            "link": {
+              "href": "mailto:shahshawaiz@gmail.com",
+              "text": "shahshawaiz@gmail.com"
+            }
           }
-        }
-      ]
-    }
-  ]
-},
-"about": {
-  "title": "Tentang PixelMorph",
-  "content": [
-    {
-      "type": "paragraph",
-      "text": "PixelMorph adalah platform yang sederhana dan mudah digunakan yang menyediakan layanan pemrosesan gambar yang cepat dan gratis. Tujuan kami adalah membuat pengeditan gambar dapat diakses oleh semua orang dengan menyediakan alat seperti penghapus latar belakang dan penghapus watermark, semuanya hanya dalam beberapa klik.",
-      "customMargin": "17px"
-    },
-    {
-      "type": "paragraph",
-      "text": "Fitur Utama"
-    },
-    {
-      "type": "paragraph",
-      "text": "Hapus latar belakang gambar dengan mudah menggunakan AI."
-    },
-    {
-      "type": "paragraph",
-      "text": "Hapus watermark dari gambar secara cepat dan efisien."
-    },
-    {
-      "type": "paragraph",
-      "text": "Tidak perlu perangkat lunak yang rumit – semuanya tersedia secara online dan gratis."
-    },
-    {
-      "type": "paragraph",
-      "text": "Antarmuka yang ramah pengguna dan dirancang dengan kesederhanaan."
-    },
-    {
-      "type": "paragraph",
-      "text": "Waktu pemrosesan cepat dengan hasil berkualitas tinggi."
-    },
-    {
-      "type": "paragraph",
-      "text": "Misi Kami"
-    },
-    {
-      "type": "paragraph",
-      "text": "Misi kami adalah menyediakan alat pengeditan gambar yang gratis dan mudah digunakan untuk semua orang. Kami percaya bahwa pemrosesan gambar berkualitas tinggi harus dapat diakses tanpa perangkat lunak mahal atau keahlian teknis. Dengan PixelMorph, siapa pun bisa mendapatkan hasil profesional.",
-      "customMargin": "17px"
-    },
-    {
-      "type": "paragraph",
-      "text": "Mengapa Memilih Kami?"
-    },
-    {
-      "type": "paragraph",
-      "text": "PixelMorph menonjol karena kesederhanaan dan efisiensinya. Baik Anda perlu menghapus latar belakang untuk foto produk maupun menghilangkan watermark dari gambar pribadi, alat kami dirancang untuk membuat prosesnya semudah dan sepraktis mungkin."
-    }
-  ]
+        ]
+      }
+    ]
+  },
+  "about": {
+    "title": "Tentang PixelMorph",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "PixelMorph adalah platform yang sederhana dan mudah digunakan yang menyediakan layanan pemrosesan gambar yang cepat dan gratis. Tujuan kami adalah membuat pengeditan gambar dapat diakses oleh semua orang dengan menyediakan alat seperti penghapus latar belakang dan penghapus watermark, semuanya hanya dalam beberapa klik.",
+        "customMargin": "17px"
+      },
+      {
+        "type": "paragraph",
+        "text": "Fitur Utama"
+      },
+      {
+        "type": "paragraph",
+        "text": "Hapus latar belakang gambar dengan mudah menggunakan AI."
+      },
+      {
+        "type": "paragraph",
+        "text": "Hapus watermark dari gambar secara cepat dan efisien."
+      },
+      {
+        "type": "paragraph",
+        "text": "Tidak perlu perangkat lunak yang rumit – semuanya tersedia secara online dan gratis."
+      },
+      {
+        "type": "paragraph",
+        "text": "Antarmuka yang ramah pengguna dan dirancang dengan kesederhanaan."
+      },
+      {
+        "type": "paragraph",
+        "text": "Waktu pemrosesan cepat dengan hasil berkualitas tinggi."
+      },
+      {
+        "type": "paragraph",
+        "text": "Misi Kami"
+      },
+      {
+        "type": "paragraph",
+        "text": "Misi kami adalah menyediakan alat pengeditan gambar yang gratis dan mudah digunakan untuk semua orang. Kami percaya bahwa pemrosesan gambar berkualitas tinggi harus dapat diakses tanpa perangkat lunak mahal atau keahlian teknis. Dengan PixelMorph, siapa pun bisa mendapatkan hasil profesional.",
+        "customMargin": "17px"
+      },
+      {
+        "type": "paragraph",
+        "text": "Mengapa Memilih Kami?"
+      },
+      {
+        "type": "paragraph",
+        "text": "PixelMorph menonjol karena kesederhanaan dan efisiensinya. Baik Anda perlu menghapus latar belakang untuk foto produk maupun menghilangkan watermark dari gambar pribadi, alat kami dirancang untuk membuat prosesnya semudah dan sepraktis mungkin."
+      }
+    ]
+  }
 }
-
-
-}
-
-

@@ -15,13 +15,7 @@ function Header({ onClick }) {
         background: "#1f2937",
       }}
     >
-      <Box
-        sx={{
-          display: "flex",
-          justifyContent: "space-between",
-          alignItems: "center",
-        }}
-      >
+      <Box className="space-between">
         <Icon
           onClick={onClick}
           code="&#xe5d2;"

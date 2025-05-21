@@ -1,11 +1,4 @@
 {
-  "seo": {
-    "title": "Free AI Face Swap - Best Online Face SwapperXXXXXXXXXX",
-    "description": "Swap faces with AI for free! Use our online face swap tool to create fun and realistic face swaps instantly.",
-    "url": "https://yourdomain.com",
-    "image": "https://yourdomain.com/seo-image.jpg",
-    "imageAlt": "AI Face Swap Example"
-  },
   "hero": {
     "title": "Free AI Face Swap - Best Face Swapper Online",
     "para": "Explore the fun of AI Face Swap with our free Face Swapper. Swap faces instantly with friends, celebrities, or anyone! AI makes it easy and fun to create unique, shareable face swaps in seconds.",
@@ -13,14 +6,6 @@
     "uploadPara2": "Base Image",
     "btnText": "Swap Face",
     "note": "Unlock More Face Swap Templates or DIY Swap in the App"
-  },
-  "choose": {
-    "base": "Upload Base Image - Main image where faces will be replaced.",
-    "target": "Upload Target Face - This face will replace the one in your base image.",
-    "button": "Choose File",
-    "swap": "Swap Faces",
-    "reset": "Start New Face Swap",
-    "download": "Download Result"
   },
   "unique": {
     "heading": "What Makes AI Face Swapper Unique?",

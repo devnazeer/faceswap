@@ -63,9 +63,6 @@ export async function generateMetadata({ params }) {
         },
       ],
     },
-    // alternates: {
-    //   canonical: baseUrl,
-    // },
   };
 }
 
@@ -73,73 +70,3 @@ export async function generateMetadata({ params }) {
 export default function LocaleLayout({ children }) {
   return <>{children}</>;
 }
-
-// import "../globals.css";
-// import { Roboto } from "next/font/google";
-// import {
-//   getLocalizedTitle,
-//   getLocalizedDescription,
-//   getLocalizedKeywords,
-//   getLocalizedImageAlt,
-// } from "@/lib/localization";
-
-// const roboto = Roboto({
-//   weight: ["300", "400", "500", "700"],
-//   subsets: ["latin"],
-//   display: "swap",
-//   variable: "--font-roboto",
-// });
-
-// export async function generateMetadata({ params }) {
-//   const { locale, slug = [] } = params;
-
-//   const title = getLocalizedTitle(locale);
-//   const description = getLocalizedDescription(locale);
-//   const keywords = getLocalizedKeywords(locale);
-//   const imageAlt = getLocalizedImageAlt(locale);
-
-//   const pathname = `/${locale}/${slug.join("/")}`;
-//   const baseUrl =
-//     process.env.NODE_ENV === "development"
-//       ? "http://localhost:3000"
-//       : "https://faceswaponline.ai";
-
-//   return {
-//     title,
-//     description,
-//     keywords,
-//     alternates: {
-//       canonical: canonicalUrl,
-//     },
-//     openGraph: {
-//       title,
-//       description,
-//       url: canonicalUrl,
-//       images: [
-//         {
-//           url: `${baseUrl}/og-image.jpg`,
-//           width: 1200,
-//           height: 630,
-//           alt: imageAlt,
-//         },
-//       ],
-//       locale,
-//       type: "website",
-//     },
-//     twitter: {
-//       card: "summary_large_image",
-//       title,
-//       description,
-//       images: [
-//         {
-//           url: `${baseUrl}/og-image.webp`,
-//           alt: imageAlt,
-//         },
-//       ],
-//     },
-//   };
-// }
-
-// export default function LocaleLayout({ children }) {
-//   return <>{children}</>;
-// }

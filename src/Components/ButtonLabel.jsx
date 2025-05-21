@@ -23,12 +23,11 @@ function ButtonLabel({
         sx={sx}
       >
         <a
+          className="align"
           href={href}
           download={download}
           target={target}
           style={{
-            display: "flex",
-            alignItems: "center",
             textDecoration: "none",
             color: "#fff",
           }}

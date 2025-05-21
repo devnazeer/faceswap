@@ -15,9 +15,9 @@ export default function RootLayout({ children, params }) {
   return (
     <html lang={locale} data-arp="">
       <body inmaintabuse="1" style={{ margin: "unset", fontFamily: "roboto" }}>
-        <ClientOnly>
-          <ClientLayoutWrapper locale={locale}>{children}</ClientLayoutWrapper>
-        </ClientOnly>
+        {/* <ClientOnly> */}
+        <ClientLayoutWrapper locale={locale}>{children}</ClientLayoutWrapper>
+        {/* </ClientOnly> */}
       </body>
     </html>
   );

@@ -8,7 +8,7 @@ const Images = ({ src, width, height, alt, borderRadius, objectFit }) => {
       src={src}
       width={width}
       height={height}
-      loading="lazy"
+      loading="eager"
       style={{
         objectFit: objectFit,
         maxWidth: "100%",

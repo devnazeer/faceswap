@@ -101,6 +101,7 @@ function LanguageToggle({ isBottom }) {
         {/* Toggle Button */}
         <Box
           onClick={handleToggle}
+          className="space-between"
           sx={{
             px: "12px",
             py: "5px",
@@ -108,9 +109,6 @@ function LanguageToggle({ isBottom }) {
             fontSize: "16px",
             fontFamily: "roboto",
             textAlign: "center",
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "space-between",
             width: "65px",
             boxSizing: "border-box",
             gap: "2px",

@@ -27,11 +27,9 @@ function ReviewCards({ title, para }) {
         }}
       >
         <Box
+          className="space-between"
           sx={{
             width: "100%",
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "space-between",
             mb: "10px",
           }}
         >
@@ -45,9 +43,7 @@ function ReviewCards({ title, para }) {
           </Typography>
           <FormatQuoteIcon sx={{ color: "#818cf8", fontSize: "24px" }} />
         </Box>
-        <Box
-          sx={{ display: "flex", alignItems: "center", gap: "5px", mb: "25px" }}
-        >
+        <Box className="align" sx={{ gap: "5px", mb: "25px" }}>
           {[...Array(5)].map((_, idx) => (
             <Images
               key={idx}

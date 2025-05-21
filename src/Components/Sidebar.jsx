@@ -174,10 +174,9 @@ const Sidebar = ({ children }) => {
       >
         <Box>
           <Box
+            className="align"
             sx={{
               p: "16px",
-              display: "flex",
-              alignItems: "center",
               gap: "16px",
             }}
           >

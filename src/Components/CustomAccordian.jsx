@@ -19,10 +19,9 @@ function CustomAccordion({ FaqsData = [] }) {
   return (
     <>
       <Box
+        className="align"
         sx={{
-          display: "flex",
           flexDirection: "column",
-          alignItems: "center",
           gap: "20px",
         }}
       >
