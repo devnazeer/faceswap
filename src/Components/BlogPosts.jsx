@@ -1,130 +1,60 @@
-"use client";
+import BlogPostsClient from "./BlogPostClient";
 
-import React from "react";
-import ImageCard from "@/Components/ImageCard";
-import { Box, Container, Grid, Typography } from "@mui/material";
-import Link from "next/link";
-import { useTranslation } from "react-i18next";
+async function fetchPosts(lang) {
+  const wpApiUrl = `https://swapinfo.xyz${
+    lang === "en" ? "" : `/${lang}`
+  }/wp-json/wp/v2/posts?_embed`;
 
-const BlogPosts = ({ locale }) => {
-  const { t, i18n } = useTranslation("common");
+  try {
+    const response = await fetch(wpApiUrl, {
+      headers: {
+        Accept: "application/json",
+        "User-Agent": "FaceSwap/1.0",
+      },
+      next: { revalidate: 3600 },
+    });
 
-  React.useEffect(() => {
-    if (i18n.language !== locale) {
-      i18n.changeLanguage(locale);
+    const contentType = response.headers.get("content-type");
+
+    if (contentType === "text/html") {
+      return null;
     }
-  }, [locale, i18n]);
 
-  const post = t("blogCard.blogPost", { returnObjects: true });
+    if (!contentType || !contentType.includes("application/json")) {
+      if (lang !== "en") {
+        return fetchPosts("en");
+      }
+      throw new Error("API did not return JSON");
+    }
 
-  return (
-    <Box>
-      <Box
-        sx={{
-          background: "#111827",
-          minHeight: "calc(100% - 68.5px)",
-          py: "40px",
-        }}
-      >
-        <Container maxWidth="lg">
-          <Typography variant="h1" component="h1">
-            {t("blogCard.title")}
-          </Typography>
-          <Grid container spacing={"24px"}>
-            {post.map((item, id) => (
-              <Grid key={id} size={{ xs: 12, sm: 6, md: 4 }}>
-                <Link
-                  style={{ textDecoration: "none" }}
-                  // href={`https://swapinfo.xyz/wp-json/wp/v2/posts?slug=${item.slug}&lang=${locale}&_embed`}
-                  href={`/${locale}/blog/${item.slug}`}
-                >
-                  <ImageCard
-                    title={item.title}
-                    description={item.description}
-                    src={item.image}
-                    date={item.date}
-                    isDate={true}
-                  />
-                </Link>
-              </Grid>
-            ))}
-          </Grid>
-        </Container>
-      </Box>
-    </Box>
-  );
-};
+    if (!response.ok) {
+      if (lang !== "en") {
+        return fetchPosts("en");
+      }
+      throw new Error(`Failed to fetch posts: ${response.status}`);
+    }
 
-export default BlogPosts;
+    const data = await response.json();
 
-// "use client";
+    return data.map((post) => ({
+      id: post.id,
+      slug: post.slug,
+      title: post.title.rendered,
+      description: post.excerpt?.rendered || "",
+      image: post._embedded?.["wp:featuredmedia"]?.[0]?.source_url || "",
+      date: post.date,
+    }));
+  } catch (error) {
+    console.error("Fetch error:", error);
+    if (lang !== "en") {
+      return fetchPosts("en");
+    }
+    throw error;
+  }
+}
 
-// import React, { useEffect, useState } from "react";
-// import ImageCard from "@/Components/ImageCard";
-// import { Box, Container, Grid, Typography } from "@mui/material";
-// import Link from "next/link";
+export default async function BlogPosts({ locale }) {
+  const posts = await fetchPosts(locale);
 
-// const BlogPosts = ({ locale }) => {
-//   const [posts, setPosts] = useState([]);
-
-//   useEffect(() => {
-//     const fetchBlogPosts = async () => {
-//       try {
-//         const res = await fetch(
-//           `https://swapinfo.xyz/wp-json/wp/v2/posts?lang=${locale}&_embed`
-//         );
-//         const data = await res.json();
-
-//         const formattedPosts = data.map((post) => ({
-//           slug: post.slug,
-//           title: post.title.rendered,
-//           description: post.excerpt.rendered,
-//           image: post._embedded?.["wp:featuredmedia"]?.[0]?.source_url || null,
-//           date: new Date(post.date).toLocaleDateString(locale),
-//         }));
-
-//         setPosts(formattedPosts);
-//       } catch (err) {
-//         console.error("Error fetching blog posts:", err);
-//       }
-//     };
-
-//     fetchBlogPosts();
-//   }, [locale]);
-
-//   return (
-//     <Box
-//       sx={{
-//         background: "#111827",
-//         minHeight: "calc(100% - 68.5px)",
-//         py: "40px",
-//       }}
-//     >
-//       <Container maxWidth="lg">
-//         <Typography variant="h1" component="h1" sx={{ color: "white", mb: 3 }}>
-//           Blog
-//         </Typography>
-//         <Grid container spacing={"24px"}>
-//           {posts.map((item, id) => (
-//             <Grid item key={id} xs={12} sm={6} md={4}>
-//               <Link
-//                 style={{ textDecoration: "none" }}
-//                 href={`/${locale}/blog/${item.slug}`}
-//               >
-//                 <ImageCard
-//                   title={item.title}
-//                   description={item.description}
-//                   src={item.image}
-//                   date={item.date}
-//                   isDate={true}
-//                 />
-//               </Link>
-//             </Grid>
-//           ))}
-//         </Grid>
-//       </Container>
-//     </Box>
-//   );
-// };
-
-// export default BlogPosts;
+  return <BlogPostsClient posts={posts} locale={locale} />;
+}

@@ -1,14 +1,14 @@
-import TermsPage from "@/features/Terms";
 import { Box } from "@mui/material";
-import React from "react";
+import MultiFaceSwap from "@/features/MultiFaceSwap";
+
 export const metadata = {
   title: "AI Face Shape Detector | Free Face Shape Analyzer",
   description:
     "Find your perfect face shape with our free AI Face Shape Detector. Fast, accurate analysis to improve your style, makeup, and hairstyle decisions",
   keywords: "Face Shape Detector",
-  metadataBase: new URL("https://faceswaponline.ai/terms"),
+  metadataBase: new URL("https://faceswaponline.ai/multi-faceswap"),
   alternates: {
-    canonical: "https://faceswaponline.ai/terms",
+    canonical: "https://faceswaponline.ai/multi-faceswap",
     languages: {
       en: "/",
       es: "/es",
@@ -25,13 +25,13 @@ export const metadata = {
   },
   openGraph: {
     title: "AI Face Shape Detector | Free Face Shape Analyzer",
-    description:
-      "Find your perfect face shape with our free AI Face Shape Detector. Fast, accurate analysis to improve your style, makeup, and hairstyle decisions",
-    url: "https://faceswaponline.ai/terms",
+  description:
+    "Find your perfect face shape with our free AI Face Shape Detector. Fast, accurate analysis to improve your style, makeup, and hairstyle decisions",
+    url: "https://faceswaponline.ai/multi-faceswap",
     siteName: "FaceSwap",
     images: [
       {
-        url: "https://faceswaponline.ai/terms/og-image.jpg",
+        url: "https://faceswaponline.ai/multi-faceswap/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "Face Shape Detector",
@@ -47,18 +47,19 @@ export const metadata = {
       "Find your perfect face shape with our free AI Face Shape Detector. Fast, accurate analysis to improve your style, makeup, and hairstyle decisions",
     images: [
       {
-        url: "https://faceswaponline.ai/terms/og-image.webp",
+        url: "https://faceswaponline.ai/multi-faceswap/og-image.webp",
         alt: "Face Shape Detector",
       },
     ],
   },
 };
-const Terms = async () => {
-  return (
-    <Box>
-      <TermsPage locale="en" />
-    </Box>
-  );
-};
 
-export default Terms;
+export default function MultiFaceSwapPage() {
+  return (
+    <>
+      <Box>
+        <MultiFaceSwap locale="en" />
+      </Box>
+    </>
+  );
+}

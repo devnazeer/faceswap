@@ -1,5 +1,7 @@
+"use client";
+import React, { useEffect, useState } from "react";
+import { useTranslation } from "react-i18next";
 import { Box } from "@mui/material";
-import React from "react";
 import HeroSection from "./HeroSection/HeroSection";
 import UniqueSection from "./UniqueSection/UniqueSection";
 import SwiperSection from "./SwiperSection/SwiperSection";
@@ -8,7 +10,15 @@ import EditingSection from "./EditingSection/EditingSection";
 import ReviewSection from "./ReviewSection/ReviewSection";
 import FaqSection from "./FaqSection/FaqSection";
 
-function HomePage() {
+function HomePage({ locale }) {
+  const { i18n } = useTranslation("common");
+
+  useEffect(() => {
+    if (i18n.language !== locale) {
+      i18n.changeLanguage(locale).then(() => {});
+    } else {
+    }
+  }, [locale, i18n]);
   return (
     <>
       <Box sx={{ background: "#0891b2" }}>

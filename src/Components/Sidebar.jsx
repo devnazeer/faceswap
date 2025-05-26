@@ -84,18 +84,17 @@ const Sidebar = ({ children }) => {
                   }}
                 >
                   <Link
-                    // href={`/${currentLang}${item.href}`}
                     href={item.href}
                     sx={{
                       padding: "8px 16px",
                       textDecoration: "none",
                       cursor: "pointer",
                       color: "#fff",
+                      width: "100%",
                       transition: "all 0.3s linear",
                       "&:hover span": {
                         color: "#fff",
                         background: "#0891b2",
-                        width: "100%",
                       },
                     }}
                   >
@@ -148,9 +147,7 @@ const Sidebar = ({ children }) => {
             <Header onClick={toggleHandler} />
           </Box>
         </Box>
-        <Box sx={{ boxSizing: "border-box" }}>
-          <Box>{children}</Box>
-        </Box>
+        <>{children}</>
         <Footer />
       </Box>
       {/* // small screen */}
@@ -232,19 +229,16 @@ const Sidebar = ({ children }) => {
                 >
                   <Link
                     href={item.href}
-                    // href={`${currentLang === "en" ? "" : "/" + currentLang}${
-                    //   item.href
-                    // }`}
                     sx={{
                       padding: "8px 16px",
                       textDecoration: "none",
                       cursor: "pointer",
                       color: "#fff",
+                      width: "100%",
                       transition: "all 0.3s linear",
                       "&:hover span": {
                         color: "#fff",
                         background: "#0891b2",
-                        width: "100%",
                       },
                     }}
                   >

@@ -1,17 +1,28 @@
 "use client";
-
-import { Box, Container, Typography, List, ListItem } from "@mui/material";
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
+import Loading from "@/app/Loading/Loading";
 import { useTranslation } from "react-i18next";
+import { Box, Container, Typography, List, ListItem } from "@mui/material";
 
 const PrivacyPage = ({ locale }) => {
-  const { t, i18n } = useTranslation("common");
+  const { t, i18n, ready } = useTranslation("common");
+  const [isLangReady, setIsLangReady] = useState(false);
 
   useEffect(() => {
     if (i18n.language !== locale) {
-      i18n.changeLanguage(locale);
+      i18n.changeLanguage(locale).then(() => {
+        setIsLangReady(true);
+      });
+    } else {
+      setIsLangReady(true);
     }
   }, [locale, i18n]);
+
+  if (!isLangReady || !ready) {
+    return <Loading />;
+  }
+
+  if (!isLangReady || !ready) return null;
 
   const items = t("privacy.content", { returnObjects: true });
 

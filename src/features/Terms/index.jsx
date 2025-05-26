@@ -1,15 +1,15 @@
 "use client";
-
-import { Box, Container, Typography, List, ListItem } from "@mui/material";
 import React, { useEffect } from "react";
 import { useTranslation } from "react-i18next";
+import { Box, Container, Typography, List, ListItem } from "@mui/material";
 
 const TermsPage = ({ locale }) => {
-  const { t, i18n } = useTranslation("common");
+  const { i18n } = useTranslation("common");
 
   useEffect(() => {
     if (i18n.language !== locale) {
-      i18n.changeLanguage(locale);
+      i18n.changeLanguage(locale).then(() => {});
+    } else {
     }
   }, [locale, i18n]);
 

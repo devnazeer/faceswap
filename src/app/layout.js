@@ -11,13 +11,15 @@ const roboto = Roboto({
 });
 
 export default function RootLayout({ children, params }) {
+  // For the root page (/) params will be undefined, so default to 'en'
   const locale = params?.locale || "en";
+  
   return (
     <html lang={locale} data-arp="">
       <body inmaintabuse="1" style={{ margin: "unset", fontFamily: "roboto" }}>
-        {/* <ClientOnly> */}
-        <ClientLayoutWrapper locale={locale}>{children}</ClientLayoutWrapper>
-        {/* </ClientOnly> */}
+        <ClientOnly>
+          <ClientLayoutWrapper locale={locale}>{children}</ClientLayoutWrapper>
+        </ClientOnly>
       </body>
     </html>
   );

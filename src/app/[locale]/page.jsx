@@ -1,6 +1,5 @@
-import AboutPage from "@/features/About";
 import { Box } from "@mui/material";
-import React from "react";
+import HomePage from "@/features/Home";
 import {
   getLocalizedDescription,
   getLocalizedImageAlt,
@@ -16,19 +15,17 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }) {
   const { locale = "en" } = params;
-
-  const baseUrl =
-    process.env.NODE_ENV === "development"
-      ? "http://localhost:3000"
-      : "https://faceswaponline.ai";
+  
+  const baseUrl = process.env.NODE_ENV === "development"
+    ? "http://localhost:3000"
+    : "https://faceswaponline.ai";
 
   const title = getLocalizedTitle(locale);
   const description = getLocalizedDescription(locale);
   const keywords = getLocalizedKeywords(locale);
   const imageAlt = getLocalizedImageAlt(locale);
-
-  const url =
-    locale === "en" ? `${baseUrl}/about` : `${baseUrl}/${locale}/about`;
+  
+  const url = locale === "en" ? baseUrl : `${baseUrl}/${locale}`;
 
   return {
     title,
@@ -37,13 +34,10 @@ export async function generateMetadata({ params }) {
     metadataBase: new URL(baseUrl),
     alternates: {
       canonical: url,
-      languages: VALID_LOCALES.reduce(
-        (acc, lang) => ({
-          ...acc,
-          [lang]: lang === "en" ? "/about" : `/${lang}/about`,
-        }),
-        {}
-      ),
+      languages: VALID_LOCALES.reduce((acc, lang) => ({
+        ...acc,
+        [lang]: lang === "en" ? "/" : `/${lang}`
+      }), {})
     },
     icons: {
       icon: "/favicon.png",
@@ -57,7 +51,7 @@ export async function generateMetadata({ params }) {
       siteName: "FaceSwap",
       images: [
         {
-          url: `${baseUrl}/og-image.jpg`,
+          url: "/og-image.jpg",
           width: 1200,
           height: 630,
           alt: imageAlt,
@@ -72,7 +66,7 @@ export async function generateMetadata({ params }) {
       description,
       images: [
         {
-          url: `${baseUrl}/og-image.webp`,
+          url: "/og-image.webp",
           alt: imageAlt,
         },
       ],
@@ -80,14 +74,11 @@ export async function generateMetadata({ params }) {
   };
 }
 
-const About = async ({ params }) => {
+export default function Home({ params }) {
   const { locale = "en" } = params;
-
   return (
     <Box>
-      <AboutPage locale={locale} />
+      <HomePage locale={locale} />
     </Box>
   );
-};
-
-export default About;
+}

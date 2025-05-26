@@ -1,16 +1,16 @@
+"use client";
 import { Box, Container, Grid, Typography } from "@mui/material";
-import React, { use } from "react";
+import { useState } from "react";
 import ChooseFile from "./ChooseFile";
 import Icon from "./Icon";
 import ButtonLabel from "./ButtonLabel";
-import { useState } from "react";
 import Images from "./Images";
 
 function HeroSec({
   title,
   para,
   src,
-  alt,
+  alt = "Preview",
   uploadPara1,
   uploadPara2,
   code1,
@@ -23,6 +23,7 @@ function HeroSec({
   note,
   apiUrl,
   extraFields = {},
+  isMulti = false,
 }) {
   const [swap, setSwap] = useState(false);
   const [result, setResult] = useState(null);
@@ -31,12 +32,29 @@ function HeroSec({
   const [targetFile, setTargetFile] = useState(null);
   const [sourcePreview, setSourcePreview] = useState(null);
   const [targetPreview, setTargetPreview] = useState(null);
+  const [error, setError] = useState(null);
 
   const handleFileChange = (e, type) => {
     const file = e.target.files[0];
     if (!file) return;
-    const imageUrl = URL.createObjectURL(file);
 
+    // Clear previous state
+    setError(null);
+    setSwap(false);
+    setResult(null);
+
+    if (!file.type.match(/image\/(jpeg|png|jpg|webp)/)) {
+      setError("Please upload a valid image file (JPEG, PNG, JPG, WEBP)");
+      return;
+    }
+
+    if (file.size > 5 * 1024 * 1024) {
+      // 5MB limit
+      setError("Image size should be less than 5MB");
+      return;
+    }
+
+    const imageUrl = URL.createObjectURL(file);
     if (type === "source") {
       setSourceFile(file);
       setSourcePreview(imageUrl);
@@ -48,7 +66,7 @@ function HeroSec({
 
   const handleSwap = async () => {
     if (!sourceFile || !targetFile) {
-      alert("Please upload both source and target images.");
+      setError("Please upload both source and target images");
       return;
     }
 
@@ -56,236 +74,287 @@ function HeroSec({
     formData.append("source", sourceFile);
     formData.append("target", targetFile);
 
-    // Append extra fields (used for multifaceswap)
-    Object.entries(extraFields).forEach(([key, value]) => {
-      formData.append(key, value);
-    });
+    // Append extra fields for multi-face swap
+    if (isMulti) {
+      Object.entries(extraFields).forEach(([key, value]) => {
+        formData.append(key, String(value)); // Ensure all values are strings
+      });
+    }
 
     try {
       setLoading(true);
-      const res = await fetch(apiUrl, {
+      setError(null);
+
+      const response = await fetch(apiUrl, {
         method: "POST",
         body: formData,
       });
 
-      const data = await res.json();
-      setLoading(false);
-
-      if (res.ok && data.output_file) {
-        const baseApi = process.env.NEXT_PUBLIC_API_BASE_URL;
-        setResult(`${baseApi}/assets/${data.output_file}`);
-        setSwap(true);
-      } else {
-        alert(data.message || "Swap failed.");
+      if (!response.ok) {
+        const errorData = await response.json().catch(() => ({}));
+        throw new Error(errorData.message || "Failed to process images");
       }
+
+      const data = await response.json();
+
+      if (!data?.output_file) {
+        throw new Error("Invalid response from server");
+      }
+
+      setResult(
+        `${process.env.NEXT_PUBLIC_API_BASE_URL || ""}/assets/${
+          data.output_file
+        }`
+      );
+      setSwap(true);
     } catch (error) {
-      console.error("Swap failed:", error);
+      console.error("Swap error:", error);
+      setError(error.message || "An error occurred during face swap");
+    } finally {
       setLoading(false);
-      alert("Swap failed. Try again.");
     }
   };
 
   const handleDownload = async () => {
+    if (!result) return;
+
     try {
-      const response = await fetch(result, { mode: "cors" });
+      const response = await fetch(result);
+      if (!response.ok) throw new Error("Failed to fetch result");
+
       const blob = await response.blob();
       const url = window.URL.createObjectURL(blob);
       const link = document.createElement("a");
       link.href = url;
-      link.setAttribute("download", "face-swap-result.jpg"); // set desired filename
+      link.setAttribute("download", `face-swap-${Date.now()}.jpg`);
       document.body.appendChild(link);
       link.click();
-      link.remove();
+      link.parentNode.removeChild(link);
+      window.URL.revokeObjectURL(url);
     } catch (err) {
-      alert("Failed to download image.");
-      console.error(err);
+      console.error("Download failed:", err);
+      setError("Failed to download image");
     }
   };
 
   return (
-    <>
-      <Box
-        component="section"
-        sx={{
-          width: "100%",
-          backgroundImage:
-            "linear-gradient(to bottom right, #111827, #000000, #1f2937cc)",
-          py: "64px",
-        }}
-      >
-        <Container maxWidth="lg">
-          <Typography
-            variant="h1"
-            component="h1"
-            align="center"
-            sx={{ mb: "16px" }}
-          >
-            {title}
+    <Box
+      component="section"
+      sx={{
+        width: "100%",
+        backgroundImage:
+          "linear-gradient(to bottom right, #111827, #000000, #1f2937cc)",
+        py: "64px",
+      }}
+    >
+      <Container maxWidth="lg">
+        <Typography
+          variant="h1"
+          component="h1"
+          align="center"
+          sx={{ mb: "16px" }}
+        >
+          {title}
+        </Typography>
+
+        {error && (
+          <Typography color="error" align="center" sx={{ mb: 2 }}>
+            {error}
           </Typography>
-          <Typography
-            variant="p"
-            component="p"
-            sx={{ mb: "32px", color: "#fffc", px: { xs: "16px", sm: "24px" } }}
-            align="center"
+        )}
+
+        <Typography
+          variant="body1"
+          component="p"
+          sx={{
+            mb: "32px",
+            color: "rgba(255, 255, 255, 0.8)",
+            px: { xs: "16px", sm: "24px" },
+            textAlign: "center",
+          }}
+        >
+          {para}
+        </Typography>
+
+        <Grid container spacing={3}>
+          <Grid
+            size={{ xs: 12, md: 6, lg: 8 }}
+            sx={{ borderRadius: "20px", overflow: "hidden" }}
           >
-            {para}
-          </Typography>
-          <Grid container spacing={"24px"}>
-            {/* image result */}
-            <Grid
-              size={{ xs: 12, md: 6, lg: 8 }}
-              sx={{ borderRadius: "20px", overflow: "hidden" }}
-            >
-              <Images
-                src={swap ? result : src}
-                width={800}
-                height={400}
-                objectFit="contain"
-                borderRadius="20px"
-                alt={alt || "Preview"}
-              />
-              {swap && (
-                <Box mt={2} textAlign="center" sx={{ width: "100%" }}>
-                  <ButtonLabel
-                    onClick={handleDownload}
-                    target={"blank"}
-                    isIcon={true}
-                    code="&#xf090;"
-                    label={"download"}
-                    btnText={"Download"}
-                    sx={{
-                      mx: "auto",
-                      fontWeight: "400 !important",
-                      fontSize: {
-                        xs: "14px !important",
-                        sm: "16px !important",
-                      },
-                      textAlign: "center",
-                      height: "48px",
-                    }}
-                  />
-                </Box>
-              )}
-            </Grid>
-            <Grid size={{ xs: 12, md: 6, lg: 4 }}>
-              <Grid
-                container
-                spacing={"10px"}
-                sx={{ position: "relative" }}
-                justifyContent={"center"}
+            {loading ? (
+              <Box
+                sx={{
+                  height: 400,
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  bgcolor: "rgba(0,0,0,0.2)",
+                  borderRadius: "20px",
+                }}
               >
-                <Grid
-                  size={{ xs: 6, md: 6, lg: 6 }}
-                  sx={{ display: "flex", justifyContent: "flex-end" }}
-                >
-                  <ChooseFile
-                    name="source"
-                    para={uploadPara1}
-                    code={code1}
-                    label={label1}
-                    onChange={(e) => handleFileChange(e, "source")}
-                    preview={sourcePreview}
-                  />
-                </Grid>
-                <Grid size={{ xs: 6, md: 6, lg: 6 }}>
-                  <ChooseFile
-                    name="target"
-                    para={uploadPara2}
-                    code={code2}
-                    label={label2}
-                    onChange={(e) => handleFileChange(e, "target")}
-                    preview={targetPreview}
-                  />
-                </Grid>
-                <Box
-                  className="flex"
-                  sx={{
-                    background: "#0891b2",
-                    borderRadius: "50%",
-                    width: "32px",
-                    height: "32px",
-                    position: "absolute",
-                    top: "50%",
-                    left: "50%",
-                    transform: "translate(-50%, -50%)",
-                  }}
-                >
-                  <Icon
-                    code="&#xe941;"
-                    label={"arrow_right_alt"}
-                    sx={{ fontSize: "20px !important", color: "#fff" }}
-                  />
-                </Box>
+                <Typography>Processing images...</Typography>
+              </Box>
+            ) : (
+              <>
+                <Images
+                  src={swap ? result : src}
+                  width={800}
+                  height={400}
+                  objectFit="contain"
+                  borderRadius="20px"
+                  alt={alt}
+                />
+                {swap && (
+                  <Box mt={2} textAlign="center">
+                    <ButtonLabel
+                      onClick={handleDownload}
+                      isIcon={true}
+                      code="&#xf090;"
+                      label="download"
+                      btnText="Download"
+                      sx={{
+                        mx: "auto",
+                        fontWeight: 400,
+                        fontSize: { xs: "14px", sm: "16px" },
+                        height: "48px",
+                      }}
+                    />
+                  </Box>
+                )}
+              </>
+            )}
+          </Grid>
+
+          <Grid size={{ xs: 12, md: 6, lg: 4 }}>
+            <Grid
+              container
+              spacing={2}
+              sx={{ position: "relative" }}
+              justifyContent="center"
+            >
+              <Grid
+                size={6}
+                sx={{ display: "flex", justifyContent: "flex-end" }}
+              >
+                <ChooseFile
+                  name="source"
+                  para={uploadPara1}
+                  code={code1}
+                  label={label1}
+                  onChange={(e) => handleFileChange(e, "source")}
+                  preview={sourcePreview}
+                  disabled={loading}
+                />
+              </Grid>
+              <Grid size={6}>
+                <ChooseFile
+                  name="target"
+                  para={uploadPara2}
+                  code={code2}
+                  label={label2}
+                  onChange={(e) => handleFileChange(e, "target")}
+                  preview={targetPreview}
+                  disabled={loading}
+                />
               </Grid>
               <Box
                 sx={{
+                  background: "#0891b2",
+                  borderRadius: "50%",
+                  width: 32,
+                  height: 32,
+                  position: "absolute",
+                  top: "50%",
+                  left: "50%",
+                  transform: "translate(-50%, -50%)",
                   display: "flex",
+                  alignItems: "center",
                   justifyContent: "center",
-                  width: "100%",
-                  // background: "red",
-                  mb: "24px",
                 }}
               >
-                <ButtonLabel
-                  onClick={handleSwap}
-                  btnText={loading ? "Swapping..." : btnText}
-                  isIcon={true}
-                  code={codeBtn}
-                  label={labelBtn}
-                  sx={{ mt: "20px", textAlign: "center" }}
+                <Icon
+                  code="&#xe941;"
+                  label="arrow_right_alt"
+                  sx={{ fontSize: "20px", color: "#fff" }}
                 />
               </Box>
-              <Typography
-                variant="p"
-                component="p"
-                align="center"
-                sx={{
-                  background: "linear-gradient(to right,#818cf8, #0891b2)",
-                  WebkitBackgroundClip: "text",
-                  WebkitTextFillColor: "transparent",
-                  fontWeight: "600",
-                  mb: "24px",
-                }}
-              >
-                {note}
-              </Typography>
-              <Box
-                className="flex"
-                sx={{
-                  p: "8px",
-                  mb: "4px",
-                  background: "#fff",
-                  width: "115px",
-                  height: "115px",
-                  boxSizing: "border-box",
-                  borderRadius: "10px",
-                  mx: "auto",
-                }}
-              >
-                <Images
-                  src={"/home/qrCode.png"}
-                  width={99}
-                  height={99}
-                  objectFit="contain"
-                  alt={alt || "Preview"}
-                />
-              </Box>
-              <Typography
-                variant="p"
-                component="p"
-                align="center"
-                sx={{
-                  color: "#fff9",
-                  fontSize: "12px",
-                }}
-              >
-                Scan to Download
-              </Typography>
             </Grid>
+
+            <Box
+              sx={{
+                display: "flex",
+                justifyContent: "center",
+                width: "100%",
+                my: 3,
+              }}
+            >
+              <ButtonLabel
+                onClick={handleSwap}
+                btnText={loading ? "Processing..." : btnText}
+                isIcon={true}
+                code={codeBtn}
+                label={labelBtn}
+                disabled={loading || !sourceFile || !targetFile}
+                sx={{
+                  mt: "20px",
+                  textAlign: "center",
+                  minWidth: 200,
+                }}
+              />
+            </Box>
+
+            <Typography
+              variant="body2"
+              component="p"
+              align="center"
+              sx={{
+                background: "linear-gradient(to right, #818cf8, #0891b2)",
+                WebkitBackgroundClip: "text",
+                WebkitTextFillColor: "transparent",
+                fontWeight: 600,
+                mb: 3,
+              }}
+            >
+              {note}
+            </Typography>
+
+            <Box
+              sx={{
+                p: "8px",
+                mb: "4px",
+                background: "#fff",
+                width: 115,
+                height: 115,
+                borderRadius: "10px",
+                mx: "auto",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+              }}
+            >
+              <Images
+                src="/home/qrCode.png"
+                width={99}
+                height={99}
+                objectFit="contain"
+                alt="QR Code"
+              />
+            </Box>
+            <Typography
+              variant="caption"
+              component="p"
+              align="center"
+              sx={{
+                color: "rgba(255, 255, 255, 0.6)",
+                fontSize: "12px",
+              }}
+            >
+              Scan to Download
+            </Typography>
           </Grid>
-        </Container>
-      </Box>
-    </>
+        </Grid>
+      </Container>
+    </Box>
   );
 }
 

@@ -9,11 +9,9 @@ function HeroSection() {
   return (
     <>
       <HeroSec
-        // isMfs={false}
         title={t("hero.title")}
         para={t("hero.para")}
         src="/home/1.webp"
-        // isHome={true}
         uploadPara1={t("hero.uploadPara1")}
         uploadPara2={t("hero.uploadPara2")}
         code1="&#xe7fe;"
@@ -24,7 +22,7 @@ function HeroSection() {
         labelBtn={"cached"}
         btnText={t("hero.btnText")}
         note={t("hero.note")}
-        apiUrl={"http://147.93.62.9:8765/faceswap"}
+        apiUrl={"https://api.faceswaponline.ai/faceswap"}
       />
     </>
   );

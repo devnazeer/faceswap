@@ -1,10 +1,12 @@
 "use client";
 import HeroSec from "@/Components/HeroSec";
-import React from "react";
+import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
 
 function HeroSection() {
   const { t } = useTranslation("common");
+  const [strength, setStrength] = useState(0.7);
+  const [faceIndex, setFaceIndex] = useState(0); // Default to first face
 
   return (
     <>
@@ -22,8 +24,13 @@ function HeroSection() {
         labelBtn={"cached"}
         btnText={t("heromf.btnText")}
         note={t("heromf.note")}
-        apiUrl={"http://147.93.62.9:8765/multifaceswap"}
-        extraFields={{ face_index: 0 }}
+        apiUrl={"https://api.faceswaponline.ai/multifaceswap"}
+        isMulti={true}
+        extraFields={{
+          strength,
+          face_index: faceIndex,
+          multiple_faces: "true", // Ensure string value as expected by API
+        }}
       />
     </>
   );

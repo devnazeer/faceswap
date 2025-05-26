@@ -1,78 +1,56 @@
 import BlogPosts from "@/Components/BlogPosts";
-import React from "react";
 
-import {
-  getLocalizedTitle,
-  getLocalizedDescription,
-  getLocalizedKeywords,
-  getLocalizedImageAlt,
-} from "@/lib/localization";
-
-const DEFAULT_LOCALE = "en";
-
-export async function generateMetadata({ params }) {
-  const { locale } = params;
-
-  const title = getLocalizedTitle(DEFAULT_LOCALE);
-  const description = getLocalizedDescription(DEFAULT_LOCALE);
-  const keywords = getLocalizedKeywords(DEFAULT_LOCALE);
-  const imageAlt = getLocalizedImageAlt(DEFAULT_LOCALE);
-
-  const baseUrl =
-    process.env.NODE_ENV === "development"
-      ? "http://localhost:3000"
-      : "https://faceswaponline.ai";
-
-  const canonicalUrl = `${baseUrl}/${locale}`;
-
-  return {
-    title,
-    description,
-    keywords,
-    icons: {
-      icon: "/favicon.png",
-      shortcut: "/favicon.png",
-      apple: "/favicon.png",
-    },
-    openGraph: {
-      title,
-      description,
-      url: canonicalUrl,
-      images: [
-        {
-          url: `${baseUrl}/og-image.jpg`,
-          width: 1200,
-          height: 630,
-          alt: imageAlt,
-        },
-      ],
-      locale: DEFAULT_LOCALE,
-      type: "website",
-    },
-    twitter: {
-      card: "summary_large_image",
-      title,
-      description,
-      images: [
-        {
-          url: `${baseUrl}/og-image.webp`,
-          alt: imageAlt,
-        },
-      ],
-    },
-    alternates: {
-      canonical: `https://faceswaponline.ai/blog`,
-    },
-  };
-}
-
-export const generateStaticParams = async () => {
-  const locales = ["en", "de", "es", "ru", "pt", "id"];
-  return locales.map((locale) => ({ locale }));
+export const metadata = {
+  title: "AI Face Shape Detector | Free Face Shape Analyzer",
+  description: "Find your perfect face shape with our free AI Face Shape Detector. Fast, accurate analysis to improve your style, makeup, and hairstyle decisions",
+  keywords: "Face Shape Detector",
+  metadataBase: new URL("https://faceswaponline.ai"),
+  alternates: {
+    canonical: "https://faceswaponline.ai/blog",
+    languages: {
+      en: "/blog",
+      es: "/es/blog",
+      ru: "/ru/blog",
+      pt: "/pt/blog",
+      id: "/id/blog",
+      de: "/de/blog"
+    }
+  },
+  icons: {
+    icon: "/favicon.png",
+    shortcut: "/favicon.png",
+    apple: "/favicon.png",
+  },
+  openGraph: {
+    title: "AI Face Shape Detector | Free Face Shape Analyzer",
+    description: "Find your perfect face shape with our free AI Face Shape Detector. Fast, accurate analysis to improve your style, makeup, and hairstyle decisions",
+    url: "https://faceswaponline.ai/blog",
+    siteName: "FaceSwap",
+    images: [
+      {
+        url: "https://faceswaponline.ai/blog/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Face Shape Detector",
+      },
+    ],
+    locale: "en",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "AI Face Shape Detector | Free Face Shape Analyzer",
+    description: "Find your perfect face shape with our free AI Face Shape Detector. Fast, accurate analysis to improve your style, makeup, and hairstyle decisions",
+    images: [
+      {
+        url: "https://faceswaponline.ai/blogs/og-image.webp",
+        alt: "Face Shape Detector",
+      },
+    ],
+  },
 };
 
-export default async function Blog(props) {
-  const { locale } = await props.params;
-
-  return <BlogPosts locale={DEFAULT_LOCALE} />;
+// Default English blog page
+export default function BlogPage() {
+  return <BlogPosts key="en" locale="en" />;
 }
