@@ -70,7 +70,7 @@ function UniqueCards({
             height: "100%",
             flexDirection: "column",
             gap: "24px",
-            border: "1px solid #0891b2",
+            border: "1px solid #1976d2",
             padding: "32px 16px",
             boxSizing: "border-box",
             borderRadius: "15px",
@@ -84,7 +84,7 @@ function UniqueCards({
               width: "60px",
               height: "60px",
               borderRadius: "50%",
-              background: "#0891b2",
+              background: "#1976d2",
             }}
           >
             <Icon
@@ -99,7 +99,7 @@ function UniqueCards({
             marginBottom={"0px"}
             textAlign={"center"}
             sx={{
-              color: "#0891b2",
+              color: "#1976d2",
             }}
           >
             {title2}

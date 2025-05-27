@@ -8,11 +8,10 @@ const Images = ({ src, width, height, alt, borderRadius, objectFit }) => {
       src={src}
       width={width}
       height={height}
-      loading="eager"
+      priority={true}
       style={{
         objectFit: objectFit,
         maxWidth: "100%",
-        height: "auto",
         aspectRatio: width / height,
         borderRadius: borderRadius,
       }}

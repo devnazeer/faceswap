@@ -21,7 +21,7 @@ function HomePage({ locale }) {
   }, [locale, i18n]);
   return (
     <>
-      <Box sx={{ background: "#0891b2" }}>
+      <Box sx={{ background: "#1976d2" }}>
         <HeroSection />
         <UniqueSection />
         <SwiperSection />

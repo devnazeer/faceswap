@@ -77,7 +77,7 @@ const Sidebar = ({ children }) => {
                   sx={{
                     "&:hover": {
                       color: "#fff",
-                      background: "#0891b2",
+                      background: "#1976d2",
                       width: "100%",
                       borderRadius: "5px",
                     },
@@ -94,7 +94,7 @@ const Sidebar = ({ children }) => {
                       transition: "all 0.3s linear",
                       "&:hover span": {
                         color: "#fff",
-                        background: "#0891b2",
+                        background: "#1976d2",
                       },
                     }}
                   >
@@ -221,7 +221,7 @@ const Sidebar = ({ children }) => {
                   sx={{
                     "&:hover": {
                       color: "#fff",
-                      background: "#0891b2",
+                      background: "#1976d2",
                       width: "100%",
                       borderRadius: "5px",
                     },
@@ -238,7 +238,7 @@ const Sidebar = ({ children }) => {
                       transition: "all 0.3s linear",
                       "&:hover span": {
                         color: "#fff",
-                        background: "#0891b2",
+                        background: "#1976d2",
                       },
                     }}
                   >

@@ -259,7 +259,7 @@ function HeroSec({
               </Grid>
               <Box
                 sx={{
-                  background: "#0891b2",
+                  background: "#1976d2",
                   borderRadius: "50%",
                   width: 32,
                   height: 32,
@@ -294,6 +294,7 @@ function HeroSec({
                 isIcon={true}
                 code={codeBtn}
                 label={labelBtn}
+                href={"#"}
                 disabled={loading || !sourceFile || !targetFile}
                 sx={{
                   mt: "20px",
@@ -308,7 +309,7 @@ function HeroSec({
               component="p"
               align="center"
               sx={{
-                background: "linear-gradient(to right, #818cf8, #0891b2)",
+                background: "linear-gradient(to right, #818cf8, #1976d2)",
                 WebkitBackgroundClip: "text",
                 WebkitTextFillColor: "transparent",
                 fontWeight: 600,

@@ -54,9 +54,7 @@ function Footer() {
                 <Typography variant="h3" component="h3" mb={"8px"}>
                   {t("footer.tools")}
                 </Typography>
-                <Box
-                  sx={{ display: "flex", flexDirection: "column", gap: "4px" }}
-                >
+                <Box sx={{ display: "flex", flexDirection: "column" }}>
                   <Typography
                     variant="a"
                     component="a"
@@ -79,9 +77,7 @@ function Footer() {
                 <Typography variant="h3" component="h3" mb={"8px"}>
                   {t("footer.sitemap")}
                 </Typography>
-                <Box
-                  sx={{ display: "flex", flexDirection: "column", gap: "4px" }}
-                >
+                <Box sx={{ display: "flex", flexDirection: "column" }}>
                   <Typography
                     variant="a"
                     component="a"
@@ -123,30 +119,15 @@ function Footer() {
                 <Box
                   sx={{ display: "flex", gap: "10px", marginBottom: "16px" }}
                 >
-                  <Typography
-                    variant="a"
-                    component="a"
-                    className="footerLists"
-                    href="#"
-                  >
+                  <a className="footerLists" href="#" aria-label="twitter">
                     <TwitterIcon />
-                  </Typography>
-                  <Typography
-                    variant="a"
-                    component="a"
-                    className="footerLists"
-                    href="#"
-                  >
+                  </a>
+                  <a className="footerLists" href="#" aria-label="facebook">
                     <FacebookOutlined />
-                  </Typography>
-                  <Typography
-                    variant="a"
-                    component="a"
-                    className="footerLists"
-                    href="#"
-                  >
+                  </a>
+                  <a className="footerLists" href="#" aria-label="instagram">
                     <Instagram />
-                  </Typography>
+                  </a>
                 </Box>
                 <Typography
                   variant="p"

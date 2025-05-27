@@ -23,7 +23,7 @@ const theme = createTheme({
     palette: {
       primary: {
         main: "#1f2937",
-        dark: "#0891b2", // button color
+        dark: "#1976d2", // button color
       },
       secondary: {
         main: "#2E77AE",

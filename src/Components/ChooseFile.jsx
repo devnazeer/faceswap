@@ -33,7 +33,7 @@ export default function ChooseFile({
         width: "146px",
         height: "146px",
         maxWidth: "100%",
-        border: preview ? "none" : "3px dashed #0891b2",
+        border: preview ? "none" : "3px dashed #1976d2",
         p: preview ? 0 : "24px",
         background: "#1a1a1a",
         boxSizing: "border-box",
