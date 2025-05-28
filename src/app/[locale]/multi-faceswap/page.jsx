@@ -1,11 +1,11 @@
 import { Box } from "@mui/material";
-import MultiFaceSwap from "@/features/MultiFaceSwap";
 import {
   getLocalizedDescription,
   getLocalizedImageAlt,
   getLocalizedKeywords,
   getLocalizedTitle,
 } from "@/lib/localization";
+import MultiFaceswapPage from "@/features/MultiFaceswap";
 
 const VALID_LOCALES = ["en", "es", "ru", "pt", "id", "de"];
 
@@ -85,7 +85,7 @@ export default function MultiFaceSwapPage({ params }) {
   const { locale = "en" } = params;
   return (
     <Box>
-      <MultiFaceSwap locale={locale} />
+      <MultiFaceswapPage locale={locale} />
     </Box>
   );
 }

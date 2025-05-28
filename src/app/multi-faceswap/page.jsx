@@ -1,5 +1,5 @@
 import { Box } from "@mui/material";
-import MultiFaceSwap from "@/features/MultiFaceSwap";
+import MultiFaceswapPage from "@/features/MultiFaceSwap";
 
 export const metadata = {
   title: "AI Face Shape Detector | Free Face Shape Analyzer",
@@ -25,8 +25,8 @@ export const metadata = {
   },
   openGraph: {
     title: "AI Face Shape Detector | Free Face Shape Analyzer",
-  description:
-    "Find your perfect face shape with our free AI Face Shape Detector. Fast, accurate analysis to improve your style, makeup, and hairstyle decisions",
+    description:
+      "Find your perfect face shape with our free AI Face Shape Detector. Fast, accurate analysis to improve your style, makeup, and hairstyle decisions",
     url: "https://faceswaponline.ai/multi-faceswap",
     siteName: "FaceSwap",
     images: [
@@ -58,7 +58,7 @@ export default function MultiFaceSwapPage() {
   return (
     <>
       <Box>
-        <MultiFaceSwap locale="en" />
+        <MultiFaceswapPage locale="en" />
       </Box>
     </>
   );
