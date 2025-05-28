@@ -1,5 +1,5 @@
+import MultiFaceswap from "@/features/MultiFaceswap";
 import { Box } from "@mui/material";
-import MultiFaceswapPage from "@/features/MultiFaceSwap";
 
 export const metadata = {
   title: "AI Face Shape Detector | Free Face Shape Analyzer",
@@ -58,7 +58,7 @@ export default function MultiFaceSwapPage() {
   return (
     <>
       <Box>
-        <MultiFaceswapPage locale="en" />
+        <MultiFaceswap locale="en" />
       </Box>
     </>
   );

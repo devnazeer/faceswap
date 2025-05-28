@@ -10,7 +10,7 @@ import EditingSection from "./EditingSection/EditingSection";
 import ReviewSection from "./ReviewSection/ReviewSection";
 import FaqSection from "./FaqSection/FaqSection";
 
-function MultiFaceswapPage({ locale }) {
+function MultiFaceswap({ locale }) {
   const { i18n } = useTranslation("common");
 
   useEffect(() => {
@@ -34,4 +34,4 @@ function MultiFaceswapPage({ locale }) {
   );
 }
 
-export default MultiFaceswapPage;
+export default MultiFaceswap;

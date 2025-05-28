@@ -5,7 +5,7 @@ import {
   getLocalizedKeywords,
   getLocalizedTitle,
 } from "@/lib/localization";
-import MultiFaceswapPage from "@/features/MultiFaceswap";
+import MultiFaceswap from "@/features/MultiFaceswap";
 
 const VALID_LOCALES = ["en", "es", "ru", "pt", "id", "de"];
 
@@ -85,7 +85,7 @@ export default function MultiFaceSwapPage({ params }) {
   const { locale = "en" } = params;
   return (
     <Box>
-      <MultiFaceswapPage locale={locale} />
+      <MultiFaceswap locale={locale} />
     </Box>
   );
 }
