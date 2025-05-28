@@ -2,7 +2,8 @@ import BlogPosts from "@/Components/BlogPosts";
 
 export const metadata = {
   title: "AI Face Shape Detector | Free Face Shape Analyzer",
-  description: "Find your perfect face shape with our free AI Face Shape Detector. Fast, accurate analysis to improve your style, makeup, and hairstyle decisions",
+  description:
+    "Find your perfect face shape with our free AI Face Shape Detector. Fast, accurate analysis to improve your style, makeup, and hairstyle decisions",
   keywords: "Face Shape Detector",
   metadataBase: new URL("https://faceswaponline.ai"),
   alternates: {
@@ -13,8 +14,8 @@ export const metadata = {
       ru: "/ru/blog",
       pt: "/pt/blog",
       id: "/id/blog",
-      de: "/de/blog"
-    }
+      de: "/de/blog",
+    },
   },
   icons: {
     icon: "/favicon.png",
@@ -23,7 +24,8 @@ export const metadata = {
   },
   openGraph: {
     title: "AI Face Shape Detector | Free Face Shape Analyzer",
-    description: "Find your perfect face shape with our free AI Face Shape Detector. Fast, accurate analysis to improve your style, makeup, and hairstyle decisions",
+    description:
+      "Find your perfect face shape with our free AI Face Shape Detector. Fast, accurate analysis to improve your style, makeup, and hairstyle decisions",
     url: "https://faceswaponline.ai/blog",
     siteName: "FaceSwap",
     images: [
@@ -40,7 +42,8 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title: "AI Face Shape Detector | Free Face Shape Analyzer",
-    description: "Find your perfect face shape with our free AI Face Shape Detector. Fast, accurate analysis to improve your style, makeup, and hairstyle decisions",
+    description:
+      "Find your perfect face shape with our free AI Face Shape Detector. Fast, accurate analysis to improve your style, makeup, and hairstyle decisions",
     images: [
       {
         url: "https://faceswaponline.ai/blogs/og-image.webp",

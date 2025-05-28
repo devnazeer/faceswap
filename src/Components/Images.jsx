@@ -12,6 +12,7 @@ const Images = ({ src, width, height, alt, borderRadius, objectFit }) => {
       style={{
         objectFit: objectFit,
         maxWidth: "100%",
+        height: "auto",
         aspectRatio: width / height,
         borderRadius: borderRadius,
       }}

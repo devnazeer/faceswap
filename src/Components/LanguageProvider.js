@@ -32,7 +32,7 @@ export function LanguageProvider({ children, locale }) {
     const lang = getLangFromPath(pathname);
     i18n.changeLanguage(lang);
     setCurrentLanguage(lang);
-  }, [pathname]);
+  }, [pathname, i18n]);
 
   const changeLanguage = async (lng) => {
     try {
