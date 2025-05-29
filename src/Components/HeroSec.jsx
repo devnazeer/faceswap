@@ -321,11 +321,11 @@ function HeroSec({
 
             <Box
               sx={{
-                p: "8px",
+                p: "10px",
                 mb: "4px",
                 background: "#fff",
-                width: 115,
-                height: 115,
+                width: "99px",
+                height: "99px",
                 borderRadius: "10px",
                 mx: "auto",
                 display: "flex",

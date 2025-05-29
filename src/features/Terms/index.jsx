@@ -1,17 +1,10 @@
 "use client";
-import React, { useEffect } from "react";
+import React from "react";
 import { useTranslation } from "react-i18next";
 import { Box, Container, Typography, List, ListItem } from "@mui/material";
 
 const TermsPage = ({ locale }) => {
-  const { i18n } = useTranslation("common");
-
-  useEffect(() => {
-    if (i18n.language !== locale) {
-      i18n.changeLanguage(locale).then(() => {});
-    } else {
-    }
-  }, [locale, i18n]);
+  const { t } = useTranslation("common");
 
   const items = t("terms.content", { returnObjects: true });
 
@@ -94,7 +87,13 @@ const TermsPage = ({ locale }) => {
 
   return (
     <Box>
-      <Box sx={{ pt: "24px", background: "#000" }}>
+      <Box
+        sx={{
+          pt: "24px",
+          background: "#000",
+          minHeight: "calc(100vh - 68.5px)",
+        }}
+      >
         <Container maxWidth="md">
           <Typography variant="h1" component="h1" mb="24px">
             {t("terms.title")}

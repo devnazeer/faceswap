@@ -7,6 +7,7 @@ import {
   getLocalizedTitle,
 } from "@/lib/localization";
 import { Box } from "@mui/material";
+import { getTranslations } from "@/utils/i18n";
 
 const VALID_LOCALES = ["en", "es", "ru", "pt", "id", "de"];
 
@@ -81,11 +82,12 @@ export async function generateMetadata({ params }) {
 }
 
 const Terms = async ({ params }) => {
-  const { locale = "en" } = params;
+  const locale = params?.locale || "en";
+  const t = await getTranslations(locale, "common");
 
   return (
     <Box>
-      <TermsPage locale={locale} />
+      <TermsPage locale={locale} t={t} />
     </Box>
   );
 };

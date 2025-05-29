@@ -15,16 +15,17 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }) {
   const { locale = "en" } = params;
-  
-  const baseUrl = process.env.NODE_ENV === "development"
-    ? "http://localhost:3000"
-    : "https://faceswaponline.ai";
+
+  const baseUrl =
+    process.env.NODE_ENV === "development"
+      ? "http://localhost:3000"
+      : "https://faceswaponline.ai";
 
   const title = getLocalizedTitle(locale);
   const description = getLocalizedDescription(locale);
   const keywords = getLocalizedKeywords(locale);
   const imageAlt = getLocalizedImageAlt(locale);
-  
+
   const url = locale === "en" ? baseUrl : `${baseUrl}/${locale}`;
 
   return {
@@ -34,10 +35,13 @@ export async function generateMetadata({ params }) {
     metadataBase: new URL(baseUrl),
     alternates: {
       canonical: url,
-      languages: VALID_LOCALES.reduce((acc, lang) => ({
-        ...acc,
-        [lang]: lang === "en" ? "/" : `/${lang}`
-      }), {})
+      languages: VALID_LOCALES.reduce(
+        (acc, lang) => ({
+          ...acc,
+          [lang]: lang === "en" ? "/" : `/${lang}`,
+        }),
+        {}
+      ),
     },
     icons: {
       icon: "/favicon.png",

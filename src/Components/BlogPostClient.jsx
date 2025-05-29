@@ -1,18 +1,16 @@
 "use client";
-
-import { useTranslation } from "react-i18next";
 import { Box, Container, Grid, Typography } from "@mui/material";
 import Link from "next/link";
 import ImageCard from "./ImageCard";
+import { useTranslation } from "react-i18next";
 
 export default function BlogPostsClient({ posts, locale }) {
   const { t } = useTranslation("common");
-
   return (
     <Box
       sx={{
         background: "#111827",
-        minHeight: "calc(100% - 68.5px)",
+        minHeight: "calc(100vh - 68.5px)",
         py: "40px",
       }}
     >

@@ -7,6 +7,7 @@ import {
   getLocalizedKeywords,
   getLocalizedTitle,
 } from "@/lib/localization";
+import { getTranslations } from "@/utils/i18n";
 
 const VALID_LOCALES = ["en", "es", "ru", "pt", "id", "de"];
 
@@ -81,11 +82,12 @@ export async function generateMetadata({ params }) {
 }
 
 const About = async ({ params }) => {
-  const { locale = "en" } = params;
+  const locale = params?.locale || "en";
+  const t = await getTranslations(locale, "common");
 
   return (
     <Box>
-      <AboutPage locale={locale} />
+      <AboutPage locale={locale} t={t} />
     </Box>
   );
 };

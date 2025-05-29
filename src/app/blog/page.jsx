@@ -1,4 +1,5 @@
 import BlogPosts from "@/Components/BlogPosts";
+import { Box } from "@mui/material";
 
 export const metadata = {
   title: "AI Face Shape Detector | Free Face Shape Analyzer",
@@ -55,5 +56,11 @@ export const metadata = {
 
 // Default English blog page
 export default function BlogPage() {
-  return <BlogPosts key="en" locale="en" />;
+  return (
+    <>
+      <Box>
+        <BlogPosts key="en" locale="en" />
+      </Box>
+    </>
+  );
 }

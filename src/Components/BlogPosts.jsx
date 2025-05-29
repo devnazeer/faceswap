@@ -1,3 +1,4 @@
+import { getTranslations } from "@/utils/i18n";
 import BlogPostsClient from "./BlogPostClient";
 
 async function fetchPosts(lang) {
@@ -55,6 +56,7 @@ async function fetchPosts(lang) {
 
 export default async function BlogPosts({ locale }) {
   const posts = await fetchPosts(locale);
+  const t = await getTranslations(locale, "common");
 
-  return <BlogPostsClient posts={posts} locale={locale} />;
+  return <BlogPostsClient posts={posts} locale={locale} t={t} />;
 }

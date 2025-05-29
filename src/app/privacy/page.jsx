@@ -1,4 +1,5 @@
 import PrivacyPage from "@/features/Privacy";
+import { getTranslations } from "@/utils/i18n";
 import { Box } from "@mui/material";
 import React from "react";
 
@@ -55,10 +56,12 @@ export const metadata = {
   },
 };
 
-const Privacy = async () => {
+const Privacy = async ({ params }) => {
+  const locale = params?.locale || "en";
+  const t = await getTranslations(locale, "common");
   return (
     <Box>
-      <PrivacyPage locale="en" />
+      <PrivacyPage locale={locale} t={t} />
     </Box>
   );
 };

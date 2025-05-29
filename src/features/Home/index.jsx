@@ -1,6 +1,3 @@
-"use client";
-import React, { useEffect, useState } from "react";
-import { useTranslation } from "react-i18next";
 import { Box } from "@mui/material";
 import HeroSection from "./HeroSection/HeroSection";
 import UniqueSection from "./UniqueSection/UniqueSection";
@@ -9,29 +6,20 @@ import UploadImageSection from "./UploadImageSection/UploadImageSection";
 import EditingSection from "./EditingSection/EditingSection";
 import ReviewSection from "./ReviewSection/ReviewSection";
 import FaqSection from "./FaqSection/FaqSection";
+import { getTranslations } from "@/utils/i18n"; // You need to implement this function
 
-function HomePage({ locale }) {
-  const { i18n } = useTranslation("common");
+export default async function HomePage({ locale }) {
+  const t = await getTranslations(locale, "common");
 
-  useEffect(() => {
-    if (i18n.language !== locale) {
-      i18n.changeLanguage(locale).then(() => {});
-    } else {
-    }
-  }, [locale, i18n]);
   return (
-    <>
-      <Box sx={{ background: "#1976d2" }}>
-        <HeroSection />
-        <UniqueSection />
-        <SwiperSection />
-        <UploadImageSection />
-        <EditingSection />
-        <ReviewSection />
-        <FaqSection />
-      </Box>
-    </>
+    <Box sx={{ background: "#1976d2" }}>
+      <HeroSection t={t} />
+      <UniqueSection t={t} />
+      <SwiperSection t={t} />
+      <UploadImageSection t={t} />
+      <EditingSection t={t} />
+      <ReviewSection t={t} />
+      <FaqSection t={t} />
+    </Box>
   );
 }
-
-export default HomePage;

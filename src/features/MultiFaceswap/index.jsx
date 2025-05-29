@@ -1,6 +1,4 @@
-"use client";
-import React, { useEffect } from "react";
-import { useTranslation } from "react-i18next";
+import React from "react";
 import { Box } from "@mui/material";
 import HeroSection from "./HeroSection/HeroSection";
 import WhyUseFS from "./WhyUseFS/WhyUseFS";
@@ -9,29 +7,21 @@ import HowUseFS from "./HowUseFS/HowUseFS";
 import EditingSection from "./EditingSection/EditingSection";
 import ReviewSection from "./ReviewSection/ReviewSection";
 import FaqSection from "./FaqSection/FaqSection";
+import { getTranslations } from "@/utils/i18n";
 
-function MultiFaceswap({ locale }) {
-  const { i18n } = useTranslation("common");
-
-  useEffect(() => {
-    if (i18n.language !== locale) {
-      i18n.changeLanguage(locale).then(() => {});
-    } else {
-    }
-  }, [locale, i18n]);
+export default async function MultiFaceswap({ locale }) {
+  const t = await getTranslations(locale, "common");
   return (
     <>
-      <Box sx={{ background: "#fff" }}>
-        <HeroSection />
-        <WhyUseFS />
-        <SwiperSection />
-        <HowUseFS />
-        <EditingSection />
-        <ReviewSection />
-        <FaqSection />
+      <Box sx={{ background: "#fff", minHeight: "calc(100vh - 68.5px)" }}>
+        <HeroSection t={t} />
+        <WhyUseFS t={t} />
+        <SwiperSection t={t} />
+        <HowUseFS t={t} />
+        <EditingSection t={t} />
+        <ReviewSection t={t} />
+        <FaqSection t={t} />
       </Box>
     </>
   );
 }
-
-export default MultiFaceswap;

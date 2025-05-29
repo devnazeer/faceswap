@@ -1,4 +1,5 @@
 import AboutPage from "@/features/About";
+import { getTranslations } from "@/utils/i18n";
 import { Box } from "@mui/material";
 import React from "react";
 
@@ -55,11 +56,13 @@ export const metadata = {
   },
 };
 
-const About = async () => {
+const About = async ({ params }) => {
+  const locale = params?.locale || "en";
+  const t = await getTranslations(locale, "common");
   return (
     <>
       <Box>
-        <AboutPage locale="en" />
+        <AboutPage locale={locale} t={t} />
       </Box>
     </>
   );

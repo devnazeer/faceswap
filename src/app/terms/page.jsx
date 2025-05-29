@@ -1,4 +1,5 @@
 import TermsPage from "@/features/Terms";
+import { getTranslations } from "@/utils/i18n";
 import { Box } from "@mui/material";
 import React from "react";
 export const metadata = {
@@ -53,10 +54,12 @@ export const metadata = {
     ],
   },
 };
-const Terms = async () => {
+const Terms = async ({ params }) => {
+  const locale = params?.locale || "en";
+  const t = await getTranslations(locale, "common");
   return (
     <Box>
-      <TermsPage locale="en" />
+      <TermsPage locale="en" t={t} />
     </Box>
   );
 };
