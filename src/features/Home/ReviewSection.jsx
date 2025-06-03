@@ -1,10 +1,10 @@
 "use client";
 import ReviewCards from "@/Components/ReviewCards";
 import { Box, Container, Grid, Typography } from "@mui/material";
-import React from "react";
+import React, { memo } from "react";
 import { useTranslation } from "react-i18next";
 
-function ReviewSection() {
+const ReviewSection = memo(() => {
   const { t } = useTranslation("common");
 
   const items = t("reviews.cards", { returnObjects: true });
@@ -33,6 +33,6 @@ function ReviewSection() {
       </Box>
     </>
   );
-}
+});
 
 export default ReviewSection;

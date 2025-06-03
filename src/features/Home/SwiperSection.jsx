@@ -1,11 +1,11 @@
 "use client";
-import React from "react";
+import React, { memo } from "react";
 import { Box, Container, Grid, Typography } from "@mui/material";
 import Card from "@/Components/Card";
 import { useTranslation } from "react-i18next";
 import "@/lib/i18n";
 
-function SwiperSection() {
+const SwiperSection = memo(() => {
   const { t } = useTranslation("common");
   const cards = t("swiperSection.cards", { returnObjects: true });
   return (
@@ -65,6 +65,6 @@ function SwiperSection() {
       </Container>
     </Box>
   );
-}
+});
 
 export default SwiperSection;

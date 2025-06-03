@@ -5,8 +5,9 @@ import Link from "next/link";
 import { Box, Container, Typography } from "@mui/material";
 import { useTranslation } from "react-i18next";
 import ImageCard from "@/components/ImageCard"; // Ensure this exists
+import { memo } from "react";
 
-export default function BlogHomePage({ locale, posts }) {
+const BlogHomePage = memo(({ locale, posts }) => {
   const { t } = useTranslation("common");
 
   return (
@@ -44,4 +45,5 @@ export default function BlogHomePage({ locale, posts }) {
       </Container>
     </Box>
   );
-}
+});
+export default BlogHomePage;

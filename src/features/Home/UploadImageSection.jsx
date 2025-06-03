@@ -1,10 +1,10 @@
 "use client";
 import UniqueCards from "@/Components/UniqueCards";
 import { Box, Container, Grid, Typography } from "@mui/material";
-import React from "react";
+import React, { memo } from "react";
 import { useTranslation } from "react-i18next";
 
-function UploadImageSection() {
+const UploadImageSection = memo(() => {
   const { t } = useTranslation("common");
 
   const items = t("UploadImageSection.cards", { returnObjects: true });
@@ -39,6 +39,6 @@ function UploadImageSection() {
       </Box>
     </>
   );
-}
+});
 
 export default UploadImageSection;

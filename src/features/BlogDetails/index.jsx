@@ -1,11 +1,11 @@
 "use client";
 
-import React from "react";
+import React, { memo } from "react";
 import { Box, Container, Typography } from "@mui/material";
 import Image from "next/image";
 import Images from "@/Components/Images";
 
-const BlogDetailPage = ({ slug, locale, postData }) => {
+const BlogDetailPage = memo(({ slug, locale, postData }) => {
   const post = postData;
 
   if (!post) {
@@ -70,6 +70,6 @@ const BlogDetailPage = ({ slug, locale, postData }) => {
       </Container>
     </Box>
   );
-};
+});
 
 export default BlogDetailPage;

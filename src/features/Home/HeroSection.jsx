@@ -1,8 +1,8 @@
 "use client";
 import HeroSec from "@/Components/HeroSec";
-import React from "react";
+import React, { memo } from "react";
 import { useTranslation } from "react-i18next";
-function HeroSection() {
+const HeroSection = memo(() => {
   const { t } = useTranslation("common");
 
   return (
@@ -25,6 +25,6 @@ function HeroSection() {
       />
     </>
   );
-}
+});
 
 export default HeroSection;
