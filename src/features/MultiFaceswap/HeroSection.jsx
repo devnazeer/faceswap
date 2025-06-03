@@ -1,14 +1,7 @@
 "use client";
-// import HeroSec from "@/Components/HeroSec";
+import HeroSec from "@/Components/HeroSec";
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
-import dynamic from "next/dynamic";
-
-const HeroSec = dynamic(() => import("@/Components/HeroSec"), {
-  ssr: false,
-  loading: () => <div>loading............</div>, // Optional loading component
-});
-
 function HeroSection() {
   const { t } = useTranslation("common");
   const [strength, setStrength] = useState(0.7);
