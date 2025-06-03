@@ -6,7 +6,7 @@ import { AppRouterCacheProvider } from "@mui/material-nextjs/v15-appRouter";
 import { ThemeProvider } from "@mui/material/styles";
 import { LanguageProvider } from "@/Components/LanguageProvider";
 // import Sidebar from "@/Components/Sidebar";
-import Loading from "@/app/Loading/Loading";
+// import Loading from "@/app/Loading/Loading";
 import theme from "@/theme";
 import dynamic from "next/dynamic";
 
@@ -17,7 +17,7 @@ const Sidebar = dynamic(() => import("@/Components/Sidebar"), {
 
 const ClientLayoutWrapper = memo(({ children, locale }) => {
   return (
-    <Suspense fallback={<Loading />}>
+    <Suspense fallback={<>loading....</>}>
       <LanguageProvider>
         <AppRouterCacheProvider options={{ key: "css", enableCssLayer: true }}>
           <ThemeProvider theme={theme}>
