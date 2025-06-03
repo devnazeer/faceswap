@@ -25,9 +25,6 @@ const nextConfig = {
     removeConsole: process.env.NODE_ENV === "production",
     styledComponents: true,
   },
-  experimental: {
-    optimizeCss: true,
-  },
   webpack: (config, { dev, isServer }) => {
     if (!dev && !isServer) {
       Object.assign(config.optimization, {
