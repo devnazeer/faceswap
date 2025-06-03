@@ -5,15 +5,10 @@ import { usePathname } from "next/navigation";
 import Header from "./Header";
 import Footer from "./Footer";
 import Icon from "./Icon";
-import { useTranslation } from "react-i18next";
 import Images from "./Images";
+import { sidebarData } from "@/lib/sidebarItems";
 
 const Sidebar = ({ children }) => {
-  const { t, i18n } = useTranslation("common");
-  const currentLang = i18n.language;
-
-  const items = t("sidebar.cards", { returnObjects: true }) || [];
-
   const [isOpen, setIsOpen] = useState(false);
   const [drawar, setDrawar] = useState(false);
   const pathname = usePathname();
@@ -44,13 +39,14 @@ const Sidebar = ({ children }) => {
             zIndex: "100 ",
           }}
         >
-          <Box sx={{ textAlign: "center" }}>
+          <Box sx={{ pl: "40px", boxSizing: "border-box" }}>
             <Link href="/">
               <Images
                 src="/logo.png"
-                width={208}
-                height={80}
+                width={100}
+                height={100}
                 objectFit="contain"
+                sizes="(max-width: 599px) 100vw, 100px"
                 alt="logo"
               />
             </Link>
@@ -70,7 +66,7 @@ const Sidebar = ({ children }) => {
                 gap: "8px",
               }}
             >
-              {items.map((item, id) => (
+              {sidebarData.map((item, id) => (
                 <ListItem
                   key={item.href}
                   disablePadding
@@ -193,9 +189,10 @@ const Sidebar = ({ children }) => {
             <Link href="/">
               <Images
                 src="/logo.png"
-                width={208}
-                height={80}
+                width={60}
+                height={60}
                 objectFit="contain"
+                sizes="(max-width: 599px) 100vw, 60px"
                 alt="logo"
               />
             </Link>
@@ -214,7 +211,7 @@ const Sidebar = ({ children }) => {
                 gap: "8px",
               }}
             >
-              {items.map((item, id) => (
+              {sidebarData.map((item, id) => (
                 <ListItem
                   key={item.href}
                   disablePadding

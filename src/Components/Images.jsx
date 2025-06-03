@@ -1,7 +1,17 @@
 import React from "react";
 import Image from "next/image";
 
-const Images = ({ src, width, height, alt, borderRadius, objectFit }) => {
+const Images = ({
+  src,
+  width,
+  height,
+  alt = "Face Shape Detector",
+  borderRadius,
+  objectFit = "cover",
+  sizes = "100vw",
+  aspectRatio,
+  quality = 75,
+}) => {
   return (
     <Image
       alt={alt || "Face Shape Detector"}
@@ -9,12 +19,15 @@ const Images = ({ src, width, height, alt, borderRadius, objectFit }) => {
       width={width}
       height={height}
       priority={true}
+      sizes={sizes}
+      quality={quality}
       style={{
         objectFit: objectFit,
         maxWidth: "100%",
         height: "auto",
-        aspectRatio: width / height,
         borderRadius: borderRadius,
+        aspectRatio: { aspectRatio },
+        color: "unset",
       }}
     />
   );

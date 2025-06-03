@@ -18,7 +18,12 @@ const Card = ({ title, description, src, isBtn, href, btnText }) => {
         }}
       >
         <Box sx={{ width: !isBtn ? { xs: "100%", lg: "50%" } : "100%" }}>
-          <Images src={src} width={600} height={559} objectFit={"cover"} />
+          <Images
+            src={src}
+            width={600}
+            height={559}
+            sizes="(max-width: 599px) 100vw, 600px"
+          />
         </Box>
         <Box
           sx={{

@@ -7,35 +7,29 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "export": "next export"
+    "export": "next export",
+    "analyze": "cross-env ANALYZE=true next build"
   },
   "dependencies": {
     "@emotion/cache": "^11.14.0",
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
-    "@formatjs/intl-localematcher": "^0.6.1",
     "@mui/icons-material": "^7.1.0",
     "@mui/material": "^7.1.0",
     "@mui/material-nextjs": "^7.0.2",
-    "accept-language": "^3.0.20",
     "formidable": "^3.5.4",
-    "html-react-parser": "^5.2.5",
     "i18next": "^25.1.2",
-    "i18next-browser-languagedetector": "^8.1.0",
-    "i18next-http-backend": "^3.0.2",
-    "negotiator": "^1.0.0",
     "next": "15.3.1",
-    "next-i18next": "^15.4.2",
-    "next-intl": "^4.1.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-i18next": "^15.5.1",
     "react-spinners": "^0.17.0",
-    "swiper": "^11.2.6",
     "uuid": "^11.1.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
+    "@next/bundle-analyzer": "^15.3.3",
+    "cross-env": "^7.0.3",
     "eslint": "^9",
     "eslint-config-next": "15.3.1"
   }

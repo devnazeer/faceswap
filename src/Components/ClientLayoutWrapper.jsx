@@ -5,9 +5,19 @@ import { useTranslation } from "react-i18next";
 import { AppRouterCacheProvider } from "@mui/material-nextjs/v15-appRouter";
 import { ThemeProvider } from "@mui/material/styles";
 import { LanguageProvider } from "@/Components/LanguageProvider";
-import Sidebar from "@/Components/Sidebar";
+// import Sidebar from "@/Components/Sidebar";
 import Loading from "@/app/Loading/Loading";
 import theme from "@/theme";
+import dynamic from "next/dynamic";
+
+const Sidebar = dynamic(() => import("@/Components/Sidebar"), {
+  ssr: false,
+  loading: () => (
+    <div>
+      <Loading />
+    </div>
+  ), // Optional loading component
+});
 
 export default function ClientLayoutWrapper({ children, locale }) {
   const { i18n } = useTranslation();

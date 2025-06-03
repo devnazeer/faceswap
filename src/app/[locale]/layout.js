@@ -1,8 +1,5 @@
-import "../globals.css";
 import { Roboto } from "next/font/google";
-import { LanguageProvider } from "@/Components/LanguageProvider";
-import Header from "@/Components/Header";
-import Footer from "@/Components/Footer";
+import "../globals.css";
 
 // Load Google Font
 const roboto = Roboto({
@@ -23,10 +20,8 @@ export async function generateStaticParams() {
 export default async function LocaleLayout({ children, params }) {
   const { locale } = params;
   return (
-    <div className={roboto.variable}>
-      <LanguageProvider>
-        <main>{children}</main>
-      </LanguageProvider>
-    </div>
+    <>
+      <div className={roboto.variable}>{children}</div>;
+    </>
   );
 }

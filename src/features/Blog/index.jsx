@@ -13,7 +13,7 @@ export default function BlogHomePage({ locale, posts }) {
     <Box
       sx={{
         background: "#111827",
-        minHeight: "calc(100% - 68.5px)",
+        minHeight: "calc(100vh - 68.5px)",
         py: "40px",
       }}
     >

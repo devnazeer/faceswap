@@ -12,7 +12,7 @@ export default async function HomePage({ locale }) {
   const t = await getTranslations(locale, "common");
 
   return (
-    <Box sx={{ background: "#1976d2" }}>
+    <Box sx={{ background: "#1976d2", minHeight: "calc(100vh - 68.5px)" }}>
       <HeroSection t={t} />
       <UniqueSection t={t} />
       <SwiperSection t={t} />

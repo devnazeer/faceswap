@@ -11,7 +11,7 @@ function HeroSection() {
       <HeroSec
         title={t("hero.title")}
         para={t("hero.para")}
-        src="/home/1.webp"
+        src="/1.webp"
         uploadPara1={t("hero.uploadPara1")}
         uploadPara2={t("hero.uploadPara2")}
         code1="&#xe7fe;"

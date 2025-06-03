@@ -156,13 +156,6 @@ function HeroSec({
         >
           {title}
         </Typography>
-
-        {error && (
-          <Typography color="error" align="center" sx={{ mb: 2 }}>
-            {error}
-          </Typography>
-        )}
-
         <Typography
           variant="body1"
           component="p"
@@ -183,16 +176,16 @@ function HeroSec({
           >
             {loading ? (
               <Box
+                className="flex"
                 sx={{
                   height: 400,
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
                   bgcolor: "rgba(0,0,0,0.2)",
                   borderRadius: "20px",
                 }}
               >
-                <Typography>Processing images...</Typography>
+                <Typography variant="h4" component="h4">
+                  Processing images...
+                </Typography>
               </Box>
             ) : (
               <>
@@ -200,6 +193,7 @@ function HeroSec({
                   src={swap ? result : src}
                   width={800}
                   height={400}
+                  sizes="(max-width: 799px) 100vw, 800px"
                   objectFit="contain"
                   borderRadius="20px"
                   alt={alt}
@@ -258,6 +252,7 @@ function HeroSec({
                 />
               </Grid>
               <Box
+                className="flex"
                 sx={{
                   background: "#1976d2",
                   borderRadius: "50%",
@@ -267,9 +262,6 @@ function HeroSec({
                   top: "50%",
                   left: "50%",
                   transform: "translate(-50%, -50%)",
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
                 }}
               >
                 <Icon
@@ -279,7 +271,15 @@ function HeroSec({
                 />
               </Box>
             </Grid>
-
+            {error && (
+              <Typography
+                color="error"
+                align="center"
+                sx={{ mt: 1, fontSize: "14px" }}
+              >
+                {error}
+              </Typography>
+            )}
             <Box
               sx={{
                 display: "flex",
@@ -303,7 +303,6 @@ function HeroSec({
                 }}
               />
             </Box>
-
             <Typography
               variant="body2"
               component="p"
@@ -318,25 +317,24 @@ function HeroSec({
             >
               {note}
             </Typography>
-
             <Box
+              className="flex"
               sx={{
                 p: "10px",
                 mb: "4px",
                 background: "#fff",
                 width: "99px",
                 height: "99px",
+                maxWidth: "100%",
                 borderRadius: "10px",
                 mx: "auto",
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
               }}
             >
               <Images
                 src="/home/qrCode.png"
                 width={99}
                 height={99}
+                sizes="(max-width: 768px) 99px, 99px"
                 objectFit="contain"
                 alt="QR Code"
               />

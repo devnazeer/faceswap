@@ -34,7 +34,6 @@ const theme = createTheme({
   },
   typography: {
     h1: {
-      //   fontFamily: maven_pro.style.fontFamily,
       fontSize: 48,
       fontWeight: 600,
       textTransform: "capitalize",
@@ -49,7 +48,6 @@ const theme = createTheme({
       },
     },
     h2: {
-      //   fontFamily: maven_pro.style.fontFamily,
       fontSize: 36,
       fontWeight: 600,
       marginBottom: 32,
@@ -65,7 +63,6 @@ const theme = createTheme({
       },
     },
     h3: {
-      //   fontFamily: nunito.style.fontFamily,
       fontSize: 20,
       fontWeight: 600,
       color: "#fff",
@@ -77,7 +74,6 @@ const theme = createTheme({
       },
     },
     h4: {
-      //   fontFamily: nunito.style.fontFamily,
       fontSize: 22,
       fontWeight: 500,
       color: "#fff",
@@ -89,7 +85,6 @@ const theme = createTheme({
       },
     },
     h5: {
-      //   fontFamily: nunito.style.fontFamily,
       fontSize: 20,
       fontWeight: 600,
       color: "#fff",
@@ -102,7 +97,6 @@ const theme = createTheme({
     },
 
     h6: {
-      //   fontFamily: nunito.style.fontFamily,
       fontSize: 18,
       fontWeight: 400,
       color: "#fff",
@@ -118,23 +112,17 @@ const theme = createTheme({
       fontWeight: 400,
       marginBottom: 16,
       color: "#d1d5db",
-      fontFamily: "roboto",
     },
     span: {
       fontSize: 16,
       fontWeight: 400,
-      //   marginBottom: 16,
-      //   color: "#d1d5db",
-      fontFamily: "roboto",
     },
     subtitle1: {
-      //   fontFamily: maven_pro.style.fontFamily,
       fontSize: 30,
       fontWeight: 400,
       lineHeight: "normal",
     },
     subtitle2: {
-      //   fontFamily: maven_pro.style.fontFamily,
       fontSize: 24,
       fontWeight: 400,
       lineHeight: "normal",
