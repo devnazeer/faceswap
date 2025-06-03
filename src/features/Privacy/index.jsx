@@ -1,9 +1,8 @@
 "use client";
-import React, { memo } from "react";
 import { useTranslation } from "react-i18next";
 import { Box, Container, Typography, List, ListItem } from "@mui/material";
 
-const PrivacyPage = memo(({ locale }) => {
+const PrivacyPage = ({ locale }) => {
   const { t } = useTranslation("common");
 
   const items = t("privacy.content", { returnObjects: true });
@@ -109,6 +108,6 @@ const PrivacyPage = memo(({ locale }) => {
       </Box>
     </Box>
   );
-});
+};
 
 export default PrivacyPage;

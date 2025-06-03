@@ -1,10 +1,9 @@
 "use client";
 import Card from "@/Components/Card";
 import { Box, Container, Grid, Typography } from "@mui/material";
-import React, { memo } from "react";
 import { useTranslation } from "react-i18next";
 
-const EditingSection = memo(() => {
+const EditingSection = () => {
   const { t } = useTranslation("common");
 
   const items = t("editing.cards", { returnObjects: true });
@@ -40,6 +39,6 @@ const EditingSection = memo(() => {
       </Box>
     </>
   );
-});
+};
 
 export default EditingSection;

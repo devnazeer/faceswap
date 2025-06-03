@@ -1,9 +1,8 @@
 "use client";
-import React, { memo } from "react";
 import { useTranslation } from "react-i18next";
 import { Box, Container, Typography, List, ListItem } from "@mui/material";
 
-const AboutPage = memo(({ locale }) => {
+const AboutPage = ({ locale }) => {
   const { t } = useTranslation("common");
 
   const items = t("about.content", { returnObjects: true });
@@ -99,6 +98,6 @@ const AboutPage = memo(({ locale }) => {
       </Box>
     </Box>
   );
-});
+};
 
 export default AboutPage;

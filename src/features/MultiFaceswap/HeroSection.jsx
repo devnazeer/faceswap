@@ -1,8 +1,8 @@
 "use client";
 import HeroSec from "@/Components/HeroSec";
-import React, { memo, useState } from "react";
+import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
-const HeroSection = memo(() => {
+const HeroSection = () => {
   const { t } = useTranslation("common");
   const [strength, setStrength] = useState(0.7);
   const [faceIndex, setFaceIndex] = useState(0); // Default to first face
@@ -33,6 +33,6 @@ const HeroSection = memo(() => {
       />
     </>
   );
-});
+};
 
 export default HeroSection;

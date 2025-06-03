@@ -1,10 +1,9 @@
 "use client";
 import CustomAccordion from "@/Components/CustomAccordian";
-import { Box, Container, Grid, Typography } from "@mui/material";
-import React, { memo } from "react";
+import { Box, Container, Typography } from "@mui/material";
 import { useTranslation } from "react-i18next";
 
-const FaqSection = memo(() => {
+const FaqSection = () => {
   const { t } = useTranslation("common");
 
   const items = t("faqs.cards", { returnObjects: true });
@@ -27,6 +26,6 @@ const FaqSection = memo(() => {
       </Box>
     </>
   );
-});
+};
 
 export default FaqSection;

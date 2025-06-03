@@ -1,10 +1,9 @@
 "use client";
 import UniqueCards from "@/Components/UniqueCards";
 import { Box, Container, Grid, Typography } from "@mui/material";
-import React, { memo } from "react";
 import { useTranslation } from "react-i18next";
 
-const UniqueSection = memo(() => {
+const UniqueSection = () => {
   const { t } = useTranslation("common");
 
   const items = t("unique.items", { returnObjects: true });
@@ -37,6 +36,6 @@ const UniqueSection = memo(() => {
       </Box>
     </>
   );
-});
+};
 
 export default UniqueSection;

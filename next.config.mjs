@@ -12,14 +12,21 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: "export",
+
   trailingSlash: true,
   images: {
     unoptimized: true,
+    formats: ["image/avif", "image/webp"], // Modern formats
+    minimumCacheTTL: 86400, // 1 day cache
   },
   reactStrictMode: true,
   swcMinify: true,
   compiler: {
     removeConsole: process.env.NODE_ENV === "production",
+    styledComponents: true,
+  },
+  experimental: {
+    optimizeCss: true,
   },
   webpack: (config, { dev, isServer }) => {
     if (!dev && !isServer) {

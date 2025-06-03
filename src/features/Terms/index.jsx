@@ -1,9 +1,8 @@
 "use client";
-import React, { memo } from "react";
 import { useTranslation } from "react-i18next";
 import { Box, Container, Typography, List, ListItem } from "@mui/material";
 
-const TermsPage = memo(({ locale }) => {
+const TermsPage = ({ locale }) => {
   const { t } = useTranslation("common");
 
   const items = t("terms.content", { returnObjects: true });
@@ -109,6 +108,6 @@ const TermsPage = memo(({ locale }) => {
       </Box>
     </Box>
   );
-});
+};
 
 export default TermsPage;
