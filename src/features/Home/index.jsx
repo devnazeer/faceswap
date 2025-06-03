@@ -1,11 +1,11 @@
 import { Box } from "@mui/material";
-import HeroSection from "./HeroSection/HeroSection";
-import UniqueSection from "./UniqueSection/UniqueSection";
-import SwiperSection from "./SwiperSection/SwiperSection";
-import UploadImageSection from "./UploadImageSection/UploadImageSection";
-import EditingSection from "./EditingSection/EditingSection";
-import ReviewSection from "./ReviewSection/ReviewSection";
-import FaqSection from "./FaqSection/FaqSection";
+import HeroSection from "./HeroSection";
+import UniqueSection from "./UniqueSection";
+import SwiperSection from "./SwiperSection";
+import UploadImageSection from "./UploadImageSection";
+import EditingSection from "./EditingSection";
+import ReviewSection from "./ReviewSection";
+import FaqSection from "./FaqSection";
 import { getTranslations } from "@/utils/i18n"; // You need to implement this function
 
 export default async function HomePage({ locale }) {

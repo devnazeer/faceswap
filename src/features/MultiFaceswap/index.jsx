@@ -1,12 +1,12 @@
 import React from "react";
 import { Box } from "@mui/material";
-import HeroSection from "./HeroSection/HeroSection";
-import WhyUseFS from "./WhyUseFS/WhyUseFS";
-import SwiperSection from "./SwiperSection/SwiperSection";
-import HowUseFS from "./HowUseFS/HowUseFS";
-import EditingSection from "./EditingSection/EditingSection";
-import ReviewSection from "./ReviewSection/ReviewSection";
-import FaqSection from "./FaqSection/FaqSection";
+import HeroSection from "./HeroSection";
+import WhyUseFS from "./WhyUseFS";
+import SwiperSection from "./SwiperSection";
+import HowUseFS from "./HowUseFS";
+import EditingSection from "./EditingSection";
+import ReviewSection from "./ReviewSection";
+import FaqSection from "./FaqSection";
 import { getTranslations } from "@/utils/i18n";
 
 export default async function MultiFaceswap({ locale }) {
