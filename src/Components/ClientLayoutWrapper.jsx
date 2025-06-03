@@ -12,11 +12,7 @@ import dynamic from "next/dynamic";
 
 const Sidebar = dynamic(() => import("@/Components/Sidebar"), {
   ssr: false,
-  loading: () => (
-    <div>
-      <Loading />
-    </div>
-  ), // Optional loading component
+  loading: () => <div>loading............</div>, // Optional loading component
 });
 
 const ClientLayoutWrapper = memo(({ children, locale }) => {
