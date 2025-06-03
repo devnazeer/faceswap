@@ -4,13 +4,9 @@ import React from "react";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import { FacebookOutlined, Instagram } from "@mui/icons-material";
 import LanguageToggle from "./LanguageToggle";
-import { useTranslation } from "react-i18next";
 import Images from "./Images";
 
 function Footer() {
-  const { t, i18n } = useTranslation("common");
-  const currentLang = i18n.language;
-
   return (
     <>
       <>
@@ -40,19 +36,19 @@ function Footer() {
                   fontSize={"14px"}
                   my={"8px"}
                 >
-                  {t("footer.pixel")}
+                  Pixelmorph
                 </Typography>
                 <Typography
                   variant="p"
                   component="p"
                   sx={{ color: "#6b7280", fontSize: "14px", mb: "0px" }}
                 >
-                  {t("footer.subPixel")}
+                  Pixelmorph. All rights reserved.
                 </Typography>
               </Grid>
               <Grid size={{ xs: 6, sm: 3, md: 3 }}>
                 <Typography variant="h3" component="h3" mb={"8px"}>
-                  {t("footer.tools")}
+                  Tools
                 </Typography>
                 <Box sx={{ display: "flex", flexDirection: "column" }}>
                   <Typography
@@ -61,7 +57,7 @@ function Footer() {
                     className="footerLists"
                     href={`/`}
                   >
-                    {t("footer.faceswap")}
+                    faceswap
                   </Typography>
                   <Typography
                     variant="a"
@@ -69,13 +65,13 @@ function Footer() {
                     className="footerLists"
                     href={`/multi-faceswap`}
                   >
-                    {t("footer.multiface")}
+                    Multi-Faceswap
                   </Typography>
                 </Box>
               </Grid>
               <Grid size={{ xs: 6, sm: 3, md: 3 }}>
                 <Typography variant="h3" component="h3" mb={"8px"}>
-                  {t("footer.sitemap")}
+                  Sitemap
                 </Typography>
                 <Box sx={{ display: "flex", flexDirection: "column" }}>
                   <Typography
@@ -84,7 +80,7 @@ function Footer() {
                     className="footerLists"
                     href={`/about`}
                   >
-                    {t("footer.about")}
+                    About Us
                   </Typography>
                   <Typography
                     variant="a"
@@ -92,7 +88,7 @@ function Footer() {
                     className="footerLists"
                     href={`/terms`}
                   >
-                    {t("footer.terms")}
+                    Terms of Service
                   </Typography>
                   <Typography
                     variant="a"
@@ -100,7 +96,7 @@ function Footer() {
                     className="footerLists"
                     href={`/privacy`}
                   >
-                    {t("footer.privacy")}
+                    Privacy Policy
                   </Typography>
                   <Typography
                     variant="a"
@@ -108,13 +104,13 @@ function Footer() {
                     className="footerLists"
                     href={`/blog`}
                   >
-                    {t("footer.blog")}
+                    Blog
                   </Typography>
                 </Box>
               </Grid>
               <Grid size={{ xs: 6, sm: 3, md: 3 }}>
                 <Typography variant="h3" component="h3" mb={"8px"}>
-                  {t("footer.follow")}
+                  Follow Us
                 </Typography>
                 <Box
                   sx={{ display: "flex", gap: "10px", marginBottom: "16px" }}
@@ -134,7 +130,7 @@ function Footer() {
                   component="p"
                   sx={{ color: "#fff", fontSize: "14px", mb: "6px" }}
                 >
-                  {t("footer.changeLanguage")}
+                  Change Language
                 </Typography>
                 <LanguageToggle isBottom={true} />
               </Grid>

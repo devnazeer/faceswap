@@ -2,6 +2,8 @@
 
 import React from "react";
 import { Box, Container, Typography } from "@mui/material";
+import Image from "next/image";
+import Images from "@/Components/Images";
 
 const BlogDetailPage = ({ slug, locale, postData }) => {
   const post = postData;
@@ -22,17 +24,26 @@ const BlogDetailPage = ({ slug, locale, postData }) => {
     <Box sx={{ py: "40px", minHeight: "calc(100vh - 68.5px)" }}>
       <Container maxWidth="lg">
         {post.featuredMedia?.source_url && (
-          <Box
-            component="img"
+          // <Box
+          //   component="img"
+          //   src={post.featuredMedia.source_url}
+          //   alt={post.title}
+          //   sx={{
+          //     width: "100%",
+          //     maxHeight: "400px",
+          //     objectFit: "cover",
+          //     borderRadius: "8px",
+          //     mb: 4,
+          //   }}
+          // />
+          <Images
             src={post.featuredMedia.source_url}
             alt={post.title}
-            sx={{
-              width: "100%",
-              maxHeight: "400px",
-              objectFit: "cover",
-              borderRadius: "8px",
-              mb: 4,
-            }}
+            width={1200}
+            height={400}
+            sizes="(max-width: 799px) 100vw, 1200px"
+            objectFit="contain"
+            borderRadius="20px"
           />
         )}
         <Typography

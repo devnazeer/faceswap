@@ -164,40 +164,6 @@
       }
     ]
   },
-  "footer": {
-    "pixel": "Pixelmorph",
-    "subPixel": "Pixelmorph. All rights reserved.",
-    "tools": "Tools",
-    "faceswap": "faceswap",
-    "multiface": "Multi-Faceswap",
-    "sitemap": "Sitemap",
-    "about": "About Us",
-    "terms": "Terms of Service",
-    "privacy": "Privacy Policy",
-    "blog": "Blog",
-    "follow": "Follow Us",
-    "changeLanguage": "Change Language"
-  },
-  "sidebar": {
-    "cards": [
-      {
-        "name": "Faceswap",
-        "href": "/"
-      },
-      {
-        "name": "Multi-Faceswap",
-        "href": "/multi-faceswap"
-      },
-      {
-        "name": "Blogs",
-        "href": "/blog"
-      },
-      {
-        "name": "About",
-        "href": "/about"
-      }
-    ]
-  },
   "heromf": {
     "title": "Mehrfach-Gesichtstausch KI – Online kostenlos für Gruppenfotos",
     "para": "Mit der Mehrfach-Gesichtstausch-KI können Sie Gruppenfotos mühelos verändern, indem Sie Gesichter austauschen – für lustige und einzigartige Ergebnisse. Ideal, um kreative Erinnerungen mit Freunden oder Familie festzuhalten.",
