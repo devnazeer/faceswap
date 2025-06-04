@@ -20,16 +20,17 @@ const Sidebar = dynamic(() => import("@/Components/Sidebar"), {
 
 const ClientLayoutWrapper = memo(({ children, locale }) => {
   return (
-    <Suspense fallback={<Loading />}>
-      <LanguageProvider>
-        <AppRouterCacheProvider options={{ key: "css", enableCssLayer: true }}>
-          <ThemeProvider theme={theme}>
-            <CssBaseline />
-            <Sidebar>{children}</Sidebar>
-          </ThemeProvider>
-        </AppRouterCacheProvider>
-      </LanguageProvider>
-    </Suspense>
+    // <Suspense fallback={<Loading />}>
+    <LanguageProvider>
+      <AppRouterCacheProvider options={{ key: "css", enableCssLayer: true }}>
+        <ThemeProvider theme={theme}>
+          <CssBaseline />
+          {children}
+          {/* <Sidebar>{children}</Sidebar> */}
+        </ThemeProvider>
+      </AppRouterCacheProvider>
+    </LanguageProvider>
+    // </Suspense>
   );
 });
 export default ClientLayoutWrapper;

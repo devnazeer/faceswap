@@ -1,4 +1,3 @@
-"use client";
 import { Box, Container, Grid, Link, Typography } from "@mui/material";
 import React from "react";
 import TwitterIcon from "@mui/icons-material/Twitter";
