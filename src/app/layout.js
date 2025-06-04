@@ -11,7 +11,6 @@ const roboto = Roboto({
 });
 
 export default function RootLayout({ children, params }) {
-  // For the root page (/) params will be undefined, so default to 'en'
   const locale = params?.locale || "en";
 
   return (

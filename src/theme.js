@@ -151,6 +151,27 @@ const theme = createTheme({
       },
     },
   },
+  components: {
+    MuiCssBaseline: {
+      styleOverrides: {
+        ".flex": {
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        },
+        ".align": {
+          display: "flex",
+          alignItems: "center",
+        },
+        ".space-between": {
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "space-between",
+        },
+        // etc.
+      },
+    },
+  },
 });
 
 export default theme;

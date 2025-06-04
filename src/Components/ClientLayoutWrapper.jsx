@@ -6,18 +6,25 @@ import { ThemeProvider } from "@mui/material/styles";
 import { LanguageProvider } from "@/Components/LanguageProvider";
 import theme from "@/theme";
 import dynamic from "next/dynamic";
+import Loading from "@/app/Loading";
+import { CssBaseline } from "@mui/material";
 
 const Sidebar = dynamic(() => import("@/Components/Sidebar"), {
   ssr: false,
-  loading: () => <div>loading............</div>, // Optional loading component
+  loading: () => (
+    <div>
+      <Loading />
+    </div>
+  ), // Optional loading component
 });
 
 const ClientLayoutWrapper = memo(({ children, locale }) => {
   return (
-    <Suspense fallback={<>loading....</>}>
+    <Suspense fallback={<Loading />}>
       <LanguageProvider>
         <AppRouterCacheProvider options={{ key: "css", enableCssLayer: true }}>
           <ThemeProvider theme={theme}>
+            <CssBaseline />
             <Sidebar>{children}</Sidebar>
           </ThemeProvider>
         </AppRouterCacheProvider>

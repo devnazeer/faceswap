@@ -66,17 +66,3 @@ body {
   padding: 7px 2px;
   box-sizing: border-box;
 }
-.flex {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.align {
-  display: flex;
-  align-items: center;
-}
-.space-between {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}

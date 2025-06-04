@@ -1,6 +1,4 @@
-import { Box } from "@mui/material";
-import React from "react";
-import { BounceLoader } from "react-spinners";
+import { Box, CircularProgress } from "@mui/material";
 
 function Loading() {
   return (
@@ -13,7 +11,7 @@ function Loading() {
           background: "linear-gradient(to right, #1f2937, #374151)",
         }}
       >
-        <BounceLoader size={100} color="#818cf8" speedMultiplier={2} />
+        <CircularProgress size={100} sx={{ color: "#1976d2" }} />
       </Box>
     </>
   );
