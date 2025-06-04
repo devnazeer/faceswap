@@ -1,7 +1,5 @@
-import withBundleAnalyzer from "@next/bundle-analyzer";
-
 /** @type {import('next').NextConfig} */
-const baseConfig = {
+const nextConfig = {
   output: "export",
   trailingSlash: true,
 
@@ -48,10 +46,5 @@ const baseConfig = {
     return config;
   },
 };
-
-// Enable bundle analyzer if ANALYZE=true
-const nextConfig = withBundleAnalyzer({
-  enabled: process.env.ANALYZE === "true",
-})(baseConfig);
 
 export default nextConfig;
