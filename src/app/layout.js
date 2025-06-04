@@ -20,9 +20,7 @@ export default function RootLayout({ children, params }) {
       <body inmaintabuse="1" style={{ margin: "unset", fontFamily: "roboto" }}>
         <Suspense fallback={<Loading />}>
           <ClientLayoutWrapper>
-            {/* <Sidebar> */}
-            {children}
-            {/* </Sidebar> */}
+            <Sidebar>{children}</Sidebar>
           </ClientLayoutWrapper>
         </Suspense>
       </body>

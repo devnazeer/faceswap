@@ -25,8 +25,8 @@ const ClientLayoutWrapper = memo(({ children, locale }) => {
       <AppRouterCacheProvider options={{ key: "css", enableCssLayer: true }}>
         <ThemeProvider theme={theme}>
           <CssBaseline />
-          {/* {children} */}
-          <Sidebar>{children}</Sidebar>
+          {children}
+          {/* <Sidebar>{children}</Sidebar> */}
         </ThemeProvider>
       </AppRouterCacheProvider>
     </LanguageProvider>
