@@ -19,7 +19,9 @@ const BlogDetailPage = ({ slug, locale, postData }) => {
   }
 
   return (
-    <Box sx={{ py: "40px", minHeight: "calc(100vh - 68.5px)" }}>
+    <Box
+      sx={{ py: "40px", minHeight: "calc(100vh - 68.5px)", background: "#fff" }}
+    >
       <Container maxWidth="lg">
         {post.featuredMedia?.source_url && (
           <Images
