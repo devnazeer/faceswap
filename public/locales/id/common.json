@@ -159,6 +159,40 @@
       }
     ]
   },
+  "footer": {
+    "pixel": "Pixelmorph",
+    "subPixel": "Pixelmorph. All rights reserved.",
+    "tools": "Tools",
+    "faceswap": "faceswap",
+    "multiface": "Multi-Faceswap",
+    "sitemap": "Sitemap",
+    "about": "About Us",
+    "terms": "Terms of Service",
+    "privacy": "Privacy Policy",
+    "blog": "Blog",
+    "follow": "Follow Us",
+    "changeLanguage": "Change Language"
+  },
+  "sidebar": {
+    "cards": [
+      {
+        "name": "Faceswap",
+        "href": "/"
+      },
+      {
+        "name": "Multi-Faceswap",
+        "href": "/multi-faceswap"
+      },
+      {
+        "name": "Blogs",
+        "href": "/blog"
+      },
+      {
+        "name": "About",
+        "href": "/about"
+      }
+    ]
+  },
   "heromf": {
     "title": "Multiple Face Swap AI - Gratis Online untuk Foto Grup",
     "para": "Dengan Multiple Face Swap AI, ubah foto grup dengan mudah dengan menukar wajah untuk hasil yang menyenangkan dan unik. Cocok untuk mengabadikan momen tak terlupakan bersama teman atau keluarga secara kreatif.",

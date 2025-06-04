@@ -159,6 +159,40 @@
       }
     ]
   },
+  "footer": {
+    "pixel": "Pixelmorph",
+    "subPixel": "Pixelmorph. All rights reserved.",
+    "tools": "Tools",
+    "faceswap": "faceswap",
+    "multiface": "Multi-Faceswap",
+    "sitemap": "Sitemap",
+    "about": "About Us",
+    "terms": "Terms of Service",
+    "privacy": "Privacy Policy",
+    "blog": "Blog",
+    "follow": "Follow Us",
+    "changeLanguage": "Change Language"
+  },
+  "sidebar": {
+    "cards": [
+      {
+        "name": "Faceswap",
+        "href": "/"
+      },
+      {
+        "name": "Multi-Faceswap",
+        "href": "/multi-faceswap"
+      },
+      {
+        "name": "Blogs",
+        "href": "/blog"
+      },
+      {
+        "name": "About",
+        "href": "/about"
+      }
+    ]
+  },
   "heromf": {
     "title": "Troca de Múltiplos Rostos com IA - Grátis Online para Fotos em Grupo",
     "para": "Com a Troca de Múltiplos Rostos com IA, transforme facilmente fotos em grupo trocando rostos de forma divertida e criativa. Ideal para capturar momentos memoráveis com amigos ou familiares de maneira original.",

@@ -159,6 +159,40 @@
       }
     ]
   },
+  "footer": {
+    "pixel": "Pixelmorph",
+    "subPixel": "Pixelmorph. All rights reserved.",
+    "tools": "Tools",
+    "faceswap": "faceswap",
+    "multiface": "Multi-Faceswap",
+    "sitemap": "Sitemap",
+    "about": "About Us",
+    "terms": "Terms of Service",
+    "privacy": "Privacy Policy",
+    "blog": "Blog",
+    "follow": "Follow Us",
+    "changeLanguage": "Change Language"
+  },
+  "sidebar": {
+    "cards": [
+      {
+        "name": "Faceswap",
+        "href": "/"
+      },
+      {
+        "name": "Multi-Faceswap",
+        "href": "/multi-faceswap"
+      },
+      {
+        "name": "Blogs",
+        "href": "/blog"
+      },
+      {
+        "name": "About",
+        "href": "/about"
+      }
+    ]
+  },
   "heromf": {
     "title": "Множественная замена лиц ИИ — онлайн бесплатно для групповых фото",
     "para": "С помощью Multiple Face Swap AI легко преобразуйте групповые фото, заменяя лица для весёлых и уникальных результатов. Идеально подходит для запечатления незабываемых моментов с друзьями или семьёй в креативной форме.",
