@@ -86,9 +86,11 @@ const About = async ({ params }) => {
   const t = await getTranslations(locale, "common");
 
   return (
-    <Box>
-      <AboutPage locale={locale} t={t} />
-    </Box>
+    <>
+      <Box>
+        <AboutPage locale={locale} t={t} />
+      </Box>
+    </>
   );
 };
 

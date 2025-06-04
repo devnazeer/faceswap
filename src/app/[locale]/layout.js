@@ -21,7 +21,7 @@ export default async function LocaleLayout({ children, params }) {
   const { locale } = params;
   return (
     <>
-      <div className={roboto.variable}>{children}</div>;
+      <div className={roboto.variable}>{children}</div>
     </>
   );
 }
