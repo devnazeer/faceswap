@@ -128,27 +128,9 @@ const theme = createTheme({
       lineHeight: "normal",
     },
     button: {
-      //   fontFamily: nunito.style.fontFamily,
       fontSize: 18,
       fontWeight: 500,
       textTransform: "capitalize",
-    },
-  },
-
-  MuiCssBaseline: {
-    "@global": {
-      // '@font-face': fonts,
-      html: {},
-      ".material-symbols-outlined": {
-        fontSize: 25,
-        opacity: 0,
-        transition: "opacity 200ms ease-in-out",
-        maxWidth: 25,
-      },
-      ".font-loaded .material-symbols-outlined": {
-        opacity: 1,
-        maxWidth: "none",
-      },
     },
   },
   components: {
@@ -168,7 +150,6 @@ const theme = createTheme({
           alignItems: "center",
           justifyContent: "space-between",
         },
-        // etc.
       },
     },
   },

@@ -99,9 +99,7 @@ const PrivacyPage = ({ locale }) => {
           </Typography>
           <Box pb="32px">
             {items.map((block, index) => (
-              <React.Fragment key={index}>
-                {renderContent(block)}
-              </React.Fragment>
+              <div key={index}>{renderContent(block)}</div>
             ))}
           </Box>
         </Container>

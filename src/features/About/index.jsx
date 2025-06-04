@@ -1,4 +1,5 @@
 "use client";
+import React from "react";
 import { useTranslation } from "react-i18next";
 import { Box, Container, Typography, List, ListItem } from "@mui/material";
 
@@ -89,9 +90,7 @@ const AboutPage = ({ locale }) => {
           </Typography>
           <Box pb="32px">
             {items.map((block, index) => (
-              <React.Fragment key={index}>
-                {renderContent(block)}
-              </React.Fragment>
+              <div key={index}>{renderContent(block)}</div>
             ))}
           </Box>
         </Container>

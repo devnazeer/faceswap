@@ -8,6 +8,7 @@ html,
 body {
   margin: 0 !important;
   padding: 0;
+  background-image: linear-gradient(to right, #1f2937, #374151);
 }
 .fixed-sticky {
   position: fixed;

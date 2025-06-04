@@ -1,37 +1,3 @@
-// export default async function handler(req, res) {
-//   const response = await fetch("http://147.93.62.9:8765/faceswap", {
-//     method: "POST",
-//     headers: req.headers,
-//     body: req.body,
-//   });
-//   const data = await response.json();
-//   res.status(200).json(data);
-// }
-
-// export default async function handler(req, res) {
-//   try {
-//     const apiUrl = req.url.includes("multifaceswap")
-//       ? "https://api.faceswaponline.ai/faceswap"
-//       : "https://api.faceswaponline.ai/multifaceswap";
-
-//     const response = await fetch(apiUrl, {
-//       method: "POST",
-//       headers: req.headers,
-//       body: req.body,
-//     });
-
-//     if (!response.ok) {
-//       throw new Error(`API responded with status ${response.status}`);
-//     }
-
-//     const data = await response.json();
-//     res.status(200).json(data);
-//   } catch (error) {
-//     console.error("API Error:", error);
-//     res.status(500).json({ error: error.message });
-//   }
-// }
-
 export default async function handler(req, res) {
   try {
     // Determine which endpoint to use based on the request

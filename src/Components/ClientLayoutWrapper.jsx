@@ -15,7 +15,7 @@ const Sidebar = dynamic(() => import("@/Components/Sidebar"), {
     <div>
       <Loading />
     </div>
-  ), // Optional loading component
+  ),
 });
 
 const ClientLayoutWrapper = memo(({ children, locale }) => {

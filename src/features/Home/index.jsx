@@ -6,7 +6,7 @@ import UploadImageSection from "./UploadImageSection";
 import EditingSection from "./EditingSection";
 import ReviewSection from "./ReviewSection";
 import FaqSection from "./FaqSection";
-import { getTranslations } from "@/utils/i18n"; // You need to implement this function
+import { getTranslations } from "@/utils/i18n";
 
 export default async function HomePage({ locale }) {
   const t = await getTranslations(locale, "common");
