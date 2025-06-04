@@ -1,22 +1,27 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  output: "export",
+import withBundleAnalyzer from "@next/bundle-analyzer";
 
+/** @type {import('next').NextConfig} */
+const baseConfig = {
+  output: "export",
   trailingSlash: true,
+
   images: {
     unoptimized: true,
-    formats: ["image/avif", "image/webp"], // Modern formats
-    minimumCacheTTL: 86400, // 1 day cache
+    formats: ["image/avif", "image/webp"],
+    minimumCacheTTL: 86400,
   },
+
   reactStrictMode: true,
-  swcMinify: true,
+
   compiler: {
     removeConsole: process.env.NODE_ENV === "production",
     styledComponents: true,
   },
+
   webpack: (config, { dev, isServer }) => {
     if (!dev && !isServer) {
-      Object.assign(config.optimization, {
+      config.optimization = {
+        ...config.optimization,
         minimize: true,
         splitChunks: {
           chunks: "all",
@@ -38,10 +43,15 @@ const nextConfig = {
             },
           },
         },
-      });
+      };
     }
     return config;
   },
 };
+
+// Enable bundle analyzer if ANALYZE=true
+const nextConfig = withBundleAnalyzer({
+  enabled: process.env.ANALYZE === "true",
+})(baseConfig);
 
 export default nextConfig;
