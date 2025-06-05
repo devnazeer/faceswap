@@ -24,7 +24,6 @@ const ClientLayoutWrapper = ({ children }) => {
       <AppRouterCacheProvider options={{ key: "css", enableCssLayer: true }}>
         <ThemeProvider theme={theme}>
           <CssBaseline />
-          {/* {children} */}
           <Sidebar>{children}</Sidebar>
         </ThemeProvider>
       </AppRouterCacheProvider>
