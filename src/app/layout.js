@@ -18,9 +18,9 @@ export default function RootLayout({ children, params }) {
 
   return (
     <html lang={locale} data-arp="" className={roboto.className}>
-      <Head>
+      {/* <Head>
         <link rel="preload" as="image" href="/1.webp" type="image/webp" />
-      </Head>
+      </Head> */}
       <body inmaintabuse="1" style={{ margin: "unset" }}>
         <Suspense fallback={<Loading />}>
           <ClientOnly>
