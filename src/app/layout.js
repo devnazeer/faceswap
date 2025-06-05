@@ -20,12 +20,12 @@ export default function RootLayout({ children, params }) {
     <html lang={locale} data-arp="" className={roboto.className}>
       <body inmaintabuse="1" style={{ margin: "unset", fontFamily: "roboto" }}>
         <Suspense fallback={<Loading />}>
-          {/* <ClientOnly> */}
-          <ClientLayoutWrapper>
-            {/* {children} */}
-            <Sidebar>{children}</Sidebar>
-          </ClientLayoutWrapper>
-          {/* </ClientOnly> */}
+          <ClientOnly>
+            <ClientLayoutWrapper>
+              {children}
+              {/* <Sidebar>{children}</Sidebar> */}
+            </ClientLayoutWrapper>
+          </ClientOnly>
         </Suspense>
       </body>
     </html>

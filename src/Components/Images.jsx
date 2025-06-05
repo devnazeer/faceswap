@@ -26,7 +26,7 @@ const Images = ({
         maxWidth: "100%",
         height: "auto",
         borderRadius: borderRadius,
-        aspectRatio: { aspectRatio },
+        ...(aspectRatio ? { aspectRatio } : {}),
         color: "unset",
       }}
     />
