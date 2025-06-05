@@ -19,7 +19,8 @@ function Header({ onClick }) {
         <Icon
           onClick={onClick}
           code="&#xe5d2;"
-          aria_label="menu"
+          // code="menu"
+          aria-label="menu"
           sx={{
             fontSize: 24,
             color: "#fff",

@@ -4,7 +4,7 @@ import Loading from "./Loading";
 import "./globals.css";
 import ClientOnly from "@/Components/ClientOnly";
 import ClientLayoutWrapper from "@/Components/ClientLayoutWrapper";
-import Sidebar from "@/Components/Sidebar";
+import Head from "next/head";
 
 const roboto = Roboto({
   weight: ["300", "400", "500", "700"],
@@ -18,13 +18,13 @@ export default function RootLayout({ children, params }) {
 
   return (
     <html lang={locale} data-arp="" className={roboto.className}>
-      <body inmaintabuse="1" style={{ margin: "unset", fontFamily: "roboto" }}>
+      <Head>
+        <link rel="preload" as="image" href="/1.webp" type="image/webp" />
+      </Head>
+      <body inmaintabuse="1" style={{ margin: "unset" }}>
         <Suspense fallback={<Loading />}>
           <ClientOnly>
-            <ClientLayoutWrapper>
-              {children}
-              {/* <Sidebar>{children}</Sidebar> */}
-            </ClientLayoutWrapper>
+            <ClientLayoutWrapper>{children}</ClientLayoutWrapper>
           </ClientOnly>
         </Suspense>
       </body>
