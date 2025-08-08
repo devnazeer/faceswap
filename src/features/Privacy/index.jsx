@@ -32,7 +32,10 @@ const PrivacyPage = ({ locale }) => {
                         href={part.link.href}
                         target="_blank"
                         rel="noopener noreferrer"
-                        style={{ color: "#fff", textDecoration: "underline" }}
+                        style={{
+                          color: "#ff0000ff",
+                          textDecoration: "underline",
+                        }}
                       >
                         {part.link.text}
                       </a>

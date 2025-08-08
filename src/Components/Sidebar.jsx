@@ -17,12 +17,11 @@ const Sidebar = ({ children }) => {
   const [drawar, setDrawar] = useState(false);
   const pathname = usePathname();
 
-  const toggleHandler = () => {
-    setIsOpen(!isOpen);
-  };
-
   const toggleDrawer = () => {
     setDrawar(!drawar);
+  };
+  const toggleHandler = () => {
+    setIsOpen(!isOpen);
   };
   return (
     <>
