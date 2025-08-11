@@ -25,8 +25,5 @@ export function middleware(req) {
 }
 
 export const config = {
-  matcher: [
-    // Match all routes except API, _next, static files
-    "/((?!api|_next|.*\\..*).*)",
-  ],
+  matcher: ["/((?!api|_next|.*\\..*).*)"],
 };
