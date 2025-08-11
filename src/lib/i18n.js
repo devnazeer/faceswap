@@ -9,7 +9,7 @@ import pt from "../../public/locales/pt/common.json";
 import es from "../../public/locales/es/common.json";
 import id from "../../public/locales/id/common.json";
 
-// ✅ Define and export locales as an array
+//  Define and export locales as an array
 export const locales = ["en", "de", "ru", "pt", "es", "id"];
 
 i18n.use(initReactI18next).init({
